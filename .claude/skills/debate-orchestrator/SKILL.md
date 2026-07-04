@@ -9,7 +9,7 @@ Bạn là orchestrator — người DUY NHẤT trong context chính. Advocate, f
 
 ## Phase 0 của mọi lần kích hoạt — xác định bối cảnh
 
-1. Liệt kê `output/` (dùng PowerShell `Get-ChildItem`, KHÔNG dùng Glob — OneDrive placeholder làm Glob bỏ sót file).
+1. Liệt kê `output/`. Trên Windows có OneDrive: dùng PowerShell `Get-ChildItem`, KHÔNG dùng Glob (cloud placeholder làm Glob bỏ sót file). Trên môi trường cloud/Linux: `ls` qua Bash là đủ.
 2. Phân loại yêu cầu:
    - Chưa có transcript nào + `START PHASE 0`/`FULL RUN` → chạy từ đầu.
    - Đã có transcript + yêu cầu phiên mới → tên file mới theo quy ước hậu tố (`transcript_YYYYMMDD.md`, trùng ngày → `_v2`, `_v3`…).
@@ -34,10 +34,16 @@ Chạy 5 vòng theo `protocol/debate_protocol.md`. Với MỖI lượt:
 | debate-fact-checker | fact_checker.md; các lượt của vòng vừa xong; case_file.md; source_policy.md | rubric; positions; scorecard |
 | debate-judge | judge.md; scoring_rubric.md; transcript hoàn chỉnh; toàn bộ cờ fact-check; case_file.md; scorecard_template.md | positions; advocate_template; scorecard phiên khác (trừ khi so sánh theo yêu cầu) |
 
-2. Nhận output → lưu vào `output/_workspace/{phiên}_{vòng}_{bên}.md` → đếm từ:
+2. Nhận output → lưu vào `output/_workspace/{phiên}_{vòng}_{bên}.md` → đếm từ (hai script cùng thuộc đo; chọn theo nền tảng):
    ```powershell
+   # Windows
    powershell -File .claude/skills/debate-orchestrator/scripts/word_count.ps1 -Path <file> -Limit <giới hạn lượt>
    ```
+   ```sh
+   # Cloud / Linux / macOS
+   sh .claude/skills/debate-orchestrator/scripts/word_count.sh <file> <giới hạn lượt>
+   ```
+   Hai script có thể lệch ~1–2% do tokenizer nền tảng — trong MỘT phiên debate chỉ dùng đúng một script cho mọi lượt của cả hai bên (đối xứng quan trọng hơn con số tuyệt đối).
    Vượt +10% → yêu cầu chính instance đó cắt gọn MỘT lần (SendMessage nếu còn sống, hoặc gọi lại kèm bản gốc). Vẫn vượt → ghi vào transcript kèm chú thích `[vượt ngân sách từ: N/giới hạn]`.
 3. Ghi lượt vào transcript theo `templates/transcript_template.md`.
 4. Sau mỗi vòng (nếu bật fact-checker): gọi `debate-fact-checker`, lưu bảng cờ vào `_workspace/`, đưa vào phụ lục transcript khi vòng ĐÃ kết thúc. Cờ về bên X được nạp cho X ở lượt kế tiếp để đính chính.

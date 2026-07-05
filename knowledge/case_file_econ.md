@@ -57,12 +57,13 @@ Hướng dẫn **chuyển tử hình → chung thân** cho án tuyên trước 0
 Nghị quyết về phát triển kinh tế tư nhân (do Tổng Bí thư Tô Lâm ký). Điểm nhấn liên quan trực tiếp Tầng 2: khi xử lý vi phạm trong lĩnh vực kinh tế, **ưu tiên áp dụng biện pháp dân sự, kinh tế, hành chính trước**; nếu phải xử lý hình sự thì **ưu tiên khắc phục hậu quả kinh tế trước** và **không hình sự hóa các quan hệ kinh tế, dân sự**; cho phép doanh nghiệp/doanh nhân chủ động khắc phục vi phạm, thiệt hại. `[Nguồn: Nghị quyết 68-NQ/TW ngày 4/5/2025; toàn văn trên Báo Chính phủ/Nhân Dân — H1; Thời báo Ngân hàng — H3]`
 > Lưu ý phân biệt: NQ 68 là **định hướng chính trị-chính sách** của Đảng, không phải điều luật trực tiếp; phạm vi nhắm tới **quan hệ kinh tế/dân sự của khu vực tư**, mức độ áp dụng cho **tội tham nhũng của quan chức** là điểm DIỄN GIẢI tranh cãi — advocate phải xử lý, không được suy diễn thẳng "NQ 68 ⇒ giảm án cho quan tham".
 
-### §2.6 Các cơ chế miễn/không truy cứu khác (Tầng 2) — `[CẦN KIỂM CHỨNG chi tiết trước khi advocate trích như điều khoản trung tâm]`
-- Điều 29 BLHS (căn cứ miễn TNHS) có khoản cho phép miễn TNHS trong một số trường hợp gắn với khắc phục/hòa giải — **số khoản và điều kiện chính xác cần tra cứu lại trước khi dẫn**.
-- Cơ chế xử lý hành chính/kinh tế thay hình sự với vi phạm thuế, chứng khoán — dẫn văn bản cụ thể nếu advocate dùng.
+### §2.6 Các cơ chế miễn/không truy cứu khác (Tầng 2) — *(đã kiểm chứng 05/07/2026)*
+- **Điều 29 khoản 3 BLHS 2015 (sửa đổi 2017) — miễn TNHS gắn hòa giải/khắc phục:** *"Người thực hiện tội phạm nghiêm trọng do vô ý hoặc tội phạm ít nghiêm trọng gây thiệt hại về tính mạng, sức khỏe, danh dự, nhân phẩm hoặc tài sản của người khác, đã tự nguyện sửa chữa, bồi thường thiệt hại hoặc khắc phục hậu quả và được người bị hại hoặc người đại diện hợp pháp của người bị hại tự nguyện hòa giải và đề nghị miễn trách nhiệm hình sự, thì **có thể** được miễn trách nhiệm hình sự."* `[Nguồn: BLHS 2015, Điều 29 khoản 3; Kiểm Sát Online; Tạp chí Tòa án — H1/H2]`
+  > **SỰ KIỆN quan trọng cho debate:** cơ chế miễn TNHS này **chỉ áp dụng cho tội ít nghiêm trọng, hoặc nghiêm trọng do vô ý** — tức KHÔNG bao trùm phần lớn tội tham nhũng/kinh tế lớn (đa số là cố ý, mức nghiêm trọng → đặc biệt nghiêm trọng). Nền pháp lý thành văn cho "miễn TNHS nhờ khắc phục" ở Tầng 2 với đại án tham nhũng vì thế là **rất hẹp**; xu hướng mở rộng (NQ 68) là *định hướng chính sách*, chưa thành điều luật miễn TNHS cho quan tham. Advocate hai bên phải xử lý đúng phạm vi này.
+- Cơ chế xử lý hành chính/kinh tế thay hình sự với vi phạm thuế, chứng khoán — dẫn văn bản cụ thể nếu advocate dùng. `[CẦN KIỂM CHỨNG văn bản cụ thể nếu trích]`
 
 ### §2.7 Vụ việc minh họa — Trương Mỹ Lan (Vạn Thịnh Phát) *(đang tiến triển — ghi rõ tình trạng)*
-Bị tuyên **tử hình** ở giai đoạn 1 về tội **tham ô tài sản** (cùng các tội khác). Đã/đang khắc phục hậu quả với quy mô rất lớn (theo tường thuật, phần khắc phục vượt mốc ~3/4 thiệt hại mà VKS đề nghị xem xét). Với **Luật 86/2025** (bỏ tử hình tham ô, hiệu lực 1/7/2025) và **NQ 03/2025**, về nguyên tắc thuộc nhóm được xem xét chuyển **tử hình → chung thân**; tuy nhiên NQ 03 **loại trừ vai trò chủ mưu/cầm đầu**, nên kết quả cuối **chưa chắc chắn** tính đến thời điểm lập case file. `[Nguồn: Báo Chính phủ, Tuổi Trẻ, Dân trí, HTV 2024–2025 — H3; con số khắc phục là số tường thuật, CẦN cập nhật trước khi dẫn như chốt]`
+Bị tuyên **tử hình** ở giai đoạn 1 về tội **tham ô tài sản** (cùng các tội khác). Đã/đang khắc phục hậu quả với quy mô rất lớn (theo tường thuật, phần khắc phục vượt mốc ~3/4 thiệt hại mà VKS đề nghị xem xét). Với **Luật 86/2025** (bỏ tử hình tham ô, hiệu lực 1/7/2025) và **NQ 03/2025** (hiệu lực **01/11/2025**), tội tham ô của bà thuộc **nhóm được xem xét** chuyển **tử hình → chung thân**. Tuy nhiên, tính đến cập nhật cuối 2025, **chưa có quyết định/hồ sơ công bố** cho thấy TANDTC đã xét chuyển hình phạt cho bà; NQ 03 **loại trừ vai trò chủ mưu/cầm đầu**, nên nhiều luật gia đánh giá cơ hội thực tế **vẫn "mong manh"**. `[Nguồn: Người Lao Động, Tuổi Trẻ, Thanh Niên, HTV 2024–2025 — H3; con số khắc phục là số tường thuật; tình trạng CẦN cập nhật lại tại thời điểm chạy phiên]`
 > Cảnh báo: đây là vụ **đang tố tụng/thi hành**; advocate chỉ được dùng làm minh họa "cơ chế vận hành thế nào", không kết luận số phận bị cáo.
 
 ---
@@ -101,7 +102,9 @@ Song song với khoan hồng, Trung Quốc **vẫn duy trì và thi hành** tử
 ### §4.3 Công ước LHQ về chống tham nhũng (UNCAC) — Việt Nam là thành viên
 - **Tư cách thành viên:** VN phê chuẩn UNCAC ngày **30/6/2009** (Quyết định 950/2009/QĐ-CTN), có hiệu lực với VN từ **18/9/2009**. `[Nguồn: UNODC; Bộ Tư pháp VN — H1]`
 - **Chương V (Điều 51–59) — Thu hồi tài sản** được UNCAC nêu là **"nguyên tắc căn bản" (fundamental principle)** của Công ước; **Điều 53** yêu cầu cho phép quốc gia bị hại kiện dân sự, buộc bồi thường, và công nhận quyền sở hữu khi tịch thu. `[Nguồn: UNCAC, treaties/UNODC; Bộ Tư pháp VN — H1]`
-- **Điều 30(1):** hình phạt phải **tương xứng** với mức độ nghiêm trọng của tội tham nhũng. **Điều 37:** khuyến khích khoan hồng/hợp tác với người phạm tội hợp tác điều tra. `[Nguồn: UNCAC, Điều 30 & 37 — H1; CẦN đối chiếu nguyên văn trước khi trích số khoản như chốt]`
+- **Điều 30(1):** mỗi quốc gia thành viên phải quy định chế tài **có tính đến mức độ nghiêm trọng (gravity)** của tội phạm — phản ánh nguyên tắc **hình phạt tương xứng**. `[Nguồn: UNCAC Art. 30(1); UNODC — H1]`
+- **Điều 37:** khuyến khích người phạm tội **hợp tác** cung cấp thông tin hữu ích cho điều tra và giúp **tước đoạt/thu hồi tài sản do phạm tội mà có**; quốc gia thành viên **cân nhắc khả năng giảm nhẹ hình phạt** cho người hợp tác thực chất (Art. 37(2)), và cân nhắc khả năng **miễn truy tố** trong trường hợp thích hợp (Art. 37(3)). `[Nguồn: UNCAC Art. 37; UNODC Legislative Guide — H1]`
+  > Điều 37 chính là **chỗ dựa quốc tế cho khoan hồng-đổi-hợp tác** (thuận cho phía A), nhưng gắn với **hợp tác điều tra**, không đơn thuần "nộp tiền"; còn Điều 30 đòi **tương xứng** (thuận cho phía B). Hai bên đều dẫn được.
 > UNCAC vừa đề cao **thu hồi tài sản** (thuận cho phía ủng hộ) vừa yêu cầu **hình phạt tương xứng** (thuận cho phía phản đối) — hai bên đều viện dẫn được, đây là điểm cân bằng.
 
 ---
@@ -116,8 +119,13 @@ Song song với khoan hồng, Trung Quốc **vẫn duy trì và thi hành** tử
 
 ---
 
-## §6. Mục còn để mở (bổ sung khi advocate cần, theo source_policy_econ.md)
-- `[CẦN BỔ SUNG]` Số liệu tỷ lệ thu hồi tài sản tham nhũng ở VN (Thanh tra Chính phủ/Ban Chỉ đạo TW) — nếu advocate muốn dẫn hiệu quả thực tế của cơ chế khắc phục.
-- `[CẦN BỔ SUNG]` Số liệu tái phạm / hiệu quả răn đe sau khi áp dụng khoan hồng (nếu có nghiên cứu).
-- `[CẦN KIỂM CHỨNG]` Nguyên văn số khoản Điều 29 BLHS (miễn TNHS) và Điều 30/37 UNCAC trước khi trích như điều khoản trung tâm.
-- `[CẦN KIỂM CHỨNG]` Cập nhật kết quả mới nhất vụ Trương Mỹ Lan tại thời điểm chạy phiên.
+## §6. Số liệu thu hồi tài sản & mục còn để mở
+
+### §6.1 Thu hồi tài sản tham nhũng, kinh tế ở Việt Nam *(đã kiểm chứng 05/07/2026)*
+- **2023:** cơ quan thi hành án đã thi hành xong **>20.405 tỷ đồng** (án thuộc diện Ban Chỉ đạo TW theo dõi: >19.485 tỷ). `[Nguồn: Báo Chính phủ, Bao Tin Tuc 10–12/2023 — H3]`
+- **2024:** thi hành xong **9.211 việc, tương ứng >22.177 tỷ đồng**, **đạt hơn 57%** (tăng ~16 điểm % so với 2023) — được nêu là **cao nhất từ trước đến nay**. `[Nguồn: Thanh tra CP, Báo Pháp luật VN, Báo Giao thông 12/2024 — H3]`
+  > Hai chiều dùng được: phía A nhấn "khắc phục hậu quả giúp thu hồi kỷ lục"; phía B nhấn "đạt 57% nghĩa là **~43% vẫn không thu hồi được** — chứng tỏ cơ chế khắc phục KHÔNG đảm bảo lấy lại tài sản, mà có thể chỉ giảm án".
+
+### §6.2 Mục còn để mở
+- `[CẦN BỔ SUNG]` Số liệu tái phạm / hiệu quả răn đe sau khi áp dụng khoan hồng (nếu có nghiên cứu định lượng) — tra riêng nếu advocate muốn dẫn.
+- `[CẦN KIỂM CHỨNG]` Văn bản cụ thể về xử lý hành chính/kinh tế thay hình sự (thuế, chứng khoán) nếu advocate trích.

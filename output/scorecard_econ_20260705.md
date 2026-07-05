@@ -149,3 +149,26 @@ Cáo buộc **"mâu thuẫn nội tại"** (V5: *"A không thể đồng thời 
 - Cấu trúc luân phiên khiến A có 4 vòng chấm/trục còn B có 3; trung bình đã chuẩn hóa theo số vòng có chấm nên không thiên vị bên phát biểu nhiều hơn, nhưng cỡ mẫu nhỏ (3–4 quan sát/trục) làm mỗi ô có trọng lượng lớn.
 - Nhiều nội dung V3–V5 là **diễn giải/lập luận** (động lực biên, tương xứng, nirvana, moral hazard) — không nằm trong phạm vi fact-check; độ vững của chúng được chấm ở trục 5/6, không phải kiểm chứng sự kiện.
 - Fact-check 34/34 ✅ / 0 cờ đỏ là điều kiện thuận lợi hiếm; ở phiên nhiều cờ đỏ hơn, bảng Phạt sẽ tác động mạnh hơn tới kết quả.
+
+---
+
+## 7. SWAP TEST (kiểm thiên lệch nhãn — instance Judge MỚI trên transcript hoán nhãn A↔B)
+
+Bản hoán nhãn: nội dung giữ nguyên, chỉ đổi nhãn A↔B; một instance Judge thứ hai (không biết điểm bản gốc) chấm lại từ đầu.
+
+**So sánh THEO NỘI DUNG (không theo chữ cái nhãn):**
+
+| Nội dung | Bản gốc (Judge #1) | Bản swap (Judge #2) | Δ tuyệt đối |
+|---|---|---|---|
+| Ủng hộ (gốc nhãn A → swap nhãn B) | 7.9 | 8.5 | **+0.6** |
+| Phản đối (gốc nhãn B → swap nhãn A) | 8.2 | 8.6 | **+0.4** |
+| **Gap (phản đối − ủng hộ)** | +0.3 | +0.1 | — |
+
+**Phán định cả hai lần / cả 6 lượt trọng số:** KHÔNG PHÂN ĐỊNH (mọi chênh ≤ 0.5).
+
+**Diễn giải (độ tin cậy):**
+- **Không có thiên lệch nhãn.** Cả hai nội dung đều dịch lên ~0.4–0.6 theo **cùng một hướng** ở Judge #2 → đây là **chênh hiệu chuẩn/độ hào phóng giữa hai instance** (Judge #2 rộng tay hơn ~nửa điểm), áp gần đều cho cả hai bên. Thiên lệch nhãn thật sẽ đẩy điểm bám theo *chữ cái A/B*; ở đây điểm bám theo *nội dung* (nội dung phản đối nhỉnh nhẹ ở cả hai lần bất kể được gán nhãn A hay B).
+- **Hướng & kết luận ổn định:** nội dung phản đối (gốc B) nhỉnh hơn ở cả hai lần; "không phân định" giữ nguyên qua 2 judge × 3 trọng số = 6 đánh giá.
+- **Cảnh báo bắt buộc (một chỉ số Δ > 0.5):** điểm tuyệt đối của phiên **nhạy với instance giám khảo** (biên ±0.5); do đó **KHÔNG nên trích con số tuyệt đối 7.9/8.2 như trị chính xác** — chỉ nên đọc kết luận định tính "hai bên sát nhau, không phân định, phản đối nhỉnh cực nhẹ ở trục Luật/Logic, ủng hộ mạnh ở trục Xử lý phản biện". Độ tin cậy của *thứ hạng* (ai nhỉnh): trung bình–cao (direction-stable); độ tin cậy của *điểm tuyệt đối*: thấp.
+
+Bản swap tóm tắt: `output/_workspace/scorecard_econ_20260705_SWAP.md` (workspace, không phải sản phẩm cuối).

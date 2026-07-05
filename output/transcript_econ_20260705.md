@@ -201,3 +201,77 @@ Cả hai spot-check khớp chính xác case file (Lai Xiaomin: tuyên tử 5/1/2
 **Đối xứng:** A ~17 khẳng định, B ~17 — cân bằng, không bên nào dồn gánh nặng sự kiện. Phần lớn nội dung V3–V5 và các câu hỏi V4 là **diễn giải/lập luận** (nirvana fallacy, moral hazard, động lực biên, tương xứng…) — không chấm vì không phải sự kiện kiểm chứng được.
 
 **Nhận định:** Độ trung thực sự kiện rất cao ở cả hai bên. Không có: (a) dẫn điều luật/số liệu ngoài case file mà không đánh dấu; (b) bịa số liệu/ngày/điều khoản/phán quyết; (c) phóng đại tương quan thành nhân quả. A chủ động tự đánh dấu giới hạn đúng chỗ case file yêu cầu (§6.2). Cả hai tôn trọng cảnh báo §5.1 và trạng thái "đang tố tụng" của vụ Trương Mỹ Lan (không bên nào viện như sự kiện đã kết thúc). **Không có cờ 🔴 nào cần Judge áp phạt.**
+
+---
+
+# PHỤ LỤC — VÒNG E (EXTRA ROUND, thêm 05/07/2026)
+
+**Chủ đề hẹp:** *Khoảng cách CHUẨN TẮC–THỰC NGHIỆM* — kết luận "A và B ngang nhau theo rubric" (tranh biện trên NGUYÊN LÝ) có phản ánh đúng thực tế VẬN HÀNH ở VN không? Cụ thể: có bất đối xứng theo QUAN HỆ/ĐỊA VỊ kết hợp bồi thường/khắc phục để giảm án đáng kể không?
+**Cấu trúc:** một cặp phản biện chủ đề hẹp — **B đi trước, A đáp** (chấm như vòng phản biện). Ngân sách ~600 từ/lượt.
+**Case file phiên bản:** bổ sung §7 (§7.1–§7.6), duyệt GATE 1 ngày **05/07/2026**.
+**Ngân sách từ (script `word_count.sh`):** VE-B **648/600** · VE-A **648/600** — cả hai trong ngưỡng +10% (≤660). *(VE-B bản đầu 671 từ → cắt gọn 1 lần còn 648 theo protocol.)*
+**Nguồn khởi phát:** ca do người vận hành cung cấp — vụ sân bay Nha Trang, 2 cựu thiếu tướng được VKS đề nghị án treo (Thanh Niên & nhiều báo, 7/2026) — đã kiểm chứng, đưa vào §7.1.
+
+> *Lưu ý người đọc: đây vẫn là steelman hai khung; nội dung không đại diện quan điểm hệ thống. Vòng E KHÔNG "sửa" kết luận phiên gốc — nó chỉ tranh biện xem khoảng cách chuẩn tắc–thực nghiệm nghiêng về đâu.*
+
+## Vòng E — Phản biện (B đi trước, ~600 từ)
+
+### Vòng E (mở rộng) — Advocate B
+
+**Steelman phía A.** Phiên bản mạnh nhất của A sẽ nói: bất đối xứng theo địa vị, nếu có, là lỗi THỰC THI chứ không phải lỗi nguyên lý khắc phục. Kênh nhân thân, thành tích công tác, "đơn xin giảm của cơ quan" nằm sẵn ở Điều 51 và khâu xét xử [Case file §7.2]; bỏ cơ chế khắc phục cũng không xóa được các kênh này, thuốc đúng là siết án treo, chuẩn hóa Điều 51 (NQ 04/2025), minh bạch hóa. Tôi thừa nhận: nguyên lý thu hồi tự nó trung lập.
+
+**Nhưng câu hỏi vòng E là "vận hành có đối xứng không", không phải "nguyên lý".** Debate 5 vòng chấm A≈B vì cả hai tranh trên một cơ chế lý tưởng: giảm bậc có kiểm soát, loại chủ mưu, "3/4 VÀ hợp tác" — ở tầng lý thuyết nó đối xứng. Khoảng cách chuẩn tắc–thực nghiệm [Case file §7] lộ ra khi cơ chế "khắc phục→khoan hồng" GẶP kênh địa vị/quan hệ có sẵn [Case file §7.2] trong cùng hồ sơ. Hai biến này không cộng tuyến tính mà cộng hưởng: bồi thường mở cánh cửa khoan hồng, còn quân hàm/đơn hội đoàn/nhân thân quyết định người đó bước qua BAO XA.
+
+**Minh họa Nha Trang.** Tại phúc thẩm 7/2026, VKS ĐỀ NGHỊ chuyển 2 năm 6 tháng tù → án treo cho hai cựu thiếu tướng, lý do nêu chính là: ăn năn + nộp thêm khắc phục (2,5 tỷ và 2 tỷ) + đơn xin giảm của hội cựu chiến binh/cơ quan [Case file §7.1]. Đây là ĐỀ NGHỊ, CHƯA TUYÊN — tôi không viết như đã xong, và không gộp 4,5 tỷ của họ với 7.000 tỷ của bị cáo Hậu, đó là trách nhiệm riêng [Case file §7.4]. Điểm hẹp của tôi: trong CÙNG một đề nghị, tiền khắc phục và kênh quan hệ/nhân thân đứng cạnh nhau làm căn cứ — đúng chỗ mô hình chuẩn tắc đối xứng bỏ sót.
+
+**Trung thực với phản chứng — và vì sao bất đối xứng vẫn thực.** Dữ liệu KHÔNG ủng hộ "trả tiền là thoát" phổ quát: Phạm Trung Kiên nộp lại ~toàn bộ 42,6 tỷ vẫn Y ÁN chung thân; Đinh La Thăng 30 năm, không án treo; Trương Mỹ Lan khắc phục lớn vẫn tử hình sơ thẩm (đang tố tụng) [Case file §7.5]. Tôi thừa nhận thẳng: trần cứng vẫn giữ ở đỉnh tháp. Nhưng chính §7.5 chỉ ra cơ chế "lộ rõ nhất ở biên tử→chung thân và tội mức thấp/vai phụ" — đúng vùng khoan hồng-gắn-tiền vận hành, và đúng vùng Nha Trang rơi vào (tội quản lý đất, nền án đã thấp). Bất đối xứng không phổ quát; nó tập trung — và một bất đối xứng tập trung ở vùng vận hành vẫn là thực, không bị "trung hòa" bởi các đại án đỉnh vẫn nghiêm.
+
+**Khả năng chi trả chi phối cả hai đầu.** Cùng cơ chế, chiều ngược: phạm nhân nghèo không tiền khắc phục khó được giảm án/đặc xá — đến mức Thứ trưởng BCA phải nêu "không để phạm nhân nghèo không được đặc xá" và có dự thảo tách khắc phục khỏi xếp loại cải tạo [Case file §7.6]. Khi cùng một biến — năng lực tài chính/địa vị — vừa mở khoan hồng cho người giàu ở xét xử vừa khóa nó với người nghèo ở thi hành án, thì "bình đẳng trước pháp luật" bị bào mòn ở tầng thực thi dù nguyên lý trên giấy vẫn đối xứng.
+
+**Kết luận vòng E:** A≈B đúng ở tầng nguyên lý, nhưng đó là câu trả lời cho một câu hỏi khác. Ở tầng vận hành VN, khắc phục cộng hưởng với kênh địa vị/quan hệ tạo lệch có hệ thống ở các vùng biên — đủ để nói cơ chế "đền bù chuyển bậc" cần rào chắn thực thi, không chỉ thiết kế đẹp trên giấy.
+
+**Nguồn trích dẫn trong lượt này:** [Case file §7], [Case file §7.1], [Case file §7.2], [Case file §7.4], [Case file §7.5], [Case file §7.6].
+
+### Vòng E (mở rộng) — Advocate A (đáp)
+
+Tôi ghi nhận trung thực lập luận mạnh nhất của B: câu hỏi Vòng E không phải nguyên lý có đối xứng không, mà VẬN HÀNH có đối xứng không. B chỉ ra rằng khi cơ chế "khắc phục → khoan hồng" gặp kênh địa vị/nhân thân có sẵn trong Điều 51 (thành tích, gia đình có công, đơn hội đoàn — [Case file §7.2]), hai biến cộng hưởng: bồi thường mở cửa, quân hàm/nhân thân quyết định bước qua bao xa; và bất đối xứng này không phổ quát mà tập trung ở vùng biên tử→chung thân và tội nhẹ/vai phụ — minh họa bằng đề nghị án treo cho hai cựu thiếu tướng ở đại án Nha Trang (VKS đề nghị, chưa tuyên — [Case file §7.1]), cộng bằng chứng bất đối xứng ngược ở khâu thi hành án ([Case file §7.6]).
+
+Tôi NHƯỢNG phần lớn quan sát thực nghiệm này. Bất đối xứng vận hành theo địa vị là có thật: chính TANDTC thừa nhận một số án treo tham nhũng "thiếu thuyết phục" ([Case file §7.3]), và nhà nước đang chạy cải cách ([Case file §7.6]). Tôi không phủ nhận sự kiện.
+
+Nhưng chẩn đoán của B nhắm sai địa chỉ. Nguồn của bất đối xứng nằm ở kênh địa vị/nhân thân (Điều 51: thành tích công tác, gia đình có công, đơn xin của cơ quan — [Case file §7.2]) và ở khâu phân loại án treo ([Case file §7.3]) — cả hai TỒN TẠI ĐỘC LẬP với nguyên lý khắc phục. Kiểm chứng phản thực: bỏ cơ chế khắc phục-đổi-khoan-hồng có xóa được kênh này không? Không. Người có quân hàm, có đơn hội đoàn, có nhân thân "gia đình có công" vẫn được chiếu cố theo Điều 51 dù có hay không có khắc phục — vì đó là tình tiết nhân thân, tách được khỏi khoản bồi thường 2–2,5 tỷ ở Nha Trang ([Case file §7.1, §7.2]). Nếu ta gỡ nguyên lý thu hồi, ta chỉ đánh mất động lực biên để lộ tài sản ẩn (lá bài trụ của khung A), trong khi kênh địa vị vẫn nguyên vẹn. Đúng "thuốc" là RÀO CHẮN THỰC THI nhắm vào kênh địa vị: siết án treo cho người "lợi dụng chức vụ, quyền hạn" ([Case file §7.3]), chuẩn hóa áp dụng Điều 51 (NQ 04/2025/NQ-HĐTP — [Case file §7.2]), minh bạch hóa "đơn xin" — chứ không phải bỏ Chương V thu hồi.
+
+Chùm §7.5 là bằng chứng thuận cho tôi, không phải cho B. Phạm Trung Kiên nộp lại gần toàn bộ 42,6 tỷ vẫn bị phúc thẩm y án chung thân; Đinh La Thăng địa vị tối cao vẫn 30 năm, không án treo; Trương Mỹ Lan khắc phục lớn vẫn tử hình giai đoạn 1 (đang tố tụng) ([Case file §7.5]). Trần cứng GIỮ ở đỉnh — đúng thiết kế "giữ sàn, loại chủ mưu" ([Case file §2.4]) mà khung A bảo vệ. Chính B thừa nhận bất đối xứng tập trung ở vùng tội nhẹ/vai phụ — nhưng đó lại là vùng mà án treo và khoan hồng vốn phù hợp về chính sách hình sự, nên "lệch" ở đó ít nguy hại hơn B ngụ ý.
+
+Về Nha Trang: đồng ý chưa tuyên án. Nếu tòa BÁC đề nghị án treo, đây thành bằng chứng hệ thống tự sửa; nếu chấp nhận, biến quyết định là "đơn hội đoàn/quân hàm" (nhân thân Điều 51), không phải khoản khắc phục ([Case file §7.1, §7.2]). Và §7.6 đọc hai chiều: việc nhà nước đang dự thảo tách khắc phục khỏi xếp loại cải tạo cho thấy đây là khiếm khuyết THIẾT KẾ THỰC THI sửa được, không phải tật cố hữu của nguyên lý thu hồi.
+
+Kết: tôi đồng ý cần rào chắn thực thi. Nhưng rào chắn ấy nhắm vào kênh địa vị — không phải lý do để phá nguyên lý khắc phục.
+
+**Nguồn trích dẫn trong lượt này:** [Case file §7.1], [Case file §7.2], [Case file §7.3], [Case file §7.5], [Case file §7.6], [Case file §2.4].
+
+## Phụ lục Vòng E: Fact-check
+
+Phương pháp: đối chiếu với Case file §7 (và §2.4). Cả hai bên chỉ viện dữ kiện đã có trong case file → không kích hoạt WebSearch.
+
+| Bên | Khẳng định (trích ngắn) | Kết quả | Nguồn |
+|-----|--------------------------|---------|-------|
+| B | Nha Trang: phúc thẩm 7/2026 VKS đề nghị 2 năm 6 tháng → án treo, 2 cựu thiếu tướng | ✅ | §7.1 |
+| B | Khắc phục 2,5 tỷ (Quang) + 2 tỷ (Cường) | ✅ | §7.1 |
+| B | Lý do: ăn năn + đơn xin của hội cựu chiến binh/cơ quan | ✅ | §7.1 |
+| B | ĐỀ NGHỊ, CHƯA TUYÊN | ✅ | §7.1 |
+| B | Không gộp 4,5 tỷ với 7.000 tỷ của Hậu | ✅ | §7.1/§7.4 |
+| B | Phạm Trung Kiên nộp ~toàn bộ 42,6 tỷ vẫn y án chung thân | ✅ | §7.5 |
+| B | Đinh La Thăng 30 năm, không án treo | ✅ | §7.5 |
+| B | Trương Mỹ Lan tử hình sơ thẩm/GĐ1, đang tố tụng | ✅ | §7.5 |
+| B | §7.6: người nghèo khó giảm án/đặc xá; Thứ trưởng BCA; dự thảo tách khắc phục | ✅ | §7.6 |
+| A | TANDTC thừa nhận một số án treo tham nhũng "thiếu thuyết phục" | ✅ | §7.3 |
+| A | Kênh Đ51: thành tích, gia đình có công, đơn xin của cơ quan | ✅ | §7.2 |
+| A | Siết án treo cho "lợi dụng chức vụ, quyền hạn" (NQ 02/2018) | 🟡 | §7.3 — nội dung đúng; case file gắn cờ "câu chữ toàn văn CẦN KIỂM CHỨNG"; A dùng cụm khái quát, chưa trích nguyên văn → chưa vượt ngưỡng rủi ro |
+| A | NQ 04/2025 chuẩn hóa/thống nhất Đ51 | ✅ | §7.2 |
+| A | Phạm Trung Kiên / Đinh La Thăng / Trương Mỹ Lan (§7.5) | ✅ | §7.5 |
+| A | "Giữ sàn, loại chủ mưu" | ✅ | §2.4 |
+| A | Nha Trang chưa tuyên; đơn hội đoàn/quân hàm là nhân thân Đ51 tách khỏi khắc phục | ✅ | §7.1, §7.2 |
+| A | Nhà nước dự thảo tách khắc phục khỏi xếp loại cải tạo | ✅ | §7.6 |
+
+**Tổng kết Vòng E:** **18 ✅ / 1 🟡 / 0 🔴 / 0 ⚠️** (B: 9 khẳng định, A: 10). Đối xứng tốt; cùng chuẩn đối chiếu. Cả hai tôn trọng trạng thái tố tụng (Nha Trang "đề nghị/chưa tuyên"; Trương Mỹ Lan "đang tố tụng"). 🟡 duy nhất là lưu ý câu chữ NQ 02/2018 (A dùng cụm khái quát, không trích toàn văn — không phải lỗi sự kiện). **Số "30,8% vs 21%" (§7.3) và câu chữ toàn văn NQ 02/2018: KHÔNG bên nào trích như số/câu cứng → không phát sinh rủi ro. Không có cờ 🔴.**
+
+> **Ghi chú EXTRA ROUND (chưa chấm điểm):** Vòng E hiện là **phụ lục định tính**, CHƯA được tính vào scorecard phiên econ (A 7.9 / B 8.2 — KHÔNG PHÂN ĐỊNH). Nếu người dùng yêu cầu `START JUDGING` để tính Vòng E vào điểm, một instance Judge mới sẽ chấm Vòng E như một vòng phản biện và cập nhật trung bình theo quy tắc rubric.

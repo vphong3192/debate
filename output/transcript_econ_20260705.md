@@ -4,7 +4,7 @@
 **Advocate A:** Khung ỦNG HỘ cho phép (có kiểm soát) — steelman
 **Advocate B:** Khung PHẢN ĐỐI việc cho phép giảm án bằng đền bù/khắc phục — steelman
 **Case file phiên bản:** `knowledge/case_file_econ.md` — duyệt GATE 1 ngày **05/07/2026**
-**Ngày duyệt GATE 2:** `[chờ APPROVE TRANSCRIPT]`
+**Ngày duyệt GATE 2:** **05/07/2026** (APPROVE TRANSCRIPT — người dùng đồng ý chấm)
 
 > *Lưu ý cho người đọc: hai advocate được giao nhiệm vụ trình bày phiên bản MẠNH NHẤT (steelman) của mỗi khung lập luận. Nội dung KHÔNG đại diện quan điểm của hệ thống hay người vận hành. Điểm số (nếu có ở Phase 2) đo CHẤT LƯỢNG LẬP LUẬN theo rubric, không phải phán quyết đúng/sai về chính sách.*
 > *Phạm vi chốt tại GATE 0: "giảm án" hiểu RỘNG — gồm Tầng 1 (giảm nhẹ trong khung) và Tầng 2 (miễn/không truy cứu hình sự).*

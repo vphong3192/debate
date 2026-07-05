@@ -1,7 +1,7 @@
 # CASE FILE — Giảm án cho tội phạm kinh tế / tham nhũng bằng đền bù, khắc phục hậu quả
 
 > **Chủ đề phiên:** *Có hay không nên cho phép tội phạm kinh tế, tham nhũng giảm án bằng cách đền bù, khắc phục hậu quả?* — bối cảnh chính **Việt Nam**, so sánh quốc tế, đặc biệt **Trung Quốc** (cùng thể chế chính trị).
-> **Trạng thái:** ĐÃ DUYỆT GATE 1 (case file khóa cho phiên). Ngày duyệt GATE 1: **05/07/2026** (APPROVE CASE FILE).
+> **Trạng thái:** ĐÃ DUYỆT GATE 1 (case file khóa cho phiên). Ngày duyệt GATE 1: **05/07/2026** (APPROVE CASE FILE). · **Bổ sung §7 cho EXTRA ROUND E: duyệt GATE 1 ngày 05/07/2026 (APPROVE).**
 > **Nguyên tắc (giống case file gốc):** file này chỉ chứa SỰ KIỆN / văn bản có thể kiểm chứng, KHÔNG chứa diễn giải quy phạm. "Nên hay không nên" là việc của advocate.
 > **Quy ước hạng nguồn** (chi tiết ở `knowledge/source_policy_econ.md`): H1 = văn bản luật/nghị quyết gốc, phán quyết, văn kiện định chế (LHQ/UNODC/OECD/TANDTC); H2 = học thuật bình duyệt & tư liệu lưu trữ; H3 = báo chí lớn / think tank.
 > **Lưu ý phương pháp:** một số vụ việc (đặc biệt Trương Mỹ Lan) đang trong quá trình tố tụng/thi hành — mọi mốc còn động phải ghi rõ tình trạng, không viết như đã kết thúc.

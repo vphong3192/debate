@@ -27,10 +27,10 @@
 - Sau mỗi lượt, orchestrator đếm từ bằng `scripts/word_count.ps1` (trong skill debate-orchestrator). Quá giới hạn +10% → yêu cầu advocate cắt gọn MỘT lần; nếu vẫn quá, ghi vào transcript kèm chú thích vượt ngân sách để Judge biết (Judge trừ ở chiều 5 nếu phần vượt tạo lợi thế).
 
 ## Mở rộng tùy chọn
-- `EXTRA ROUND [chủ đề]`: người dùng có thể yêu cầu thêm một cặp phản biện về một chủ đề hẹp (vd: chỉ về Bản ghi nhớ Budapest). Vòng này được chấm như vòng phản biện (xem "Quy tắc áp dụng theo vòng" trong rubric) và vào trung bình như mọi vòng.
+- `EXTRA ROUND [chủ đề]`: người dùng có thể yêu cầu thêm một cặp phản biện về một chủ đề hẹp (vd: chỉ về một văn kiện/tiền lệ/luận điểm cụ thể). Vòng này được chấm như vòng phản biện (xem "Quy tắc áp dụng theo vòng" trong rubric) và vào trung bình như mọi vòng.
 - `SWAP TEST`: chạy lại Phase 2 với nhãn A/B hoán đổi trong transcript, do một **instance judge mới** thực hiện (không phải judge đã chấm lần đầu). Nếu điểm lệch >0.5 → báo cáo phải ghi chú độ tin cậy thấp.
 
 ## Quy ước file output
-- Transcript: `output/transcript_YYYYMMDD.md`; chạy lại cùng ngày → thêm hậu tố `_v2`, `_v3`… Scorecard cùng hậu tố với transcript nó chấm.
-- Đầu transcript ghi: ngày duyệt GATE 1 (phiên bản case file) và ngày duyệt GATE 2.
-- File làm việc trung gian đặt trong `output/_workspace/` (không phải sản phẩm cuối).
+- Transcript của một chủ đề: `topics/<slug>/output/transcript_YYYYMMDD.md`; chạy lại cùng ngày → thêm hậu tố `_v2`, `_v3`… Scorecard cùng hậu tố với transcript nó chấm.
+- Đầu transcript ghi: chủ đề (slug), ngày duyệt GATE 1 (phiên bản case file) và ngày duyệt GATE 2.
+- File làm việc trung gian đặt trong `output/_workspace/` (không phải sản phẩm cuối; bị `.gitignore`).

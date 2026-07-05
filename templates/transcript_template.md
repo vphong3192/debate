@@ -1,33 +1,31 @@
 # BIÊN BẢN TRANH LUẬN — [Ngày]
 
-**Chủ đề:** Tính chính đáng, lịch sử, luật quốc tế và logic của chiến tranh Nga–Ukraine
-**Advocate A:** Khung lập luận biện hộ cho hành động của Nga (steelman)
-**Advocate B:** Khung lập luận biện hộ cho Ukraine / quan điểm chủ lưu luật quốc tế (steelman)
-**Case file phiên bản:** [link/ngày duyệt GATE 1]
+**Chủ đề:** [nêu mệnh đề tranh biện]
+**Advocate A:** [khung lập luận A — steelman]
+**Advocate B:** [khung lập luận B — steelman]
+**Chủ đề (topic slug):** `topics/<slug>/`
+**Case file phiên bản:** [ngày duyệt GATE 1]
+**Ngày duyệt GATE 2:** [ngày duyệt APPROVE TRANSCRIPT]
 
-> *Lưu ý cho người đọc: hai advocate được giao nhiệm vụ trình bày phiên bản mạnh nhất của mỗi khung lập luận. Nội dung không đại diện quan điểm của hệ thống hay người vận hành.*
+> *Lưu ý cho người đọc: hai advocate được giao nhiệm vụ trình bày phiên bản MẠNH NHẤT (steelman) của mỗi khung lập luận. Nội dung KHÔNG đại diện quan điểm của hệ thống hay người vận hành. Điểm số (nếu có ở Phase 2) đo CHẤT LƯỢNG LẬP LUẬN theo rubric, không phải phán quyết đúng/sai.*
+
+**Ngân sách từ:** [tóm tắt số từ mỗi lượt / giới hạn]
 
 ---
 
-## Vòng 1 — Mở đầu
+## Vòng 1 — Mở đầu (A đi trước)
 ### Mở đầu — Advocate A
 [...]
-### Mở đầu — Advocate B
-[...]
 
-## Vòng 2 — Phản biện 1
+## Vòng 2 — Phản biện 1 (B đi trước)
 ### Phản biện — Advocate B
 [...]
+
+## Vòng 3 — Phản biện 2 (A đi trước)
 ### Phản biện — Advocate A
 [...]
 
-## Vòng 3 — Phản biện 2
-### Advocate A
-[...]
-### Advocate B
-[...]
-
-## Vòng 4 — Chất vấn chéo
+## Vòng 4 — Chất vấn chéo (B hỏi trước)
 ### B hỏi A
 **Câu hỏi 1:** [...]
 **Trả lời:** [...]
@@ -35,7 +33,7 @@
 ### A hỏi B
 [... x3]
 
-## Vòng 5 — Kết luận
+## Vòng 5 — Kết luận (A trước, B chốt cuối)
 ### Kết luận — Advocate A
 [...]
 **Giới hạn của lập luận phía tôi:** [...]
@@ -44,5 +42,5 @@
 **Giới hạn của lập luận phía tôi:** [...]
 
 ---
-## Phụ lục: Fact-check theo vòng
+## Phụ lục: Fact-check
 [bảng của fact-checker, nếu chạy]

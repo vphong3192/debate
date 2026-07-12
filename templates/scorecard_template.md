@@ -1,6 +1,9 @@
 # BẢNG ĐIỂM — [Ngày]
 
-> **Giới hạn của phương pháp:** Điểm số dưới đây đo *chất lượng lập luận trong khuôn khổ rubric* (bằng chứng, căn cứ pháp lý, logic, xử lý phản biện) trên transcript cụ thể này. Nó KHÔNG phải phán quyết về chân lý lịch sử, pháp lý hay đạo đức của cuộc chiến, và có thể thay đổi nếu advocate lập luận khác đi.
+> **Giới hạn của phương pháp (bắt buộc, không rút gọn):**
+> 1. Điểm số dưới đây đo *chất lượng lập luận trong khuôn khổ rubric* (bằng chứng, căn cứ pháp lý, logic, xử lý phản biện) trên transcript cụ thể này. Nó KHÔNG phải phán quyết về chân lý lịch sử, pháp lý hay đạo đức của cuộc chiến, và có thể thay đổi nếu advocate lập luận khác đi.
+> 2. **Thiên lệch prior cùng model:** cả hai advocate và judge chạy trên cùng một model; prior huấn luyện của model có thể làm steelman của một bên yếu đi một cách hệ thống. Phụ lục Steelman audit là chỉ báo cho khoảng cách này; SWAP TEST không phát hiện được loại thiên lệch này (nó chỉ bắt thiên lệch nhãn A/B).
+> 3. Chênh lệch điểm chỉ có ý nghĩa khi lớn hơn nhiễu nền của judge — xem bảng Hội đồng (và NOISE TEST nếu chạy).
 
 ## 1. Bảng điểm chi tiết
 ### Vòng 1 — Mở đầu
@@ -35,8 +38,24 @@
 | Pháp lý nặng (10/20/40/15/15) | | | |
 | Phẳng (20/20/20/20/20) | | | |
 
-## 5. Kết luận của Judge
-- **Bên lập luận chặt chẽ hơn theo rubric:** [A / B / Không phân định (chênh ≤0.5)]
+## 5. Hội đồng (orchestrator điền)
+| | Judge 1 | Judge 2 | Judge 3 | **Trung vị** | Biên độ (max−min) |
+|---|---|---|---|---|---|
+| A | | | | | |
+| B | | | | | |
+
+- Bản chi tiết ở mục 1–4 là của Judge [n] (cặp tổng gần trung vị nhất); scorecard đầy đủ của cả 3 instance trong `_workspace/`.
+- [Nếu biên độ một bên > 1.0: ghi "nhiễu judge cao, độ tin cậy thấp".]
+- **Kết quả NOISE TEST (nếu chạy):** [bảng N instance + biên độ]
+
+## 6. Kết luận
+- **Bên lập luận chặt chẽ hơn theo rubric:** [A / B / Không phân định — chênh trung vị ≤0.5 hoặc khoảng [min,max] hai bên chồng lấn]
 - **Luận điểm mạnh nhất của bên điểm thấp hơn:** [≥150 từ]
 - **Điểm yếu lớn nhất của bên điểm cao hơn:** [...]
-- **Kết quả SWAP TEST (nếu chạy):** [...]
+- **Kết quả SWAP TEST (nếu chạy):** [... — kèm câu: SWAP TEST chỉ bắt thiên lệch nhãn, không bắt thiên lệch nội dung]
+
+## 7. Phụ lục: Steelman audit (orchestrator dán, không tính điểm)
+### Bên A
+[báo cáo debate-auditor]
+### Bên B
+[báo cáo debate-auditor]

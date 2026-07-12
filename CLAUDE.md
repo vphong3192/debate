@@ -16,15 +16,16 @@ Tạo một cuộc tranh luận chất lượng cao giữa hai "chuyên gia" đ�
 
 ## Harness: debate-arena
 
-**Trigger:** mọi lệnh vận hành debate — `START PHASE 0`, `START DEBATE`, `START JUDGING`, `FULL RUN`, `EXTRA ROUND [chủ đề]`, `SWAP TEST`, `APPROVE CASE FILE`, `APPROVE TRANSCRIPT` — hoặc yêu cầu tương đương bằng lời thường (chạy/chạy lại phiên, thêm vòng, chấm lại, cập nhật case file) → dùng skill **`debate-orchestrator`**. Câu hỏi thông thường về nội dung file thì trả lời trực tiếp.
+**Trigger:** mọi lệnh vận hành debate — `START PHASE 0`, `START DEBATE`, `START JUDGING`, `FULL RUN`, `EXTRA ROUND [chủ đề]`, `SWAP TEST`, `NOISE TEST`, `APPROVE CASE FILE`, `APPROVE TRANSCRIPT` — hoặc yêu cầu tương đương bằng lời thường (chạy/chạy lại phiên, thêm vòng, chấm lại, cập nhật case file, đo nhiễu judge, audit steelman) → dùng skill **`debate-orchestrator`**. Câu hỏi thông thường về nội dung file thì trả lời trực tiếp.
 
-**Kiến trúc:** orchestrator là vai duy nhất trong context chính; advocate / fact-checker / judge chạy bằng subagent (`.claude/agents/debate-*.md`, model opus) với context được nạp riêng từng vai — đây là cơ chế thực thi Quy tắc thông tin trong `protocol/debate_protocol.md`. Chi tiết quy trình, bảng nạp context, xử lý lỗi: xem skill.
+**Kiến trúc:** orchestrator là vai duy nhất trong context chính; advocate / fact-checker / judge / steelman-auditor chạy bằng subagent (`.claude/agents/debate-*.md`, model opus) với context được nạp riêng từng vai VÀ `tools:` bị giới hạn trong frontmatter để subagent không tự đọc được file ngoài danh sách nạp — hai tầng này là cơ chế thực thi Quy tắc thông tin trong `protocol/debate_protocol.md`. Khung chấm theo chủ đề nằm ở `knowledge/judge_notes.md` — CHỈ nạp cho judge, KHÔNG BAO GIỜ cho advocate/fact-checker/auditor; không thêm nội dung "bên X được điểm/bị trừ" vào case file. Chi tiết quy trình, bảng nạp context, xử lý lỗi: xem skill.
 
 **Quy tắc bất biến ngoài skill:**
 - Ngôn ngữ output: **tiếng Việt** (thuật ngữ pháp lý kèm tiếng Anh trong ngoặc lần đầu xuất hiện).
 - Judge không bao giờ phát biểu trong Phase 1. Advocate không bao giờ tự chấm điểm.
-- Hai bên chênh ≤5% tổng điểm → "không phân định được theo rubric này", KHÔNG ép ra người thắng.
+- Phán quyết chính thức lấy từ **hội đồng 3 judge độc lập, tính trung vị**. Chênh trung vị ≤5% tổng điểm HOẶC khoảng điểm hai bên chồng lấn → "không phân định được theo rubric này", KHÔNG ép ra người thắng.
 - Hai gate người duyệt là bắt buộc, không tự động vượt.
+- Báo cáo cuối phải khai báo giới hạn: hai advocate và judge chạy cùng một model (prior có thể làm steelman một bên yếu hệ thống); SWAP TEST chỉ bắt thiên lệch nhãn, không bắt thiên lệch nội dung.
 
 **Change log:**
 | Ngày | Thay đổi | Đối tượng | Lý do |
@@ -34,3 +35,6 @@ Tạo một cuộc tranh luận chất lượng cao giữa hai "chuyên gia" đ�
 | 2026-07-04 | Vá quy tắc chấm: ô N/A không vào trung bình, bỏ phạt kép cờ đỏ, quy tắc EXTRA ROUND, hợp thức hóa rubric thấu kính thay thế | rubrics/, agents/judge.md | audit 2026-07-04 |
 | 2026-07-04 | Cách ly vai trò bằng subagent: `.claude/agents/debate-{advocate,judge,fact-checker}.md` + skill `debate-orchestrator`; SWAP TEST bằng instance judge mới | .claude/, protocol/ | Quy tắc thông tin trước đây không có cơ chế thực thi |
 | 2026-07-04 | Script đếm từ (`word_count.ps1`), quy ước hậu tố file `_vN`, ghi ngày duyệt gate vào transcript, thư mục `_workspace/` | skill, protocol/ | ngân sách từ ±10% trước đây không đo được |
+| 2026-07-12 | Vá rò rỉ rubric: tách các mục "Khung Judge" (§8.3, §9.5, §10.4, §11.4, §12.4, §14.3) khỏi case file sang `knowledge/judge_notes.md` (chỉ nạp cho judge); siết cách ly bằng `tools:` frontmatter (advocate/fact-checker: WebSearch+WebFetch; judge: Write) | knowledge/, .claude/agents/, skill, protocol/ | audit 2026-07-12 (P0): case file nạp cho advocate chứa tiêu chí chấm điểm; cách ly trước đây vẫn dựa một phần vào lời dặn |
+| 2026-07-12 | Hội đồng 3 judge lấy trung vị + bảng hội đồng trong scorecard; lệnh `NOISE TEST` đo nhiễu nền judge; ngưỡng "không phân định" định nghĩa lại theo trung vị/chồng lấn | skill, rubrics/, agents/judge.md, templates/ | audit 2026-07-12 (P0): ngưỡng 0.5 trước đây chưa hiệu chuẩn với nhiễu lấy mẫu của judge đơn lẻ |
+| 2026-07-12 | Steelman audit bắt buộc trước GATE 2 (agent `debate-auditor`, chạy đối xứng 2 bên, vào phụ lục scorecard); khai báo giới hạn "thiên lệch prior cùng model" + "SWAP TEST chỉ bắt thiên lệch nhãn" vào template scorecard | .claude/agents/, skill, protocol/, templates/ | audit 2026-07-12 (P1): SWAP TEST không phát hiện được thiên lệch nội dung; chưa có phép đo trần steelman |

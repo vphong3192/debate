@@ -1,7 +1,8 @@
 # CASE FILE — Nền sự kiện chung (cả hai advocate dùng chung)
 
 > Trạng thái: **HOÀN THIỆN PHASE 0 — chờ GATE 1**. Mỗi mục kèm nguồn theo `knowledge/source_policy.md`.
-> Nguyên tắc: file này chỉ chứa SỰ KIỆN có thể kiểm chứng, KHÔNG chứa diễn giải. Diễn giải là việc của advocate.
+> Nguyên tắc: file này chỉ chứa SỰ KIỆN có thể kiểm chứng và CẢNH BÁO PHƯƠNG PHÁP trung lập (áp đối xứng cho cả hai bên), KHÔNG chứa diễn giải. Diễn giải là việc của advocate.
+> **Quy tắc cách ly (từ 12/07/2026):** các khung được/mất điểm theo chủ đề (nguyên là §8.3, §9.5, §10.4, §11.4, §12.4, §14.3) đã chuyển sang `knowledge/judge_notes.md` — file đó CHỈ nạp cho judge, không nạp cho advocate/fact-checker. Không thêm nội dung kiểu "bên X được điểm / bị trừ khi" vào file này.
 > Quy ước hạng nguồn: H1 = văn bản gốc/định chế quốc tế; H2 = học thuật/lưu trữ; H3 = báo chí lớn/think tank.
 > Lưu ý phương pháp: số liệu thương vong/tị nạn là con số *ghi nhận được* (recorded), gần như chắc chắn thấp hơn thực tế; các định chế đều ghi rõ điều này.
 
@@ -128,10 +129,7 @@ Ngừng bắn do OSCE giám sát từ 15/2/2015; rút vũ khí hạng nặng t�
 - **Tổng thống Zelensky là người Do Thái**, đắc cử **73%** (2019); thân nhân chết trong Holocaust. Hơn **300 học giả** về diệt chủng/Nazi gọi luận điệu "phi phát-xít hóa" của Putin là **tuyên truyền**; chuyên gia xác nhận không có phần tử tân phát-xít trong chính phủ Zelensky. `[Nguồn: FactCheck.org; Newsweek; tuyên bố 300 học giả — H2/H3]`
 - **Bối cảnh so sánh:** sự hiện diện của các đơn vị/đảng cực hữu tồn tại ở nhiều quốc gia châu Âu; vấn đề là *trọng số chính trị* và *quyền lực nhà nước*, không phải *sự tồn tại đơn lẻ*.
 
-### §8.3 Khung để Judge chấm trục Logic ở chủ đề này
-- Phía Nga **được phép** lập luận: tồn tại cực hữu có vũ trang + chính sách ký ức gây tranh cãi là sự thật cần thừa nhận (steelman mạnh nhất).
-- Phía Nga **bị trừ điểm** nếu: (a) suy ra "quốc gia phát-xít" từ sự tồn tại đơn vị; (b) dùng nó làm *biện minh pháp lý* cho dùng vũ lực; (c) bỏ qua bằng chứng bầu cử/Zelensky (lờ phản chứng — cherry-picking).
-- Phía Ukraine **bị trừ điểm** nếu: phủ nhận hoàn toàn sự tồn tại của Azov/luật ký ức (chối sự thật bất lợi) thay vì đặt nó vào đúng tỷ lệ.
+### §8.3 — [đã chuyển sang `knowledge/judge_notes.md`, chỉ nạp cho Judge]
 
 ## §9. Lập luận chính thức của Nga — từ nguồn gốc Nga (để steelman công bằng)
 
@@ -155,10 +153,7 @@ Ngừng bắn do OSCE giám sát từ 15/2/2015; rút vũ khí hạng nặng t�
 ### §9.4 Lập luận lịch sử-bản dạng Nga tự nêu
 - Tiểu luận Putin 7/2021 "một dân tộc" [§7.1]; khái niệm "Novorossiya" [§7.2]; cáo buộc "diệt chủng ở Donbas suốt 8 năm" và "phi phát-xít hóa" [§2-bis, §8]. **Tất cả đã có mục riêng** với cả phần Nga nêu lẫn phản bác — §9 chỉ gom đầu mối, không lặp lại.
 
-### §9.5 Khung Judge cho việc dùng §9
-- Advocate Nga **được điểm** khi: trình bày các lập luận này ở dạng mạnh nhất, đúng nguồn, đặt vào trục phù hợp (an ninh không thể chia cắt → trục Chính đáng/Logic; dự thảo 12/2021 → trục Last Resort).
-- Advocate Nga **bị trừ** khi: nâng "Nga tuyên bố Y" thành "Y là sự thật" mà không xử lý phản bác định chế; hoặc dùng nguồn Hạng 4 làm bằng chứng sự kiện.
-- Advocate Ukraine **bị trừ** khi: bỏ qua/strawman các lập luận §9 thay vì phản biện phiên bản mạnh nhất của chúng.
+### §9.5 — [đã chuyển sang `knowledge/judge_notes.md`, chỉ nạp cho Judge]
 
 ## §10. Tính hợp hiến của (a) việc Liên Xô tan rã và (b) chính quyền Ukraine sau 1991/sau Maidan
 *(Bổ sung sau GATE 1, theo yêu cầu EXTRA ROUND ngày 12/06/2026 — có nguồn, dùng đối xứng.)*
@@ -178,10 +173,7 @@ Ngừng bắn do OSCE giám sát từ 15/2/2015; rút vũ khí hạng nặng t�
 - **Vấn đề hợp hiến (cốt lõi):** thủ tục luận tội chính thức theo **Điều 111 Hiến pháp Ukraine** đòi: ủy ban điều tra đặc biệt, phán quyết của Tòa Hiến pháp về tội (vd phản quốc), và **3/4 Rada = 338 phiếu** để phế truất. **Không bước nào trong số này được thực hiện**, và 328 < 338. Rada *không* tuyên bố đi theo Điều 111 mà viện cơ chế khác (Điều 85/7 — ấn định bầu cử). → Việc phế truất **không tuân thủ thủ tục luận tội thành văn**; đây là sự kiện được nhiều phân tích độc lập (PONARS) thừa nhận, đồng thời tranh cãi liệu nó có biện minh được bằng tình huống "tổng thống đã bỏ trốn" mà hiến pháp không lường trước. `[Nguồn: Impeachment in Ukraine; PONARS Eurasia — H2/H3]`
 - **Bất đối xứng diễn giải:** "cách mạng" (Maidan như khởi nghĩa chính đáng chống chính quyền dùng bạo lực) vs "đảo chính" (lật đổ vi hiến). Đây là DIỄN GIẢI — case file không phán định, advocate tranh.
 
-### §10.4 Khung Judge cho vòng này
-- Phía A **được điểm** khi: nêu chính xác khiếm khuyết thủ tục (328<338, Điều 111 không theo) và sự dịch chuyển dân ý 3/1991→sáp nhập — ở dạng mạnh nhất.
-- Phía A **bị trừ** khi: nhảy từ "khiếm khuyết hợp hiến nội bộ" sang "Ukraine không phải quốc gia hợp pháp / không đáng được bảo vệ khỏi vũ lực" (đánh đồng ba tầng §10 cảnh báo); hoặc lờ trưng cầu 1/12/1991 và Alma-Ata.
-- Phía B **bị trừ** khi: phủ nhận hoàn toàn khiếm khuyết thủ tục 2014 thay vì thừa nhận và đặt vào đúng tầng (chính trị nội bộ ≠ tư cách quốc gia theo luật quốc tế).
+### §10.4 — [đã chuyển sang `knowledge/judge_notes.md`, chỉ nạp cho Judge]
 
 ## §11. "Chiến tranh / xâm lược" hay "chiến dịch quân sự đặc biệt"? & hành vi của Ukraine
 *(Bổ sung sau GATE 1, theo yêu cầu EXTRA ROUND ngày 12/06/2026.)*
@@ -203,10 +195,7 @@ Ngừng bắn do OSCE giám sát từ 15/2/2015; rút vũ khí hạng nặng t�
 - **Thương vong dân sự phía Nga:** OHCHR ghi nhận thương vong dân sự ở Belgorod, Bryansk, Kursk, Rostov; **theo nhà chức trách Nga**, tấn công của Ukraine năm 2025 làm 253 dân thường thiệt mạng, 1.872 bị thương (con số do phía Nga đưa, LHQ không kiểm chứng độc lập được). Quy mô vẫn nhỏ hơn nhiều so với thương vong dân sự ở Ukraine [§5], nhưng nguyên tắc IHL áp dụng như nhau. `[Nguồn: OHCHR 2025; lưu ý nguồn số liệu — H1/caveat]`
 - **Vụ Starobilsk (ký túc xá), Luhansk bị chiếm đóng, 21–22/5/2026:** **[QUY KẾT ĐANG TRANH CHẤP — CHƯA KIỂM CHỨNG ĐỘC LẬP]**. Nga cáo buộc Ukraine drone tấn công ký túc xá Cao đẳng Starobilsk; Bộ Tình trạng Khẩn cấp Nga nêu 21 chết/42 bị thương (bản tin khác nêu 6, gồm trẻ em — số liệu vênh nhau). **Ukraine bác**, nói mục tiêu là "Trung tâm Rubicon" — đơn vị drone quân sự của Bộ QP Nga ở Starobilsk, không nhằm vào dân thường. **Reuters, LHQ và các nước phương Tây không kiểm chứng độc lập được**; một phân tích (Defence Matters) lưu ý danh sách nạn nhân phần lớn là thanh niên, không phải trẻ em → làm phức tạp tường thuật ban đầu của Nga. **ĐÍNH CHÍNH TIỀN ĐỀ QUAN TRỌNG:** Starobilsk/Luhansk là **lãnh thổ Ukraine bị Nga chiếm đóng**, KHÔNG phải lãnh thổ chủ quyền Nga được quốc tế công nhận. `[Nguồn: UN News 1167579; Moscow Times; NBC News — H3, quy kết tranh chấp]`
 
-### §11.4 Khung Judge cho vòng này
-- Phía A **được điểm** khi: chỉ ra IHL ràng buộc cả hai bên (Ukraine không miễn nhiễm tội ác chiến tranh); nêu vụ Starobilsk/thương vong Belgorod ở dạng *cân xứng và có caveat quy kết*.
-- Phía A **bị trừ** khi: (a) suy từ "Ukraine cũng tấn công" → "Nga không phải kẻ xâm lược" (đánh tráo bình diện ad bellum/in bello); (b) dùng nhãn "chiến dịch đặc biệt" như lý lẽ pháp lý; (c) gọi Luhansk/Starobilsk là "lãnh thổ Nga"; (d) trình vụ chưa kiểm chứng như sự thật đã định.
-- Phía B **bị trừ** khi: phủ nhận rằng IHL áp cho Ukraine, hoặc bác bỏ mọi thương vong dân sự phía Nga như "tuyên truyền" thay vì thừa nhận nguyên tắc + tranh chấp dữ kiện cụ thể.
+### §11.4 — [đã chuyển sang `knowledge/judge_notes.md`, chỉ nạp cho Judge]
 
 ## §12. Ukraine tấn công mục tiêu trên lãnh thổ mình bị chiếm đóng — có nghĩa "từ bỏ" dân không?
 *(Bổ sung sau GATE 1, theo yêu cầu EXTRA ROUND ngày 12/06/2026.)*
@@ -227,10 +216,7 @@ Ngừng bắn do OSCE giám sát từ 15/2/2015; rút vũ khí hạng nặng t�
 - Ukraine chính thức coi các vùng bị chiếm đóng là lãnh thổ tạm thời bị chiếm, dân là công dân Ukraine; vận hành hành lang sơ tán, dịch vụ hành chính từ xa, chương trình hồi hương — tức *behaviorally* vẫn nhận dân là của mình. `[CẦN BỔ SUNG nếu advocate muốn dẫn chính sách cụ thể — H1/H3]`
 - Trong vụ Starobilsk [§11.3], Ukraine *bác* việc nhắm vào dân thường và tuyên bố nhắm mục tiêu quân sự — tức không tự nhận từ bỏ dân, mà tranh chấp *bản chất mục tiêu*.
 
-### §12.4 Khung Judge cho vòng này
-- Phía A **được điểm** khi: nêu căng thẳng đạo đức thật (§12.2) — rằng chuẩn cân xứng phải đặc biệt cao khi nạn nhân là công dân mình, và một đòn bất cẩn làm xói mòn chính tuyên ngôn bảo vệ.
-- Phía A **bị trừ** khi: suy "tấn công vùng bị chiếm đóng = không coi dân là của mình / mất chủ quyền" (đánh tráo phạm trù iii→i §12 cảnh báo); hoặc bỏ qua việc nghĩa vụ chăm sóc đã chuyển sang bên chiếm đóng (Nga).
-- Phía B **bị trừ** khi: phủ nhận rằng IHL về cân xứng vẫn ràng buộc Ukraine ngay cả trên đất mình; hoặc coi mọi đòn trên vùng bị chiếm đóng là đương nhiên hợp pháp.
+### §12.4 — [đã chuyển sang `knowledge/judge_notes.md`, chỉ nạp cho Judge]
 
 ## §13. Bucha — hồ sơ bằng chứng
 *(Bổ sung 13/06/2026 theo yêu cầu người dùng, sau khi tiền đề "thiếu bằng chứng" không qua được fact-check.)*
@@ -266,10 +252,7 @@ Ngừng bắn do OSCE giám sát từ 15/2/2015; rút vũ khí hạng nặng t�
 - **Tính nội sinh:** các biện pháp khắc nghiệt nhất (cấm nhạc/sách, dỡ tượng) ban hành **sau** 24/2/2022 — hệ quả của xâm lược không thể là lý do biện minh cho nó.
 - **Khiếu nại đối xứng đã có phán quyết H1:** ICJ 31/1/2024 (Ukraine v. Nga, CERD) kết luận **Nga vi phạm Điều 2(1)(a) và 5(e)(v) CERD** trong cách triển khai giáo dục tiếng Ukraine ở Crimea bị chiếm đóng (học sinh học bằng tiếng Ukraine giảm ~90% sau 2014), và vi phạm lệnh biện pháp tạm thời 2017; đa số yêu sách khác của Ukraine bị bác — phán quyết hẹp nhưng xác lập: than phiền ngôn ngữ tồn tại **cả hai chiều**, và chiều nào cũng được xử bằng *tòa án*, không bằng xe tăng. `[Nguồn: ICJ Judgment 31/1/2024, icj-cij.org — H1]`
 
-### §14.3 Khung Judge cho chủ đề này
-- Phía A **được điểm** khi: dẫn Ủy ban Venice làm bằng chứng trung lập rằng than phiền có thật và *có trước 2022* (2017, 2019); đặt nó ở trục bối cảnh/chính danh — như hồ sơ Azov §8.
-- Phía A **bị trừ** khi: (a) nhảy (i)→(iii) bỏ qua (ii); (b) thổi phồng thành "diệt chủng/xóa sổ văn hóa" trái phán quyết ICJ; (c) dùng biện pháp hậu-2022 làm bằng chứng cho quyết định khai chiến 2/2022 (quả trước nhân); (d) lặp lại bước nhảy ngôn ngữ→ly khai đã rút.
-- Phía B **bị trừ** khi: phủ nhận hoặc giảm nhẹ phê phán của Ủy ban Venice (chối sự thật bất lợi); hoặc né phán quyết CERD bằng lập luận "Nga còn tệ hơn" thuần tu quoque thay vì dùng nó đúng tầng (chế tài thiết chế tồn tại và vận hành).
+### §14.3 — [đã chuyển sang `knowledge/judge_notes.md`, chỉ nạp cho Judge]
 
 ---
 *Quy ước trích dẫn trong tranh luận: `[Case file §x]`. Sự kiện ngoài case file phải kèm nguồn riêng và sẽ bị fact-check. Số liệu thương vong/tị nạn: luôn ghi "ghi nhận được / recorded", không tuyệt đối hóa.*

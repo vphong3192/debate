@@ -97,5 +97,10 @@ Bộ trọng số thay thế cho phân tích độ nhạy:
 - Trung bình chỉ tính trên các vòng có chấm (ô N/A loại khỏi cả tử và mẫu — xem Quy tắc áp dụng theo vòng).
 - EXTRA ROUND (nếu có) vào trung bình như mọi vòng.
 - Báo cáo: tổng /10, làm tròn 1 chữ số thập phân, kèm bảng theo vòng.
-- Chênh lệch ≤ 0.5 điểm (5%) → "không phân định theo rubric".
 - Luôn chạy đủ 3 bộ trọng số và báo cáo cả ba.
+
+## Hội đồng & ngưỡng phân định (áp ở cấp orchestrator)
+- Mỗi judge chấm độc lập theo công thức trên; **điểm chính thức = trung vị của hội đồng 3 judge** (từng bên, từng bộ trọng số).
+- "Không phân định theo rubric" khi: |trung vị A − trung vị B| ≤ 0.5 điểm (5%) **HOẶC** khoảng [min, max] của hai bên trong hội đồng chồng lấn.
+- Biên độ (max−min) của một bên > 1.0 → kết luận phải kèm ghi chú "nhiễu judge cao, độ tin cậy thấp".
+- Từng judge trong hội đồng KHÔNG tự áp mục này — judge chỉ báo tổng của mình; tổng hợp là việc của orchestrator.

@@ -38,5 +38,13 @@
 
 ## Quy ước file output
 - Transcript: `output/transcript_YYYYMMDD.md`; chạy lại cùng ngày → thêm hậu tố `_v2`, `_v3`… Scorecard cùng hậu tố với transcript nó chấm.
-- Đầu transcript ghi: ngày duyệt GATE 1 (phiên bản case file) và ngày duyệt GATE 2.
+- **Ghim phiên bản case file:** khi `APPROVE CASE FILE`, orchestrator commit `knowledge/` và ghi git hash vào header transcript; bổ sung sau GATE 1 phải qua `APPROVE CASE FILE ADDENDUM` với commit + hash riêng. Judge chấm trên đúng bản mang hash đã duyệt.
+- **Metadata bắt buộc** ở header transcript và scorecard: ngày chạy/chấm, hash case file, model của subagent (alias + model ID nếu biết) và của orchestrator. So sánh điểm giữa các phiên khác model phải kèm ghi chú.
+- Đầu transcript ghi: ngày duyệt GATE 1 và ngày duyệt GATE 2.
 - File làm việc trung gian đặt trong `output/_workspace/` (không phải sản phẩm cuối).
+
+## Kiểm trích dẫn scorecard (chống judge bịa bằng chứng)
+- Trong scorecard, **dấu ngoặc kép chỉ dành cho trích nguyên văn transcript**; nhấn mạnh hay thuật ngữ dùng *in nghiêng*. Orchestrator chạy `scripts/quote_check.{sh,ps1}` trên từng scorecard: trích dẫn không tìm thấy trong transcript → trả judge sửa một lần; vẫn thiếu → ghi vào bảng Hội đồng như chỉ báo độ tin cậy thấp.
+
+## Vòng E và tổng điểm
+- Có vòng E → mọi tổng báo cáo kép "V1–V5" và "V1–V5+E". Điểm chính thức là V1–V5+E, nhưng nếu hai cách tính đảo thứ hạng → ghi "kết quả phụ thuộc vòng phụ do người dùng chọn chủ đề" và xử lý như "không phân định" (chủ đề vòng E do người dùng chọn nên là một vector thiên lệch tiềm tàng — báo cáo kép làm nó nhìn thấy được).

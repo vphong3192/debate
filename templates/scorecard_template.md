@@ -1,5 +1,8 @@
 # BẢNG ĐIỂM — [Ngày]
 
+**Transcript:** [file] — case file commit `[git hash]` (+ addendum `[hash]` nếu có)
+**Model:** judge/advocate = [alias / model ID nếu biết]; orchestrator = [model ID]; ngày chấm = [ngày]
+
 > **Giới hạn của phương pháp (bắt buộc, không rút gọn):**
 > 1. Điểm số dưới đây đo *chất lượng lập luận trong khuôn khổ rubric* (bằng chứng, căn cứ pháp lý, logic, xử lý phản biện) trên transcript cụ thể này. Nó KHÔNG phải phán quyết về chân lý lịch sử, pháp lý hay đạo đức của cuộc chiến, và có thể thay đổi nếu advocate lập luận khác đi.
 > 2. **Thiên lệch prior cùng model:** cả hai advocate và judge chạy trên cùng một model; prior huấn luyện của model có thể làm steelman của một bên yếu đi một cách hệ thống. Phụ lục Steelman audit là chỉ báo cho khoảng cách này; SWAP TEST không phát hiện được loại thiên lệch này (nó chỉ bắt thiên lệch nhãn A/B).
@@ -31,6 +34,12 @@
 | Xử lý phản biện | 15% | | |
 | **TỔNG /10** | | **x.x** | **x.x** |
 
+[Nếu có vòng E — bảng tổng kép, bắt buộc:]
+| Cách tính | A | B | Thứ hạng đổi so với V1–V5? |
+|---|---|---|---|
+| V1–V5 (không tính E) | | | — |
+| V1–V5+E (chính thức) | | | [Có → ghi "kết quả phụ thuộc vòng phụ", xử lý như không phân định] |
+
 ## 4. Phân tích độ nhạy
 | Bộ trọng số | A | B | Thứ hạng đổi? |
 |---|---|---|---|
@@ -43,6 +52,7 @@
 |---|---|---|---|---|---|
 | A | | | | | |
 | B | | | | | |
+| quote_check (checked/missing sau sửa) | | | | — | — |
 
 - Bản chi tiết ở mục 1–4 là của Judge [n] (cặp tổng gần trung vị nhất); scorecard đầy đủ của cả 3 instance trong `_workspace/`.
 - [Nếu biên độ một bên > 1.0: ghi "nhiễu judge cao, độ tin cậy thấp".]

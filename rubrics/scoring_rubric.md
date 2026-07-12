@@ -95,7 +95,7 @@ Bộ trọng số thay thế cho phân tích độ nhạy:
 Điểm_bên = Σ (trung_bình_các_vòng_có_chấm_chiều_i × trọng_số_i) − tổng_phạt
 ```
 - Trung bình chỉ tính trên các vòng có chấm (ô N/A loại khỏi cả tử và mẫu — xem Quy tắc áp dụng theo vòng).
-- EXTRA ROUND (nếu có) vào trung bình như mọi vòng.
+- EXTRA ROUND (nếu có) vào trung bình như mọi vòng, NHƯNG mọi tổng phải báo cáo kép: **"V1–V5"** và **"V1–V5+E"**. Điểm chính thức là V1–V5+E; hai cách tính đảo thứ hạng → "kết quả phụ thuộc vòng phụ", xử lý như không phân định (chủ đề vòng E do người dùng chọn — báo cáo kép làm vector thiên lệch này nhìn thấy được).
 - Báo cáo: tổng /10, làm tròn 1 chữ số thập phân, kèm bảng theo vòng.
 - Luôn chạy đủ 3 bộ trọng số và báo cáo cả ba.
 

@@ -3,7 +3,9 @@
 **Chủ đề:** Tính chính đáng, lịch sử, luật quốc tế và logic của chiến tranh Nga–Ukraine
 **Advocate A:** Khung lập luận biện hộ cho hành động của Nga (steelman)
 **Advocate B:** Khung lập luận biện hộ cho Ukraine / quan điểm chủ lưu luật quốc tế (steelman)
-**Case file phiên bản:** [link/ngày duyệt GATE 1]
+**Case file phiên bản:** ngày duyệt GATE 1 [ngày] — commit `[git hash]`; addendum (nếu có): `[hash]` (§[x])
+**Ngày duyệt GATE 2:** [ngày]
+**Model:** subagent = [alias frontmatter / model ID nếu biết]; orchestrator = [model ID]; ngày chạy = [ngày]
 
 > *Lưu ý cho người đọc: hai advocate được giao nhiệm vụ trình bày phiên bản mạnh nhất của mỗi khung lập luận. Nội dung không đại diện quan điểm của hệ thống hay người vận hành.*
 

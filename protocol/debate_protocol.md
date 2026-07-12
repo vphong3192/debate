@@ -24,7 +24,8 @@
 - **Cơ chế thực thi (hai tầng):** cách ly KHÔNG dựa vào lời hứa "không nhìn". (1) Mỗi lượt advocate, mỗi lần fact-check, mỗi lần audit, mỗi phiên chấm chạy trong một **subagent context mới**; orchestrator (skill `debate-orchestrator`) nạp cho mỗi subagent đúng danh sách file/nội dung được phép và không gì khác. (2) `tools:` trong frontmatter các agent bị giới hạn để subagent **không có khả năng kỹ thuật** đọc file cục bộ ngoài danh sách được nạp (advocate/fact-checker/auditor: WebSearch+WebFetch; judge: Write). Chạy các vai trong một context chung, hoặc nới `tools:` của các agent này, là vi phạm protocol.
 
 ## Kiểm soát ngân sách từ
-- Sau mỗi lượt, orchestrator đếm từ bằng `scripts/word_count.ps1` (trong skill debate-orchestrator). Quá giới hạn +10% → yêu cầu advocate cắt gọn MỘT lần; nếu vẫn quá, ghi vào transcript kèm chú thích vượt ngân sách để Judge biết (Judge trừ ở chiều 5 nếu phần vượt tạo lợi thế).
+- Sau mỗi lượt, orchestrator đếm từ bằng `scripts/word_count.{ps1,sh}` (trong skill debate-orchestrator). Quá giới hạn +10% → yêu cầu advocate cắt gọn MỘT lần; nếu vẫn quá, ghi vào transcript kèm chú thích vượt ngân sách để Judge biết (Judge trừ ở chiều 5 nếu phần vượt tạo lợi thế).
+- **Thước đo (từ 12/07/2026):** KHÔNG tính vào ngân sách: dòng tiêu đề lượt, danh sách "Nguồn trích dẫn trong lượt này" cuối lượt, và các tag inline `[Nguồn: …]` / `[Case file §x]` / `[CẦN …]`. Lý do: trích nguồn là hành vi rubric khuyến khích — để nó ăn vào ngân sách từ là tạo động cơ cắt nguồn để tiết kiệm chữ, ngược chiều thiết kế.
 
 ## Chấm điểm bằng hội đồng & các phép kiểm
 

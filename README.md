@@ -4,7 +4,7 @@ Hệ thống tranh luận có cấu trúc chạy trên Claude Code: 2 advocate �
 
 ## Chạy nhanh
 ```bash
-cd debate-arena
+cd debate
 claude
 ```
 Sau đó gõ lần lượt:

@@ -54,6 +54,8 @@ Bộ trọng số thay thế cho phân tích độ nhạy:
 | **0** | Bịa nguồn hoặc phủ nhận sự kiện đã được xác lập |
 
 > Cờ đỏ fact-checker KHÔNG nằm trong neo điểm chiều này — nó được xử lý MỘT lần duy nhất qua cơ chế phạt riêng (judge.md bước 3, bảng Phạt của scorecard). Khi chấm neo, đánh giá chất lượng nguồn và phân biệt sự kiện/diễn giải như thể chưa có cờ; phạt cộng dồn sau.
+>
+> **Chống né fact-check bằng trừu tượng hóa:** chiều này thưởng khẳng định CÓ NGUỒN, không thưởng sự im lặng. Một lượt **mở đầu hoặc kết luận** (nơi 4 trục là bắt buộc) mà hầu như không đưa khẳng định sự kiện kiểm chứng được — tức đạt "không có lỗi nguồn" bằng cách không nói gì kiểm chứng được — **không vượt được neo 4** ở chiều này. Bảng tự kiểm đối xứng của fact-checker (số khẳng định được kiểm mỗi bên) là dữ liệu tham chiếu. Quy tắc này KHÔNG áp cho vòng chất vấn (vòng 4) hay các lượt mà bản chất là thuần logic/pháp lý.
 
 ## Chiều 3 — Luật quốc tế
 Đo: dẫn đúng văn kiện/điều khoản, hiểu đúng học thuyết, trung thực về vị thế của lập luận trong giới luật học.

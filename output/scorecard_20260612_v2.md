@@ -193,3 +193,17 @@ Khi cả hai phe biết luật chơi, **không sân nào phân định được 
 - Quote_check 3 instance: 41/0, 56/3, 69/4 (checked/missing) — so với 27/34 missing của chính scorecard này (đo hồi tố), kỷ luật trích dẫn dưới giao thức mới tăng vọt.
 
 > Điểm số đo chất lượng lập luận theo rubric, không phải phán quyết chân lý.
+
+---
+
+## PHỤ LỤC 2 (bổ sung 13/07/2026): Steelman audit — đo trần steelman hai bên
+
+*Hai instance `debate-auditor` độc lập, chạy hồi tố (lần vận hành đầu tiên của cơ chế audit, thêm vào harness 12/07/2026). Audit KHÔNG tính điểm — nó đo khoảng cách giữa "lập luận đã trình bày" và "lập luận mạnh nhất có thể", tức chỉ báo cho thiên lệch prior cùng-model mà SWAP TEST không bắt được. Báo cáo đầy đủ: `_workspace/transcript_20260612_v2_audit_{A,B}.md`. Khai báo lệch giao thức: auditor A nhận case file đầy đủ, auditor B nhận bản tóm lược (ràng buộc chi phí) — mọi § hiện diện nhưng nén; lần audit chính thức sau phải đối xứng tuyệt đối.*
+
+**Bên A — 6 lập luận chưa dùng/dùng dưới mức.** Nặng nhất: (1) hồ sơ giải mật 1990 "not one inch" (NSA/Sarotte — H2) để phá mốc-nội-sinh-2014 của B; (2) điện tín Burns 2008 + Kennan/Mearsheimer — bằng chứng mối lo an ninh *độc lập với Kremlin*, đúng chỗ A mất khi bị ép về thời điểm thư Lavrov; (3) Merkel/Poroshenko về Minsk "câu giờ"; (4) phân tích quy mô lực lượng (~190k quân quá nhỏ để chiếm đóng) để lật đòn "mũi Kyiv"; (5) hồ sơ Johnson/Bennett về đổ vỡ Istanbul; (6) ICJ Advisory Opinion Kosovo 2010 (H1, có cờ thiểu số). **Chẩn đoán trần:** khung lập luận ~85–90% trần, nhưng có *mẫu né hệ thống ở tầng bằng chứng thực nghiệm hiện thực* — A không dẫn một học giả realist nào trong cả 5 vòng dù position gợi ý thẳng, và gần như không dùng bằng chứng về hành vi của phía đối phương.
+
+**Bên B — 7 lập luận chưa dùng/dùng dưới mức.** Nặng nhất: (1) điều khoản *veto bảo đảm an ninh* trong chính dự thảo Istanbul 15/4/2022 (trong chính nguồn Charap & Radchenko mà A dẫn) — phá được thế "underdetermination" mà B đã chấp nhận hòa; (2) Budapest 1994 như đòn bẩy phá tiền đề thế-lưỡng-nan (Ukraine đã tự giải giáp hạt nhân đổi lấy cam kết của chính Nga) — B liệt kê mà không khai thác; (3) tiêu chuẩn Caroline áp vào "thành viên de facto"; (4) dự thảo 12/2021 như tối hậu thư phá "last resort"; (5) quyền tự do chọn liên minh trong chính văn kiện Istanbul/Astana mà A trích; (6) **trục just war bị bỏ trống có hệ thống** — một trong bốn trục chấm; (7) trưng cầu 1991 toàn tỉnh cho E4. **Chẩn đoán trần:** chạm trần trên hai sân đã chọn (thực định + hiện thực), nhưng bỏ trống tuyến chính-nghĩa-quy-chuẩn — để A độc chiếm khung "chính đáng ≠ hợp pháp".
+
+**Ý nghĩa cho phương pháp:** cả hai bên đều còn cách trần một khoảng ĐO ĐƯỢC và các khoảng cách có cấu trúc khác nhau (A thiếu tầng bằng chứng thực nghiệm; B thiếu tầng quy phạm chính nghĩa) — tức "không phân định, B nghiêng nhẹ" của hội đồng là so sánh giữa hai steelman *chưa tối đa*, và khoảng cách 0.3 hoàn toàn có thể đổi dấu nếu một trong hai bên lấp đúng khoảng trống của mình. Đây chính là loại thông tin mà SWAP TEST không thể cung cấp.
+
+> Điểm số đo chất lượng lập luận theo rubric, không phải phán quyết chân lý. Báo cáo audit không bao giờ được nạp cho advocate trong cùng phiên.

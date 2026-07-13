@@ -1,5 +1,7 @@
 # BẢNG ĐIỂM v2 — 12/06/2026 (vòng tái đấu, chấm song song HAI rubric)
 
+> **⚠️ PHÁN ĐỊNH RUBRIC GỐC ĐÃ ĐƯỢC THAY THẾ (13/07/2026):** bảng điểm này do MỘT judge chấm dưới giao thức cũ. NOISE TEST bằng hội đồng 3 judge độc lập (xem Phụ lục cuối file) cho kết quả: kết luận *"B thắng rubric gốc 8.5 vs 7.6"* không tái lập; **phán định hiện hành là "KHÔNG PHÂN ĐỊNH, B nghiêng nhẹ" (trung vị 7.4 vs 7.1, chênh 0.3 ≤ 0.5, nhiễu nền judge 0.2–0.4)**. Văn bản gốc dưới đây giữ nguyên làm hồ sơ lịch sử; các câu phán định bị thay thế được đánh dấu inline. Phán định rubric hiện thực ("không phân định") không bị ảnh hưởng.
+
 > **Giới hạn của phương pháp:** Điểm số đo *chất lượng lập luận trong khuôn khổ từng rubric* trên [transcript_20260612_v2.md](transcript_20260612_v2.md). KHÔNG phải phán quyết chân lý lịch sử/pháp lý/đạo đức.
 > **Điều kiện thí nghiệm (ngoại lệ giao thức theo lệnh người dùng):** cả hai advocate biết trước (a) toàn bộ kết quả phiên 1 kể cả fact-check, (b) sẽ bị chấm theo cả rubric pháp lý-học thuật lẫn rubric hiện thực địa chính trị. Judge có nhiệm vụ bổ sung: phân tích **hiệu ứng minh bạch rubric** (mục 6).
 > Fact-checker đã chạy ngay sau Vòng 5: **0 🔴, 0 🟡** (phiên 1: 1 🔴 + 1 🟡) → mục Phạt = 0 lần này là kết luận có kiểm chứng, không phải khoảng trống.
@@ -74,7 +76,7 @@
 | Xử lý phản biện & trung thực | 15% | 8.6 | **8.8** |
 | **TỔNG /10** | | **7.6** | **8.5** |
 
-> So phiên 1 (sau fact-check): A 7.1 → **7.6** (+0.5); B 8.2 → **8.5** (+0.3). Chênh lệch thu hẹp 1.1 → **0.9** nhưng **B vẫn thắng rubric gốc**. E4 không làm đổi tổng của bên nào (cả hai chơi đúng mức trung bình tốt của mình). Lưu ý: phiên này B giành lại Chiều 5 (8.8 vs 8.6) — phiên 1 A dẫn chiều này; lý do: B phiên này nhượng bộ *có giá* (Iraq, Kosovo, rút nhánh động cơ, nhận trọn phê phán Venice) ngang mức A, trong khi logic và luật vẫn vượt trội.
+> So phiên 1 (sau fact-check): A 7.1 → **7.6** (+0.5); B 8.2 → **8.5** (+0.3). Chênh lệch thu hẹp 1.1 → **0.9** nhưng **B vẫn thắng rubric gốc** *[ĐÃ THAY THẾ 13/07/2026 — hội đồng NOISE TEST: không phân định, B nghiêng nhẹ; xem Phụ lục]*. E4 không làm đổi tổng của bên nào (cả hai chơi đúng mức trung bình tốt của mình). Lưu ý: phiên này B giành lại Chiều 5 (8.8 vs 8.6) — phiên 1 A dẫn chiều này; lý do: B phiên này nhượng bộ *có giá* (Iraq, Kosovo, rút nhánh động cơ, nhận trọn phê phán Venice) ngang mức A, trong khi logic và luật vẫn vượt trội.
 
 ### 1.3 Độ nhạy rubric gốc
 | Bộ trọng số | A | B | Chênh | Đảo chiều? |
@@ -142,11 +144,11 @@
 | | Rubric gốc (pháp lý) | Rubric hiện thực |
 |---|---|---|
 | **Phiên 1** | B thắng: 8.2 vs 7.1 (Δ 1.1) | A thắng: 7.5 vs 6.3 (Δ 1.2) |
-| **Phiên 2 (gồm E4)** | **B thắng: 8.5 vs 7.6 (Δ 0.9)** | **KHÔNG PHÂN ĐỊNH: 7.9 vs 7.8 (Δ 0.0)** |
+| **Phiên 2 (gồm E4)** | **B thắng: 8.5 vs 7.6 (Δ 0.9)** *[ĐÃ THAY THẾ: hội đồng 3 judge → KHÔNG PHÂN ĐỊNH, B nghiêng nhẹ (7.4 vs 7.1) — xem Phụ lục]* | **KHÔNG PHÂN ĐỊNH: 7.9 vs 7.8 (Δ 0.0)** |
 
 ## 5. Kết luận của Judge
 
-**Theo rubric pháp lý-học thuật:** **Advocate B** lập luận chặt chẽ hơn (8.5 vs 7.6). Khoảng cách thu hẹp (1.1→0.9) nhưng bền vững qua mọi trọng số — vì nó có gốc *nội dung*: vị thế của A không có cơ sở pháp lý để giành, và chính A đã nhường trục này một cách chiến lược từ phút đầu.
+**Theo rubric pháp lý-học thuật** *[PHÁN ĐỊNH GỐC CỦA JUDGE ĐƠN — ĐÃ THAY THẾ 13/07/2026 bởi hội đồng NOISE TEST: **không phân định, B nghiêng nhẹ** (trung vị B 7.4 vs A 7.1, chênh 0.3 ≤ 0.5); hướng B ≥ A tái lập 18/18 cell nên chiều nghiêng đứng vững, độ lớn thì không — xem Phụ lục]*: **Advocate B** lập luận chặt chẽ hơn (8.5 vs 7.6). Khoảng cách thu hẹp (1.1→0.9) nhưng bền vững qua mọi trọng số — vì nó có gốc *nội dung*: vị thế của A không có cơ sở pháp lý để giành, và chính A đã nhường trục này một cách chiến lược từ phút đầu. *(Nhận định định tính về gốc nội dung này vẫn được hội đồng xác nhận: cả 3 instance đều ghi nhận khoảng cách nghiêng B do chiều Luật mà A tự nhường; chỉ độ lớn 0.9 là không tái lập.)*
 
 **Theo rubric hiện thực địa chính trị:** **Không phân định.** B đã xóa khoảng cách 1.2 điểm bằng cách thực sự bước vào sân realist (cầu kéo, nội sinh, phê phán đoán chiến lược trong-khung); A gia cố sân nhà bằng Istanbul và khung hai tầng nhưng phải nhả ba vị trí khi bị ép. Hai bên dừng đúng ở câu hỏi mà tranh luận trung thực phải dừng: trách nhiệm cấu trúc "không bằng không" (A giữ được) nhưng "nhỏ vì cấu trúc không ép buộc" (B lập luận được) — tỷ trọng chính xác là phán đoán, không phải định lý.
 
@@ -168,8 +170,11 @@
 
 ---
 
-### Tóm tắt một dòng
-Khi cả hai phe biết luật chơi: **B vẫn thắng sân pháp lý (8.5–7.6) vì sân đó nghiêng theo nội dung; sân hiện thực về hòa (7.9–7.8, không phân định) vì B cuối cùng đã chịu bước vào đó** — và cuộc tranh luận, lần đầu tiên, dừng đúng ở chỗ nó nên dừng: tỷ trọng trách nhiệm cấu trúc là phán đoán, không phải định lý. Vòng E4 bổ sung khép lại với hai bên *cùng ký* một kết luận: than phiền ngôn ngữ là thật (Strasbourg ghi nhận) và không phải cớ chiến tranh (cả hai khung cùng bác). Đây vẫn là thước đo chất lượng lập luận theo rubric, không phải phán quyết chân lý.
+### Tóm tắt một dòng *(bản gốc judge đơn — đã thay thế)*
+~~Khi cả hai phe biết luật chơi: **B vẫn thắng sân pháp lý (8.5–7.6) vì sân đó nghiêng theo nội dung; sân hiện thực về hòa (7.9–7.8, không phân định) vì B cuối cùng đã chịu bước vào đó**~~ — và cuộc tranh luận, lần đầu tiên, dừng đúng ở chỗ nó nên dừng: tỷ trọng trách nhiệm cấu trúc là phán đoán, không phải định lý. Vòng E4 bổ sung khép lại với hai bên *cùng ký* một kết luận: than phiền ngôn ngữ là thật (Strasbourg ghi nhận) và không phải cớ chiến tranh (cả hai khung cùng bác). Đây vẫn là thước đo chất lượng lập luận theo rubric, không phải phán quyết chân lý.
+
+### Tóm tắt một dòng (hiện hành, sau hội đồng NOISE TEST 13/07/2026)
+Khi cả hai phe biết luật chơi, **không sân nào phân định được theo rubric**: sân pháp lý nghiêng B nhẹ và nhất quán (trung vị 7.4 vs 7.1 — chiều nghiêng tái lập 18/18 cell, độ lớn nằm trong nhiễu nền 0.2–0.4 của judge); sân hiện thực về hòa (7.9 vs 7.8). Cuộc tranh luận dừng đúng ở chỗ nó nên dừng: tỷ trọng trách nhiệm cấu trúc là phán đoán, không phải định lý. Đây vẫn là thước đo chất lượng lập luận theo rubric, không phải phán quyết chân lý.
 
 ---
 

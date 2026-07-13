@@ -36,6 +36,7 @@
 - `EXTRA ROUND [chủ đề]`: người dùng có thể yêu cầu thêm một cặp phản biện về một chủ đề hẹp (vd: chỉ về Bản ghi nhớ Budapest). Vòng này được chấm như vòng phản biện (xem "Quy tắc áp dụng theo vòng" trong rubric) và vào trung bình như mọi vòng.
 - `SWAP TEST`: chạy lại Phase 2 với nhãn A/B hoán đổi trong transcript, do một **instance judge mới** thực hiện (không phải judge đã chấm lần đầu). Nếu tổng lệch so với trung vị hội đồng > max(0.5, biên độ hội đồng của bên tương ứng) → báo cáo phải ghi chú độ tin cậy thấp. **Giới hạn phải khai báo mỗi lần dùng:** SWAP TEST chỉ phát hiện thiên lệch NHÃN (tên gọi A/B); nó KHÔNG phát hiện được thiên lệch nội dung — judge luôn nhận ra bên nào biện hộ cho vị trí nào bất kể nhãn.
 - `NOISE TEST`: N instance judge mới (mặc định 3) chấm lại cùng transcript, không hoán đổi gì → đo biên độ dao động (nhiễu nền của judge). Mọi kết luận "bên X hơn Y điểm" chỉ có ý nghĩa khi chênh lệch lớn hơn nhiễu nền đo được.
+  - **Mốc hiệu chuẩn đã đo:** 13/07/2026, n=3, transcript_20260612_v2, model opus — nhiễu nền (biên độ max−min mỗi bên) = **0.2–0.4 điểm**, ổn định trên cả 3 bộ trọng số → ngưỡng "không phân định" 0.5 lớn hơn nhiễu nền. Lần NOISE TEST sau so với mốc này; nếu biên độ đo được vượt 0.5 (vd sau khi đổi model), phải hiệu chuẩn lại ngưỡng trước khi tin bất kỳ phán định nào.
 
 ## Quy ước file output
 - Transcript: `output/transcript_YYYYMMDD.md`; chạy lại cùng ngày → thêm hậu tố `_v2`, `_v3`… Scorecard cùng hậu tố với transcript nó chấm.

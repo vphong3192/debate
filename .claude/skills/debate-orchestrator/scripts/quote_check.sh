@@ -1,6 +1,8 @@
 #!/bin/sh
 # Kiem tra chong bia trich dan cua judge: moi doan trich trong "..." cua scorecard
-# phai ton tai nguyen van trong transcript (sau khi chuan hoa khoang trang/markdown).
+# phai ton tai nguyen van trong transcript (sau khi chuan hoa khoang trang/markdown
+# va hoa/thuong ASCII — de trich giua cau khong bi truot vi chu hoa dau cau; chu
+# co dau tieng Viet giu nguyen vi awk khong lowercase multibyte tin cay duoc).
 # Trich dan co "..." hoac ellipsis … duoc tach thanh cac manh; moi manh >= min_words tu
 # phai khop. Manh ngan hon min_words duoc bo qua (tranh false positive voi cum tu chung).
 # Usage: quote_check.sh <scorecard> <transcript> [min_words=4]
@@ -14,7 +16,7 @@ function norm(s) {
   gsub(/[*_`]/, "", s)
   gsub(/[[:space:]]+/, " ", s)
   sub(/^ /, "", s); sub(/ $/, "", s)
-  return s
+  return tolower(s)
 }
 NR == FNR { tx = tx " " norm($0); next }
 {

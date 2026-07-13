@@ -54,6 +54,15 @@
 | B | | | | | |
 | quote_check (checked/missing sau sửa) | | | | — | — |
 
+[Trung vị theo chiều — bắt buộc, để thấy khoảng cách/nhiễu nằm ở chiều nào:]
+| Chiều | Trung vị A | Trung vị B | Chênh |
+|---|---|---|---|
+| Tính chính đáng | | | |
+| Lịch sử & bằng chứng | | | |
+| Luật quốc tế | | | |
+| Logic | | | |
+| Xử lý phản biện | | | |
+
 - Bản chi tiết ở mục 1–4 là của Judge [n] (cặp tổng gần trung vị nhất); scorecard đầy đủ của cả 3 instance trong `_workspace/`.
 - [Nếu biên độ một bên > 1.0: ghi "nhiễu judge cao, độ tin cậy thấp".]
 - **Kết quả NOISE TEST (nếu chạy):** [bảng N instance + biên độ]

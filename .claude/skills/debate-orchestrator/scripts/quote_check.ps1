@@ -15,6 +15,8 @@ if (-not (Test-Path $Transcript)) { Write-Output "ERROR: file not found: $Transc
 function Normalize([string]$s) {
     $s = $s -replace '[*_`]', ''
     $s = $s -replace '\s+', ' '
+    # Cung thuoc do voi quote_check.sh: chi lowercase ASCII A-Z, giu nguyen chu co dau
+    $s = [regex]::Replace($s, '[A-Z]', { param($m) $m.Value.ToLowerInvariant() })
     return $s.Trim()
 }
 

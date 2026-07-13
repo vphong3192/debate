@@ -1,5 +1,7 @@
 # BẢNG ĐIỂM — 12/06/2026
 
+> **⚠️ CHƯA TÁI THẨM (ghi chú 13/07/2026):** bảng điểm này do MỘT judge chấm dưới giao thức cũ (trước khi hệ thống chuyển sang hội đồng 3 judge lấy trung vị, tách judge_notes, và trích dẫn máy-kiểm — xem Change log CLAUDE.md 12/07/2026). NOISE TEST trên phiên v2 đo được nhiễu nền judge đơn là 0.2–0.4 điểm và cho thấy mức tuyệt đối lẫn độ lớn chênh lệch KHÔNG so sánh được giữa hai giao thức. Chênh lệch phiên này (1.1 điểm) lớn hơn nhiễu nền nên *chiều* phán định nhiều khả năng đứng vững, nhưng chưa được hội đồng tái thẩm — đọc các con số dưới đây với dè dặt tương ứng. Muốn tái thẩm: chạy `NOISE TEST` trên transcript_20260612.md.
+
 > **Giới hạn của phương pháp:** Điểm số dưới đây đo *chất lượng lập luận trong khuôn khổ rubric* (bằng chứng, căn cứ pháp lý, logic, xử lý phản biện) trên transcript [transcript_20260612.md](transcript_20260612.md). Nó KHÔNG phải phán quyết về chân lý lịch sử, pháp lý hay đạo đức của cuộc chiến, và có thể thay đổi nếu advocate lập luận khác đi. Chấm trên 5 vòng chính + 3 vòng phụ (E1–E3). **Fact-checker đã chạy hồi tố (12/06/2026):** 1 🔴 + 1 🟡 (cả hai của A), đã phản ánh vào Chiều 2 — xem §2 và phụ lục transcript. **§7 bổ sung chấm theo rubric hiện thực địa chính trị (kết quả ngược).**
 
 ---

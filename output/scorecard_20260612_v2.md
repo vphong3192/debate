@@ -170,3 +170,21 @@
 
 ### Tóm tắt một dòng
 Khi cả hai phe biết luật chơi: **B vẫn thắng sân pháp lý (8.5–7.6) vì sân đó nghiêng theo nội dung; sân hiện thực về hòa (7.9–7.8, không phân định) vì B cuối cùng đã chịu bước vào đó** — và cuộc tranh luận, lần đầu tiên, dừng đúng ở chỗ nó nên dừng: tỷ trọng trách nhiệm cấu trúc là phán đoán, không phải định lý. Vòng E4 bổ sung khép lại với hai bên *cùng ký* một kết luận: than phiền ngôn ngữ là thật (Strasbourg ghi nhận) và không phải cớ chiến tranh (cả hai khung cùng bác). Đây vẫn là thước đo chất lượng lập luận theo rubric, không phải phán quyết chân lý.
+
+---
+
+## PHỤ LỤC (bổ sung 13/07/2026): Kết quả NOISE TEST — nhiễu nền của judge
+
+*3 instance judge độc lập, context giống hệt, chấm lại cùng transcript này theo rubric gốc dưới giao thức mới (judge_notes tách riêng, trích dẫn máy-kiểm, một rubric). Chi tiết: `_workspace/transcript_20260612_v2_noise.md`.*
+
+| (Mặc định, V1–V5+E) | Judge 1 | Judge 2 | Judge 3 | **Trung vị** | Biên độ |
+|---|---|---|---|---|---|
+| A | 7.0 | 7.1 | 7.2 | **7.1** | 0.2 |
+| B | 7.4 | 7.3 | 7.6 | **7.4** | 0.3 |
+
+- **Nhiễu nền đo được: 0.2–0.4 điểm** trên mọi bộ trọng số → ngưỡng "không phân định" 0.5 lớn hơn nhiễu nền (được hiệu chuẩn).
+- **Phán định hội đồng: KHÔNG PHÂN ĐỊNH, B nghiêng nhẹ** (chênh trung vị 0.3 ≤ 0.5; hướng B ≥ A tái lập 18/18 cell → thứ hạng không phải nhiễu, nhưng độ lớn nằm trong biên không phân định).
+- **Hệ quả cho scorecard này:** kết luận "B thắng rubric gốc 8.5 vs 7.6 (chênh 0.9)" ở trên là sản phẩm của judge ĐƠN dưới giao thức cũ và **không tái lập** dưới giao thức mới (mức tuyệt đối tụt ~0.5–1.1, chênh co về 0.3). Kết luận tái lập được: *không phân định theo rubric, B nghiêng nhẹ nhất quán*. Không tách được phần dịch chuyển do nhiễu khỏi phần do đổi giao thức.
+- Quote_check 3 instance: 41/0, 56/3, 69/4 (checked/missing) — so với 27/34 missing của chính scorecard này (đo hồi tố), kỷ luật trích dẫn dưới giao thức mới tăng vọt.
+
+> Điểm số đo chất lượng lập luận theo rubric, không phải phán quyết chân lý.

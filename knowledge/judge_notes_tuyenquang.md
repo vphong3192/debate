@@ -35,3 +35,9 @@
 - **B phải xử lý (không được né):** quyền lợi chính đáng của thí sinh trung thực bị vạ lây và rủi ro "trừng phạt tập thể" người chưa bị chứng minh có lỗi (§6). Né → trừ chiều 5.
 - **Được điểm cao** khi bên đó nêu **mục "giới hạn lập luận phía tôi" thực chất** (vd A thừa nhận thi lại không đo lại được năng lực tại thời điểm gốc và có rủi ro tiền lệ; B thừa nhận chấm thẩm định khó phân định từng thí sinh khi gian lận diễn ra ngay trong phòng thi, khác 2018).
 - **Bị 0** khi phi nhân hóa/ công kích cá nhân thí sinh–gia đình thay vì lập luận (neo rubric).
+
+## K6 — Khung chấm Vòng E (chủ đề hẹp: tiền lệ quốc tế + cơ chế phân định) — chấm như vòng phản biện
+> Chủ đề vòng E do NGƯỜI DÙNG chọn sau audit → vector thiên lệch chọn đề. Tổng báo cáo kép V1–V5 và V1–V5+E; đảo hạng → "không phân định".
+- **Tiền lệ quốc tế (ETS/SAT):** thưởng bên nào (i) dùng tiền lệ kèm nguồn/đánh dấu [CẦN KIỂM CHỨNG] đúng mức, (ii) phân tích giống–khác định chế (thi tư nhân nhiều đợt vs quốc gia một đợt; rò rỉ đề vs nhắc bài). Trừ bên nào trình con số chưa kiểm chứng NHƯ đã xác lập, hoặc loại suy sai không xử lý khác biệt. LƯU Ý caveat transcript: con số ETS/SAT chưa fact-check chéo → KHÔNG coi là dữ kiện đã xác lập; chấm chất lượng lập luận về tiền lệ, không thưởng/phạt theo tính đúng của con số.
+- **Cơ chế phân định cá nhân:** thưởng bên phân tích đúng giới hạn từng kênh chứng cứ (lời khai=hành vi phát; camera=không ghi tiếp nhận; mẫu đáp án trùng=không tách giỏi-thật/được-nhắc) và gọi đúng tên ngụy biện. Đòn "nan đề phân định đánh CẢ HAI phương án" (thi lại cũng không lọc được người gian lận) là lập luận logic mạnh — chấm theo neo Logic/Xử lý phản biện nếu bên kia không đáp được.
+- Cả hai bị trừ nếu quy chụp tập thể hoặc trình vụ đang điều tra như đã kết luận (§7).

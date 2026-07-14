@@ -6,7 +6,7 @@
 **Case file phiên bản:** duyệt GATE 1 ngày 14/07/2026 — commit `975f6fe` (`knowledge/case_file_tuyenquang.md`); **addendum §8** (quyết định tạm thời Bộ GD&ĐT về quyền xét tuyển) — commit `c6ca8d4`, duyệt 14/07/2026
 **Rubric:** `rubrics/scoring_rubric_tuyenquang.md` (thấu kính thay thế — thay 2 chiều just-war/luật quốc tế bằng Công bằng & quyền lợi + Pháp lý & quy chế thi; duyệt 14/07/2026)
 **Judge notes:** `knowledge/judge_notes_tuyenquang.md` (chỉ nạp cho judge Phase 2)
-**Ngày duyệt GATE 2:** [chờ]
+**Ngày duyệt GATE 2:** 14/07/2026 (gồm cả Vòng E)
 **Model:** subagent = `debate-advocate` (alias frontmatter, model opus); orchestrator = claude-opus-4-8; ngày chạy = 14/07/2026
 
 > *Lưu ý cho người đọc: hai advocate được giao nhiệm vụ trình bày phiên bản mạnh nhất của mỗi khung lập luận. Nội dung KHÔNG đại diện quan điểm của hệ thống hay người vận hành. Điểm số (Phase 2) đo chất lượng lập luận theo rubric, KHÔNG phải phán quyết đúng/sai về chính sách.*

@@ -66,3 +66,14 @@
 3. **Số liệu phải dẫn nguồn:** mọi con số (154/147/13-15 phòng/322/328/19 người/347 bài 2018…) phải kèm nguồn hoặc `[Case file §x]`; nếu không chắc → `[CẦN KIỂM CHỨNG]`.
 4. **Điều khoản pháp lý phải chính xác:** khi dẫn Quy chế/Thông tư/điều luật, dẫn đúng số hiệu (Thông tư 24/2024/TT-BGDĐT); không nhớ chính xác số điều → đánh dấu, không bịa.
 5. **Không nhân danh nạn nhân để tuyên truyền:** không dùng ngôn ngữ kích động, không công kích cá nhân thí sinh/gia đình; đây là phân tích chính sách giáo dục.
+
+---
+
+## §8. Diễn tiến sau GATE 1 — Quyết định tạm thời của Bộ GD&ĐT về quyền xét tuyển (ADDENDUM, duyệt 14/07/2026)
+
+> Bổ sung sau GATE 1 qua lệnh `APPROVE CASE FILE ADDENDUM`. Chỉ chứa sự kiện + lưu ý phương pháp trung lập.
+
+- **Bộ GD&ĐT thông báo 328 thí sinh Trường THPT Chuyên Tuyên Quang vẫn được đăng ký xét tuyển đại học** — không bị chặn quyền xét tuyển của mùa tuyển sinh này — trong khi vụ việc đang được xác minh. `[Nguồn: Tuổi Trẻ, bài "Bộ GD-ĐT: 328 thí sinh chuyên Tuyên Quang vẫn được đăng ký xét tuyển đại học", ~09/7/2026 — H3]`
+- **Bộ vẫn CHƯA quyết định** có tổ chức thi lại môn Toán hay không; phương án xử lý điểm Toán chờ kết luận xác minh/điều tra. `[Nguồn: đã dẫn §4 — H1/H3]`
+- **Lưu ý phương pháp (trung lập, áp đối xứng):** đây là biện pháp **tạm thời** về quyền xét tuyển trước mắt, **KHÔNG phải quyết định chung cuộc** về số phận điểm Toán gốc (giữ / hủy / thi lại). Không loại trừ bất kỳ kịch bản nào sau khi có kết luận điều tra. Advocate KHÔNG được trình bày như thể "Bộ đã bác thi lại" hay "Bộ đã chốt giữ điểm".
+- `[CẦN KIỂM CHỨNG (web đang giới hạn hạn mức tới ~10:50 UTC): nguyên văn điều kiện đăng ký xét tuyển Bộ nêu; ngày đăng chính xác; có kèm ràng buộc "điểm có thể bị hủy sau khi có kết luận" hay không]`

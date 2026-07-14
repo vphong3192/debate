@@ -1,7 +1,7 @@
 # CASE FILE — Vụ gian lận điểm thi tốt nghiệp THPT Tuyên Quang 2026 (nền sự kiện chung)
 
 > Chủ đề tranh biện: **"Có nên cho khu vực nghi gian lận (điểm thi Trường THPT Chuyên Tuyên Quang) thi lại môn Toán không?"**
-> Trạng thái: **HOÀN THIỆN PHASE 0 — chờ GATE 1**. Mỗi mục kèm nguồn theo `knowledge/source_policy.md`.
+> Trạng thái: **ĐÃ DUYỆT GATE 1 — 14/07/2026**. Mỗi mục kèm nguồn theo `knowledge/source_policy.md`.
 > Nguyên tắc: file này chỉ chứa SỰ KIỆN có thể kiểm chứng và CẢNH BÁO PHƯƠNG PHÁP trung lập (áp đối xứng cho cả hai bên), KHÔNG chứa diễn giải và KHÔNG chứa khung được/mất điểm (khung chấm nằm ở `knowledge/judge_notes_tuyenquang.md`, chỉ nạp cho judge).
 > Quy ước hạng nguồn: H1 = văn bản gốc/cơ quan nhà nước (Thông tư, Quy chế, thông cáo Bộ GD&ĐT, thông báo cơ quan điều tra); H2 = học thuật/phân tích chuyên sâu; H3 = báo chí lớn (VnExpress, Vietnamnet, Báo Chính phủ, Tiền Phong, SGGP, Dân Việt…).
 > Lưu ý phương pháp chung: đây là vụ việc ĐANG điều tra (tháng 7/2026). Nhiều dữ kiện là "cơ quan điều tra tạm xác định" / "các bên đã tuyên bố", CHƯA có kết luận điều tra cuối hay bản án. Advocate phải phân biệt "đã bị khởi tố/tạm giữ" với "đã bị kết tội", và "một bên đề nghị X" với "X là đúng".

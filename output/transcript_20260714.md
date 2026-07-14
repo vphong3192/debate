@@ -3,7 +3,7 @@
 **Chủ đề:** Vụ gian lận điểm thi tốt nghiệp THPT Tuyên Quang 2026 — có nên cho khu vực nghi gian lận thi lại môn Toán?
 **Advocate A:** Khung lập luận **NÊN cho thi lại môn Toán** ở khu vực nghi gian lận (steelman)
 **Advocate B:** Khung lập luận **KHÔNG NÊN thi lại**; xử lý bằng điều tra + chấm thẩm định/hủy điểm cá nhân gian lận, giữ điểm thật thí sinh trung thực (steelman)
-**Case file phiên bản:** duyệt GATE 1 ngày 14/07/2026 — commit `975f6fe` (`knowledge/case_file_tuyenquang.md`); không có addendum
+**Case file phiên bản:** duyệt GATE 1 ngày 14/07/2026 — commit `975f6fe` (`knowledge/case_file_tuyenquang.md`); **addendum §8** (quyết định tạm thời Bộ GD&ĐT về quyền xét tuyển) — commit `c6ca8d4`, duyệt 14/07/2026
 **Rubric:** `rubrics/scoring_rubric_tuyenquang.md` (thấu kính thay thế — thay 2 chiều just-war/luật quốc tế bằng Công bằng & quyền lợi + Pháp lý & quy chế thi; duyệt 14/07/2026)
 **Judge notes:** `knowledge/judge_notes_tuyenquang.md` (chỉ nạp cho judge Phase 2)
 **Ngày duyệt GATE 2:** [chờ]
@@ -185,6 +185,64 @@ Thưa hội đồng, A đã dựng cả phần kết trên một giả định: 
 **Giới hạn của lập luận phía tôi:** Nếu điều tra rốt cuộc KHÔNG phân định được đa số ca, phương án của tôi sẽ để lại một vùng xám lớn gồm những điểm số bị nghi ngờ nhưng vẫn được giữ theo suy đoán vô tội — một cái giá về niềm tin công chúng mà tôi thừa nhận. Tốc độ thẩm định trước nhập học cũng là rủi ro vận hành thật: làm gấp có thể sai sót, và mọi hậu quả cá nhân phải chờ kết luận điều tra cuối, điều đến 14/7 vẫn chưa có [Case file §1].
 
 **Nguồn trích dẫn trong lượt này:** Case file §1, §2, §3, §4, §5, §6, §7.
+
+---
+
+## Vòng E — Phản biện bổ sung (chủ đề hẹp do người dùng chọn)
+
+> **Điều kiện thí nghiệm (ghi theo giao thức):** hai chủ đề của vòng E — (a) tiền lệ quốc tế về thi lại khi mất toàn vẹn kỳ thi, (b) cơ chế phân định cá nhân — do **người dùng chọn sau khi đọc báo cáo steelman audit**. Báo cáo audit KHÔNG được nạp cho advocate; hai advocate tự phát triển lập luận (có dùng WebSearch). Việc người dùng chọn chủ đề là một **vector thiên lệch chọn đề** → điểm tổng báo cáo kép "V1–V5" và "V1–V5+E"; nếu hai cách tính đảo hạng thì xử lý như "không phân định".
+> **Caveat kiểm chứng (web đang giới hạn hạn mức):** các tiền lệ ETS/SAT hai bên viện dẫn (vụ Hàn Quốc, năm 2007 vs 2017, quy mô ~900 điểm/68 trung tâm) CHƯA được fact-checker xác minh chéo đầy đủ; cả hai advocate đã đánh dấu một số số liệu `[CẦN KIỂM CHỨNG]`. Judge nên chấm chất lượng lập luận về tiền lệ, KHÔNG coi các con số cụ thể này là đã xác lập cho tới khi kiểm chứng lại.
+
+### Vòng E — Advocate A
+
+**Steelman B:** B lập luận thi lại vẫn cho người gian lận "cơ hội hai" và các kênh điều tra (lời khai 19 bị can, camera, mẫu hình đáp án) đủ định danh từng thí sinh, nên nên hủy điểm cá nhân chứ không thi lại đại trà. Tôi ghi nhận đây là lo ngại chính đáng về công bằng cho người làm thật và về răn đe.
+
+**(a) Tiền lệ quốc tế về thi lại khi kỳ thi mất toàn vẹn**
+
+Thông lệ khảo thí quốc tế cho thấy khi tính toàn vẹn của một trung tâm/khu vực bị phá vỡ, cơ quan tổ chức hủy điểm theo cụm và buộc thi lại mà KHÔNG chứng minh từng cá nhân gian lận:
+
+- Hàn Quốc 2007: ETS hủy toàn bộ điểm SAT của thí sinh dự thi, điều tra 68 trung tâm luyện thi ở Seoul; thí sinh muốn có điểm phải thi lại [Nguồn: VOA/TIME, 2007]. Việc hủy áp cho cả cụm dựa trên phá vỡ toàn vẹn đề (đề rò rỉ), không dựa trên bằng chứng cá nhân từng em.
+- Trung Quốc/Hàn Quốc, các đợt 2013–2015: College Board/ETS hoãn và rà soát/hủy điểm hàng loạt thí sinh cả quốc gia khi nghi đề bị mua bán trước [Nguồn: TIME 2014; PrepScholar]. Cơ chế xử lý chuẩn của ETS cho thí sinh bị hủy điểm là: thi lại (miễn/hoặc trả phí), hủy điểm, hoặc yêu cầu tái thẩm [Nguồn: ETS Office of Testing Integrity].
+
+Nguyên tắc rút ra: khi kênh gian lận nằm ở mức làm hỏng điều kiện thi của cả phòng/cụm (rò rỉ đề, nhắc bài tập thể), ngành khảo thí coi ĐIỂM CỦA CẢ CỤM là không đáng tin và tái tổ chức thi — đây là thông lệ, không phải ngoại lệ. Số trung tâm/điều khoản cụ thể của từng đợt: [CẦN KIỂM CHỨNG], nhưng nguyên tắc "hủy theo trung tâm + thi lại khi toàn vẹn vỡ" được các tổ chức khảo thí lớn áp dụng nhất quán. Cơ chế này biến thi lại thành công cụ khôi phục toàn vẹn tiêu chuẩn, chứ không phải "ân xá cơ hội hai" như B khắc họa.
+
+**(b) Cơ chế phân định cá nhân người được nhắc bài**
+
+B nói lời khai + camera + mẫu hình đáp án định danh được từng thí sinh. Xét từng kênh:
+
+- **Lời khai 19 bị can:** thư ký khai "nhắc bài" cho phòng [Case file §1]; nhắc bằng lời/ám hiệu phát tới cả phòng thì lời khai chỉ chứng minh HÀNH VI PHÁT, không tách được thí sinh nào NGHE VÀ DÙNG. Không có bị can nào ở vị trí quan sát từng em có chép theo hay không.
+- **Camera:** ghi hình ảnh, không ghi được nội dung nhận thức — không cho thấy em nào tiếp nhận rồi sửa bài theo đáp án được nhắc. Suy từ "có mặt trong phòng" ra "đã dùng đáp án" là ngụy biện **cùng bằng chứng thì cùng tội** (guilt by association).
+- **Mẫu hình đáp án trùng:** trùng đáp án không phân biệt "giỏi thật cùng ra đáp án đúng" với "được nhắc" — bài đúng thì giống hệt nhau trên giấy [Case file §3: điểm 10 là CHỈ DẤU THỐNG KÊ, chưa kết luận ai đồng phạm]. Dùng trùng khớp làm bằng chứng cá nhân là ngụy biện **khẳng định hậu thức** (affirming the consequent).
+
+Vì không kênh nào định danh được TỪNG người tiếp nhận, B chỉ còn hai lối: hủy điểm cả cụm nghi (oan người làm thật) hoặc chỉ hủy vài ca "chắc" (bỏ lọt phần còn lại) — đúng thế lưỡng nan tôi nêu từ V1. §8 xác nhận đến nay Bộ mới cho tạm đăng ký xét tuyển, CHƯA chốt số phận điểm [Case file §8] — dư địa cho thi lại vẫn mở. Thi lại gỡ đúng kênh gian lận (nhắc bài trong phòng) mà không cần phân định bất khả thi này.
+
+**Nguồn trích dẫn trong lượt này:** [Nguồn: VOA, "SAT Scores of Asian Students Cancelled", 2007]; [Nguồn: TIME, "SAT Cheating Scandal China", 2014]; [Nguồn: PrepScholar, "Cheating on the SAT"]; [Nguồn: ETS Office of Testing Integrity]; [Case file §1, §3, §8]; số trung tâm cụ thể [CẦN KIỂM CHỨNG].
+
+### Vòng E — Advocate B
+
+**(a) Tiền lệ quốc tế**
+
+Steelman: A đúng khi nói "hủy điểm rồi thi lại" tồn tại trong thực tiễn ETS, và nếu đó là thông lệ ngành thì thi lại không phải một ngoại lệ tùy tiện.
+
+Nhưng cách A áp tiền lệ này là **loại suy sai (false analogy)** ở ba tầng:
+
+(i) **Khác biệt bản chất định chế.** SAT/ETS là bài thi TƯ NHÂN, tổ chức 7 lần/năm, thí sinh thi lại bất cứ lúc nào, không có thời gian chờ [Nguồn: College Board, SAT Suite]. "Thi lại" ở SAT không phải hình phạt — nó là chế độ vận hành bình thường. Thi tốt nghiệp THPT Việt Nam là kỳ thi quốc gia MỘT LẦN/năm, điểm gắn mốc thời gian và đợt xét tuyển cố định. Áp mô hình "thi lại lúc nào cũng được" của một bài thi tư nhân nhiều đợt lên một kỳ thi quốc gia một đợt là so sánh hai vật thể khác loại.
+
+(ii) **Cơ chế kích hoạt khác hẳn.** Vụ Hàn Quốc 2007 mà A viện: ~900 điểm bị hủy vì **đề bị lộ trước giờ thi** — thí sinh xem trước một phần đề [Nguồn: Korea Herald; VOA News, 2017]. Đó là RÒ RỈ ĐỀ, ảnh hưởng mọi người dùng đề đó, nên hủy theo đề là hợp lý. Vụ ta là NHẮC BÀI trong một số phòng thi — đề KHÔNG lộ toàn quốc, đa số thí sinh cả nước làm bài trên đề nguyên vẹn. Phạm vi và cơ chế khác nhau thì biện pháp không thể bê nguyên.
+
+(iii) Chính A thừa nhận cơ chế ETS **ưu tiên hủy điểm cá nhân + cho lựa chọn** (thi lại/hủy/tái thẩm) — tức KHÔNG ép cả cụm thi lại vô điều kiện. Đó chính xác là mô hình xử lý cá nhân tôi bảo vệ, không phải reset tập thể. Và các số liệu A tự đánh dấu [CẦN KIỂM CHỨNG] thì chưa đủ chuẩn làm nền tảng cho kết luận "thi lại là thông lệ ngành".
+
+**(b) Cơ chế phân định cá nhân**
+
+Steelman: A khoét đúng một chỗ khó — lời khai chỉ chứng minh hành vi PHÁT (nhắc), camera không ghi việc TIẾP NHẬN, mẫu đáp án trùng không tự tách "giỏi thật" khỏi "được nhắc". Có một vùng ca bất phân thật.
+
+Nhưng A rút ra kết luận sai từ tiền đề đúng. **Phân định không đòi chắc chắn tuyệt đối từng ca** — nó vận hành theo chuẩn chứng cứ hình sự/hành chính: đủ căn cứ → xử lý; không đủ → suy đoán vô tội, GIỮ điểm [Case file §6]. Việc "bỏ lọt" ca bất phân KHÔNG phải khuyết tật của phương án tôi — đó là **vận hành đúng của suy đoán vô tội**, và gánh nặng chứng minh thuộc bên buộc tội, không thể đảo ngược.
+
+Mấu chốt A bỏ qua: **thi lại cũng KHÔNG lọc được chính những ca đó.** Người từng được nhắc vẫn có quyền dự thi lại; nan đề "không tách được ai nghe và dùng" đánh vào CẢ HAI phương án như nhau. Nó không phải lý do chọn thi lại — nó trung lập với lựa chọn. Vậy nên A không thể dùng nan đề chung để ghi điểm riêng cho thi lại.
+
+Ngược lại, thi lại còn tệ hơn ở chỗ áp một hình phạt (mất kết quả đã có, thi lại) lên 100% thí sinh — gồm hàng trăm nghìn người vô can — để phòng ngừa một thiểu số bất phân. Đó là trừng phạt tập thể để né việc chứng minh cá nhân. Thực tế Bộ đã đi đúng hướng xử lý cá nhân: cho 328 thí sinh Trường Chuyên VẪN đăng ký xét tuyển trong khi chờ [Case file §8] — giải pháp tạm, không reset, chưa quyết thi lại. Chờ kết luận rồi xử từng ca là con đường vừa công bằng vừa khả thi.
+
+**Nguồn trích dẫn trong lượt này:** [Case file §6], [Case file §8]; [Nguồn: College Board – SAT Suite]; [Nguồn: Korea Herald]; [Nguồn: VOA News, 2017].
 
 ---
 

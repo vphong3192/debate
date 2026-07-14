@@ -185,3 +185,42 @@ Thưa hội đồng, A đã dựng cả phần kết trên một giả định: 
 **Giới hạn của lập luận phía tôi:** Nếu điều tra rốt cuộc KHÔNG phân định được đa số ca, phương án của tôi sẽ để lại một vùng xám lớn gồm những điểm số bị nghi ngờ nhưng vẫn được giữ theo suy đoán vô tội — một cái giá về niềm tin công chúng mà tôi thừa nhận. Tốc độ thẩm định trước nhập học cũng là rủi ro vận hành thật: làm gấp có thể sai sót, và mọi hậu quả cá nhân phải chờ kết luận điều tra cuối, điều đến 14/7 vẫn chưa có [Case file §1].
 
 **Nguồn trích dẫn trong lượt này:** Case file §1, §2, §3, §4, §5, §6, §7.
+
+---
+
+## Phụ lục A — Fact-check (toàn transcript)
+
+Kết quả: **KHÔNG có 🔴 (sai rõ) hay ⚠️ (không xác minh được).** Mọi con số cốt lõi (154 / ~147 / 13-15 phòng / 19 người / 114 / 45 / ≥222) khớp case file và có ≥1 nguồn cơ quan nhà nước hoặc ≥2 báo lớn độc lập. Xác nhận thêm ngoài case file: tội danh **Điều 356 BLHS**; 2018 Hà Giang 330 bài/114 thí sinh được trả điểm thật trước xét tuyển; 45 SV Hòa Bình buộc thôi học (10 còn học do chấm lại vẫn đủ).
+
+**Tự kiểm đối xứng:** Bên A — 12 khẳng định kiểm được, 12 ✅. Bên B — 14 khẳng định, 14 ✅. Khối lượng tương đương, không bên nào bị soi lệch.
+
+Các mục `[CẦN KIỂM CHỨNG]` của case file đều được advocate xử lý thận trọng: không bên nào dẫn số Điều cụ thể (dùng diễn đạt chức năng), không đánh đồng 154 (toàn tỉnh) với 147 (điểm thi Trường Chuyên), không đưa con số 322/328 phụ huynh vào transcript như khẳng định sự kiện. "Camera phòng thi" và "chấm thẩm định forensic" của B được phân loại là PHƯƠNG PHÁP đề xuất (đúng dạng giả định), không phải khẳng định sự kiện.
+
+## Phụ lục B — Steelman audit (đo trần lập luận — KHÔNG cộng/trừ điểm)
+
+> Mục đích: đo khoảng cách giữa "lập luận đã trình bày" và "lập luận mạnh nhất khả dĩ". Hai advocate chạy cùng một model nên prior có thể làm steelman một bên yếu hệ thống. Báo cáo này chỉ là chỉ báo giới hạn phương pháp.
+
+### Bên A — lập luận chưa dùng / dùng dưới mức
+1. **Chuẩn khảo thí quốc tế** (bỏ trống hoàn toàn): hủy điểm & thi lại khi điều kiện thi mất toàn vẹn là THÔNG LỆ ngành (ETS; SAT hủy điểm toàn Hàn Quốc 2013) — thi lại là default khi điều kiện hỏng, không phải "cơ hội hai" bất thường.
+2. Tách "hủy giá trị tín hiệu của điểm" (hành chính) khỏi "quy kết tội" (hình sự) → thi lại KHÔNG vi phạm suy đoán vô tội (tiền lệ Oxford resit cả khóa).
+3. Chuẩn **systemic vs localized breach** (NEET-UG 2024, Tòa Tối cao Ấn Độ cho thi lại khu trú 1.563 TS/6 trung tâm) — cụm Tuyên Quang là localized breach kinh điển.
+4. Chứng cứ hình sự chưa xét xử KHÔNG dùng để tước điểm hành chính phòng vệ được → thi lại vượt trội vì miễn nhiễm điều tra lật ngược (biến điểm né thành điểm tấn công).
+5. Tách chức năng kỳ thi ngưỡng (tốt nghiệp) vs xếp hạng (xét tuyển) → thi lại phục hồi trọn vẹn chức năng ngưỡng, khoanh nhược điểm nhỏ nhất.
+6. Phúc lợi thí sinh trung thực trong tố tụng kéo dài: độ trễ của B tính bằng chu kỳ tố tụng, của thi lại tính bằng tuần.
+7. Tái đóng khung "cơ hội hai" thành "san bằng điều kiện chuẩn".
+
+**Trần A:** còn cách trần ĐÁNG KỂ; né hệ thống hai tuyến — tiền lệ/chuẩn khảo thí quốc tế và tính bất khả dụng hành chính của chứng cứ hình sự chưa xét xử. Tranh luận ở tầng thực dụng, bỏ trống tầng nguyên tắc (giá trị tín hiệu điểm số, admissibility, thông lệ ngành) vốn mạnh hơn và vẫn trong ràng buộc position.
+
+### Bên B — lập luận chưa dùng / dùng dưới mức
+1. **Cơ chế phân định TỪNG thí sinh bằng hội tụ nhiều dấu hiệu** (điểm yếu lớn nhất): phân tích trùng lặp đáp án sai giống hệt cấp cá nhân (answer-similarity/K-index) + sơ đồ chỗ ngồi + lời khai → ba lớp hội tụ mới hủy một bài. Vá đúng lỗ hổng A khoét.
+2. Chuẩn khảo thí quốc tế xử lý CÁ NHÂN + due process (ETS "substantial evidence", notice-and-response) — nâng "gánh nặng chứng minh" thành mô hình vận hành. *Lưu ý trung thực: ETS cũng có điều khoản hủy cả trung tâm — B phải nêu và phản biện, không giấu.*
+3. Phản công "điểm nghi nhiễm đại học có tin không": điểm ĐÃ thẩm định (được cấp trạng thái xác minh) đáng tin HƠN điểm thi lại vội tại địa bàn vừa vỡ trận.
+4. Phản công "chi phí thi lại nhỏ": tổn hại CHẮC CHẮN lên 100% người trung thực đổi lợi ích BẤT ĐỊNH với thiểu số; bất khả thi với nhóm đã dùng điểm/ốm/ở xa; tương xứng + tỷ lệ Blackstone.
+5. Rủi ro tiền lệ & động cơ ngược: "thi lại cả cụm" tạo động cơ phá kỳ thi để kích hoạt reset.
+6. Chi phí hệ thống & lỗ hổng an ninh của kỳ thi lại tổ chức gấp tại địa bàn bộ máy vừa bị khởi tố 19 người.
+
+**Trần B:** còn cách trần ĐÁNG KỂ; khoảng cách tập trung đúng tuyến A khoét — cơ chế phân định cá nhân khi gian lận là nhắc bài trong phòng. Dựa quá nặng tiền lệ 2018 (sửa bài sau thi) mà không chuyển sang công cụ đúng cho phương thức 2026. Cũng bỏ trống trục phản công độ-tin-cậy và trục động cơ/tiền lệ.
+
+## Phụ lục C — Ghi chú vận hành
+- **Gián đoạn hạ tầng:** phiên chạm session limit 1 lần khi Advocate B đang soạn kết luận Vòng 5 (instance chết TRƯỚC khi có output → khởi tạo instance mới theo quy trình, không phải resume). Không ảnh hưởng nội dung các lượt đã hoàn tất.
+- **Đối xứng ngân sách từ:** tất cả lượt trong ±10% giới hạn (đo bằng `word_count.sh`). V1 A727/B780; V2 B593/A603; V3 A615/B590; V5 A794/B804. Không lượt nào vượt ngân sách.

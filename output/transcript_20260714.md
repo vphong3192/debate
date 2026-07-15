@@ -246,6 +246,55 @@ Ngược lại, thi lại còn tệ hơn ở chỗ áp một hình phạt (mất
 
 ---
 
+## Vòng E2 — Phản biện bổ sung (luận điểm do người dùng nêu: nghĩa vụ/tố giác + tiền lệ "con tin")
+
+> **Điều kiện thí nghiệm:** chủ đề E2 do **người dùng chọn (lần thứ hai)** — cộng dồn vector thiên lệch chọn đề; luận điểm nghiêng về phía B. Thứ tự: **B nói trước, A nói sau** (đối xứng với Vòng E vốn A trước; A giữ lời cuối để cân bằng thiên lệch chủ đề). Chưa được đưa vào điểm số (scorecard chính thức chưa chấm lại E2).
+> **Làm rõ pháp lý (B tự tra WebSearch trong lượt):** Quy chế thi tốt nghiệp THPT hiện hành **KHÔNG buộc thí sinh phải tố giác vi phạm của người khác**; do đó mức "đình chỉ thi 1 năm cho người *không tố giác*" trong luận điểm gốc **không có cơ sở điều khoản** và được đánh dấu `[CẦN KIỂM CHỨNG]`. `[Nguồn: Tiền Phong 2026 — B dẫn]` B đã rút ý "không tố giác = vi phạm" và chuyển sang ý "*nhận* trợ giúp (được nhắc bài) tự nó có thể vi phạm".
+
+### Vòng E2 — Advocate B
+
+**Ý (1) — Trục Pháp lý: không phải mọi em trong cụm đều là "nạn nhân thuần túy".**
+
+Trụ cột của A là "suy đoán vô tội bảo vệ MỌI thí sinh" [Case file §6]. Tôi trình bày một nghĩa vụ ĐỘC LẬP làm hẹp trụ cột đó — ở dạng nguyên tắc, không khẳng định như luật đã xác lập.
+
+Cần tách hai tình huống mà A gộp làm một: (a) thí sinh hoàn toàn không biết; (b) thí sinh ĐƯỢC nhắc bài — tức trực tiếp nhận trợ giúp bị cấm trong phòng. Với (b), điểm mấu chốt pháp lý là: hành vi *nhận* thông tin bị cấm có thể tự nó cấu thành vi phạm quy chế, KHÔNG cần chứng minh "đã chép đúng đáp án vào bài". Điều 57 Thông tư 24/2024 quy định thí sinh vi phạm quy chế bị xử lý từ khiển trách đến hủy kết quả tùy tính chất, mức độ [Nguồn: Thông tư 24/2024/TT-BGDĐT, Điều 57]. Nếu đúng như §1 mô tả — thư ký "nhắc bài", giám thị được chỉ đạo — thì một số em ở thế (b), không phải thế (a).
+
+Tôi thừa nhận thẳng phản biện của A: nghĩa vụ *tố giác* chủ động khó chứng minh "ai biết", và nguồn tra được nêu rằng quy chế hiện hành KHÔNG buộc thí sinh phải phát hiện, giám sát, tố giác vi phạm của người khác [Nguồn: Tiền Phong/baomoi, 2026]. Vì vậy tôi KHÔNG dựng lập luận trên nghĩa vụ tố giác, và mức phạt cụ thể "đình chỉ thi 1 năm cho người không tố giác" là [CẦN KIỂM CHỨNG] — tôi không dẫn được điều khoản nào áp con số đó. Nhưng lập luận của B không cần nó: chỉ cần thế (b) tồn tại thì mệnh đề "MỌI em đều vô can, nên phải thi lại cả cụm để công bằng" đã sai ở tiền đề — đó là ngụy biện **khái quát hóa vội (hasty generalization)** từ "một số oan" thành "tất cả oan".
+
+**Ý (2) — Trục Logic/Tiền lệ: moral hazard, không phải slippery slope suông.**
+
+Quy tắc "gian lận cả cụm ⇒ thi lại cả cụm" tạo một **cơ chế khích lệ ngược (perverse incentive)** cụ thể, đo được, chứ không phải nỗi sợ mơ hồ. Cơ chế: giá trị của một kết quả thi (suất xét tuyển) đủ lớn để bất kỳ ai muốn hoãn/phá kết quả một cụm chỉ cần dàn dựng đủ dấu hiệu "gian lận cả cụm" là kích hoạt thi lại toàn bộ. Khác slippery slope ở chỗ: tôi chỉ ra *tác nhân* (người thua thiệt trong cụm, hoặc bên thứ ba), *hành vi* (tạo/tố cáo dấu hiệu), và *phần thưởng* (reset kết quả) — một chuỗi nhân quả, không phải "rồi sẽ tệ dần".
+
+Hệ quả thứ hai: quy tắc này biến học sinh trung thực thành **con tin** — điểm thật của em bị hủy vì hành vi của người khác trong phòng. §5 cho thấy tiền lệ ngược: 2018 chấm thẩm định, KHÔNG thi lại, giữ điểm người làm thật [Case file §5]. B đề nghị đúng logic đó: xử lý cá nhân + đề dự bị cho nạn nhân sự cố tổ chức [Case file §8].
+
+Phản biện khả dĩ tôi thừa nhận: nếu chấm thẩm định không phân định được vùng xám (tôi đã nhận ở E), thì một số em thế (b) vẫn lọt — nhưng đó là lỗi *dưới mức trừng phạt*, còn thi lại cả cụm là lỗi *trên mức*, trừng phạt tập thể người vô can. Giữa hai sai, chọn cái không lấy người trung thực làm con tin.
+
+**Nguồn trích dẫn trong lượt này:** Case file §1, §5, §6, §8; [Nguồn: Thông tư 24/2024/TT-BGDĐT, Điều 57]; [Nguồn: Tiền Phong/baomoi, 2026]; mức "đình chỉ 1 năm cho người không tố giác" = [CẦN KIỂM CHỨNG].
+
+### Vòng E2 — Advocate A
+
+**Steelman B.** B lập luận sắc: tách thế (a) "không biết" khỏi thế (b) "được nhắc bài", B chỉ ra rằng hành vi NHẬN thông tin bị cấm tự nó có thể cấu thành vi phạm quy chế mà không cần chứng minh "đã chép đáp án" — nên không thể coi mọi thí sinh là "nạn nhân thuần túy". Về logic, B cảnh báo phương án của tôi tạo perverse incentive và biến học sinh trung thực thành "con tin". Đây là hai đòn đáng để trả lời thẳng.
+
+**Ý (1) — Pháp lý.**
+Thứ nhất, xin ghi nhận điều B vừa tự rút: quy chế KHÔNG buộc thí sinh tố giác, và mức "đình chỉ 1 năm cho người không tố giác" là [CẦN KIỂM CHỨNG]. Nghĩa là cái tiền đề gay gắt nhất chống lại tôi đã tự sụp — không còn "im lặng = đồng phạm".
+
+Thứ hai, cái B giữ lại — "nhận trợ giúp (thế b) là vi phạm" — về nguyên tắc tôi không phủ nhận. Nhưng nó KHÔNG cứu được phương án cá nhân hóa, vì vẫn không ai biết EM NÀO ở thế (b) chứ không phải (a). "Nhắc cả phòng" [§3] cho biết có tín hiệu phát ra, KHÔNG cho biết ai nghe, ai nhận, ai dùng. Nếu ta hủy điểm một cá nhân chỉ vì em "ngồi trong phòng có người nhắc bài", thì đó chính xác là guilt by association mà tôi cảnh báo — quy tội theo chỗ ngồi, không theo hành vi cá nhân bị chứng minh.
+
+Thứ ba, cáo buộc "hasty generalization" là một strawman. Tôi CHƯA BAO GIỜ nói "mọi em vô can" — tôi nói KHÔNG PHÂN ĐỊNH ĐƯỢC ai ở (a), ai ở (b), vì giấy thi không phân biệt được [§3]. Chính vì tồn tại cả (a) lẫn (b) mà không tách được, nên thi lại — một biện pháp PHỤC HỒI, không gán nhãn tội, tôn trọng suy đoán vô tội [§6][§7] — mới đúng; còn hủy điểm cá nhân theo suy đoán mới là bước nhảy vội.
+
+**Ý (2) — Logic/Tiền lệ.**
+Thứ nhất, ẩn dụ "con tin" cắt cả hai chiều. Dưới phương án B, em trung thực KHÔNG được giải phóng: điểm của em vẫn nằm dưới đám mây nghi ngờ thống kê (154 điểm 10, ~147 dồn 13/15 phòng [§3]), hoặc bị hủy oan bởi forensic bất toàn. Chính thi lại mới trả em một kết quả sạch, tự chứng minh bằng năng lực — đó là GIẢI PHÓNG con tin, không phải bắt giữ.
+
+Thứ hai, moral hazard khống chế được bằng NGƯỠNG KÍCH HOẠT cao: chỉ thi lại khi có gian lận CÓ TỔ CHỨC được xác lập chính thức — ở đây 19 người đã bị xử lý hình sự [§1]. Không ai "dàn dựng" được một đường dây bị khởi tố hình sự để kiếm cơ hội thi lại; cái giá quá đắt. Ngưỡng cao này phá vỡ đúng chuỗi tác nhân–hành vi–phần thưởng mà B dựng lên.
+
+Thứ ba, tôi thừa nhận trung thực (đã nhận từ V5): rủi ro tiền lệ là chi phí THẬT của phương án tôi. Nhưng nó nhỏ, khống chế được bằng ngưỡng, và có giới hạn rõ. So với nó là một chi phí lớn hơn và KHÔNG khống chế được: lấy người trung thực làm con tin của một cơ chế phân định bất khả thi, nơi mọi hình phạt cá nhân hóa tất yếu hoặc oan tập thể hoặc bỏ lọt. Giữa hai chi phí, chọn cái nhỏ và phục hồi.
+
+Đó là lời cuối của tôi: khi không thể phân định ai, hãy đối xử đồng đều theo hướng phục hồi, đừng trừng phạt theo suy đoán.
+
+**Nguồn trích dẫn trong lượt này:** [Case file §1], [Case file §3], [Case file §6], [Case file §7], [Nguồn: Tiền Phong 2026 — do B dẫn], [CẦN KIỂM CHỨNG: mức đình chỉ 1 năm cho người không tố giác]
+
+---
+
 ## Phụ lục A — Fact-check (toàn transcript)
 
 Kết quả: **KHÔNG có 🔴 (sai rõ) hay ⚠️ (không xác minh được).** Mọi con số cốt lõi (154 / ~147 / 13-15 phòng / 19 người / 114 / 45 / ≥222) khớp case file và có ≥1 nguồn cơ quan nhà nước hoặc ≥2 báo lớn độc lập. Xác nhận thêm ngoài case file: tội danh **Điều 356 BLHS**; 2018 Hà Giang 330 bài/114 thí sinh được trả điểm thật trước xét tuyển; 45 SV Hòa Bình buộc thôi học (10 còn học do chấm lại vẫn đủ).

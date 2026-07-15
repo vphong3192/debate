@@ -32,7 +32,11 @@ Bản chi tiết từng vòng × chiều × bên (kèm trích dẫn + neo) là s
 
 - Khoảng điểm (+E): **A [7.10–7.32]**, **B [7.68–8.00]** → **KHÔNG chồng lấn**.
 - Biên độ nội bộ mỗi bên < 1.0 → không có cờ "nhiễu judge cao". Biên độ (0.22/0.32) ≈ mốc nhiễu nền đã hiệu chuẩn (0.2–0.4); chênh trung vị B−A = **0.7** vượt nhiễu nền.
-- **quote_check:** cả 3 scorecard FAIL ở mức thấp (phần lớn trích khớp: 65/64/80 khớp). Nguyên nhân đã ghi ở Giới hạn mục 5 — chỉ báo độ tin cậy trích dẫn TRUNG BÌNH, không phải bịa bằng chứng. Không lặp lại judge (điểm số ổn định, không phụ thuộc các trích lỗi).
+- **quote_check:** cả 3 scorecard FAIL ở mức thấp (phần lớn trích khớp: 65/64/80 khớp). Nguyên nhân đã ghi ở Giới hạn mục 5 — chỉ báo độ tin cậy trích dẫn TRUNG BÌNH, không phải bịa bằng chứng.
+
+### 5d. NOISE TEST (chạy 14/07 sau bản vá transcript nguyên văn) — ĐẢO KẾT LUẬN
+3 instance judge MỚI chấm lại với transcript **gần-nguyên-văn** (đầy đủ hơn bản RÚT GỌN của hội đồng chính thức). Kết quả (V1–V5+E, bộ mặc định): noise1 A7.73/B7.84 · noise2 A7.66/B7.75 · noise3 A7.42/B7.53. **Cả 3 đều "không phân định"** (chênh ~0.1; noise2 & noise3 còn đảo hạng V1–V5↔+E). Trung vị noise: A 7.66 / B 7.75, chênh **0.09**; biên độ nội bộ ~0.31 (khớp nhiễu nền 0.2–0.4).
+- **Khoảng điểm A của hai lô KHÔNG chồng lấn** (official [7.10–7.32] vs noise [7.42–7.73]): độ dịch A ≈ **0.46** > nhiễu nội bộ (~0.31) → hiệu ứng **hệ thống**, không phải ngẫu nhiên. Biến kiểm soát duy nhất khác nhau: phiên bản transcript. ⇒ Giả thuyết mạnh nhất: **bản transcript RÚT GỌN nạp cho hội đồng chính thức đã làm yếu bên A một cách hệ thống**, thổi phồng chênh B−A từ ~0.1 lên 0.7. Chi tiết: `output/_workspace/20260714_noise.md`.
 
 ### 5b. Trung vị theo từng chiều (V1–V5+E) — để thấy khoảng cách nằm ở chiều nào
 | Chiều | Trung vị A | Trung vị B | Chênh (B−A) |
@@ -57,7 +61,9 @@ Bản chi tiết từng vòng × chiều × bên (kèm trích dẫn + neo) là s
 
 ## 6. KẾT LUẬN
 
-**Bên lập luận chặt chẽ hơn theo rubric này: Advocate B (KHÔNG thi lại)** — trung vị hội đồng **B 7.9 / A 7.2** (V1–V5+E), chênh 0.7, khoảng điểm hai bên không chồng lấn, bền qua 3 bộ trọng số. *Đây KHÔNG phải kết luận rằng "không nên thi lại là đúng về chính sách"; chỉ là bên B trình bày chặt hơn theo rubric trong phiên này, với biên khiêm tốn.*
+> **⚠️ ĐÃ HIỆU CHỈNH SAU NOISE TEST (14/07):** phán quyết chính thức là **KHÔNG PHÂN ĐỊNH ĐƯỢC theo rubric này.** Hội đồng chính thức (transcript rút gọn) cho B 7.9 / A 7.2 (chênh 0.7); nhưng NOISE TEST với transcript nguyên văn hơn cho chênh chỉ ~0.1 (không phân định, có đảo hạng). Độ dịch điểm A giữa hai lô (~0.46) vượt nhiễu nền (~0.31), chỉ về một hiệu ứng hệ thống do **bản transcript rút gọn làm yếu bên A** — tức chênh 0.7 phần lớn là *artifact vận hành*, không phải tín hiệu thực. Vì vậy: **không tuyên bên nào lập luận chặt hơn.**
+
+**Phán quyết chính thức (đã hiệu chỉnh): KHÔNG PHÂN ĐỊNH.** Theo dữ liệu đáng tin hơn (transcript nguyên văn, NOISE TEST), chênh B−A nằm trong nhiễu nền và đảo hạng giữa V1–V5 và V1–V5+E. *Đây KHÔNG phải kết luận về chính sách thi lại; cũng KHÔNG kết luận bên nào lập luận chặt hơn — hai bên ngang nhau theo rubric trong phiên này.* Kết quả B-nhỉnh ban đầu (0.7) được giữ lại trong hồ sơ như minh chứng cho tác động của lỗi transcript rút gọn (đã vá).
 
 **Luận điểm mạnh nhất của bên điểm thấp hơn (A):** *bất đối xứng chứng cứ 2018 vs 2026.* A lập luận rằng chấm thẩm định forensic — trụ cột của B — chỉ vận hành khi gian lận để lại **dấu sửa trên giấy** (mô hình 2018), còn 2026 là **nhắc bài miệng trong phòng** nên "bài của em trung thực và bài của em được nhắc TRÔNG GIỐNG HỆT NHAU trên giấy". Từ đó A rút ra: dùng học bạ để hủy điểm là "suy đoán CÓ tội" (trái §6), và mọi phương án hủy-điểm-cá-nhân tất yếu **hoặc oan tập thể hoặc bỏ lọt** — nên thi lại (đối xử đồng đều, gỡ kênh gian lận, không gán nhãn tội) là lối ra duy nhất tôn trọng suy đoán vô tội. Luận điểm này mạnh vì (i) neo vào khác biệt phương thức có thật (case file §5); (ii) A giữ nhất quán V1→kết luận ("thống kê định vị CỤM, không định danh CÁ NHÂN"); (iii) đi kèm nhượng bộ trung thực. Nó là sức ép chưa bị B vô hiệu hoàn toàn — B chỉ trung hòa được bằng cách chuyển kênh chứng cứ sang hồ sơ điều tra hình sự và bằng đòn nan đề đối xứng.
 

@@ -59,6 +59,11 @@ Bản chi tiết từng vòng × chiều × bên (kèm trích dẫn + neo) là s
 - Nhưng lưu ý trung thực: ở **V1–V5** chênh trung vị đúng **0.5** (chạm ngưỡng "không phân định"); mức phân định rõ (0.7) chỉ đạt khi cộng **Vòng E** — mà chủ đề vòng E **do người dùng chọn sau audit** (vector thiên lệch chọn đề). Vì vậy biên B−A nên đọc là **thực nhưng khiêm tốn**, không phải áp đảo.
 - **Độ nhạy 3 bộ trọng số:** cả 3 judge đều cho B dẫn qua **cả 3 bộ** (mặc định / pháp lý nặng 10-20-40-15-15 / phẳng) và cả hai phạm vi. Thứ hạng B>A bền với trọng số.
 
+### 5e. Chấm lại tính Vòng E2 (14/07 — ước lượng biên)
+Người dùng chọn chủ đề E2 (nghĩa vụ tố giác + tiền lệ "con tin" — lần chọn đề thứ hai, nghiêng B). 3 judge mới chấm riêng E2 (nguyên văn) → ghép biên vào nền V1–V5+E của NOISE. Điểm vòng E2 (trung vị): **A 8.67 / B 8.33** — E2 nghiêng nhẹ **A** (tiền đề pháp lý gắt nhất của chủ đề không có cơ sở quy chế và bị chính advocate B trung thực rút; A ghi C4/C5 nhờ hai đòn cuối không bị đáp).
+- **Tổng ước lượng:** V1–V5+E A7.66/B7.75 (chênh 0.09) → **V1–V5+E+E2 A7.72/B7.78 (chênh 0.06)**. E2 THU HẸP chênh, KHÔNG đảo hạng, vẫn trong nhiễu → **không đổi phán quyết**. Chi tiết: `_workspace/20260714_e2_rejudge.md`.
+- *Lưu ý: ước lượng biên (E2 judge riêng ghép nền), sai số cao hơn chấm đầy đủ.*
+
 ## 6. KẾT LUẬN
 
 > **⚠️ ĐÃ HIỆU CHỈNH SAU NOISE TEST (14/07):** phán quyết chính thức là **KHÔNG PHÂN ĐỊNH ĐƯỢC theo rubric này.** Hội đồng chính thức (transcript rút gọn) cho B 7.9 / A 7.2 (chênh 0.7); nhưng NOISE TEST với transcript nguyên văn hơn cho chênh chỉ ~0.1 (không phân định, có đảo hạng). Độ dịch điểm A giữa hai lô (~0.46) vượt nhiễu nền (~0.31), chỉ về một hiệu ứng hệ thống do **bản transcript rút gọn làm yếu bên A** — tức chênh 0.7 phần lớn là *artifact vận hành*, không phải tín hiệu thực. Vì vậy: **không tuyên bên nào lập luận chặt hơn.**

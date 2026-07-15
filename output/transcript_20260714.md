@@ -295,9 +295,11 @@ Thứ ba, tôi thừa nhận trung thực (đã nhận từ V5): rủi ro tiền
 
 ---
 
-## Phụ lục A — Fact-check (toàn transcript)
+## Phụ lục A — Fact-check (phạm vi: V1–V5)
 
-Kết quả: **KHÔNG có 🔴 (sai rõ) hay ⚠️ (không xác minh được).** Mọi con số cốt lõi (154 / ~147 / 13-15 phòng / 19 người / 114 / 45 / ≥222) khớp case file và có ≥1 nguồn cơ quan nhà nước hoặc ≥2 báo lớn độc lập. Xác nhận thêm ngoài case file: tội danh **Điều 356 BLHS**; 2018 Hà Giang 330 bài/114 thí sinh được trả điểm thật trước xét tuyển; 45 SV Hòa Bình buộc thôi học (10 còn học do chấm lại vẫn đủ).
+> **Phạm vi:** phụ lục này CHỈ phủ 5 vòng chuẩn (V1–V5). **Vòng E và E2 CHƯA fact-check đầy đủ** — các con số tiền lệ quốc tế (ETS/SAT Hàn Quốc: năm, ~900 điểm/68 trung tâm) chưa xác minh chéo do web giới hạn hạn mức (xem caveat trong thân transcript). Vì vậy "0 cờ đỏ" dưới đây CHỈ áp cho V1–V5; mọi tổng chứa vòng E/E2 phải mang nhãn "vòng E chưa fact-check đầy đủ".
+
+Kết quả (V1–V5): **KHÔNG có 🔴 (sai rõ) hay ⚠️ (không xác minh được).** Mọi con số cốt lõi (154 / ~147 / 13-15 phòng / 19 người / 114 / 45 / ≥222) khớp case file và có ≥1 nguồn cơ quan nhà nước hoặc ≥2 báo lớn độc lập. Xác nhận thêm ngoài case file: tội danh **Điều 356 BLHS**; 2018 Hà Giang 330 bài/114 thí sinh được trả điểm thật trước xét tuyển; 45 SV Hòa Bình buộc thôi học (10 còn học do chấm lại vẫn đủ).
 
 **Tự kiểm đối xứng:** Bên A — 12 khẳng định kiểm được, 12 ✅. Bên B — 14 khẳng định, 14 ✅. Khối lượng tương đương, không bên nào bị soi lệch.
 

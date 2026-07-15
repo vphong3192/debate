@@ -3,6 +3,8 @@
 **Transcript:** [file] — case file commit `[git hash]` (+ addendum `[hash]` nếu có)
 **Model:** judge/advocate = [alias / model ID nếu biết]; orchestrator = [model ID]; ngày chấm = [ngày]
 
+> **Quy ước SUPERSEDED:** khi một mục bị mục sau lật lại (vd §5a phán "B phân định" bị §6 lật thành "không phân định" sau NOISE TEST), KHÔNG xóa mục cũ — chèn banner `⛔ SUPERSEDED — xem §X` ngay đầu mục bị thay, để giữ dấu vết vì sao phán quyết đổi.
+
 > **Giới hạn của phương pháp (bắt buộc, không rút gọn):**
 > 1. Điểm số dưới đây đo *chất lượng lập luận trong khuôn khổ rubric* (bằng chứng, căn cứ pháp lý, logic, xử lý phản biện) trên transcript cụ thể này. Nó KHÔNG phải phán quyết về chân lý lịch sử, pháp lý hay đạo đức của cuộc chiến, và có thể thay đổi nếu advocate lập luận khác đi.
 > 2. **Thiên lệch prior cùng model:** cả hai advocate và judge chạy trên cùng một model; prior huấn luyện của model có thể làm steelman của một bên yếu đi một cách hệ thống. Phụ lục Steelman audit là chỉ báo cho khoảng cách này; SWAP TEST không phát hiện được loại thiên lệch này (nó chỉ bắt thiên lệch nhãn A/B).
@@ -21,6 +23,7 @@
 [lặp lại cho vòng 2–5]
 
 ## 2. Phạt
+**Phạm vi fact-check:** [các vòng đã fact-check, vd "V1–V5"] — "0 cờ đỏ" CHỈ áp cho các vòng này; vòng chưa phủ (vd vòng E khi web giới hạn) ghi "chưa fact-check đầy đủ" và gắn nhãn cạnh mọi tổng chứa nó.
 | Bên | Lý do (cờ fact-check / strawman) | Điểm trừ |
 |---|---|---|
 

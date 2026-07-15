@@ -46,7 +46,12 @@
 - File làm việc trung gian đặt trong `output/_workspace/` (không phải sản phẩm cuối).
 
 ## Kiểm trích dẫn scorecard (chống judge bịa bằng chứng)
-- Trong scorecard, **dấu ngoặc kép chỉ dành cho trích nguyên văn transcript**; nhấn mạnh hay thuật ngữ dùng *in nghiêng*. Orchestrator chạy `scripts/quote_check.{sh,ps1}` trên từng scorecard: trích dẫn không tìm thấy trong transcript → trả judge sửa một lần; vẫn thiếu → ghi vào bảng Hội đồng như chỉ báo độ tin cậy thấp.
+- Trong scorecard, **dấu ngoặc kép chỉ dành cho trích nguyên văn transcript**; nhấn mạnh, thuật ngữ, và **mọi câu phân tích của judge** dùng *in nghiêng* (audit 14/07: đặt câu phân tích của mình vào ngoặc kép là nguyên nhân FAIL phổ biến nhất). Orchestrator chạy `scripts/quote_check.{sh,ps1}` (ưu tiên `quote_check.py` — casefold Unicode, chuẩn hóa dấu câu, trích đa dòng) trên **từng scorecard của MỌI lô** (hội đồng, NOISE, SWAP, chấm E riêng): trích không tìm thấy → **nghi lỗi NẠP trước** (transcript nạp cho judge phải nguyên văn, sinh bằng `make_judge_input.sh`, không gõ lại), nếu nạp đã đúng thì trả judge sửa một lần; vẫn thiếu → ghi vào bảng Hội đồng như chỉ báo độ tin cậy thấp.
+- **Cấm rút gọn transcript nạp cho judge:** transcript nạp cho judge phải nguyên văn từng ký tự (chỉ case file mới được rút gọn). Nạp bản rút gọn/paraphrase không chỉ hỏng quote_check mà còn **làm lệch điểm** (bên bị nén yếu đi ~0.5 — đo được 14/07). Quá lớn → nạp nhiều phần nguyên văn.
 
-## Vòng E và tổng điểm
-- Có vòng E → mọi tổng báo cáo kép "V1–V5" và "V1–V5+E". Điểm chính thức là V1–V5+E, nhưng nếu hai cách tính đảo thứ hạng → ghi "kết quả phụ thuộc vòng phụ do người dùng chọn chủ đề" và xử lý như "không phân định" (chủ đề vòng E do người dùng chọn nên là một vector thiên lệch tiềm tàng — báo cáo kép làm nó nhìn thấy được).
+## Vòng E và tổng điểm (cập nhật P1, 14/07/2026 — chống thiên lệch chọn đề)
+- Có vòng E → mọi tổng báo cáo kép "V1–V5" và "V1–V5+E". **Điểm CHÍNH THỨC = V1–V5** (5 vòng chuẩn đối xứng do harness kiểm soát), KHÔNG phải V1–V5+E như quy tắc cũ.
+- Vòng E chỉ được tính vào **phán quyết chính thức** khi (a) chủ đề E **đối xứng** — mỗi bên/auditor mỗi bên đề cử một chủ đề hẹp, chạy cả hai cặp lượt — VÀ (b) đã qua gate `APPROVE TRANSCRIPT ADDENDUM`. Vòng E do NGƯỜI DÙNG chọn một chủ đề hẹp là **chẩn đoán**: vào báo cáo kép nhưng không đổi phán quyết chính thức; +E đảo hạng so với V1–V5 → ghi "kết quả phụ thuộc vòng phụ do người dùng chọn chủ đề".
+- Chủ đề vòng E rút từ steelman audit → transcript phải ghi "điều kiện thí nghiệm: chủ đề nhiễm audit".
+- **Fact-check vòng E bắt buộc** trước khi vòng đó vào bất kỳ tổng nào; vòng chưa fact-check đầy đủ (vd web giới hạn) → gắn nhãn cạnh tổng chứa nó.
+- **Ước lượng biên** (chấm riêng vòng E rồi ghép nền lô khác) trộn hai quần thể judge → chỉ dùng chẩn đoán ở `_workspace/`, không làm cơ sở đổi/giữ phán quyết khi chênh nằm trong nhiễu; muốn E vào phán quyết → hội đồng 3 judge mới chấm lại TOÀN BỘ transcript nguyên văn.

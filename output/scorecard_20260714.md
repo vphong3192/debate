@@ -23,6 +23,8 @@ Bản chi tiết từng vòng × chiều × bên (kèm trích dẫn + neo) là s
 ## 5. HỘI ĐỒNG (orchestrator tổng hợp)
 
 ### 5a. Bảng tổng — bộ mặc định (20/25/25/15/15)
+> **⛔ SUPERSEDED — xem §5d và §6.** Bảng này dựa trên transcript RÚT GỌN nạp cho hội đồng chính thức; chênh trung vị 0.7 và kết luận "không chồng lấn" bên dưới đã bị NOISE TEST (transcript nguyên văn) lật thành **KHÔNG PHÂN ĐỊNH**. Giữ lại làm dấu vết tác động của lỗi transcript rút gọn (đã vá).
+
 | | Judge 1 | Judge 2 | Judge 3 | **Trung vị** | Biên độ (max−min) | quote_check (matched/missing) |
 |---|---|---|---|---|---|---|
 | **A (V1–V5+E)** | 7.2 | 7.1 | 7.32 | **7.2** | 0.22 | J1 65/12 · J2 64/7 · J3 80/17 |

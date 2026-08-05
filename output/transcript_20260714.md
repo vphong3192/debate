@@ -295,6 +295,48 @@ Thứ ba, tôi thừa nhận trung thực (đã nhận từ V5): rủi ro tiền
 
 ---
 
+## Vòng E3 — Phản biện bổ sung (khung lai của quyết định 05/8/2026, chủ đề do người dùng chọn)
+
+> **Điều kiện thí nghiệm (ghi theo giao thức):** chủ đề E3 do **người dùng chọn (lần thứ ba)** sau khi có dữ kiện mới (case file §9, quyết định chung cuộc 05/8/2026) — **cộng dồn vector thiên lệch chọn đề**. Câu hỏi: cách Bộ đóng khung LAI (tách "thi lại để khôi phục tính toàn vẹn kỳ thi, không phải kỷ luật" khỏi "quy trách nhiệm cá nhân qua kênh điều tra riêng") có phải lối ra đúng cho bài toán mà debate gộp làm một hay không? Thứ tự: **A trước, B sau** (luân phiên với E2 vốn B trước). Đây là **vòng CHẨN ĐOÁN** — vào báo cáo kép, **KHÔNG đổi phán quyết chính thức** (V1–V5 = KHÔNG PHÂN ĐỊNH); chỉ được tính vào phán quyết nếu qua `APPROVE TRANSCRIPT ADDENDUM`.
+> **Dữ kiện nền:** case file §9 (commit `1cbe060`, duyệt 05/8/2026), xác minh nguồn Hạng 1 (Tiền Phong tường thuật trực tiếp họp báo) + xác nhận chéo SGGP/Dân trí/Báo Chính phủ/Thanh Niên.
+> **Fact-check E3 (đã chạy — bắt buộc trước khi vào tổng):** 0 cờ đỏ hai bên; đối xứng A 7 khẳng định (7 ✅), B 9 khẳng định (8 ✅, 1 ⚠️ "hàng triệu thí sinh" — quy mô hơi phóng so với ~1,1 triệu, không leo cờ đỏ). Số bị can thực tế xác minh = **29** ("gần 30" chính xác). Chi tiết ở Phụ lục A.
+
+### Vòng E3 — Advocate A
+
+**Khung lai xác nhận về NGUYÊN TẮC điều tôi đã lập luận suốt V1–E2: thi lại là biện pháp PHỤC HỒI tính toàn vẹn, không phải hình phạt.**
+
+Trọng tâm tranh cãi giữa tôi và B luôn nằm ở một câu hỏi bị gộp: "thi lại có phải là trừng phạt tập thể người trung thực không?". Dữ kiện mới cho thấy khung lai tách bạch hai việc mà debate đã dồn làm một. Cơ quan chọn cơ chế đóng khung rõ đây "KHÔNG phải biện pháp xử lý kỷ luật đối với thí sinh" mà để bảo đảm an toàn/nghiêm túc/công bằng của kỳ thi [Case file §9]. Tôi không viện điều này như "Bộ đồng ý nên tôi đúng" — đó là appeal to authority. Tôi dùng nó như bằng chứng rằng khung "thi lại-để-toàn-vẹn, tách khỏi quy trách nhiệm" là một cấu trúc MẠCH LẠC, khả thi trên thực tế, chứ không phải ý tưởng của riêng tôi: căn cứ nêu là vi phạm yêu cầu an toàn/trung thực/khách quan của kỳ thi trên phạm vi toàn điểm thi [Case file §9], tức lỗi ở TÍNH TOÀN VẸN CỦA KỲ THI — đúng đối tượng mà "phục hồi" nhắm tới, không phải ở phẩm chất từng thí sinh.
+
+**Việc tách kênh trách nhiệm cá nhân hóa giải mối lo cốt lõi của B mà không cần lấy ai làm con tin.**
+
+Mối lo mạnh nhất của B là "không ai được hưởng lợi từ sai trái" và răn đe [Case file §6]. Khung lai trả lời trực diện: trách nhiệm cá nhân người vi phạm — kể cả thí sinh nếu có — được xử lý ở KÊNH ĐIỀU TRA RIÊNG theo mức độ [Case file §9]. Đến 05/8 đã gần 30 bị can [Case file §9]. Nghĩa là răn đe KHÔNG bị hy sinh; nó chỉ được đặt vào đúng công cụ — điều tra hình sự/kỷ luật cá thể — thay vì nhét vào kết quả bài thi, nơi bài trung thực và bài được nhắc "trông giống nhau trên giấy" [Case file §3, §5]. Đây chính là điều tôi lập luận: né bài toán phân định cá nhân bất khả thi ở khâu chấm, NHƯNG không thả người có lỗi — chỉ chuyển họ sang kênh định danh được. B không còn phải chọn giữa "hủy điểm cả cụm" và "để kẻ gian hưởng lợi": khung lai cho cả hai mục tiêu bằng hai cơ chế.
+
+**Phản biện mạnh nhất của B (tôi trả lời thật):** khung lai KHÔNG "giải" được việc phân định cá nhân — nó chỉ HOÃN sang kênh điều tra. Đúng. Nhưng đó là ưu điểm, không phải khuyết. Việc phân định thuộc về cơ quan có quyền lấy lời khai, khám xét, đối chất — công cụ mà một hội đồng chấm thi không có. Đặt gánh phân định lên bài thi (như phương án B ngầm đòi) mới là ép một công cụ sai làm việc bất khả thi. Hoãn-sang-đúng-thẩm-quyền không phải lảng tránh; đó là phân công đúng chức năng.
+
+**Khác biệt phạm vi (bắt buộc nêu):** đề debate chỉ hỏi thi lại môn Toán; quyết định thực tế rộng hơn — thi lại TẤT CẢ các môn cho toàn bộ điểm thi Chuyên, 14–15/8, điểm gốc 11–12/6 không dùng xét tuyển [Case file §9]. Tôi không đánh đồng hai phạm vi; tôi chỉ rút ra NGUYÊN TẮC khung lai, vốn áp dụng bất kể một môn hay nhiều môn.
+
+**Giới hạn của lập luận phía tôi:** Khung lai chuyển gánh nặng công bằng sang giả định kênh điều tra sẽ định danh đúng người vi phạm — nếu điều tra bế tắc, một số cá nhân có lỗi có thể thoát trách nhiệm dù kỳ thi đã được làm lại. Quyết định của Bộ là hành động hành chính, không chứng minh khung lai là lựa chọn TỐI ƯU, chỉ chứng minh nó KHẢ THI và mạch lạc. Gần 30 bị can mới ở giai đoạn khởi tố/điều tra, chưa ai bị kết tội [Case file §2, §9].
+
+**Nguồn trích dẫn trong lượt này:** [Case file §2]; [Case file §3]; [Case file §5]; [Case file §6]; [Case file §9] (dẫn Tiền Phong tường thuật họp báo 05/8/2026, H1).
+
+### Vòng E3 — Advocate B
+
+> *[vượt ngân sách từ: 663/600 — đã yêu cầu cắt gọn một lần (từ 678→663); phần vượt 3 từ trên trần +10%, không tạo lợi thế nội dung; Judge lưu ý ở chiều 5 nếu thấy phần vượt tạo lợi thế.]*
+
+A lập luận rằng khung lai của Bộ xác nhận đúng nguyên tắc A theo đuổi: thi lại là biện pháp PHỤC HỒI tính toàn vẹn kỳ thi chứ không phải hình phạt (dẫn chính lời Bộ "không phải kỷ luật thí sinh"), lỗi nằm ở tính toàn vẹn kỳ thi chứ không ở phẩm chất từng em; tách kênh trách nhiệm cá nhân sang điều tra riêng đặt răn đe vào đúng công cụ (gần 30 bị can hình sự) mà không lấy ai làm con tin; và A thẳng thắn nhận khung lai HOÃN chứ không giải phân định cá nhân, coi đó là phân công đúng thẩm quyền. Đây là phiên bản mạnh. Nhưng nó ĐỔI TÊN vấn đề, không giải.
+
+**(1) Nhãn "không phải kỷ luật" không xóa gánh nặng thực.** Câu hỏi B nêu suốt là ai gánh chi phí. Gọi thi lại là "phục hồi" thay vì "hình phạt" là mô tả CHỦ ĐÍCH của cơ quan ra quyết định, không thay đổi HIỆU QUẢ chịu bởi thí sinh: em trung thực vẫn mất kết quả thật đã đạt hợp lệ ngày 11–12/6 [Case file §9] và vẫn buộc thi lại. Chi phí chắc chắn lên 100% số thí sinh điểm thi để xử một thiểu số bất phân định [Case file §3]. Suy luận "vì mục đích không phải trừng phạt nên gánh nặng lên người vô can là chính đáng" là ngụy biện đánh tráo (mục đích tốt ⇏ phân bổ chi phí công bằng). Ý định trong sạch của Bộ không làm mất mát của em trung thực nhẹ đi.
+
+**(2) Tách kênh KHÔNG khôi phục răn đe ở tầng kết quả thi.** Đây là lỗ hổng A không đụng tới. Chính A thừa nhận ở vòng E rằng không kênh nào định danh được TỪNG người nghe-và-dùng bài, và tự nhận giới hạn E3: nếu điều tra bế tắc, người có lỗi thoát trách nhiệm. Ghép hai thừa nhận đó: người từng được nhắc bài, nếu điều tra hình sự không định danh được, vẫn được DỰ THI LẠI và có thể lại đạt điểm cao hợp lệ — tức vẫn HƯỞNG LỢI từ việc kỳ thi gốc bị xóa, đúng điều nguyên tắc "không ai hưởng lợi từ sai trái" cấm [Case file §6]. "Phân công đúng thẩm quyền" chỉ chuyển bài toán định danh sang cơ quan có quyền khám xét; nó KHÔNG bịt lỗ hổng ở tầng kết quả, vì điểm thi lại được tính bất kể điều tra kết luận hay chưa (công bố 19/8, trước khi án hình sự khép) [Case file §9]. Trả lời thẳng A: hoãn sang đúng thẩm quyền đúng là phân công hợp lý — nhưng nó chỉ xử nhánh HÌNH SỰ, để hở nhánh KẾT QUẢ. Hai nhánh không thay thế nhau.
+
+**(3) Công bằng hệ thống — thi lại TẤT CẢ môn còn nặng hơn.** Không đánh đồng phạm vi: đề debate là môn Toán, quyết định thực tế là mọi môn [Case file §9]. Nhưng chính vì rộng hơn, chi phí công bằng lộ rõ: thí sinh phải thi lại cả môn KHÔNG hề có dấu hiệu bất thường — điểm thật ở môn không dính nghi vấn cũng bị xóa. Đặt cạnh hàng triệu thí sinh cả nước chỉ thi một lần, buộc một cụm thi lại toàn bộ để phòng ngừa một thiểu số không định danh được là gánh nặng lệch: không phải toàn vẹn được phục hồi mà là toàn vẹn được TÁI THIẾT trên lưng người vô can. Phương án B (chấm thẩm định, hủy bài cá nhân được xác định, giữ điểm em trung thực) đặt chi phí đúng nơi có lỗi.
+
+**Giới hạn của lập luận phía tôi:** Phương án B phụ thuộc năng lực chấm thẩm định/điều tra định danh được bài gian lận; với hành vi nhắc bài trong phòng (khó truy từng bài, khác 2018 sửa bài sau thi) [Case file §5], khả năng đó thấp hơn 2018 và tôi không bảo đảm nó đủ. Tôi cũng thừa nhận có em trung thực bị thiệt trong MỌI phương án, kể cả của tôi.
+
+**Nguồn trích dẫn trong lượt này:** Case file §3, §5, §6, §9.
+
+---
+
 ## Phụ lục A — Fact-check (phạm vi: V1–V5)
 
 > **Phạm vi:** phụ lục này CHỈ phủ 5 vòng chuẩn (V1–V5). **Vòng E và E2 CHƯA fact-check đầy đủ** — các con số tiền lệ quốc tế (ETS/SAT Hàn Quốc: năm, ~900 điểm/68 trung tâm) chưa xác minh chéo do web giới hạn hạn mức (xem caveat trong thân transcript). Vì vậy "0 cờ đỏ" dưới đây CHỈ áp cho V1–V5; mọi tổng chứa vòng E/E2 phải mang nhãn "vòng E chưa fact-check đầy đủ".
@@ -304,6 +346,14 @@ Kết quả (V1–V5): **KHÔNG có 🔴 (sai rõ) hay ⚠️ (không xác minh 
 **Tự kiểm đối xứng:** Bên A — 12 khẳng định kiểm được, 12 ✅. Bên B — 14 khẳng định, 14 ✅. Khối lượng tương đương, không bên nào bị soi lệch.
 
 Các mục `[CẦN KIỂM CHỨNG]` của case file đều được advocate xử lý thận trọng: không bên nào dẫn số Điều cụ thể (dùng diễn đạt chức năng), không đánh đồng 154 (toàn tỉnh) với 147 (điểm thi Trường Chuyên), không đưa con số 322/328 phụ huynh vào transcript như khẳng định sự kiện. "Camera phòng thi" và "chấm thẩm định forensic" của B được phân loại là PHƯƠNG PHÁP đề xuất (đúng dạng giả định), không phải khẳng định sự kiện.
+
+### Fact-check Vòng E3 (ĐÃ phủ đầy đủ — khác vòng E/E2)
+
+> Vòng E3 dựa hoàn toàn trên case file §9 (dữ kiện 05/8/2026, nguồn Hạng 1 Tiền Phong tường thuật trực tiếp), nên fact-check phủ được đầy đủ — mọi tổng chứa E3 KHÔNG mang nhãn "chưa fact-check".
+
+Kết quả: **KHÔNG có 🔴 hai bên.** Mọi khẳng định dẫn §9 (thi lại tất cả môn; 14–15/8; công bố 19/8; điểm gốc 11–12/6 không xét tuyển; "không phải kỷ luật thí sinh"; khoản 2 Điều 2 Quy chế thi; khởi tố gần 30 bị can) khớp case file VÀ được ≥2 nguồn độc lập xác nhận (SGGP, Tiền Phong, Dân trí, Báo Chính phủ, Thanh Niên). Số bị can thực tế xác minh trên web = **29** → "gần 30" chính xác.
+
+**Tự kiểm đối xứng E3:** Bên A — 7 khẳng định kiểm được (7 ✅). Bên B — 9 khẳng định (8 ✅, **1 ⚠️**: "hàng triệu thí sinh cả nước" — quy mô hơi phóng so với ~1,1 triệu, nằm ngoài case file, imprecision nhẹ, KHÔNG leo cờ đỏ). Cả hai bên phân biệt đúng khởi tố/điều tra ≠ kết tội.
 
 ## Phụ lục B — Steelman audit (đo trần lập luận — KHÔNG cộng/trừ điểm)
 

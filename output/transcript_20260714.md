@@ -3,7 +3,7 @@
 **Chủ đề:** Vụ gian lận điểm thi tốt nghiệp THPT Tuyên Quang 2026 — có nên cho khu vực nghi gian lận thi lại môn Toán?
 **Advocate A:** Khung lập luận **NÊN cho thi lại môn Toán** ở khu vực nghi gian lận (steelman)
 **Advocate B:** Khung lập luận **KHÔNG NÊN thi lại**; xử lý bằng điều tra + chấm thẩm định/hủy điểm cá nhân gian lận, giữ điểm thật thí sinh trung thực (steelman)
-**Case file phiên bản:** duyệt GATE 1 ngày 14/07/2026 — commit `975f6fe` (`knowledge/case_file_tuyenquang.md`); **addendum §8** (quyết định tạm thời Bộ GD&ĐT về quyền xét tuyển) — commit `c6ca8d4`, duyệt 14/07/2026
+**Case file phiên bản:** duyệt GATE 1 ngày 14/07/2026 — commit `975f6fe` (`knowledge/case_file_tuyenquang.md`); **addendum §8** (quyết định tạm thời Bộ GD&ĐT về quyền xét tuyển) — commit `c6ca8d4`, duyệt 14/07/2026; **addendum §9** (quyết định chung cuộc 05/8/2026 — thi lại tất cả các môn) — commit `1cbe060`, duyệt 05/08/2026 *(diễn tiến SAU phiên; KHÔNG hồi tố đổi điểm — xem §9 lưu ý phương pháp)*
 **Rubric:** `rubrics/scoring_rubric_tuyenquang.md` (thấu kính thay thế — thay 2 chiều just-war/luật quốc tế bằng Công bằng & quyền lợi + Pháp lý & quy chế thi; duyệt 14/07/2026)
 **Judge notes:** `knowledge/judge_notes_tuyenquang.md` (chỉ nạp cho judge Phase 2)
 **Ngày duyệt GATE 2:** 14/07/2026 (gồm cả Vòng E)

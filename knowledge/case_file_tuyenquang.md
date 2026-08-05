@@ -77,3 +77,19 @@
 - **Bộ vẫn CHƯA quyết định** có tổ chức thi lại môn Toán hay không; phương án xử lý điểm Toán chờ kết luận xác minh/điều tra. `[Nguồn: đã dẫn §4 — H1/H3]`
 - **Lưu ý phương pháp (trung lập, áp đối xứng):** đây là biện pháp **tạm thời** về quyền xét tuyển trước mắt, **KHÔNG phải quyết định chung cuộc** về số phận điểm Toán gốc (giữ / hủy / thi lại). Không loại trừ bất kỳ kịch bản nào sau khi có kết luận điều tra. Advocate KHÔNG được trình bày như thể "Bộ đã bác thi lại" hay "Bộ đã chốt giữ điểm".
 - `[CẦN KIỂM CHỨNG (web đang giới hạn hạn mức tới ~10:50 UTC): nguyên văn điều kiện đăng ký xét tuyển Bộ nêu; ngày đăng chính xác; có kèm ràng buộc "điểm có thể bị hủy sau khi có kết luận" hay không]`
+
+## §9. Diễn tiến sau GATE 1 — Quyết định CHUNG CUỘC của Bộ GD&ĐT: hủy kết quả & tổ chức thi lại (ADDENDUM, đề xuất duyệt 05/08/2026)
+
+> Bổ sung sau GATE 1 qua lệnh `APPROVE CASE FILE ADDENDUM`. Chỉ chứa sự kiện + lưu ý phương pháp trung lập.
+> **⛔ Lật §8 một phần:** §8 ghi "Bộ CHƯA quyết định thi lại hay không" (tình trạng tính tới ~09/7/2026). §9 là quyết định chung cuộc công bố 05/8/2026 — đọc §8 phải kèm §9.
+
+- **05/8/2026, Bộ GD&ĐT họp báo (9h sáng) công bố phương án xử lý chung cuộc:** **HỦY kết quả thi** của 328 thí sinh điểm thi Trường THPT Chuyên Tuyên Quang và **TỔ CHỨC THI LẠI**. `[Nguồn: VOV "Hủy kết quả thi, tổ chức thi lại cho 328 thí sinh…", 05/8/2026; 24h/VTC/VOH tường thuật họp báo cùng ngày — H1/H3]`
+- **Lịch thi lại:** tổ chức trong **2 ngày 14–15/8/2026**; **công bố kết quả 19/8/2026**. `[Nguồn: VOV, 05/8/2026 — H3]`
+- **Phạm vi môn thi lại:** theo các bản tin, thí sinh **thi lại tất cả các môn tốt nghiệp** (không chỉ môn Toán) — nhất quán với lịch 2 ngày. `[Nguồn: Tuổi Trẻ "328 thí sinh chuyên Tuyên Quang sẽ thi lại tất cả các môn tốt nghiệp", 30/7/2026 — H3]` `[CẦN KIỂM CHỨNG: xác nhận nguyên văn quyết định 05/8 có đúng là "tất cả các môn" hay khoanh vùng — bài họp báo bị chặn fetch; hai ngày thi ủng hộ phương án tất cả các môn]`
+- **Xử lý điểm gốc:** kết quả thi ngày **11–12/6/2026 KHÔNG được dùng để xét tuyển đại học**; 328 thí sinh **chưa được xét tuyển bằng các phương thức khác** cho tới khi có kết quả thi lại. `[Nguồn: VOV/24h, 05/8/2026 — H3]`
+- **Tiến trình điều tra hình sự:** **17/7/2026, Cơ quan An ninh điều tra Bộ Công an tiếp nhận toàn bộ hồ sơ** từ Công an tỉnh Tuyên Quang để điều tra trực tiếp (do tính chất nghiêm trọng). `[Nguồn: tường thuật họp báo 05/8/2026 — H3]` `[CẦN KIỂM CHỨNG: một số nguồn nêu số bị can đã tăng lên ~29 (so với 19 ở §3); chưa đối chiếu được nguyên văn — giữ 19 ở §3 làm mốc, ghi 29 là số chờ xác minh]`
+- **Lưu ý phương pháp (trung lập, BẮT BUỘC đối xứng):**
+  1. Đây là **diễn tiến thực tế xảy ra SAU phiên tranh biện** (transcript chốt GATE 2 ngày 14/07/2026). Nó **KHÔNG hồi tố làm đổi điểm rubric**: harness chấm **chất lượng lập luận**, không chấm "bên nào được thực tế minh oan". Việc cơ quan có thẩm quyền chọn phương án "thi lại" **KHÔNG có nghĩa Position A (NÊN thi lại) đã "thắng" theo rubric**, cũng không làm lập luận của B kém giá trị học thuật.
+  2. Quyết định của Bộ là **hành động hành chính của cơ quan thẩm quyền**, không phải phán quyết logic — không được dùng làm "bằng chứng" rằng lập luận một bên đúng (ngụy biện *appeal to authority*). Advocate ở vòng mới chỉ được dùng nó như **DỮ KIỆN mới** (một cơ quan đã chọn X, kèm căn cứ), không phải như kết luận thay cho tranh luận.
+  3. Phương án thực tế **rộng hơn** đề trong debate (debate hỏi "thi lại **môn Toán**"; thực tế là "thi lại **tất cả các môn**") — nếu mở vòng mới phải nêu rõ khác biệt phạm vi này, không đánh đồng.
+  4. `[CẦN KIỂM CHỨNG: căn cứ pháp lý nguyên văn Bộ viện dẫn (điều/khoản Quy chế thi tốt nghiệp THPT, Thông tư 24/2024/TT-BGDĐT về hủy kết quả/tổ chức thi lại; thẩm quyền Bộ trưởng); tên & chức danh người chủ trì họp báo — các trang báo chặn fetch 403, mới lấy được qua tóm tắt search.]`

@@ -15,7 +15,12 @@ Bạn là orchestrator — người DUY NHẤT trong context chính. Advocate, f
    - Đã có transcript + yêu cầu phiên mới → tên file mới theo quy ước hậu tố (`transcript_YYYYMMDD.md`, trùng ngày → `_v2`, `_v3`…).
    - `EXTRA ROUND [chủ đề]` → nối vào transcript mới nhất chưa chấm, hoặc tạo phụ lục vòng E cho transcript đã chấm (scorecard phải chấm lại nếu người dùng muốn tính E vào điểm). Nếu chủ đề cần bổ sung case file → đi qua `APPROVE CASE FILE ADDENDUM` (xem Phase 0 nghiệp vụ, bước 3).
    - `SWAP TEST` / `NOISE TEST` / "chấm lại" / "so sánh phiên" → chỉ Phase 2, không chạy lại debate.
-3. Đọc `CLAUDE.md` (nguyên tắc nền tảng — áp cho mọi subagent qua ngữ cảnh dự án) và `protocol/debate_protocol.md`.
+3. **Chọn BỘ FILE CHỦ ĐỀ (bắt buộc, trước khi nạp bất kỳ context nào cho subagent):** harness chứa nhiều chủ đề. Bộ mặc định (Nga–Ukraine): `case_file.md` / `judge_notes.md` / `scoring_rubric.md` / `advocate_template.md` + `position_{A,B}.md`. Chủ đề khác dùng bộ topic-scoped cùng hậu tố (vd `_tuyenquang`): `case_file_<topic>.md` / `judge_notes_<topic>.md` / `scoring_rubric_<topic>.md` / `advocate_template_<topic>.md` + `position_{A,B}_<topic>.md`. Quy tắc:
+   - Mọi tham chiếu file trong skill này hiểu là "file của bộ đã chọn".
+   - **KHÔNG trộn file giữa hai bộ** — nghiêm trọng nhất là judge_notes: nạp judge_notes của chủ đề khác cho judge là lệch neo im lặng (không script nào bắt được).
+   - Ghi bộ đã chọn vào khối metadata của transcript VÀ scorecard: `bộ chủ đề: mặc định (Nga–Ukraine)` hoặc `bộ chủ đề: <hậu tố>`, kèm danh sách file.
+   - Chủ đề mới chưa có bộ file → tạo ĐỦ bộ theo hậu tố mới (như phiên 14/07), không đè bản gốc, và đi qua GATE 1 cho case file mới.
+4. Đọc `CLAUDE.md` (nguyên tắc nền tảng — áp cho mọi subagent qua ngữ cảnh dự án) và `protocol/debate_protocol.md`.
 
 ## Phase 0 (nghiệp vụ) — Case file & GATE 1
 
@@ -38,7 +43,11 @@ Chạy 5 vòng theo `protocol/debate_protocol.md`. Với MỖI lượt:
 
 Cách ly được thực thi hai tầng: (a) bảng nạp này — dán nội dung, không dán đường dẫn; (b) `tools:` trong frontmatter mỗi agent đã bị giới hạn (advocate/fact-checker/auditor: chỉ WebSearch+WebFetch; judge: chỉ Write) nên subagent KHÔNG có khả năng kỹ thuật đọc file cục bộ ngoài danh sách được nạp. Không nới `tools:` của các agent này khi sửa harness.
 
-**Case file RÚT GỌN cho judge (từ 13/07/2026 — giảm chi phí nạp, đo được từ NOISE TEST):** vì mọi input của judge phải dán qua prompt (×3 instance hội đồng), orchestrator soạn bản case file rút gọn cho judge thay vì dán nguyên văn: GIỮ nguyên văn header + §2, §3 (văn kiện pháp lý & phán quyết — lõi đối chiếu) + toàn bộ các § mà transcript có trích (`[Case file §x]`, hợp cả hai bên) kèm cảnh báo phương pháp của các § đó; các § không được trích thay bằng một dòng `### §N — [không được transcript trích, đã lược]`. Ghi vào metadata scorecard: `case file rút gọn (giữ: §…)`. Advocate/fact-checker/auditor vẫn nhận case file ĐẦY ĐỦ (họ cần biết vật liệu nào tồn tại). Khi transcript trích gần hết case file thì dán đầy đủ luôn — không lược lắt nhắt.
+**Case file RÚT GỌN cho judge (từ 13/07/2026 — giảm chi phí nạp, đo được từ NOISE TEST; CƠ GIỚI HÓA 07/08/2026):** vì mọi input của judge phải dán qua prompt (×3 instance hội đồng), judge nhận bản case file rút gọn thay vì nguyên văn. **Sinh bằng script, CẤM soạn tay** (cùng lý do P0-2: soạn tay là paraphrase, paraphrase làm lệch — bài học transcript rút gọn 14/07 áp dụng y nguyên cho case file):
+   ```sh
+   sh .claude/skills/debate-orchestrator/scripts/make_case_file_input.sh knowledge/case_file.md output/_workspace/{phiên}_judge_input.md output/_workspace/{phiên}_case_file_input.md
+   ```
+   Script giữ NGUYÊN VĂN header + §2, §3 (văn kiện pháp lý & phán quyết — lõi đối chiếu) + toàn bộ các § mà transcript có trích (quét tag `[Case file §x]` trong file judge_input, hợp cả hai bên; § con như §6.4 quy về § cấp 1); các § không được trích thay bằng một dòng stub `### §N — […đã lược]`. Tham số thứ hai nên là `_judge_input.md` (không phải transcript gốc) để tag trích trong phụ lục audit không kéo thêm § judge không cần. Dòng metadata `case file rút gọn (giữ: §…)` script in sẵn ở stderr — copy vào scorecard. Advocate/fact-checker/auditor vẫn nhận case file ĐẦY ĐỦ (họ cần biết vật liệu nào tồn tại). Script báo "lược được ≤1 §" → dán đầy đủ luôn, không lược lắt nhắt.
 
 **TRANSCRIPT nạp cho judge phải NGUYÊN VĂN — KHÔNG rút gọn (từ 14/07/2026, sau khi quote_check FAIL oan):** khác với case file (được phép rút gọn), transcript dán cho judge phải là **bản sao nguyên văn** của file `output/transcript_*.md` đã duyệt GATE 2 (các lượt V1–V5 + vòng E + phụ lục fact-check; KHÔNG cần dán phụ lục steelman audit). KHÔNG được thay bằng bản tóm tắt/diễn giải/"trích nhúng". Lý do bất khả nhượng: `quote_check` đối chiếu TỪNG trích dẫn trong scorecard với **FILE transcript**; nếu judge chỉ thấy bản rút gọn, trích của judge sẽ lệch chuỗi (dấu câu, ghép cụm bị cắt) so với file và bị báo **MISSING oan hàng loạt**, làm hỏng chính phép kiểm chống-bịa-trích (quan sát 14/07: nạp bản rút gọn → 3/3 scorecard FAIL 7–17 MISSING dù lập luận đều có thật). Nếu transcript quá lớn để dán một lần → **nạp NHIỀU PHẦN nguyên văn** (quy trình "Nạp nhiều phần" ngay dưới), tuyệt đối không paraphrase. Chỉ CASE FILE mới được rút gọn; TRANSCRIPT thì không.
 
@@ -67,7 +76,8 @@ Cách ly được thực thi hai tầng: (a) bảng nạp này — dán nội du
    ```sh
    sh .claude/skills/debate-orchestrator/scripts/make_judge_input.sh output/transcript_YYYYMMDD.md output/_workspace/{phiên}_judge_input.md
    ```
-   Nạp cho MỌI judge (hội đồng, NOISE, SWAP, chấm E riêng) bằng cách dán **NGUYÊN VĂN nội dung file `_judge_input.md`** (đọc bằng Read rồi copy đúng khối, KHÔNG diễn giải). Quá lớn → nạp nhiều phần nguyên văn (quy trình "Nạp nhiều phần"), tuyệt đối không paraphrase. File này gồm các lượt + fact-check, đã tự loại phụ lục steelman audit.
+   Nạp cho MỌI judge (hội đồng, NOISE, SWAP, chấm E riêng) bằng cách dán **NGUYÊN VĂN nội dung file `_judge_input.md`** (đọc bằng Read rồi copy đúng khối, KHÔNG diễn giải). Quá lớn → nạp nhiều phần nguyên văn (quy trình "Nạp nhiều phần"), tuyệt đối không paraphrase. File này gồm các lượt + fact-check, đã tự loại phụ lục steelman audit (script FAIL nếu heading phụ lục lệch quy ước — sửa heading transcript, không gõ lại tay).
+   Ngay sau đó sinh bản case file rút gọn cho judge từ chính file này: `make_case_file_input.sh <case file của bộ chủ đề> _judge_input.md _case_file_input.md` (quy tắc chi tiết ở đoạn "Case file RÚT GỌN" Phase 1) — cả hai file nạp judge đều sinh bằng script, không soạn tay.
 1. **Hội đồng 3 judge:** gọi BA instance `debate-judge` độc lập (cùng input, context theo bảng trên; không instance nào biết về các instance khác), mỗi instance xuất scorecard đầy đủ vào `_workspace/{phiên}_judge{1,2,3}.md`.
 2. Kiểm tra từng scorecard đủ mục bắt buộc (bảng điểm từng vòng có trích dẫn + neo; bảng Phạt; tổng hợp N/A đúng quy tắc; độ nhạy 3 bộ; tổng V1–V5 tách riêng khi có vòng E; "luận điểm mạnh nhất của bên điểm thấp"; "giới hạn của phương pháp"). Thiếu → yêu cầu instance đó bổ sung.
    **Kiểm trích dẫn (chống judge bịa trích):** chạy trên TỪNG scorecard:

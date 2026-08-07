@@ -47,7 +47,7 @@
 
 ## Kiểm trích dẫn scorecard (chống judge bịa bằng chứng)
 - Trong scorecard, **dấu ngoặc kép chỉ dành cho trích nguyên văn transcript**; nhấn mạnh, thuật ngữ, và **mọi câu phân tích của judge** dùng *in nghiêng* (audit 14/07: đặt câu phân tích của mình vào ngoặc kép là nguyên nhân FAIL phổ biến nhất). Orchestrator chạy `scripts/quote_check.{sh,ps1}` (ưu tiên `quote_check.py` — casefold Unicode, chuẩn hóa dấu câu, trích đa dòng) trên **từng scorecard của MỌI lô** (hội đồng, NOISE, SWAP, chấm E riêng): trích không tìm thấy → **nghi lỗi NẠP trước** (transcript nạp cho judge phải nguyên văn, sinh bằng `make_judge_input.sh`, không gõ lại), nếu nạp đã đúng thì trả judge sửa một lần; vẫn thiếu → ghi vào bảng Hội đồng như chỉ báo độ tin cậy thấp.
-- **Cấm rút gọn transcript nạp cho judge:** transcript nạp cho judge phải nguyên văn từng ký tự (chỉ case file mới được rút gọn). Nạp bản rút gọn/paraphrase không chỉ hỏng quote_check mà còn **làm lệch điểm** (bên bị nén yếu đi ~0.5 — đo được 14/07). Quá lớn → nạp nhiều phần nguyên văn.
+- **Cấm rút gọn transcript nạp cho judge:** transcript nạp cho judge phải nguyên văn từng ký tự (chỉ case file mới được rút gọn — và từ 07/08/2026 cũng phải rút gọn bằng script `make_case_file_input.sh`, không soạn tay: soạn tay là paraphrase, cùng lớp rủi ro lệch điểm). Nạp bản rút gọn/paraphrase không chỉ hỏng quote_check mà còn **làm lệch điểm** (bên bị nén yếu đi ~0.5 — đo được 14/07). Quá lớn → nạp nhiều phần nguyên văn.
 
 ## Vòng E và tổng điểm (cập nhật P1, 14/07/2026 — chống thiên lệch chọn đề)
 - Có vòng E → mọi tổng báo cáo kép "V1–V5" và "V1–V5+E". **Điểm CHÍNH THỨC = V1–V5** (5 vòng chuẩn đối xứng do harness kiểm soát), KHÔNG phải V1–V5+E như quy tắc cũ.

@@ -12,6 +12,13 @@ Cải tiến so với bản awk cũ (P0-1, 14/07/2026):
   - Đếm `cells_unquoted`: dòng bảng điểm có cột điểm nhưng KHÔNG có trích "..." hợp lệ
     (chống né kiểm bằng cách không trích gì) — chỉ cảnh báo, không tính FAIL.
 
+Guard ghép cặp ngoặc (07/08/2026): regex ghép cặp dấu " tuần tự trên toàn file, nên MỘT
+dấu " lẻ (dấu inch, ngoặc trong khối code, ngoặc mở không đóng) làm lệch mọi cặp phía
+sau — "trích" khi đó là văn bản GIỮA hai trích thật → MISSING oan hàng loạt. Vì judge bị
+giới hạn trích 1–2 câu (agents/judge.md), một "trích" dài bất thường (> SUSPECT_LEN ký
+tự) hoặc chứa dòng trống gần như chắc là ghép cặp lệch → báo SUSPECT-PAIRING để kiểm
+tay, KHÔNG tính MISSING (không tính FAIL oan) và KHÔNG tính khớp.
+
 Usage: quote_check.py <scorecard> <transcript> [min_words=4]
 Exit:  0 = mọi trích khớp; 2 = có MISSING; 1 = lỗi input.
 """
@@ -51,8 +58,18 @@ def main() -> int:
     sc_uni = sc_raw.replace("“", '"').replace("”", '"')
     quotes = re.findall(r'"([^"]+)"', sc_uni, flags=re.DOTALL)
 
-    total = missing = 0
+    # Guard ghép cặp ngoặc lẻ (xem docstring): trích của judge bị giới hạn 1–2 câu,
+    # nên chuỗi vượt ngưỡng dài hoặc chứa dòng trống → nghi cặp ngoặc lệch, kiểm tay.
+    SUSPECT_LEN = 400
+    total = missing = suspect = 0
     for q in quotes:
+        if len(q) > SUSPECT_LEN or "\n\n" in q:
+            suspect += 1
+            show = re.sub(r"\s+", " ", q.strip())
+            show = show if len(show) <= 80 else show[:77] + "..."
+            reason = "chứa dòng trống" if "\n\n" in q else f"dài {len(q)} ký tự > {SUSPECT_LEN}"
+            print(f'SUSPECT-PAIRING ({reason} — nghi dấu " lẻ làm lệch cặp, kiểm tay, không tính MISSING): "{show}"')
+            continue
         # trích có ellipsis được tách thành mảnh; mỗi mảnh >= min_words phải khớp
         for frag in re.split(r"\.\.\.|…", q):
             f = norm(frag).strip(" .")
@@ -73,7 +90,9 @@ def main() -> int:
                 cells_unquoted += 1
 
     status = "FAIL" if missing > 0 else "OK"
-    print(f"quotes_checked={total} missing={missing} cells_unquoted={cells_unquoted} status={status}")
+    print(f"quotes_checked={total} missing={missing} suspect_pairing={suspect} cells_unquoted={cells_unquoted} status={status}")
+    if suspect > 0:
+        print(f"WARNING: {suspect} SUSPECT-PAIRING — tìm dấu '\"' lẻ trong scorecard (dấu inch, ngoặc mở không đóng), sửa rồi chạy lại; các cặp sau dấu lẻ đều đang lệch.")
     return 2 if missing > 0 else 0
 
 if __name__ == "__main__":

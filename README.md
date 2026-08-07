@@ -22,7 +22,7 @@ Lệnh bổ sung: `EXTRA ROUND [chủ đề]`, `SWAP TEST` (kiểm tra thiên l�
 - **Steelman audit** trước GATE 2: instance riêng liệt kê lập luận mạnh mỗi bên chưa dùng → đo trần steelman (vì cả hai advocate chạy cùng một model), vào phụ lục scorecard
 - Rubric neo điểm hành vi + bắt buộc trích dẫn biện minh cho từng ô điểm — trích dẫn được script `quote_check` đối chiếu máy với transcript (chống judge bịa bằng chứng)
 - Case file ghim bằng git hash tại GATE 1 (bổ sung sau gate phải qua `APPROVE CASE FILE ADDENDUM`); header transcript/scorecard ghi model + ngày chạy
-- Có vòng phụ (EXTRA ROUND) → tổng báo cáo kép V1–V5 và V1–V5+E; đảo thứ hạng giữa hai cách tính → "không phân định"
+- Có vòng phụ (EXTRA ROUND) → tổng báo cáo kép V1–V5 và V1–V5+E, nhưng **điểm chính thức = V1–V5** (vòng E chỉ vào phán quyết khi chủ đề đối xứng + qua gate riêng — chống thiên lệch chọn đề); đảo thứ hạng giữa hai cách tính → "không phân định"
 - Phân tích độ nhạy 3 bộ trọng số + SWAP TEST + NOISE TEST
 - Ngưỡng "không phân định": chênh trung vị ≤5% hoặc khoảng điểm hai bên chồng lấn — không ép ra người thắng
 

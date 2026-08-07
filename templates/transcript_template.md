@@ -46,5 +46,13 @@
 **Giới hạn của lập luận phía tôi:** [...]
 
 ---
-## Phụ lục: Fact-check theo vòng
+> **Quy ước heading phụ lục (BẮT BUỘC giữ nguyên văn):** `scripts/make_judge_input.sh` cắt input cho judge từ `## Vòng 1 — Mở đầu` đến TRƯỚC `## Phụ lục B` — đổi các heading dưới đây (kể cả chữ "Phụ lục B") sẽ làm steelman audit lọt vào input của judge hoặc làm input rỗng. Phụ lục A (fact-check) đặt TRƯỚC Phụ lục B.
+
+## Phụ lục A — Fact-check (phạm vi: [các vòng đã kiểm, vd V1–V5])
 [bảng của fact-checker, nếu chạy]
+
+## Phụ lục B — Steelman audit (đo trần lập luận — KHÔNG cộng/trừ điểm, KHÔNG nạp cho judge)
+[báo cáo 2 auditor — orchestrator dán sau GATE 2]
+
+## Phụ lục C — Ghi chú vận hành
+[gián đoạn/resume, vượt ngân sách từ, điều kiện thí nghiệm… nếu có]

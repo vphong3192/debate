@@ -37,11 +37,11 @@
 | Xử lý phản biện | 15% | | |
 | **TỔNG /10** | | **x.x** | **x.x** |
 
-[Nếu có vòng E — bảng tổng kép, bắt buộc:]
+[Nếu có vòng E — bảng tổng kép, bắt buộc. **Điểm CHÍNH THỨC = V1–V5** (P1, 14–15/07/2026 — chống thiên lệch chọn đề); V1–V5+E chỉ là báo cáo kép/chẩn đoán, trừ khi chủ đề E đối xứng VÀ đã qua `APPROVE TRANSCRIPT ADDENDUM`:]
 | Cách tính | A | B | Thứ hạng đổi so với V1–V5? |
 |---|---|---|---|
-| V1–V5 (không tính E) | | | — |
-| V1–V5+E (chính thức) | | | [Có → ghi "kết quả phụ thuộc vòng phụ", xử lý như không phân định] |
+| **V1–V5 (chính thức)** | | | — |
+| V1–V5+E (báo cáo kép — chẩn đoán nếu chủ đề E do người dùng chọn) | | | [Có → ghi "kết quả phụ thuộc vòng phụ", xử lý như không phân định] |
 
 ## 4. Phân tích độ nhạy
 | Bộ trọng số | A | B | Thứ hạng đổi? |
@@ -71,7 +71,7 @@
 - **Kết quả NOISE TEST (nếu chạy):** [bảng N instance + biên độ]
 
 ## 6. Kết luận
-- **Bên lập luận chặt chẽ hơn theo rubric:** [A / B / Không phân định — chênh trung vị ≤0.5 hoặc khoảng [min,max] hai bên chồng lấn]
+- **Bên lập luận chặt chẽ hơn theo rubric** *(orchestrator điền theo trung vị hội đồng — judge đơn lẻ KHÔNG tự điền dòng này, xem rubric mục "Hội đồng & ngưỡng phân định"):* [A / B / Không phân định — chênh trung vị ≤0.5 hoặc khoảng [min,max] hai bên chồng lấn]
 - **Luận điểm mạnh nhất của bên điểm thấp hơn:** [≥150 từ]
 - **Điểm yếu lớn nhất của bên điểm cao hơn:** [...]
 - **Kết quả SWAP TEST (nếu chạy):** [... — kèm câu: SWAP TEST chỉ bắt thiên lệch nhãn, không bắt thiên lệch nội dung]

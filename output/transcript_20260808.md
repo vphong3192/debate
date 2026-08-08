@@ -84,3 +84,25 @@ Tôi nêu sẵn **chỉ báo bác bỏ** lập luận mình: nếu quý III đ�
 
 > `[vượt ngân sách từ: 713/600 — trần cho phép 660]` Lượt này đo được 724 từ ở bản đầu; orchestrator đã yêu cầu cắt gọn MỘT lần theo protocol, bản cắt còn 713 từ, vẫn vượt trần 53 từ. Ghi nhận để Judge cân nhắc ở Chiều 5 nếu phần vượt tạo lợi thế.
 
+### PHẢN BIỆN 1 — Advocate A
+
+**Steelman.** B lập luận: nếu thứ được phép gãy là *kết quả*, thì vế cứng chẳng ràng buộc ai và tôi đã rút chính sách xuống thành stretch goal — đúng lối tắt bị cấm; "nỗ lực" và "công cụ" không tách rời được, nên khóa công cụ vĩ mô mà vẫn ép kết quả sẽ dồn toàn bộ ràng buộc lên đại lượng duy nhất đo được ở cấp tỉnh là tốc độ giải ngân và con số báo cáo; và số học đóng góp cho thấy biên còn lại không nằm ở nơi vốn ngân sách chạm tới. B đã nêu chỉ báo phân biệt cụ thể (ICOR 2026, tỷ trọng vốn dồn quý IV) — B đáp đúng yêu cầu tôi đặt ở vòng 1, tôi không lặp lại nó.
+
+**1. Nhận phần bất lợi trước.** Kịch bản cập nhật đúng như B dẫn: quý III 11,16%, quý IV 12,09% `[Nguồn: Cục Thống kê qua VietnamPlus, 07/2026 — H1/H3]`, nặng hơn mức 10,74% tôi trích ở vòng 1. Tôi nhận bản nặng hơn. Tôi cũng kiểm lại phép tính của B: từ §3 suy ra tỷ trọng CN–XD ~40%, dịch vụ ~47%, NLTS ~12%; giữ nguyên hai khu vực sau, CN–XD phải tăng ~18,8% để tổng đạt 11,7%; dịch vụ lên 9% thì ~17,5% `[phép tính từ Case file §3–§4]`. **Phép tính của B đúng, tôi không bác.**
+
+**2. Nhưng đó là số học của câu hỏi dự báo.** Nó chứng minh 10% rất khó đạt — điều tôi chưa bao giờ phủ nhận. Suy từ đó sang "mức quyết tâm sai" là bước nhảy bị `[Case file §11.2]` chặn, và là đánh tráo khái niệm khả thi ↔ hợp lý. Câu hỏi chuẩn tắc quyết ở biên khác: giữa 9,0% và 8,2%, không giữa 10% và 8%.
+
+**3. Gọng kìm §11.9 — trả lời trực diện.** Cam kết chính sách ràng buộc **hành vi mà chủ thể kiểm soát**, không ràng buộc một biến ngẫu nhiên; không cam kết nào ràng buộc được kết quả GDP. Phép thử stretch goal không phải "kết quả có gãy không" mà "hệ thống có trả giá khi gãy không": chủ tịch tỉnh báo cáo hằng quý trước ngày 25, các bộ kiến nghị giải pháp bảo đảm chỉ tiêu `[Case file §2.2]` — stretch goal không có bộ máy đó. Câu hỏi "kịch bản dưới 10% để làm gì" đã có đáp án trong dữ kiện: Bộ Tài chính xây **nhiều kịch bản điều hành**, thứ bị loại là kịch bản **đặt mục tiêu** dưới 10% `[Case file §2.2]` `[CẦN KIỂM CHỨNG câu chữ nguyên văn]`. Năng lực phân bổ dự phòng không bị xóa; cái bị xóa là quyền tự hạ chuẩn.
+
+**Phản công:** B không thể giữ cả điểm 1 lẫn điểm 2. Nếu vế cứng chỉ là stretch goal vô hại, nó không đủ lực bẻ cong hành vi cấp tỉnh; nếu đủ lực gây Goodhart, nó ràng buộc thật — đúng cấu hình "ràng buộc hành vi, không ràng buộc kết quả" tôi mô tả, B chỉ đánh giá nó xấu.
+
+**4. Goodhart — tôi nhận chỉ báo của B làm phép thử chung.** Nhưng Goodhart cắn ở **biên chọn dự án**, mà danh mục 2026 đã chốt trong kế hoạch vốn 1.013.443,4 tỷ đồng `[Case file §5]`. Giải ngân nhanh một danh mục đã chọn làm **giảm** ICOR (rút ngắn thời gian vốn nằm chờ), không tăng. Rủi ro B nêu là rủi ro 2027–2030. Điều kiện tự nhận thua: nếu ICOR 2026 xấu đi so 6,4 và tỷ trọng giải ngân quý IV vượt rõ thông lệ, luận điểm này của tôi sai.
+
+**5. Thế lưỡng nan là lưỡng nan giả.** Nó gán cho tôi tiền đề "600.000 tỷ bù đủ 3,5 điểm %" — tôi không nói vậy. Vốn hạ tầng điện–giao thông còn có cấu phần **nới ràng buộc cung** ngay trong năm, nên tác động giá không đồng dạng với một cú bơm cầu cùng quy mô. Dữ kiện: giải ngân tăng mạnh trong tháng 6 `[Case file §5]` nhưng CPI tháng 6 **giảm 0,39%** so tháng trước, và lạm phát lõi 4,12% **thấp hơn** CPI 4,38% — chênh đến từ xăng dầu, gas theo giá thế giới `[Nguồn: Cục Thống kê, Thông cáo giá tháng 6/2026 — H1]`. Đó là áp lực nhập khẩu, không phải cầu nội địa quá nóng.
+
+**Nguồn trích dẫn trong lượt này:** Case file §2.2, §3, §4, §5, §11.2, §11.9; Cục Thống kê qua VietnamPlus (07/2026) — kịch bản quý III 11,16%, quý IV 12,09%; Cục Thống kê, Thông cáo báo chí tình hình giá tháng 6/quý II/6 tháng 2026 (nso.gov.vn) — CPI tháng 6 giảm 0,39% so tháng trước, lạm phát cơ bản 6 tháng 4,12%, nguyên nhân chính từ giá xăng dầu và gas thế giới.
+
+> `[vượt ngân sách từ: 667/600 — trần cho phép 660]` Lượt này đo được 685 từ ở bản đầu; orchestrator đã yêu cầu cắt gọn MỘT lần theo protocol (cùng thủ tục đã áp cho B), bản cắt còn 667 từ, vượt trần 7 từ.
+
+> **Ghi chú đối xứng vòng 2 (orchestrator):** cả hai lượt đều vượt trần 660 sau một lần cắt — B 713 từ (+53), A 667 từ (+7). Chênh lệch giữa hai bên là 46 từ (~7% ngân sách). Judge cân nhắc ở Chiều 5 nếu phần vượt tạo lợi thế thực chất.
+

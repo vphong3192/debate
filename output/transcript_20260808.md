@@ -306,37 +306,111 @@ Bằng chứng rằng hai thứ tách được không phải của tôi, mà c�
 
 > **Quy ước heading phụ lục (BẮT BUỘC giữ nguyên văn):** `scripts/make_judge_input.sh` cắt input cho judge từ `## Vòng 1 — Mở đầu` đến TRƯỚC `## Phụ lục B`. Phụ lục A (fact-check) đặt TRƯỚC Phụ lục B.
 
-## Phụ lục A — Fact-check (phạm vi: CHƯA CHẠY)
+## Phụ lục A — Fact-check (phạm vi: V1–V5, ĐÃ CHẠY 08/08/2026)
 
-⛔ **CHƯA CHẠY.** Fact-check chưa được thực hiện cho bất kỳ vòng nào. Mọi tổng điểm chấm trên transcript ở trạng thái này phải gắn nhãn **"chưa fact-check"**, và KHÔNG được phát biểu "0 cờ đỏ" cho bất kỳ vòng nào.
+> **Nhãn phạm vi (đọc trước khi dùng kết quả này):** fact-check đã phủ **cả 5 vòng, cả hai bên**. Tuy nhiên **orchestrator nạp cho fact-checker bản transcript RÚT GỌN** — giữ nguyên văn từng khẳng định sự kiện kèm tag nguồn, nhưng lược phần văn lập luận (case file thì nạp ĐẦY ĐỦ, đúng quy định). Đây là **sai lệch giao thức cùng lớp với C2.1**, khai báo tại C6.4. Hệ quả: **độ phủ bị chặn bởi lựa chọn của orchestrator** — khẳng định nào không được đưa vào bản nạp thì fact-checker không thể phát hiện. Câu "phủ đầy đủ mọi khẳng định trong 10 lượt" trong báo cáo gốc của fact-checker phải đọc là "phủ đầy đủ mọi khẳng định **trong bản được nạp**". Judge và người đọc chiết khấu tương ứng.
+>
+> **Không có cờ 🔴 nào trong phạm vi đã kiểm.** Câu "0 cờ đỏ" chỉ được phát biểu kèm nhãn phạm vi ở trên.
 
-**Danh sách khẳng định ngoài case file cần kiểm ưu tiên khi chạy fact-check:**
+### Bảng kết quả
 
-| # | Khẳng định | Bên đưa | Vòng |
+| # | Bên | Khẳng định | Vòng | Kết quả | Nguồn đối chiếu / ghi chú |
+|---|-----|------------|------|---------|---------------------------|
+| 1 | A | GDP/người 5.400–5.500 USD (2026) → ~8.500 USD (2030) → thu nhập cao (2045) | V1 | ✅ | Khớp §2 |
+| 2 | A | Chỉ tiêu "phấn đấu từ 10% trở lên" | V1, V5 | ✅ | Khớp §2, đúng tư cách "chỉ tiêu" |
+| 3 | A | Kịch bản điều chỉnh quý II 10,5% – III 10,6% – IV 10,74% | V1 | ✅ | Khớp §4 |
+| 4 | A | IMF 7,5% (nâng từ 7,1%), ADB 7,2%, WB 6,8% | V1, V5 | ✅ | Khớp §9, gắn nhãn "dự báo" đúng |
+| 5 | A | 2025 đạt 8,02% — **"cao nhất từ 2011"** | V1 | 🟡 | Số 8,02% ✅. Mệnh đề phụ **sai**: Cục Thống kê nêu 2025 "chỉ thấp hơn tốc độ tăng của năm 2022 trong giai đoạn 2011–2025". **Lỗi gốc ở Case file §3**; A trích trung thực § → lỗi thừa kế |
+| 6 | A | 6 tháng 2026 **ước** 8,18% so 7,63% cùng kỳ | V1, V5 | ✅ | Khớp §3; Báo Chính phủ 03/7/2026. Ghi "ước" đúng |
+| 7 | A | CPI bình quân 6 tháng 4,38%, dưới chỉ tiêu ~4,5% | V1, V5 | ✅ | Khớp §6 |
+| 8 | A | Tín dụng đến 26/6 tăng 7,41%, thấp hơn cùng kỳ 2025 (8,3%) | V1, V5 | ✅ | Khớp §6; NHNN họp báo 02/7/2026 |
+| 9 | A | Kế hoạch vốn 1.013.443,4 tỷ; đến 16/7 giải ngân 378,01 nghìn tỷ (37,3%); 25 bộ + 11 địa phương dưới bình quân | V1, V5 | ✅ | Khớp §5 nguyên văn |
+| 10 | A | Bội thu gần 495.000 tỷ `[CẦN KIỂM CHỨNG]` | V1 | ⚠️ | A **mang theo tag** ✅. Không xác minh được trong giới hạn WebSearch |
+| 11 | A | Hơn 600.000 tỷ "**đang nằm im**" | V1 | 🟡 | Số học ✅ (1.013.443,4 − 378.010 ≈ 635.400 tỷ). "Nằm im" là đặc tả **vượt dữ kiện**: đó là phần chưa giải ngân tính đến 16/7, năm ngân sách còn hơn 5 tháng |
+| 12 | A | ICOR 6,4 | V1 | ✅ | Khớp §5 |
+| 13 | A | IIP 6 tháng +10,8%, chế biến chế tạo +11,4% | V1 | ✅ | **Mục ưu tiên 1.** Cục Thống kê qua VnEconomy/Báo Văn hóa 07/2026 |
+| 14 | A | Xuất nhập khẩu ~550 tỷ USD, +27% | V1 | ✅ | Khớp §7 |
+| 15 | A | "không điều hành theo phương án dưới 10%" (họp báo BTC 17/6, Thứ trưởng Nguyễn Đức Chi) | V1 | 🟡 | **Mục ưu tiên 2.** Người phát ngôn, ngày, sự kiện ✅. Câu chữ truy được là *"…xây dựng các kịch bản linh hoạt và không có kịch bản nào là lùi bước"*. **Nội dung tương đương, nhưng đặt trong ngoặc kép như trích nguyên văn là sai hình thức**; V1 không mang theo tag `[CẦN KIỂM CHỨNG câu chữ]` của §2.2 (V2 có mang) |
+| 16 | A | Độ vênh điện–GDP 2025 ~6,5%/11 tháng; chưa có chuỗi điện 2026 | V1 | ✅ | Khớp §8, xử lý tag đúng |
+| 17 | A | Kịch bản cập nhật quý III 11,16%, quý IV 12,09% | V2, V5 | ✅ | Cục Thống kê qua VietnamPlus 07/2026 |
+| 18 | A | Tỷ trọng CN–XD ~40%/dịch vụ ~47%/NLTS ~12%; CN–XD cần ~18,8%; dịch vụ 9% → ~17,5% | V2 | ✅ (số học) | Tái tính: dải 18,5–19,5% tùy xử lý phần dư thuế sản phẩm; 18,8% nằm trong dải. Giả định đã nêu rõ |
+| 19 | A | BTC xây nhiều kịch bản điều hành; thứ bị loại là kịch bản **đặt mục tiêu** dưới 10% | V2 | ✅ | Khớp §2.2; A mang theo tag ✅ |
+| 20 | A | CPI tháng 6 giảm 0,39% m/m; lõi 4,12% thấp hơn CPI 4,38% | V2 | ✅ | Cục Thống kê, thông cáo giá tháng 6/2026 |
+| 21 | A | Chênh đến từ xăng dầu, **gas** thế giới | V2 | ⚠️ (phần "gas") | Xăng dầu ✅ (xăng −10,05%, diesel −10,63%; giao thông −4,85% m/m). Thành tố "gas" không xuất hiện trong tóm tắt truy được |
+| 22 | A | 1,5–2 điểm % trên ~514 tỷ USD ≈ **7,7–10,3 tỷ USD** | V3 | ✅ (số học) | 1,5–2% × 514 = 7,71–10,28 ✅. Giả định bỏ qua nền 2026 lớn hơn đã nêu rõ |
+| 23 | A | 15% là định hướng NHNN (họp báo 02/7/2026, Phó Thống đốc Phạm Thanh Hà) | V3 | ✅ | **Mục ưu tiên 7.** Xác minh đủ; gắn nhãn "định hướng" đúng loại số |
+| 24 | A | 2025 nửa đầu 8,3%, cả năm ~18–19% `[CẦN KIỂM CHỨNG: nguồn nêu 17,87–19,01%]` | V3 | ✅ | **Mục ưu tiên 8.** Bản trình **chính xác nhất** về đại lượng này: NHNN công bố sớm 17,87%, sau đó chốt **19,01%** — đúng độ vênh A đánh dấu |
+| 25 | A | ICOR 6,4 là bình quân 2021–2025, giai đoạn có năm tăng trưởng rất thấp vì dịch | V4 | ✅ | §5 xác nhận khung; 2021 GDP +2,58% |
+| 26 | A | 2025 định hướng 16%, thực hiện **~19,1%**, vượt hơn 3 điểm % | V4, V5 | 🟡 | **Mục ưu tiên 8.** Thực hiện chính thức **19,01%**, không phải 19,1% (lệch 0,09 điểm %). Kết luận phái sinh vẫn đúng (19,01 − 16 = 3,01). A **bỏ dải 17,87–19,01% đã tự nêu ở V3** khi sang V4–V5 |
+| 27 | A | Đệm còn 0,12 điểm % | V4, V5 | ✅ (số học) | 4,5 − 4,38 = 0,12 |
+| 28 | A | Mọi đường quý tương thích ≥10% buộc nửa cuối ~11,6–11,7% | V5 | ✅ | Khớp §4; Cục Thống kê nêu 11,7% |
+| 29 | B | Nghị quyết gắn trần CPI ~4,5% + giới hạn nợ công/bội chi; Thủ tướng tuyên bố không đánh đổi ổn định vĩ mô | V1 | ✅ | Khớp §2/§2.2. **Giải tỏa được** `[CẦN KIỂM CHỨNG]` của §2.2: phát ngôn có tại buổi làm việc với IMF 28–29/7/2026 (VietnamPlus, Công Luận — H3) |
+| 30 | B | CPI 6T 4,38%; nhà ở–điện nước–VLXD +6,72%; giao thông +5,23%; ăn uống +4,79% | V1, V3, V4 | ✅ | **Mục ưu tiên 3.** Cả ba cấu phần khớp Cục Thống kê 03/7/2026 |
+| 31 | B | Lạm phát lõi bình quân 4,12% | V1, V2 | ✅ | **Mục ưu tiên 4.** Cục Thống kê |
+| 32 | B | FDI ~80% kim ngạch xuất khẩu | V1, V2 | ✅ | Khớp §7 |
+| 33 | B | Kịch bản ban đầu 9,1 – 10,2 – 10,2 – 10,4; nâng lên 10,5 – 10,6 – 10,74 | V1 | ✅ | Khớp §4, đúng loại số |
+| 34 | B | Mức cần thiết cập nhật 11,16% quý III / 12,09% quý IV | V1, V3, V4, V5 | ✅ | **Mục ưu tiên 5.** Trình đúng tư cách "kịch bản", không trình như dự báo |
+| 35 | B | Quý I 7,83%, quý II 8,39%, 6 tháng 8,18% (ước) | V1 | ✅ | Khớp §3, ghi "ước" đúng |
+| 36 | B | Độ chệch nới rộng từ 1,27 lên 2,11 điểm % | V1 | ✅ | Khớp §4 |
+| 37 | B | Năng suất lao động cần 8,5%/năm so 5,8% `[CẦN KIỂM CHỨNG]` | V1 | ⚠️ | B **mang theo tag** ✅. Không truy được nguồn Hạng 1–2 |
+| 38 | B | Cảnh báo mất cân đối cung–cầu điện 2026–2028; tiết kiệm tối thiểu 3% | V1, V2, V3, V5 | ✅ | Khớp §8 |
+| 39 | B | Hiệu chỉnh về 8–8,5% = chấp nhận mất ~1,5–2 điểm % so chỉ tiêu | V1 | ✅ (số học) | 10 − (8…8,5) = 1,5–2 |
+| 40 | B | Kịch bản bất lợi ~4,8%; 4,38% cách trần 0,12 điểm % | V1, V2, V4, V5 | ✅ | Khớp §6 |
+| 41 | B | Xác nhận IIP +10,8% và phát ngôn Thứ trưởng Nguyễn Đức Chi | V2 | ✅ | **Mục ưu tiên 1–2.** B tự xác nhận dữ kiện đối phương, khớp nguồn |
+| 42 | B | Chỉ tiêu GRDP giao đích danh, báo cáo trước ngày 25; "34 chủ tịch tỉnh" | V2, V3, V4 | ✅ | Khớp §2.2. Con số 34 khớp đơn vị hành chính hiện hành |
+| 43 | B | A cần ICOR giảm 1,6 điểm | V2 | ✅ | Khớp §5 |
+| 44 | B | Quý II: CN–XD +10,51% (50,07%); dịch vụ +7,87% (44,28%); NLTS +4,06% (5,65%) | V2 | ✅ (theo case file) | Khớp §3 nguyên văn. **Ghi chú không tính lỗi cho B:** nguồn Cục Thống kê trình bộ số này cho **6 tháng**, trong khi §3 gắn nhãn "quý II" — sai lệch nhãn nằm ở case file, cả hai bên dùng thống nhất nên không tạo bất đối xứng |
+| 45 | B | Để tổng đạt 11,7% thì CN–XD phải tăng ~18–19%; dịch vụ 9% vẫn cần ~17% | V2, V5 | ✅ (số học) | **Mục ưu tiên 10.** Tái tính 18,5–19,5%; "18–19%" sát dải. Kịch bản dịch vụ 9% tính ra ~17,5%, B ghi "~17%" — **làm tròn xuống ~0,5 điểm % theo hướng có lợi cho B**, mức lệch nhỏ nhưng đáng ghi nhận. A tự tính lại ra 18,8%/17,5%, hai bên hội tụ |
+| 46 | B | IIP "cao nhất 7 năm" / "cao nhất bảy năm" | V2, V5 | ✅ (nhất quán) | **Mục ưu tiên 14.** Không mâu thuẫn với "cao nhất từ 2019" — cùng một dữ kiện (2019→2026) |
+| 47 | B | 2025 định hướng 16%, thực hiện **~19,1%**, vượt hơn 3 điểm % | V3 | 🟡 | **Mục ưu tiên 8.** Thực hiện chính thức **19,01%**. Kết luận vẫn đứng (3,01 điểm %). B **không nêu độ vênh 17,87–19,01%** mà A có nêu |
+| 48 | B | Chỉ thị **01/CT-NHNN** (01/2026), mệnh đề "điều chỉnh tăng/giảm phù hợp diễn biến thực tế" | V3 | ✅ | **Mục ưu tiên 9.** Số hiệu văn bản đúng; định hướng ~15% + mệnh đề điều chỉnh đều xác minh được |
+| 49 | B | Chỉ thị 01 **siết bất động sản** | V3 | ✅ | **Mục ưu tiên 9.** Chỉ thị yêu cầu kiểm soát chặt tín dụng bất động sản. "Chia đều các quý" nêu rõ là giả định ✅ |
+| 50 | B | "8,02% là mức 2025 đạt được **với CPI trong trần**" `[§3, §6]` | V3 | 🟡 | Nội dung **đúng về sự kiện** (CPI bình quân 2025 tăng 3,31%, đạt mục tiêu QH). Nhưng § viện dẫn **không chứa** dữ kiện đó: §3 không có CPI 2025, §6 chỉ nói CPI 2026. Đúng nhưng **gắn sai chỗ neo** |
+| 51 | B | 6 tháng 8,18% → cả năm 9,0% cần nửa cuối ~9,8% | V4 | ✅ (số học) | **Mục ưu tiên 13.** (8,18 + x)/2 = 9,0 → x = 9,82 ✅. Giả định trọng số đã nêu rõ; nếu tính trọng số thực thì yêu cầu thấp hơn (~9,7%) — tức phép tính **thiên về phía bất lợi cho chính B** |
+| 52 | B | "11,16% và 12,09% phải được ban hành làm kịch bản điều hành, giao xuống 34 địa phương, dùng làm thước đo đạt/không đạt hằng quý trước ngày 25" `[§2.2]` | V5 | 🟡 | Câu **diễn giải của B** đặt trong ngoặc kép kèm tag §2.2. §2.2 chỉ xác lập: chỉ tiêu **GRDP** giao từng địa phương + báo cáo hằng quý. **Không có nguồn nào cho thấy kịch bản 11,16/12,09% đã được ban hành và giao xuống 34 địa phương** — đó là mức Cục Thống kê tính để đạt 10%. Mệnh đề điều kiện bị trình như dữ kiện đã ban hành |
+| 53 | B | Mọi đường quý tương thích ≥10% buộc nửa cuối ~11,6–11,7% | V5 | ✅ | Khớp §4 |
+
+### Khẳng định advocate ĐÃ TỰ RÚT (không tính cờ)
+
+| Bên | Khẳng định | Rút ở vòng |
+|---|---|---|
+| A | "Giải ngân nhanh một danh mục đã chọn làm **giảm** ICOR… không tăng" (V2) → V4: "Tôi không có bằng chứng đó. Tôi **rút** khẳng định đó ở tư cách một mệnh đề về dấu" | V4 |
+| B | "Dự báo tín dụng cả năm ~15% hàm ý nửa cuối phải bơm thêm gần gấp đôi nửa đầu" (V1) → V3: "Sai… Tôi rút phát biểu đó". **Phép tự đính chính đúng số học** (7,41 + 7,59 ≈ 15) | V3 |
+| B | Hàm ý nhân quả từ CPI 4,38% sang mức quyết tâm → V4: "Không có căn cứ nào… Tôi **rút** phần hàm ý đó" | V4 |
+
+> Cả ba lần tự rút đều nêu **công khai trong transcript**, đúng chỗ, và **không được tái sử dụng** ở các lượt sau (đã kiểm V4–V5 hai bên).
+
+### Tự kiểm đối xứng
+
+- Số dòng kiểm — **A: 28 (mục 1–28) | B: 25 (mục 29–53)**, chênh 3 dòng (~11%).
+- **Nguyên nhân chênh:** thuần túy do cách gộp dòng, không do tiêu chuẩn khác nhau. A đưa nhiều khẳng định đơn lẻ tách rời; B gói nhiều dữ kiện vào một mệnh đề. Đếm theo **đơn vị dữ kiện kiểm chứng được** thì xấp xỉ nhau (A ~34, B ~33).
+- **Bốn phép kiểm áp đối xứng cho cả hai bên:** (1) khớp § viện dẫn; (2) khớp nguồn ngoài; (3) đúng loại số; (4) mang theo tag `[CẦN KIỂM CHỨNG]` khi case file có.
+- **Mục ưu tiên 8 (19,01% vs 19,1%):** cùng một sai số xuất hiện ở **cả hai bên** (A ở V4–V5, B ở V3), gắn cờ **cùng mức 🟡** cho cả hai. Khác biệt duy nhất được ghi nhận: ở V3 A nêu dải 17,87–19,01% kèm tag, B chỉ nêu một con số — ghi nhận về **cách xử lý độ vênh nguồn**, không phải cờ lỗi bổ sung.
+- Ba trường hợp ⚠️ phân bổ **2 A / 1 B**, cả ba do giới hạn hạ tầng WebFetch, không do advocate.
+
+### Tổng kết cờ (phạm vi: bản transcript được nạp, V1–V5)
+
+| Cờ | Tổng | A | B |
 |---|---|---|---|
-| 1 | IIP 6 tháng 2026 +10,8% (cao nhất từ 2019); chế biến chế tạo +11,4% | A (B đã tự xác nhận đúng) | V1, V2 |
-| 2 | Phát ngôn "không điều hành theo phương án dưới 10%" là của Thứ trưởng Nguyễn Đức Chi, họp báo Bộ Tài chính 17/6/2026 | A (B đã tự xác nhận đúng) | V1, V2 |
-| 3 | Cấu phần CPI 6 tháng: nhà ở–điện nước–VLXD +6,72%; giao thông +5,23%; ăn uống +4,79% | B | V1 |
-| 4 | Lạm phát cơ bản bình quân 6 tháng 2026 = 4,12% | B (A dùng lại) | V1, V2 |
-| 5 | Kịch bản Cục Thống kê cập nhật: quý III 11,16%, quý IV 12,09% | B (A xác nhận và nhận bản nặng hơn) | V1, V2, V3 |
-| 6 | CPI tháng 6/2026 giảm 0,39% so tháng trước; chênh CPI–lõi do xăng dầu, gas thế giới | A | V2 |
-| 7 | Họp báo NHNN 02/7/2026, Phó Thống đốc Phạm Thanh Hà; định hướng tín dụng 2026 ~15% | A | V3 |
-| 8 | **Tín dụng 2025: định hướng 16%, thực hiện ~19,1%** — A dẫn "~17,87–19,01%", B dẫn "~19,1%"; hai bên vênh nhau về cùng một đại lượng | A và B | V3 |
-| 9 | **Chỉ thị 01/CT-NHNN (01/2026)** — số hiệu, và mệnh đề "điều chỉnh tăng/giảm phù hợp diễn biến thực tế" | B | V3 |
-| 10 | Phép tính tự dựng: để tổng đạt 11,7% thì CN–XD phải tăng ~18–19% (B), ~18,8% / ~17,5% (A tính lại) | B, A xác nhận | V2 |
-| 11 | Phép tính tự dựng: 1,5–2 điểm % sản lượng ≈ 7,7–10,3 tỷ USD | A | V3 |
+| ✅ Đúng | **43** | 22 | 21 |
+| 🔴 Sai | **0** | 0 | 0 |
+| 🟡 Thiếu nguồn / trình sai tư cách | **7** | 4 (mục 5, 11, 15, 26) | 3 (mục 47, 50, 52) |
+| ⚠️ Không xác minh được | **3** | 2 (mục 10, 21) | 1 (mục 37) |
 
-> Mục 8 và 9 là ưu tiên cao nhất: chúng là nền của đòn phản công quyết định ở vòng 3 của cả hai bên, và hai bên đưa con số vênh nhau.
+**Không phát hiện số liệu bịa, ngày tháng bịa, số hiệu văn bản bịa hay điều khoản bịa ở bất kỳ bên nào.** Sai lệch số học lớn nhất là 0,09 điểm % (19,1 vs 19,01) và xuất hiện ở **cả hai bên**.
 
-**Bổ sung từ vòng 4 (chất vấn chéo):**
+### ⚠️ Lỗi nằm trong CASE FILE (không phải lỗi advocate) — cần `APPROVE CASE FILE ADDENDUM`
 
-| # | Khẳng định | Bên đưa | Vòng |
-|---|---|---|---|
-| 12 | ICOR bình quân 6,4 là của giai đoạn 2021–2025, **giai đoạn có năm tăng trưởng rất thấp vì dịch**, nên bình quân bị đẩy lên về mặt cơ học (g nằm ở mẫu số) | A | V4 |
-| 13 | Phép tính tự dựng: 6 tháng đạt 8,18% (ước), để cả năm đạt 9,0% thì nửa cuối cần **khoảng 9,8%** | B | V4 |
-| 14 | Tín dụng 2025 thực hiện ~19,1% so với định hướng 16% — A dùng lại số của B và đặt ngưỡng tự bác ở 17% dựa trên nó (trùng mục 8, nhưng nay là nền của một **chỉ báo tự bác** nên độ chính xác quan trọng hơn) | A, B | V3, V4 |
+1. **§3 — "GDP cả năm 8,02% — cao nhất kể từ 2011"** mâu thuẫn với công bố Cục Thống kê: 2025 "chỉ thấp hơn tốc độ tăng của năm 2022 trong giai đoạn 2011–2025". A trích trung thực § nên cờ 🟡 mục 5 là **lỗi thừa kế**, không phải lỗi của A.
+2. **§3 — nhãn "Cơ cấu quý II/2026"** cho bộ số (+10,51%/50,07%; +7,87%/44,28%; +4,06%/5,65%): nguồn Cục Thống kê trình bộ số này cho **6 tháng**. Không tạo bất đối xứng (cả hai bên dùng như nhau) nhưng làm dải kết quả phép tính "CN–XD phải tăng bao nhiêu" xê dịch trong 18,5–19,5%.
+3. **Ghi nhận chưa kết luận:** một bản tin kịch bản nêu quý I ở mức **7,94%** (có thể là số điều chỉnh sau), trong khi §3 và cả hai advocate dùng **7,83%**. Không kiểm chứng dứt điểm được → **không tính cờ cho bên nào**.
+4. **Ghi nhận tích cực:** tag `[CẦN KIỂM CHỨNG]` của §2.2 về phát ngôn Thủ tướng (nguồn trực tiếp hạng thấp) **nay đã giải tỏa được** bằng nguồn H3 (VietnamPlus, Công Luận, 28–29/7/2026).
 
-> **Ghi chú cho fact-checker:** ở vòng 4, A đã **tự rút** khẳng định "giải ngân nhanh làm giảm ICOR" (mục dấu quan hệ) và B đã **tự rút** hàm ý nhân quả từ mức quyết tâm tới CPI 4,38%. Hai chỗ này không cần kiểm như khẳng định sự kiện nữa; ghi nhận để judge thấy chúng đã được rút chứ không bị bỏ qua.
+> **Orchestrator KHÔNG tự sửa case file** — file đã ghim GATE 1 (`9998fd2`); mọi sửa đổi phải đi qua `APPROVE CASE FILE ADDENDUM`.
+
+### Hạn chế hạ tầng
+
+Theo `source_policy_vn2026.md` quy tắc 6: phiên chặn `WebFetch` với hầu hết tên miền; toàn bộ xác minh dựa `WebSearch` (tiêu đề + trích đoạn + tóm tắt), không đọc được toàn văn thông cáo trên nso.gov.vn / sbv.gov.vn. Ba mục ⚠️ đều do giới hạn này, **không leo thang thành 🔴**, và judge **không phạt advocate** vì giới hạn hạ tầng.
 
 ## Phụ lục B — Steelman audit (đo trần lập luận — KHÔNG cộng/trừ điểm, KHÔNG nạp cho judge)
 
@@ -356,7 +430,7 @@ Bằng chứng rằng hai thứ tách được không phải của tôi, mà c�
 | Vòng 3 — Phản biện 2 | ✅ Hoàn thành (A 725, B 688) |
 | Vòng 4 — Chất vấn chéo | ✅ Hoàn thành (B hỏi 193 / A trả lời 928 / A hỏi 244 / B trả lời 903) |
 | Vòng 5 — Kết luận | ✅ Hoàn thành (A 858 / B 874) |
-| Fact-check V1–V5 | ⬜ Chưa chạy (danh sách ưu tiên ở Phụ lục A) |
+| Fact-check V1–V5 | ✅ Đã chạy 08/08/2026 — 0 🔴, 7 🟡, 3 ⚠️ (nhãn phạm vi ở Phụ lục A) |
 | Steelman audit ×2 | ⬜ Chưa chạy |
 | GATE 2 | ⬜ Chưa tới |
 | Phase 2 — hội đồng 3 judge | ⬜ Chưa chạy |
@@ -419,5 +493,14 @@ Hai lượt mở đầu (ngân sách 800, trần 880) đều đạt **đúng 877
 
 **C6.2 — `output/_workspace/` bị gitignore, làm checklist trước GATE 2 không thỏa được (P1).** Skill yêu cầu: *"Checklist file `_workspace/` trước GATE 2: xác nhận đủ file lượt của cả 5 vòng… Thiếu file lượt nào → ngân sách từ vòng đó không tái kiểm được."* Nhưng `.gitignore` dòng 3 là `output/_workspace/`. Trên môi trường container ephemeral (Claude Code on the web), thư mục này **không được commit và biến mất khi phiên kết thúc** — file lượt V1–V3 do phiên 1 sinh ra đã mất, chỉ còn các file `_workspace` của phiên 12/06 vì chúng được commit trước khi luật ignore có hiệu lực.
 Dấu vết ngân sách từ hiện chỉ sống sót nhờ được ghi **inline trong transcript** sau mỗi lượt. Đề xuất chọn một trong hai: (a) `git add -f` các file lượt trước GATE 2; hoặc (b) sửa skill — bỏ checklist file `_workspace`, công nhận dòng đo inline trong transcript là dấu vết chuẩn.
+
+**C6.4 — Orchestrator nạp transcript RÚT GỌN cho fact-checker (lỗi của orchestrator, cùng lớp C2.1).** Skill quy định fact-checker nhận "các lượt của vòng vừa xong"; với đợt quét V1–V5 thì đó là toàn bộ lượt, **nguyên văn**. Orchestrator đã nạp bản **rút gọn**: giữ nguyên văn từng khẳng định sự kiện kèm tag nguồn, nhưng lược phần văn lập luận. Case file vẫn nạp ĐẦY ĐỦ (đúng quy định).
+
+- **Cái bị lược:** văn cảnh lập luận quanh mỗi khẳng định.
+- **Cái được giữ nguyên văn:** mọi khẳng định sự kiện, mọi tag `[Nguồn: …]` / `[Case file §x]` / `[CẦN KIỂM CHỨNG]`, mọi con số.
+- **Hệ quả phải khai báo:** độ phủ của fact-check **bị chặn bởi lựa chọn của orchestrator**. Khẳng định nào không được đưa vào bản nạp thì fact-checker không thể phát hiện. Danh sách 14 mục ưu tiên giảm rủi ro này nhưng không xóa được nó. Ngoài ra fact-checker có thể đánh giá sai **tư cách** một khẳng định (trình như sự thật hay như giả thuyết) khi thiếu văn cảnh.
+- **Khác với trường hợp judge:** ở đây KHÔNG có hệ quả kiểu `quote_check` FAIL — fact-checker không đối chiếu chuỗi ký tự với file. Thiệt hại là về **độ phủ**, không phải về tính hợp lệ của các kết quả đã thu được.
+- **Tính đối xứng:** bản nạp áp giống nhau cho khẳng định của cả A và B → nếu có thiên lệch thì là thiên lệch chung, không nghiêng về một bên. Kết quả đối xứng thực tế: A 22✅/4🟡/2⚠️, B 21✅/3🟡/1⚠️.
+- **Khắc phục đề xuất:** chạy lại fact-check với transcript nguyên văn (`_judge_input.md`) nếu người dùng yêu cầu. Orchestrator KHÔNG tự chạy lại để xóa dấu vết; transcript phải phản ánh cái đã thực sự xảy ra.
 
 **C6.3 — Ngân sách vòng chất vấn vừa vặn, khác hẳn vòng phản biện (dữ kiện cho C3).** Vòng 4 là vòng **đầu tiên** của phiên mà mọi lượt đều nằm trong trần: hỏi 64/61/68 và 94/73/77 (trần 100); trả lời 318/326/284 và 318/295/290 (trần 330, chỉ 1 lượt cần cắt gọn và chỉ vượt 1 từ). Trong khi đó 4/4 lượt phản biện vòng 2–3 đều vượt trần 660 kể cả sau khi đã cắt. Củng cố giả thuyết ở C3: vấn đề nằm ở **ngân sách 600 từ cho vòng phản biện** với chủ đề mật độ số liệu cao, không phải ở việc advocate không tuân thủ.

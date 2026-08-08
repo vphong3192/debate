@@ -1,6 +1,6 @@
 # CASE FILE — Mục tiêu tăng trưởng hai con số của Việt Nam năm 2026 (nền sự kiện chung)
 
-> **Đề tranh biện:** *"Việt Nam có nên kiên định mục tiêu tăng trưởng GDP hai con số (≥10%) cho năm 2026 và ưu tiên mục tiêu này khi nó xung đột với các mục tiêu vĩ mô khác (lạm phát, chất lượng đầu tư, an toàn tài chính) không?"*
+> **Đề tranh biện:** *"Mức quyết tâm mà Việt Nam đang áp dụng cho mục tiêu tăng trưởng hai con số năm 2026 — kiên định kịch bản ≥10%, không xây phương án điều hành dưới 10%, giao chỉ tiêu tới từng địa phương kèm giám sát hằng quý, đồng thời tuyên bố không đánh đổi ổn định vĩ mô — có hợp lý không?"* (xem §1 để biết mức quyết tâm này được đo từ nguồn ra sao)
 > Trạng thái: **ĐÃ DUYỆT GATE 1 — 08/08/2026** (lập 07/08/2026).
 > Phân hạng nguồn theo `knowledge/source_policy_vn2026.md` (H1 = thống kê chính thức/văn bản quy phạm; H2 = định chế quốc tế/học thuật; H3 = báo chí kinh tế/phân tích tổ chức tài chính; H4 = hạn chế).
 > **Nguyên tắc:** file này chỉ chứa SỰ KIỆN kiểm chứng được và CẢNH BÁO PHƯƠNG PHÁP trung lập (áp đối xứng hai bên). KHÔNG chứa khung được/mất điểm — khung chấm nằm ở `knowledge/judge_notes_vn2026.md`, chỉ nạp cho judge.

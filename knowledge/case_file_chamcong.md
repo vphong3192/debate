@@ -97,3 +97,23 @@
 5. **Không quy chụp động cơ.** Không viết như thể lãnh đạo bệnh viện chắc chắn hành động vì tư lợi, cũng không như thể bác sĩ phản đối chắc chắn vì muốn trốn việc. Động cơ chủ quan không quan sát được trong case file này.
 6. **Phân biệt ba mệnh đề** (a)/(b)/(c) ở §1 — không gộp thành một khối để thắng dễ.
 7. **Ngôn ngữ:** phân tích quản trị y tế học thuật; không công kích cá nhân, không ngôn ngữ phi nhân hóa với bất kỳ nhóm nào (bác sĩ, điều dưỡng, lãnh đạo, bệnh nhân).
+
+---
+
+## §11. Nghị định 233/2026/NĐ-CP — khung đánh giá viên chức thay thế NĐ 90/2020 (ADDENDUM, duyệt 08/08/2026)
+
+> Bổ sung sau GATE 1 qua lệnh `APPROVE CASE FILE ADDENDUM`. Phát hiện tại vòng 3: fact-checker nêu nghi vấn, orchestrator xác minh và xác nhận. Chỉ chứa sự kiện + lưu ý phương pháp trung lập.
+
+- **Chính phủ ban hành Nghị định 233/2026/NĐ-CP ngày 26/6/2026**, quy định về **đánh giá, xếp loại chất lượng đối với đơn vị sự nghiệp công lập và viên chức**; **hiệu lực thi hành từ 01/7/2026**; **thay thế Nghị định 90/2020/NĐ-CP**. Gồm **4 chương, 21 điều**. `[Nguồn: Cổng TTĐT Chính phủ (vanban.chinhphu.vn); Cổng Xây dựng chính sách (xaydungchinhsach.chinhphu.vn); LuatVietnam; Sở Nội vụ Gia Lai — H1/H3]`
+- **Khung tiêu chí (theo tổng hợp của các nguồn):** khung tiêu chí đánh giá **kết quả thực hiện nhiệm vụ** của viên chức có mức **tối đa 70 điểm** trên thang 100; **khung tiêu chí chung** (phẩm chất chính trị, đạo đức, ý thức) mức **tối đa 30 điểm** trên thang 100, theo Phụ lục I của Nghị định. `[Nguồn: tổng hợp Thư viện Pháp luật, LuatVietnam — H3]` `[CẦN KIỂM CHỨNG: số điều chính xác (các nguồn nêu Điều 11); cách phân bổ điểm chi tiết; nội dung Phụ lục I — chưa truy được toàn văn, các miền pháp luật bị egress proxy chặn]`
+- **Nguyên tắc đánh giá được nêu:** bảo đảm dân chủ, công khai, công bằng, minh bạch, khách quan, đúng thẩm quyền, trách nhiệm và trình tự thủ tục; thực hiện **liên tục và toàn diện thông qua tiêu chí cụ thể và sản phẩm công việc**; ứng dụng khoa học, công nghệ và chuyển đổi số trong quá trình đánh giá, xếp loại. `[Nguồn: tổng hợp — H3]` `[CẦN KIỂM CHỨNG câu chữ nguyên văn]`
+- **Mốc thực hiện:** chậm nhất **30/11/2026**, đơn vị sự nghiệp công lập phải **ban hành quy chế đánh giá riêng** theo quy định của Nghị định. `[Nguồn: tổng hợp — H3]` `[CẦN KIỂM CHỨNG]`
+- **Bối cảnh liên quan:** Nghị định này cùng mốc hiệu lực **01/7/2026** với **Luật Viên chức số 129/2025/QH15** (§2).
+
+### Lưu ý phương pháp bắt buộc (áp đối xứng cho cả hai advocate)
+
+1. **Các lượt V1–V3 của phiên này đã phát biểu TRƯỚC khi addendum được duyệt.** Hai bên khi đó trích **đúng** case file bản GATE 1 (commit `c8ecf8d`), vốn chỉ có NĐ 90/2020. **Việc hai bên dẫn NĐ 90/2020 ở V1–V3 KHÔNG phải lỗi của advocate** và không được tính là cờ sai; đây là khiếm khuyết của case file do orchestrator soạn.
+2. **Nội dung §11 KHÔNG trung lập về mặt tác động giữa hai bên** — cần nói thẳng thay vì che: tỷ trọng 70/30 nghiêng về **kết quả thực hiện nhiệm vụ** hỗ trợ hướng lập luận của bên tranh mệnh đề (b) (chấm công không nên **thay thế** đánh giá hiệu quả), và làm khó hơn cho bên bảo vệ chế độ lấy chấm công làm **căn cứ chính**. Ngược lại, mốc **30/11/2026** cho việc ban hành quy chế riêng là dữ kiện thuận cho lập luận "giai đoạn quá độ có mốc pháp lý". Case file ghi nhận cả hai như **dữ kiện về nội dung văn bản**, KHÔNG như phán quyết; việc chúng nặng bao nhiêu là DIỄN GIẢI của advocate và là việc chấm của judge.
+3. **Chưa truy được toàn văn.** Mọi con số (70/30), số điều (Điều 11), và mốc 30/11/2026 đều đang mang nhãn `[CẦN KIỂM CHỨNG]`. Advocate **phải giữ nguyên nhãn** khi trích; **cấm** trình các con số này như đã xác lập.
+4. **Không suy ra kết luận về tính hợp pháp của chế độ đang tranh.** §11 xác lập rằng khung đánh giá viên chức đã đổi; nó **không** tự nó xác lập rằng một chế độ lấy chấm công làm căn cứ chính là trái pháp luật. Bước từ (1) sang (2) là lập luận mà advocate phải tự dựng và judge chấm.
+5. **Đối xứng cơ hội sử dụng.** Cả hai bên đều được nạp §11 cho các lượt còn lại (V4, V5) và đều được quyền dùng hoặc không dùng.

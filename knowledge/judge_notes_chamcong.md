@@ -46,6 +46,19 @@
 - **Được điểm cao** khi bên đó nêu **mục "giới hạn lập luận phía tôi" thực chất**, tức nêu **điều kiện** mà dưới đó lập luận của mình yếu đi — ví dụ mẫu (không bắt buộc trùng): A thừa nhận rằng nếu bệnh viện chưa có năng lực xây bộ chỉ số hiệu chỉnh case-mix thì bỏ chấm công có thể tạo khoảng trống quản lý tệ hơn hiện trạng; B thừa nhận rằng nếu miễn trừ không kèm cơ chế trách nhiệm giải trình thay thế nào nhìn thấy được thì biện hộ của mình sụp. Mục "giới hạn" chỉ liệt kê khó khăn chung chung không có điều kiện cụ thể → tối đa neo 4.
 - **Bị 0** khi công kích cá nhân, phi nhân hóa một nhóm, hoặc **quy chụp động cơ** đối phương thay vì phản bác lập luận (§10.5).
 
+## K7 — Xử lý addendum §11 (NĐ 233/2026/NĐ-CP) khi chấm — ADDENDUM, duyệt 08/08/2026
+
+> §11 được thêm vào case file **giữa phiên**, sau vòng 3, qua lệnh `APPROVE CASE FILE ADDENDUM`. Lý do: case file bản GATE 1 dẫn NĐ 90/2020/NĐ-CP như khung đang vận hành, trong khi NĐ 233/2026/NĐ-CP (hiệu lực 01/7/2026) đã thay thế nó trước ngày chạy phiên.
+
+- **KHÔNG phạt hồi tố.** Lượt V1–V3 phát biểu trước khi §11 tồn tại. Judge **KHÔNG** được trừ điểm bên nào ở V1–V3 vì "dẫn NĐ 90/2020 đã hết hiệu lực" — hai bên khi đó trích đúng case file đã duyệt. Chỉ chấm việc sử dụng §11 từ **V4 trở đi**.
+- **Thưởng đối xứng cho việc xử lý trung thực.** Bên nào ở V4/V5 **tự nêu** rằng nền pháp lý đã đổi và điều chỉnh lập luận cho phù hợp — **kể cả khi điều đó bất lợi cho mình** — được thưởng ở **chiều 5** (trung thực trí tuệ) và **chiều 3**. Áp cho cả hai bên như nhau.
+- **A được điểm** khi dùng §11 đúng mức: dẫn kèm nhãn `[CẦN KIỂM CHỨNG]` cho các con số chưa truy được toàn văn; và **không** nhảy thẳng từ "khung đã đổi" sang "chế độ hiện hành trái luật" (bước đó cần lập luận riêng — §11 lưu ý 4).
+- **A bị trừ** khi trình tỷ trọng 70/30 như đã xác lập chắc chắn, hoặc dùng §11 để tuyên bố thắng mệnh đề (b) mà không dựng bước lập luận trung gian.
+- **B được điểm** khi đối diện §11 thay vì né. Các đường đáp hợp lệ: (i) mốc **30/11/2026** cho việc ban hành quy chế đánh giá riêng nghĩa là giai đoạn quá độ **có mốc pháp lý thật**, củng cố chính lập luận "quá độ có mốc" B đã nêu ở V3; (ii) khung mới quy định **tỷ trọng**, không quy định **công cụ thu thập dữ liệu**, nên không tự nó cấm chấm công; (iii) chỉ ra §11 vẫn còn nhãn chưa kiểm.
+- **B bị trừ** khi **né hoàn toàn** §11 sau khi A đã nêu (→ trừ chiều 5), hoặc khi phủ nhận rằng nền pháp lý đã đổi.
+- **Cả hai bị trừ** khi trình các con số còn nhãn `[CẦN KIỂM CHỨNG]` như dữ kiện đã xác lập.
+- **CẢNH BÁO HIỆU CHUẨN (quan trọng):** §11 vào phiên **giữa chừng** và có tác động **bất đối xứng theo nội dung** — tỷ trọng 70/30 thuận chiều A, mốc 30/11/2026 thuận chiều B. Judge chấm **CHẤT LƯỢNG XỬ LÝ** §11 của mỗi bên, **KHÔNG** cộng điểm cho bên nào chỉ vì nội dung văn bản tình cờ thuận chiều lập luận của họ. **Một văn bản thuận chiều không phải là thành tích lập luận.**
+
 ## K6 — Khung chấm Vòng E (nếu có) — chấm như vòng phản biện
 > Chưa có vòng E tại thời điểm lập file. Nếu phát sinh: chủ đề vòng E do NGƯỜI DÙNG chọn → vector thiên lệch chọn đề; tổng báo cáo kép V1–V5 và V1–V5+E; **điểm chính thức vẫn là V1–V5**; đảo hạng → "kết quả phụ thuộc vòng phụ do người dùng chọn chủ đề". Fact-check vòng E bắt buộc trước khi vòng đó vào bất kỳ tổng nào.
 - Nguyên tắc chấm chung giữ nguyên: thưởng khai báo loại suy, phạt trình dự thảo như quy định có hiệu lực, phạt bịa tình huống cụ thể, phạt tiêu chuẩn kép.

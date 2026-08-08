@@ -41,7 +41,30 @@ Về **công bằng phân phối** và **liên nhân–thông tin**: bốn chi�
 - Cổng thông tin Bộ Y tế (số liệu thôi việc 2021–2022)
 
 ### Mở đầu — Advocate B
-[đang chạy]
+
+`[vượt ngân sách từ: 990/800 — đã yêu cầu cắt gọn một lần (1010 → 990), vẫn vượt trần +10% (880); xử lý y hệt lượt A cùng vòng]`
+
+**Đặt vấn đề.** Tôi bảo vệ: chế độ trong đề bài **không bất công**, nên được giữ kèm hoàn thiện chứ không bãi bỏ. Ba mệnh đề tách rời `[Case file §1]`: (a) quản lý bác sĩ bằng chấm công — tôi mạnh nhất ở đây; (c) miễn trừ cho lãnh đạo khoa phòng — chính đáng **nếu** dựa trên khác biệt chức năng thật; (b) chấm công làm căn cứ chính khi chưa có bộ chỉ số vận hành được — tôi bảo vệ ở dạng **có điều kiện**, và trung thực rằng đây là mệnh đề yếu nhất của tôi.
+
+**Steelman đối phương.** Đối phương lập luận rằng khuyết tật trung tâm nằm ở công bằng thủ tục (procedural justice): lý do biện minh cho miễn trừ — công việc di động, đã có cơ chế trách nhiệm khác — chính là lý do bị từ chối khi bác sĩ nêu, nên quy tắc không vượt được phép thử tổng quát hóa và phép thử công khai. Và khi chấm công là căn cứ **chính**, cái được tối ưu hóa là sự hiện diện, biến ít tương quan với chất lượng lâm sàng. Đây là lập luận mạnh; tôi trả lời trực diện.
+
+**Trục 1 — Công bằng tổ chức & khuyến khích.** *Phân phối:* nghĩa vụ chấm công áp cho **toàn bộ** nhân lực bệnh viện — điều dưỡng, kỹ thuật viên, hành chính — không chọn riêng bác sĩ. Theo thuyết công bằng Adams, bất mãn sinh từ so sánh với **nhóm tham chiếu** `[Case file §9]`; nếu nhóm tham chiếu là đồng nghiệp cùng chịu chế độ, tỷ lệ đóng góp/đãi ngộ không lệch. *Thủ tục:* nguyên tắc tổng quát hóa đòi áp đồng đều cho mọi đối tượng **thỏa cùng điều kiện**; điều kiện tôi viện là **chức năng điều hành di động**, không phải cấp bậc — phép thử được thỏa khi bất kỳ ai giữ chức năng đó cũng được miễn, kể cả người không phải lãnh đạo. *Liên nhân–thông tin:* đây là chiều tôi thừa nhận dễ hỏng nhất; hoàn thiện đúng là **công bố văn bản lý do miễn trừ và mở cơ chế khiếu nại** — sửa thủ tục, không bãi bỏ công cụ.
+
+*Hệ quả khuyến khích, áp cho cả phương án của tôi:* chấm công bị tối ưu hóa bằng "ngồi hết giờ" — chi phí thật, tôi không phủ nhận. Nhưng quy luật Goodhart cắt hai chiều: chỉ số kết quả bị **gaming** và tạo động cơ **né bệnh nhân nặng** do case-mix `[Case file §5, §9]`. Còn một chi phí công bằng ít được nói: bỏ chấm công **trước khi** có bộ chỉ số vận hành được thì bệnh viện không chuyển sang đánh giá hiệu quả, mà chuyển sang **đánh giá bằng cảm nhận của người quản lý** — thay tiêu chí khách quan, áp đồng đều, bằng tiêu chí chủ quan. Người thiệt nhất là người làm nhiều nhưng ít được nhìn thấy.
+
+**Trục 2 — Bằng chứng & dữ kiện.** Bằng chứng về trả theo hiệu quả (pay-for-performance) là **loại suy**, không phải bằng chứng trực tiếp về chấm công `[Case file §5]`; khác biệt then chốt: P4P gắn tiền vào **đầu ra**, chấm công gắn vào **đầu vào**. Nêu cả hai mặt: QOF cải thiện chất lượng ở mốc 1 năm nhưng **kém nhất quán ở mốc 3 năm**, mạnh nhất với chỉ số quy trình vốn thực hiện thấp `[Nguồn: systematic review PMC12188983 — Case file §5]`; kèm gaming và **giảm hài lòng, giảm động lực nội tại** `[Nguồn: meta-synthesis PMC7359468 — Case file §5]`. Kết luận đúng mực: khối này **không** chứng minh chấm công tốt — nó hạ kỳ vọng về phương án thay thế. Về gánh nặng hành chính: ngưỡng >90 phút/ngày hồ sơ điện tử ngoài giờ và >60 phút tác vụ hành chính đo **giấy tờ chuyên môn**, không đo thao tác quẹt thẻ vài giây `[Case file §6]`. Ai muốn nói chấm công gây kiệt sức phải bắc cầu bằng **cơ chế tri giác kiểm soát** — mà chính lý thuyết đó là **có điều kiện** (kiểm soát vs hỗ trợ) và các phân tích gộp còn đối lập nhau `[Case file §7]`.
+
+**Trục 3 — Pháp lý & quy chế.** Quản lý thời giờ làm việc không phải sáng kiến tùy tiện: nội quy lao động là **nghĩa vụ luật định**, phải bằng văn bản từ 10 người lao động trở lên, nội dung chủ yếu **bao gồm thời giờ làm việc, thời giờ nghỉ ngơi** `[Nguồn: BLLĐ 2019 Điều 118 — Case file §2]`. Khung đánh giá viên chức chứa **cả** "tác phong, lề lối làm việc" và "ý thức tổ chức kỷ luật", không chỉ nhóm kết quả `[Nguồn: NĐ 90/2020/NĐ-CP — Case file §2]`. Cơ chế tự chủ tài chính trao thẩm quyền quản trị nội bộ đáng kể `[Nguồn: NĐ 60/2021/NĐ-CP, sửa đổi bởi NĐ 111/2025/NĐ-CP — Case file §4]`; điều khoản cụ thể về thu nhập tăng thêm `[CẦN KIỂM CHỨNG — Case file §4]`. Tôi **thừa nhận** phụ cấp đặc thù tính theo **phiên trực** `[Nguồn: QĐ 73/2011/QĐ-TTg — Case file §3]` — nhưng đó là bằng chứng rằng hai chế độ phục vụ hai chức năng khác nhau, không loại trừ nhau. Khung KPI viên chức còn mang nhãn dự kiến `[CẦN KIỂM CHỨNG — Case file §2]`; tôi không viện dẫn.
+
+**Trục 4 — Logic.** "Hợp pháp không đồng nghĩa chính đáng" — tôi chấp nhận, nên không dừng ở thẩm quyền. Chấm công phục vụ ba chức năng **hành chính–pháp lý** mà đánh giá chuyên môn không thay thế được: căn cứ tính lương và chế độ; dữ liệu phân bổ nhân lực, lập lịch trực; xử lý mối lo có thật về rời vị trí trong giờ `[Case file §9]`. Phê phán nó vì "không đo được chất lượng" là **đánh tráo khái niệm** — đòi một công cụ làm việc nó không được thiết kế để làm. Lập luận "cùng lý do, hai kết luận" chỉ thành công nếu hai vị trí **thỏa cùng điều kiện**: lãnh đạo khoa phòng đã chịu cơ chế trách nhiệm giải trình **khác và nặng hơn** — chịu trách nhiệm về chỉ số hoạt động cả khoa và về sự cố y khoa `[Case file §9]`. Miễn một cơ chế kiểm soát khi **đã có** cơ chế thay thế không phải miễn trách nhiệm. Cuối cùng: bên nào áp Goodhart cho công cụ của đối phương mà miễn cho công cụ của mình là **tiêu chuẩn kép**.
+
+**Nguồn trích dẫn trong lượt này:**
+- Case file §1, §2, §3, §4, §5, §6, §7, §9
+- BLLĐ 2019 Điều 118 — https://thuvienphapluat.vn/lao-dong-tien-luong/noi-quy-lao-dong-la-gi-noi-quy-lao-dong-chua-nhung-noi-dung-nao-10592.html ; https://hethongphapluat.com/bo-luat-lao-dong-2019/dieu-118
+- Nghị định 90/2020/NĐ-CP — https://vanban.chinhphu.vn/?pageid=27160&docid=200766 ; https://luatvietnam.vn/can-bo/nghi-dinh-90-2020-nd-cp-danh-gia-xep-loai-chat-luong-can-bo-cong-chuc-vien-chuc-188849-d1.html
+- Nghị định 60/2021/NĐ-CP; Nghị định 111/2025/NĐ-CP; Quyết định 73/2011/QĐ-TTg
+- Systematic review QOF, PMC12188983; meta-synthesis QOF, PMC7359468
+- Frey & Jegen, *Journal of Economic Surveys* 2001 (qua Case file §7)
 
 ## Vòng 2 — Phản biện 1
 [chưa chạy]
@@ -71,5 +94,8 @@ Về **công bằng phân phối** và **liên nhân–thông tin**: bốn chi�
 | Lượt | Giới hạn | Trần +10% | Đo được | Xử lý |
 |---|---|---|---|---|
 | V1 — A | 800 | 880 | bản đầu 1049 → sau cắt **988** | Đã yêu cầu chính instance đó cắt gọn MỘT lần theo quy tắc harness; vẫn vượt → ghi chú thích vượt ngân sách ngay trong lượt để judge biết (rubric: judge trừ chiều 5 nếu phần vượt tạo lợi thế) |
+| V1 — B | 800 | 880 | bản đầu 1010 → sau cắt **990** | Xử lý y hệt lượt A: một lần cắt duy nhất, gửi về chính instance đã viết |
+
+> **Đánh giá đối xứng V1:** hai lượt sau cắt là **988 (A)** và **990 (B)** — lệch **0,2%**, nằm sâu trong ngưỡng ±10% mà nguyên tắc nền tảng đòi hỏi. Tức cả hai bên đều vượt trần tuyệt đối như nhau, và **không bên nào có lợi thế độ dài so với bên kia**. Judge nên đọc cờ vượt ngân sách như một khiếm khuyết chung của vòng 1, không phải lợi thế của một bên.
 
 **Điều kiện thí nghiệm cần khai báo:** advocate B ở V1 được nhắc rõ trong spec rằng bản đầu của A đã vượt trần và phải cắt — đây là thông tin vận hành, không phải nội dung lập luận của A, nhưng ghi lại để minh bạch điều kiện không hoàn toàn đối xứng giữa hai lượt V1.

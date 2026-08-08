@@ -84,7 +84,20 @@ Cuối cùng, nhánh "miễn trừ là thực hành ngầm ngoài nội quy" đ�
 **Nguồn trích dẫn trong lượt này:** Case file §1, §2, §3, §5, §7, §9 (`knowledge/case_file_chamcong.md`, commit c8ecf8d); Mẫu số 01a-LĐTL — Bảng chấm công theo Thông tư 200/2014/TT-BTC; Thông tư 107/2017/TT-BTC hướng dẫn chế độ kế toán hành chính, sự nghiệp `[CẦN KIỂM CHỨNG mẫu bảng chấm công tương ứng cho đơn vị sự nghiệp y tế]`.
 
 ### Phản biện — Advocate A
-[đang chạy]
+
+**Đính chính hai cờ vàng.** (1) Chi tiết "việc tham khảo lập thành văn bản" không nằm trong Điều 118 và không có trong case file; tôi **rút** chi tiết đó, chỉ giữ nghĩa vụ tham khảo ý kiến tổ chức đại diện người lao động tại cơ sở `[Case file §2]` — yêu cầu về hình thức thuộc văn bản hướng dẫn `[CẦN KIỂM CHỨNG]`. (2) Tôi **rút** khẳng định "hiện diện gần như không tương quan với chất lượng lâm sàng": đó là khẳng định thực nghiệm không nguồn. Thay bằng mệnh đề khái niệm: dữ liệu điểm danh giờ hành chính không **chứa** thông tin về chất lượng lâm sàng — nhận định về nội dung biến đo, không phải về hệ số tương quan.
+
+**Steelman.** Đối phương lập luận rằng có một khác biệt chức năng thật chứ không phải địa vị: lãnh đạo khoa phòng là người **vận hành** cơ chế chấm công và ký xác nhận bảng chấm công, mà ai tự xác nhận dữ liệu của mình thì dữ liệu mất giá trị kiểm soát. Họ đồng thời buộc tôi ba lỗi — cherry-picking ở Goodhart, non sequitur ở phụ cấp trực, và "phương án thứ ba vẫn là chấm công" — và nói rõ hình thức đúng của miễn trừ là **thay** bằng cơ chế giải trình khác, không bỏ trống.
+
+**(i)** Đòn "người vận hành" là đòn mạnh nhất của B, nhưng nó **chứng minh quá mức** (proving too much). Tự xác nhận là vấn đề **thẩm quyền xác nhận**; lời giải chuẩn là chuyển việc xác nhận lên cấp trên, không phải xóa nghĩa vụ — nếu không, mọi người phụ trách đều được miễn mọi cơ chế họ vận hành. Thêm nữa, chính sách đang tranh là điểm danh vân tay/thẻ từ/app `[Case file §1]`: dữ liệu do máy sinh, trưởng khoa không tạo ra nó. Và §1 miễn trừ cho lãnh đạo khoa phòng như một **nhóm**, không cho "người ký bảng chấm công" — điều kiện chức năng của B hẹp hơn diện miễn trừ, nên nó biện minh cho một chính sách khác. Quan trọng nhất: B đòi **thay** bằng cơ chế giải trình khác; §1 không có cơ chế thay thế nào. B đang bảo vệ phương án cải cách của tôi.
+
+**(ii)** Cherry-picking: tôi đã rút câu bị buộc tội và **chấp nhận đối xứng** — Goodhart áp cho cả hai; thiết kế của tôi cũng bị gaming, cũng chịu rủi ro né bệnh nhân nặng `[Case file §5, §9]`. Khác biệt tôi giữ lại là **khả kiểm**: gaming chỉ số để lại dấu vết trong dữ liệu lâm sàng, có thể audit và hiệu chỉnh theo case-mix; khi bảng chấm công đã đủ giờ thì hệ thống không sinh thêm dữ liệu nào để phát hiện sai lệch. Đây là lập luận về cấu trúc thông tin, không phải "bên nào sạch hơn".
+
+**(iii)** Non sequitur: tôi **nhận** phần B nói đúng — QĐ 73 là chế định chi trả, và Điều 118 buộc nội quy có nội dung thời giờ làm việc `[Case file §2, §3]`. Tôi không nói pháp luật cấm đo bằng giờ; tôi tranh mệnh đề **(b)**. NĐ 90/2020 đặt "kết quả thực hiện chức trách, nhiệm vụ được giao" là một trong năm nhóm tiêu chí `[Case file §2]`; chế độ lấy chấm công làm **căn cứ chính** với chỉ số kết quả chỉ **hình thức** `[Case file §1]` khuyết một nhóm tiêu chí bắt buộc. Hợp pháp về công cụ không suy ra hợp quy về căn cứ đánh giá.
+
+**(iv)** "Vẫn là chấm công": đúng — tôi chưa từng tranh mệnh đề (a). Nếu B đồng ý điểm danh **theo sự kiện** áp cho **mọi cấp**, hai bên đã hội tụ, và cái đổ đúng là (b) và (c). Còn "chưa có bộ chỉ số thì rơi vào đánh giá chủ quan" là **lưỡng nan giả**: lịch trực, bàn giao ca, giao ban, thời gian đáp ứng đều là bản ghi khách quan `[Case file §9]`.
+
+**Nguồn trích dẫn trong lượt này:** Case file §1, §2, §3, §5, §9 (BLLĐ 2019 Điều 118; NĐ 90/2020/NĐ-CP; QĐ 73/2011/QĐ-TTg; khối P4P/QOF; hồ sơ nguyên tắc).
 
 ## Vòng 3 — Phản biện 2
 [chưa chạy]
@@ -179,6 +192,8 @@ Cuối cùng, nhánh "miễn trừ là thực hành ngầm ngoài nội quy" đ�
 |---|---|---|---|---|
 | V1 — A | 800 | 880 | bản đầu 1049 → sau cắt **988** | Đã yêu cầu chính instance đó cắt gọn MỘT lần theo quy tắc harness; vẫn vượt → ghi chú thích vượt ngân sách ngay trong lượt để judge biết (rubric: judge trừ chiều 5 nếu phần vượt tạo lợi thế) |
 | V1 — B | 800 | 880 | bản đầu 1010 → sau cắt **990** | Xử lý y hệt lượt A: một lần cắt duy nhất, gửi về chính instance đã viết |
+| V2 — B | 600 | 660 | **644** | ĐẠT ngay bản đầu, không cần cắt |
+| V2 — A | 600 | 660 | bản đầu 662 → sau cắt **636** | Vượt trần **2 từ**. Áp quy tắc cơ học (một lần cắt) thay vì miễn trừ theo phán đoán của orchestrator — để orchestrator tự quyết "bao nhiêu là đủ gần trần" chính là loại tùy nghi mà harness thiết kế để loại bỏ. Sau cắt: B 644 / A 636, lệch 1,3% |
 
 > **Đánh giá đối xứng V1:** hai lượt sau cắt là **988 (A)** và **990 (B)** — lệch **0,2%**, nằm sâu trong ngưỡng ±10% mà nguyên tắc nền tảng đòi hỏi. Tức cả hai bên đều vượt trần tuyệt đối như nhau, và **không bên nào có lợi thế độ dài so với bên kia**. Judge nên đọc cờ vượt ngân sách như một khiếm khuyết chung của vòng 1, không phải lợi thế của một bên.
 

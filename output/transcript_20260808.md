@@ -100,7 +100,24 @@ Cuối cùng, nhánh "miễn trừ là thực hành ngầm ngoài nội quy" đ�
 **Nguồn trích dẫn trong lượt này:** Case file §1, §2, §3, §5, §9 (BLLĐ 2019 Điều 118; NĐ 90/2020/NĐ-CP; QĐ 73/2011/QĐ-TTg; khối P4P/QOF; hồ sơ nguyên tắc).
 
 ## Vòng 3 — Phản biện 2
-[chưa chạy]
+### Advocate A
+
+**Đính chính ba cờ vàng — một mẫu lỗi.** Cả ba lần tôi gán cho nguồn một thuộc tính nguồn không nêu; tôi **rút** cả ba: "dữ liệu do máy sinh, trưởng khoa không tạo ra nó" (§1 chỉ nêu phương tiện ghi nhận); "gaming để lại dấu vết… hiệu chỉnh theo case-mix" (§9 nêu case-mix là **vấn đề** của đo đầu ra, không xác lập hiệu chỉnh khả thi); bốn ràng buộc hiện diện "đều là bản ghi khách quan" (§9 chỉ nói chúng gắn **thời điểm cụ thể**). Từ đây tôi tách rõ dữ kiện với **suy luận có nhãn**.
+
+**Steelman.** B chấp nhận tiêu chuẩn tôi đặt: miễn trừ chỉ chính đáng nếu dựa trên điều kiện chức năng, mở cho mọi người thỏa điều kiện, và phải **thay** bằng cơ chế giải trình khác chứ không bỏ trống; B cũng rút hai khẳng định vòng 2. Tranh chấp còn lại: chưa có bộ chỉ số vận hành được dưới ràng buộc case-mix thì bỏ chấm công là đổi tiêu chí khách quan lấy tiêu chí chủ quan.
+
+**(I) Tiêu chuẩn của B đã tự phán quyết mệnh đề (c).** Chính sách đang tranh miễn trừ cho lãnh đạo khoa phòng với tư cách **nhóm chức vụ**, không kèm cơ chế thay thế `[Case file §1]`. Ba điều kiện B nêu — theo chức năng, mở cho mọi người thỏa điều kiện, có giải trình thay thế — không điều nào được §1 thỏa; B đang bảo vệ một chính sách khác chính sách trong đề bài. Tôi mời B nói thẳng: nếu miễn trừ phải đăng ký theo chức năng và có giải trình thay thế, thì (c) **đổ**.
+
+**(II) "Chưa có bộ chỉ số" là điều kiện không có lối ra.** B giữ chấm công làm căn cứ **chính** cho đến khi có bộ chỉ số vận hành được. Nhưng chế độ ấy không sinh ra thông tin để xây chính bộ chỉ số đó: dữ liệu giờ vào–ra không chứa biến kết quả. Trạng thái tạm thời tự chặn đường tới điều kiện chấm dứt của nó thì không còn là tạm thời. Tôi hỏi trực tiếp: **mốc thoát là gì, ai chịu trách nhiệm, hạn nào?** Và "kết quả thực hiện chức trách, nhiệm vụ được giao" là một trong năm nhóm tiêu chí `[Nguồn: NĐ 90/2020/NĐ-CP — Case file §2]`; nhóm này không có điều khoản hoãn.
+
+**(III) Khách quan ở khâu đo không phải khách quan ở khâu đánh giá.** Số giờ tự nó không nói ai hoàn thành nhiệm vụ; phải có người quy đổi dữ liệu chấm công thành mức độ hoàn thành nhiệm vụ và thu nhập tăng thêm `[Case file §1]`. Bước quy đổi là phán đoán quản lý, và theo mô tả của chính B, người quy đổi là người vận hành cơ chế. Lưỡng nan "khách quan vs chủ quan" so sai cặp: nó đặt tính khách quan của **phép đo đầu vào** cạnh tính chủ quan của **đánh giá**, mà khâu chủ quan ấy vẫn nguyên trong phương án B.
+
+**(IV) Cùng chuẩn cho phương án của tôi.** Tôi không được khẳng định bốn ràng buộc hiện diện đã tồn tại dưới dạng dữ liệu dùng được: đó là gánh nặng chứng minh của tôi, không của B. Tôi nêu một **suy luận có nhãn**, không phải dữ kiện: phụ cấp thường trực chi trả **theo phiên**, trực 12/24 = 0,5 lần, ngày nghỉ hằng tuần = 1,3 lần `[Nguồn: QĐ 73/2011/QĐ-TTg — Case file §3]`, nên chi trả phải tựa trên một bản ghi phân công ca. Nếu bản ghi ấy chưa đủ dùng, đề xuất của tôi là **xây nó**, chi phí xây thuộc về phía tôi.
+
+**Nguồn trích dẫn trong lượt này:** Case file §1; Case file §2 (NĐ 90/2020/NĐ-CP); Case file §3 (QĐ 73/2011/QĐ-TTg); Case file §9.
+
+### Advocate B
+[đang chạy]
 
 ## Vòng 4 — Chất vấn chéo
 [chưa chạy]

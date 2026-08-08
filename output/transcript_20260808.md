@@ -106,3 +106,26 @@ Tôi nêu sẵn **chỉ báo bác bỏ** lập luận mình: nếu quý III đ�
 
 > **Ghi chú đối xứng vòng 2 (orchestrator):** cả hai lượt đều vượt trần 660 sau một lần cắt — B 713 từ (+53), A 667 từ (+7). Chênh lệch giữa hai bên là 46 từ (~7% ngân sách). Judge cân nhắc ở Chiều 5 nếu phần vượt tạo lợi thế thực chất.
 
+
+## Vòng 3 — Phản biện 2
+
+> *Ngân sách 600 từ/lượt (trần 660).*
+
+### PHẢN BIỆN 2 — Advocate A
+
+**Steelman.** Vị thế mạnh nhất của B sau vòng 2: mức quyết tâm hiện hành khóa công cụ vĩ mô nhưng vẫn ép kết quả, nên ràng buộc dồn xuống đại lượng duy nhất đo được ở cấp tỉnh — tốc độ giải ngân và con số báo cáo (Goodhart, kèm chỉ báo kiểm chứng ICOR 2026 và tỷ trọng vốn quý IV); tính bất đối xứng phục hồi: hụt một năm bù được trong một năm, mất neo lạm phát thì mất nhiều năm; và với đệm CPI 0,12 điểm % `[Case file §6]`, đòi bằng chứng hậu nghiệm cho một quyết định phòng ngừa là đảo ngược logic quản trị rủi ro. Tôi giữ nguyên các nhượng bộ vòng 2: mức cần thiết là 11,16% quý III và 12,09% quý IV `[Nguồn: Cục Thống kê qua VietnamPlus, 07/2026 — H1/H3]`; phép tính đóng góp của B đúng.
+
+**1. B bác được đầu mút, chưa biện minh được điểm B chọn.** Toàn bộ bằng chứng của B — 11,16/12,09%, ICOR 6,4, ràng buộc điện — bác mức 10%. Không có bước nào trong đó đi tới **8–8,5%**. Nếu cơ chế thiệt hại là áp lực giá do cầu, nó tăng liên tục theo mức ép chứ không nhảy bậc tại một ngưỡng; vậy vì sao 8,4% an toàn mà 9,2% thì không? B nợ một hàm chi phí theo mức mục tiêu và chưa đưa. Bác một đầu mút rồi công bố một điểm cụ thể là **non sequitur**: nó xác định miền loại trừ, không xác định điểm tối ưu. Câu hỏi chuẩn tắc quyết ở biên 9,0 vs 8,2 — B chưa đứng vào biên đó lần nào.
+
+**2. Phương án của B chưa được cân bằng chính hàm mục tiêu của B.** B tự khai hiệu chỉnh này "chấp nhận mất ~1,5–2 điểm % sản lượng 2026" — trên quy mô ~514 tỷ USD (2025) `[Case file §3]` là **khoảng 7,7–10,3 tỷ USD** `[phép tính thô từ §3, chưa tính nền 2026 lớn hơn]`, và khoản hụt này vào nền của mọi năm sau, tức đánh thẳng vào **tổng lũy kế** 10–15 năm mà B tuyên bố tối đa hóa. Đối trọng B đặt lên bàn cân là gì? Chính B nói: "tôi không khẳng định trần đã bị phá". Vế chi phí chắc chắn, do B tự khai; vế lợi ích là xác suất × thiệt hại chưa lượng hóa. Tôi không nói rủi ro lạm phát nhỏ — tôi nói cán cân này chưa được cân. Thêm nữa, nhóm gánh phần sản lượng mất (việc làm xây dựng, dịch vụ, nguồn thu tài trợ an sinh) trùng phần lớn nhóm thu nhập cố định mà B bảo vệ khỏi 0,12 điểm % lạm phát.
+
+**3. "Chi phí ngân sách bằng không" tự bác lập luận Goodhart của B.** B nói công bố hiệu chỉnh "chỉ tốn uy tín của một tuyên bố". Nhưng giá trị của **mọi** thiết bị cam kết trong mọi khung lý thuyết chính là chi phí rút lui; nếu chi phí đó ≈ 0 thì không thiết bị cam kết nào tồn tại — và một chỉ tiêu rút lại được miễn phí thì cũng không đủ lực bẻ cong hành vi 34 địa phương tới mức gây Goodhart. B đang định giá **cùng một tuyên bố** hai lần trái ngược: mạnh khi cần buộc tội, yếu khi cần rút. Đó là **equivocation** trên từ "cam kết", và là thế lưỡng nan tôi đặt ở vòng 2 mà B chưa trả lời.
+
+**4. Chỉ báo phân biệt — đường tín dụng đang siết, không nới.** B dùng "dự báo cả năm ~15% hàm ý nửa cuối bơm gần gấp đôi". Ba đính chính. Một: 15% là **định hướng điều hành của NHNN**, kèm khẳng định điều chỉnh để bảo đảm kiểm soát lạm phát `[Nguồn: họp báo NHNN 02/7/2026, Phó Thống đốc Phạm Thanh Hà, qua Dân Việt/Công Thương — H1/H3]` — trần định hướng, không phải cam kết bơm. Hai: 2025 nửa đầu 8,3% mà cả năm khoảng 18–19% `[Nguồn: Thanh Niên/VnEconomy, 01/2026 — H3]` `[CẦN KIỂM CHỨNG: các nguồn nêu 17,87–19,01%]`, nên "nửa cuối nhanh hơn nửa đầu" là hình dạng thông lệ. Ba, điểm quyết định: **15% cho 2026 thấp hơn mức thực hiện 2025** — trong năm chỉ tiêu cao nhất, biến tiền tệ được đặt chặt hơn năm trước. Nếu vế cứng đang lấn vế mềm, biến này phải đi hướng ngược lại.
+
+**5. Hai câu hỏi cho B.** (a) Cơ chế nào cho biết trần ổn định giữ được ở 8,4% nhưng vỡ ở 9,2%? (b) Nếu rút chỉ tiêu tốn chi phí bằng không, vì sao chỉ tiêu ấy lại đủ mạnh để gây Goodhart?
+
+**Nguồn trích dẫn trong lượt này:** Case file §3, §6; Cục Thống kê qua VietnamPlus (07/2026) — kịch bản quý III 11,16%, quý IV 12,09%; họp báo NHNN 02/7/2026 (Phó Thống đốc Phạm Thanh Hà) qua Dân Việt / Công Thương — tín dụng tăng 7,41%, định hướng cả năm ~15%; tín dụng cả năm 2025 qua Thanh Niên / VnEconomy (01/2026) — khoảng 17,87–19,01%.
+
+> `[vượt ngân sách từ: 725/600 — trần cho phép 660]` Bản đầu 764 từ; đã yêu cầu cắt gọn MỘT lần theo protocol, bản cắt còn 725 từ, vượt trần 65 từ.
+

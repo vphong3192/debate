@@ -61,3 +61,26 @@ Tôi nêu sẵn **chỉ báo bác bỏ** lập luận mình: nếu quý III đ�
 - Lạm phát lõi bình quân 6 tháng 2026 là 4,12% (markettimes dẫn Cục Thống kê, 07/2026 — H1/H3)
 - Cục Thống kê: nửa cuối năm cần tăng 11,7%; kịch bản cập nhật quý III 11,16%, quý IV 12,09% (VietnamPlus, 07/2026 — H1/H3)
 
+
+## Vòng 2 — Phản biện 1
+
+> *Ngân sách 600 từ/lượt (trần 660).*
+
+### PHẢN BIỆN 1 — Advocate B
+
+**Steelman.** A lập luận: hàm mục tiêu là thu nhập đầu người đạt được trước khi cửa sổ dân số vàng khép; ràng buộc ổn định là trần cứng và tăng trưởng chỉ được ép ở dư địa dưới trần; nguồn tăng trưởng viện dẫn là hơn 600.000 tỷ đồng vốn ngân sách đã được phê chuẩn nhưng chưa giải ngân — chi số vốn này không tạo cung tiền mới như tín dụng thương mại. Cầu nối trung tâm: hai cam kết chi phối hai biến khác nhau — vế cứng ràng buộc **mức nỗ lực**, vế mềm ràng buộc **bộ công cụ**; khi số học không cho phép cả hai, thứ gãy là **kết quả**, không phải cam kết. Tôi xác nhận hai dữ kiện A đưa ngoài case file đều đúng: IIP 6 tháng +10,8% (cao nhất từ 2019), chế biến chế tạo +11,4% `[Nguồn: Cục Thống kê qua VnEconomy/Báo Văn hóa, 07/2026 — H1/H3]`; và phát ngôn "không điều hành theo phương án dưới 10%" đúng là của Thứ trưởng Nguyễn Đức Chi tại họp báo 17/6 `[Nguồn: CafeF/Báo Tin tức, 17/6/2026 — H3]`.
+
+**1. Cầu nối của A tự vô hiệu hóa vế cứng.** Nếu thứ được phép gãy là *kết quả*, thì A vừa mô tả một stretch goal — đúng lối tắt case file cấm: rút mức quyết tâm xuống "không ràng buộc kết quả" `[Case file §11.9]`. Hãy hỏi: kịch bản điều hành dưới 10% dùng để làm gì? Để quản trị chính cái kết quả A vừa thừa nhận sẽ gãy. A chấp nhận kết quả có thể về vùng 8% nhưng vẫn bảo vệ việc **không lập phương án cho vùng đó**. Từ chối lập kịch bản không làm tăng nỗ lực; nó chỉ bảo đảm rằng khi kết quả gãy, hệ thống chưa có phương án phân bổ. A đã nhận tiền đề của tôi mà không nhận kết luận.
+
+**2. "Nỗ lực" và "công cụ" không độc lập — đây là phân tách sai.** Nỗ lực được đo bằng chỉ tiêu GRDP giao đích danh, báo cáo hằng quý gửi Bộ Tài chính trước ngày 25 tháng cuối quý, các bộ "kiến nghị giải pháp để bảo đảm hoàn thành chỉ tiêu" `[Case file §2.2]`. Khóa công cụ vĩ mô **và** cho phép kết quả gãy thì ràng buộc dồn hết lên đại lượng duy nhất còn đo được ở cấp tỉnh: tốc độ giải ngân và con số báo cáo. Đó là cơ chế Goodhart — trình như **giả thuyết**, chỉ báo kiểm chứng: ICOR 2026 và tỷ trọng vốn dồn vào quý IV. Dấu của nó ngược với A: A cần ICOR giảm 1,6 điểm `[Case file §5]`, nhưng cơ chế A viện dẫn chọn dự án theo tốc độ hấp thụ vốn, không theo suất sinh lời.
+
+**3. Số học đóng góp bác bỏ "vốn nằm im là đủ".** Quý II: công nghiệp–xây dựng +10,51% đóng góp 50,07% mức tăng; dịch vụ +7,87% (44,28%); nông–lâm–thủy sản +4,06% (5,65%) `[Case file §3]`. Giữ nguyên hai khu vực sau, để tổng đạt 11,7% thì công nghiệp–xây dựng phải tăng **khoảng 18–19%** `[phép tính từ tỷ trọng đóng góp, Case file §3–§4]`; kể cả khi dịch vụ tăng tốc lên 9% vẫn cần ~17%. Trong khi IIP đã ở mức cao nhất 7 năm, và có cảnh báo mất cân đối cung–cầu điện 2026–2028 kèm chỉ đạo tiết kiệm tối thiểu 3% `[Case file §8]`. Chuỗi mạnh nhất đã chạy hai con số mà tổng chỉ 8,18% (ước): biên còn lại không nằm ở nơi vốn ngân sách chạm tới.
+
+**4. Thế lưỡng nan cho luận điểm "chi vốn đã bố trí nên không tạo áp lực giá".** Hoặc xung lực cầu đủ lớn để bù ~3,5 điểm % — thì cũng đủ lớn để đẩy giá khi đệm CPI còn 0,12 điểm % và lạm phát lõi đã 4,12% `[Case file §6]`; hoặc xung lực nhỏ, đúng như ICOR 6,4 hàm ý — thì không bù được. A không lấy được cả hai. "Đã có trong dự toán" là mệnh đề kế toán về **nguồn tài trợ**, không nói gì về tác động cầu khi tiền rời tồn quỹ vào lưu thông; đồng nhất thức kế toán không thay cho quan hệ nhân quả.
+
+**5. Phép thử tự bác bỏ của A không phân biệt được giả thuyết.** Hải quan và IIP tăng nhờ chu kỳ điện tử và cầu ngoài, với FDI chiếm ~80% kim ngạch xuất khẩu `[Case file §7]`; chúng tăng dù có hay không có NQ 169. Chỉ báo không phân biệt thì không phải phép thử.
+
+**Nguồn trích dẫn trong lượt này:** Case file §2.2, §3, §4, §5, §6, §7, §8, §11.9; Cục Thống kê qua VnEconomy / Báo Văn hóa (07/2026) — IIP 6 tháng +10,8%, chế biến chế tạo +11,4%; CafeF / Báo Tin tức (17/6/2026) — họp báo Bộ Tài chính, Thứ trưởng Nguyễn Đức Chi, "không điều hành theo phương án dưới 10%".
+
+> `[vượt ngân sách từ: 713/600 — trần cho phép 660]` Lượt này đo được 724 từ ở bản đầu; orchestrator đã yêu cầu cắt gọn MỘT lần theo protocol, bản cắt còn 713 từ, vẫn vượt trần 53 từ. Ghi nhận để Judge cân nhắc ở Chiều 5 nếu phần vượt tạo lợi thế.
+

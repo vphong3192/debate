@@ -272,6 +272,16 @@ Và một chỉ báo thứ hai để nhánh Goodhart của tôi cũng bác đư�
 
 > Mục 8 và 9 là ưu tiên cao nhất: chúng là nền của đòn phản công quyết định ở vòng 3 của cả hai bên, và hai bên đưa con số vênh nhau.
 
+**Bổ sung từ vòng 4 (chất vấn chéo):**
+
+| # | Khẳng định | Bên đưa | Vòng |
+|---|---|---|---|
+| 12 | ICOR bình quân 6,4 là của giai đoạn 2021–2025, **giai đoạn có năm tăng trưởng rất thấp vì dịch**, nên bình quân bị đẩy lên về mặt cơ học (g nằm ở mẫu số) | A | V4 |
+| 13 | Phép tính tự dựng: 6 tháng đạt 8,18% (ước), để cả năm đạt 9,0% thì nửa cuối cần **khoảng 9,8%** | B | V4 |
+| 14 | Tín dụng 2025 thực hiện ~19,1% so với định hướng 16% — A dùng lại số của B và đặt ngưỡng tự bác ở 17% dựa trên nó (trùng mục 8, nhưng nay là nền của một **chỉ báo tự bác** nên độ chính xác quan trọng hơn) | A, B | V3, V4 |
+
+> **Ghi chú cho fact-checker:** ở vòng 4, A đã **tự rút** khẳng định "giải ngân nhanh làm giảm ICOR" (mục dấu quan hệ) và B đã **tự rút** hàm ý nhân quả từ mức quyết tâm tới CPI 4,38%. Hai chỗ này không cần kiểm như khẳng định sự kiện nữa; ghi nhận để judge thấy chúng đã được rút chứ không bị bỏ qua.
+
 ## Phụ lục B — Steelman audit (đo trần lập luận — KHÔNG cộng/trừ điểm, KHÔNG nạp cho judge)
 
 ⛔ **CHƯA CHẠY.** Bắt buộc chạy trước GATE 2, đối xứng hai bên.
@@ -280,7 +290,7 @@ Và một chỉ báo thứ hai để nhánh Goodhart của tôi cũng bác đư�
 
 ### C1. Trạng thái phiên
 
-**Phiên DỪNG sau vòng 3** vì hết ngân sách context của orchestrator, không phải vì lỗi nội dung. Điểm dừng nằm đúng ranh giới một vòng hoàn chỉnh.
+**Phiên 1 DỪNG sau vòng 3** vì hết ngân sách context của orchestrator, không phải vì lỗi nội dung. **Phiên 2 (08/08/2026, resume) chạy tiếp vòng 4.** Điểm dừng của mỗi phiên đều nằm đúng ranh giới một vòng hoàn chỉnh, và mỗi lượt được commit ngay sau khi ghi vào transcript.
 
 | Hạng mục | Trạng thái |
 |---|---|
@@ -288,7 +298,7 @@ Và một chỉ báo thứ hai để nhánh Goodhart của tôi cũng bác đư�
 | Vòng 1 — Mở đầu | ✅ Hoàn thành (A 877, B 877) |
 | Vòng 2 — Phản biện 1 | ✅ Hoàn thành (B 713, A 667) |
 | Vòng 3 — Phản biện 2 | ✅ Hoàn thành (A 725, B 688) |
-| Vòng 4 — Chất vấn chéo | ⬜ Chưa chạy |
+| Vòng 4 — Chất vấn chéo | ✅ Hoàn thành (B hỏi 193 / A trả lời 928 / A hỏi 244 / B trả lời 903) |
 | Vòng 5 — Kết luận | ⬜ Chưa chạy |
 | Fact-check V1–V5 | ⬜ Chưa chạy (danh sách ưu tiên ở Phụ lục A) |
 | Steelman audit ×2 | ⬜ Chưa chạy |
@@ -332,10 +342,26 @@ Hai lượt mở đầu (ngân sách 800, trần 880) đều đạt **đúng 877
 
 ### C5. Cách resume phiên
 
-1. Nạp lại `knowledge/case_file_vn2026.md` tại commit `9998fd2` (**bản đầy đủ**, không nén).
-2. Chạy vòng 4 (chất vấn chéo — B hỏi trước, 3 câu/bên, ≤100 từ/câu, ≤300 từ/trả lời) và vòng 5 (kết luận — A trước, B sau, 800 từ/lượt, **bắt buộc có mục "Giới hạn của lập luận phía tôi"**).
-3. Chạy `debate-fact-checker` bao V1–V5 theo danh sách ưu tiên ở Phụ lục A.
+**Trạng thái tính đến cuối phiên 2 (08/08/2026): đã xong V1–V4. Còn lại V5 → fact-check → audit → GATE 2 → Phase 2.**
+
+1. Nạp lại `knowledge/case_file_vn2026.md` tại commit `9998fd2` (**bản đầy đủ**, không nén — đã xác minh file không đổi so với bản ghim GATE 1).
+2. Chạy **vòng 5** (kết luận — A trước, B sau, 800 từ/lượt, **bắt buộc có mục "Giới hạn của lập luận phía tôi"**). Nạp cho mỗi advocate: `advocate_template_vn2026.md` + position của bên đó + case file ĐẦY ĐỦ + transcript V1–V4 nguyên văn.
+3. Chạy `debate-fact-checker` bao V1–V5 theo danh sách ưu tiên ở Phụ lục A (mục 8 và 9 ưu tiên cao nhất). **Bổ sung vào danh sách kiểm** các khẳng định mới phát sinh ở vòng 4 — xem Phụ lục A mục 12–14.
 4. Chạy 2 instance `debate-auditor` đối xứng → Phụ lục B.
 5. Trình GATE 2, chờ `APPROVE TRANSCRIPT`.
 6. Phase 2: `make_judge_input.sh` + `make_case_file_input.sh` → hội đồng 3 judge → `quote_check.sh` từng scorecard → tổng hợp trung vị.
 
+### C6. Phát hiện harness trong phiên 2 (đưa vào báo cáo GATE 2)
+
+**C6.1 — Rò rỉ rubric trong case file đã ghim GATE 1 (P0, KHÔNG tự vá).** `CLAUDE.md` quy định case file chỉ chứa sự kiện + cảnh báo phương pháp trung lập; mọi khung "bên X được/mất điểm" phải nằm ở `judge_notes`. Nhưng `case_file_vn2026.md` chứa ngôn ngữ chấm điểm ở ít nhất ba chỗ:
+- §1 mục 1–2: *"là **strawman**, trừ nặng ở Chiều 5"* và *"là **né đề**, trừ nặng"*;
+- §2.2 (lưu ý phương pháp cuối mục): *"là cherry-picking, bị trừ ở Chiều 2"*;
+- §11.9 (câu cuối): *"bị trừ ở Chiều 5 (strawman / né đề); bên nào **chỉ ra được lối tắt của đối phương kèm dẫn chứng từ §2.2** được cộng ở Chiều 5"*.
+
+Đây cùng lớp lỗi với bản vá 12/07/2026 (tách "Khung Judge" khỏi case file). Hệ quả quan sát được trong phiên này: **cả hai advocate đều lập luận trực tiếp bằng ngôn ngữ rubric** — V2-B mở đòn bằng *"đúng lối tắt case file cấm"* `[Case file §11.9]`, V2-A đáp lại bằng mục *"Gọng kìm §11.9"*. Hai bên nhận rò rỉ như nhau nên thiên lệch (nếu có) là **đối xứng**, không nghiêng về một bên; nhưng nó làm méo *nội dung* tranh luận theo hướng tối ưu cho tiêu chí chấm.
+**KHÔNG vá trong phiên:** case file đã ghim GATE 1 (`9998fd2`), sửa giữa phiên phải đi qua `APPROVE CASE FILE ADDENDUM`. Đề xuất xử lý sau phiên: chuyển ba đoạn trên sang `judge_notes_vn2026.md`, giữ nguyên phần mô tả hành vi bị cấm (không có số Chiều) trong case file.
+
+**C6.2 — `output/_workspace/` bị gitignore, làm checklist trước GATE 2 không thỏa được (P1).** Skill yêu cầu: *"Checklist file `_workspace/` trước GATE 2: xác nhận đủ file lượt của cả 5 vòng… Thiếu file lượt nào → ngân sách từ vòng đó không tái kiểm được."* Nhưng `.gitignore` dòng 3 là `output/_workspace/`. Trên môi trường container ephemeral (Claude Code on the web), thư mục này **không được commit và biến mất khi phiên kết thúc** — file lượt V1–V3 do phiên 1 sinh ra đã mất, chỉ còn các file `_workspace` của phiên 12/06 vì chúng được commit trước khi luật ignore có hiệu lực.
+Dấu vết ngân sách từ hiện chỉ sống sót nhờ được ghi **inline trong transcript** sau mỗi lượt. Đề xuất chọn một trong hai: (a) `git add -f` các file lượt trước GATE 2; hoặc (b) sửa skill — bỏ checklist file `_workspace`, công nhận dòng đo inline trong transcript là dấu vết chuẩn.
+
+**C6.3 — Ngân sách vòng chất vấn vừa vặn, khác hẳn vòng phản biện (dữ kiện cho C3).** Vòng 4 là vòng **đầu tiên** của phiên mà mọi lượt đều nằm trong trần: hỏi 64/61/68 và 94/73/77 (trần 100); trả lời 318/326/284 và 318/295/290 (trần 330, chỉ 1 lượt cần cắt gọn và chỉ vượt 1 từ). Trong khi đó 4/4 lượt phản biện vòng 2–3 đều vượt trần 660 kể cả sau khi đã cắt. Củng cố giả thuyết ở C3: vấn đề nằm ở **ngân sách 600 từ cho vòng phản biện** với chủ đề mật độ số liệu cao, không phải ở việc advocate không tuân thủ.

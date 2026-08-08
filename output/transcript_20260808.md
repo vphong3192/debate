@@ -67,7 +67,24 @@ Về **công bằng phân phối** và **liên nhân–thông tin**: bốn chi�
 - Frey & Jegen, *Journal of Economic Surveys* 2001 (qua Case file §7)
 
 ## Vòng 2 — Phản biện 1
-[chưa chạy]
+### Phản biện — Advocate B
+
+**Đính chính hai cờ vàng.** (1) Case file §1 chỉ định nghĩa chính sách với **bác sĩ lâm sàng** và miễn trừ lãnh đạo; nó không xác lập phạm vi áp cho điều dưỡng/kỹ thuật viên/hành chính. Tôi **rút** khẳng định đó, và trình bày lại thành giả định có điều kiện: *nếu* chế độ áp đồng đều nhiều nhóm thì trụ phân phối mạnh hơn; nếu không, trụ ấy đứng trên nền còn lại — tính khách quan và áp đồng đều trong nhóm chịu chế độ. (2) §9 chỉ nêu lãnh đạo "đã chịu cơ chế trách nhiệm giải trình khác"; tôi **rút** cụm "nặng hơn" và hai nội dung cụ thể đã liệt kê.
+
+**Steelman.** Đối phương lập luận rằng khiếm khuyết trung tâm không nằm ở chỗ lãnh đạo có đặc quyền — đặc quyền chức vụ tự nó hợp pháp — mà ở chỗ chính những lý do biện minh cho miễn trừ (công việc di động; đã có cơ chế giải trình khác) lại bị từ chối khi bác sĩ nêu; một nguyên tắc chỉ có giá trị cho người ban hành thì không còn là nguyên tắc `[Case file §9]`. Họ đề xuất tách nghĩa vụ hiện diện (điểm danh theo sự kiện) khỏi nghĩa vụ kết quả, áp cả hai cho mọi cấp. Tôi **chấp nhận tiêu chuẩn họ đặt**: miễn trừ chỉ chính đáng nếu dựa trên điều kiện chức năng và mở cho mọi người thỏa điều kiện đó.
+
+Chính vì chấp nhận tiêu chuẩn ấy, tranh chấp thu về: có khác biệt chức năng thật không? Đối phương bỏ trống một khác biệt cấu trúc: lãnh đạo khoa phòng không chỉ là **đối tượng** của cơ chế chấm công mà là người **vận hành** nó — người phụ trách bộ phận chấm công và ký xác nhận bảng chấm công `[Nguồn: mẫu 01a-LĐTL, TT 200/2014/TT-BTC — chế độ kế toán doanh nghiệp; đơn vị sự nghiệp y tế theo TT 107/2017/TT-BTC, CẦN KIỂM CHỨNG mẫu tương ứng]`. Người tự xác nhận dữ liệu của chính mình thì dữ liệu mất giá trị kiểm soát. Đó là lý do **thiết kế**, không tổng quát hóa sang bác sĩ lâm sàng — nhưng nó cũng quy định hình thức đúng của miễn trừ: **thay** bằng cơ chế giải trình khác, không bỏ trống. Ở điểm này tôi đồng ý với đối phương.
+
+Thứ hai, họ tuyên bố áp Goodhart cho cả hai phương án rồi phá ngay tính đối xứng: "khi chỉ số bị gaming, cái được tối ưu ít nhất vẫn nằm trên trục chăm sóc". Case file nói ngược: P4P kèm **lệch phác đồ về phía chỉ số được tính điểm** `[§5]` và rủi ro **né bệnh nhân nặng** do case-mix `[§9]`. Hai hệ quả này dịch chi phí sang chính bệnh nhân nặng; còn chi phí của chấm công — có thật, tôi thừa nhận — rơi trước hết lên thời gian và động lực của bác sĩ `[§7]`. Câu "ít nhất vẫn trên trục chăm sóc" là **đặc tuyển bằng chứng (cherry-picking)** ngay trong khối họ đang trích.
+
+Thứ ba, một **non sequitur**: từ việc phụ cấp trực tính theo phiên `[§3]` suy ra pháp luật đo nghĩa vụ hiện diện bằng ca **chứ không** bằng giờ. QĐ 73 là chế định **chi trả** cho ca trực, không phải chế định quản lý thời giờ làm việc bình thường; nội quy lao động vẫn buộc phải có nội dung thời giờ làm việc `[§2]`. Hai chế định song song, không loại trừ nhau.
+
+Cuối cùng, nhánh "miễn trừ là thực hành ngầm ngoài nội quy" được nêu có điều kiện, nhưng §1 không xác lập điều kiện đó — nhánh này chưa mang tải trọng. Và "phương án thứ ba" của họ **vẫn là chấm công**, chỉ đổi điểm neo. Khoảng cách thật giữa hai bên là câu hỏi: đã có bộ chỉ số nào vận hành được dưới ràng buộc case-mix chưa `[§5, §9]`? Trước khi có, thay chấm công bằng đánh giá của người quản lý là đổi tiêu chí khách quan lấy tiêu chí chủ quan.
+
+**Nguồn trích dẫn trong lượt này:** Case file §1, §2, §3, §5, §7, §9 (`knowledge/case_file_chamcong.md`, commit c8ecf8d); Mẫu số 01a-LĐTL — Bảng chấm công theo Thông tư 200/2014/TT-BTC; Thông tư 107/2017/TT-BTC hướng dẫn chế độ kế toán hành chính, sự nghiệp `[CẦN KIỂM CHỨNG mẫu bảng chấm công tương ứng cho đơn vị sự nghiệp y tế]`.
+
+### Phản biện — Advocate A
+[đang chạy]
 
 ## Vòng 3 — Phản biện 2
 [chưa chạy]

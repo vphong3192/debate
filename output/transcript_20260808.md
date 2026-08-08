@@ -414,7 +414,152 @@ Theo `source_policy_vn2026.md` quy tắc 6: phiên chặn `WebFetch` với hầu
 
 ## Phụ lục B — Steelman audit (đo trần lập luận — KHÔNG cộng/trừ điểm, KHÔNG nạp cho judge)
 
-⛔ **CHƯA CHẠY.** Bắt buộc chạy trước GATE 2, đối xứng hai bên.
+> **ĐÃ CHẠY 08/08/2026.** Hai instance `debate-auditor` độc lập, chạy **đối xứng**: cùng cấu trúc prompt, cùng case file, **cùng bản transcript đầy đủ 5 vòng**, chỉ khác file position của bên được audit. Không instance nào biết về instance kia. Cả hai đều dùng `model: opus`.
+>
+> **Mục đích:** đo khoảng cách giữa "lập luận đã trình bày" và "lập luận mạnh nhất có thể trình bày". Vì hai advocate chạy cùng một model, prior của model có thể làm steelman một bên yếu đi **một cách hệ thống mà không ai thấy**. Báo cáo này là phép đo trần đó.
+>
+> **KHÔNG cộng/trừ điểm cho bên nào. KHÔNG nạp cho judge** (`make_judge_input.sh` cắt input judge trước heading này). **KHÔNG bao giờ nạp cho advocate**, kể cả nếu có EXTRA ROUND sau.
+
+---
+
+## Steelman audit — Bên A
+
+### Lập luận chưa dùng / dùng dưới mức
+
+**1. Tiền lệ 2025 như một thí nghiệm tự nhiên cùng thể chế — cơ chế mà B đang tấn công đã chạy một lần và không phá trần.**
+Chính cơ chế B công kích (nâng mục tiêu, giao chỉ tiêu đích danh xuống địa phương, yêu cầu địa phương xây kịch bản tháng/quý) đã được thi hành năm 2025 bằng **Nghị quyết 25/NQ-CP ngày 05/02/2025** — giao mục tiêu tăng trưởng cho ngành, lĩnh vực và địa phương để cả nước đạt "8% trở lên", đặt 18/63 tỉnh thành ở mức GRDP hai con số. Kết quả: GDP **8,02%** với **CPI bình quân 3,31%**, lạm phát cơ bản **3,21%** — dưới xa trần Quốc hội.
+— *Nguồn: NQ 25/NQ-CP 05/02/2025 (vanban.chinhphu.vn — H1); CPI 2025 3,31%, lõi 3,21% (Báo Chính phủ/VnEconomy dẫn Cục Thống kê — H3 dẫn H1). `[CẦN KIỂM CHỨNG số hiệu nghị quyết chỉ tiêu QH 2025]`*
+— *Vị trí: V1 (trụ "mục tiêu tham vọng là công cụ điều phối") và bắt buộc ở V3 khi A phản công điểm Goodhart.*
+— *Vì sao mạnh hơn:* A chỉ dùng "8,02%" như con số kết quả trần trụi, **không bao giờ gắn nó với CPI 2025** hay với văn kiện giao chỉ tiêu địa phương. Ở dạng đầy đủ, nó biến trụ cột yếu nhất của A ("hai vế tương thích") từ suy luận khái niệm thành **quan sát hậu nghiệm về chính cặp biến đang tranh chấp**, và miễn nhiễm với cảnh báo survivorship bias mà B giăng sẵn cho Hàn Quốc/Đài Loan.
+
+**2. Thứ bậc cưỡng chế pháp lý chạy NGƯỢC chiều tiền đề trung tâm của B.**
+B mở đầu bằng "cam kết nào có cơ chế cưỡng chế sẽ thắng", ngầm định vế cứng cưỡng chế mạnh hơn. A có thể lật thẳng: chỉ tiêu CPI ~4,5% nằm **trong cùng một nghị quyết Quốc hội, cùng danh mục 15 chỉ tiêu chủ yếu** với chỉ tiêu GDP — cùng hạng văn kiện, cùng cơ chế giải trình trước Quốc hội; trần bội chi và nợ công do Quốc hội quyết theo Luật NSNN và Luật Quản lý nợ công, vượt trần phải trình lại Quốc hội. Trong khi chỉ tiêu GDP mang chữ **"phấn đấu"**. Về thứ bậc cưỡng chế thực định, vế mềm **cứng hơn** vế cứng.
+— *Nguồn: Case file §2; Luật NSNN số 89/2025/QH15 (H1). `[CẦN KIỂM CHỨNG điều khoản "vượt trần phải trình QH"]`*
+— *Vị trí: V2 phản biện 1 của A, thay cho đoạn "hai cam kết chi phối hai biến khác nhau"; hoặc V3 đòn (4).*
+— *Vì sao mạnh hơn:* câu trả lời A thực dùng là **phân biệt khái niệm** mà B bẻ được ngay ở V2 đòn (1)–(2). Lập luận thứ bậc pháp lý là **thực chứng và kiểm tra được**, và không đòi A phải thừa nhận "thứ được phép gãy là kết quả" — chính nhượng bộ đã mở cửa cho toàn bộ gọng kìm stretch-goal của B.
+
+**3. Kênh "chỉ tiêu chỉ tạo ra báo cáo đẹp" đã bị đóng về mặt thể chế từ 2017.**
+Nhánh mạnh nhất của giả thuyết Goodhart là địa phương làm đẹp con số bị đo. Nhưng GRDP tỉnh **không do tỉnh tự tính**: theo **Quyết định 715/QĐ-TTg ngày 22/5/2015** phê duyệt Đề án đổi mới quy trình biên soạn GRDP, cơ quan thống kê trung ương biên soạn và công bố GRDP cho các địa phương từ **2017** — chính vì số liệu địa phương tự tính trước đó không phản ánh đúng quy mô và tốc độ. Chủ tịch tỉnh bị đo bằng một con số mình không sản xuất ra.
+— *Nguồn: QĐ 715/QĐ-TTg 22/5/2015 (H1); Báo Chính phủ, Báo Đầu tư về kết quả Đề án 715 (H3).*
+— *Vị trí: V1 ngay tại đoạn "chỉ báo tự bác" của A; hoặc V3 đòn (3).*
+— *Vì sao mạnh hơn:* A chỉ đưa chỉ báo **gián tiếp** (hải quan, thu nội địa, điện thương phẩm), và B hạ được ngay ở V2 điểm (5) bằng cách quy các chuỗi đó cho chu kỳ điện tử và cầu ngoài. Đề án 715 là **chặn định chế trực tiếp** vào đúng kênh, không cần A phải thắng cuộc tranh cãi về nguồn gốc IIP/hải quan. Nó thu hẹp Goodhart về đúng nhánh A tự tin hơn (biên chọn dự án, dồn giải ngân quý IV).
+
+**4. "Không có kịch bản đặt mục tiêu dưới 10%" ≠ "không có năng lực ứng phó khi kết quả về 8%" — và năng lực đó đã được luật quy định sẵn.**
+Hệ thống tài khóa mang sẵn nhiều lớp dự phòng vận hành **độc lập với con số chỉ tiêu**: dự phòng NSNN **2–4% tổng chi mỗi cấp** theo Luật NSNN; dự phòng chung trong kế hoạch đầu tư công trung hạn; hạn mức tín dụng công bố kèm mệnh đề điều chỉnh theo diễn biến thực tế — chính B đã dẫn Chỉ thị 01/CT-NHNN để chứng minh tính co giãn này, **A có thể mượn lại làm bằng chứng cho mình**. Vậy thứ bị loại là **một tài liệu đặt mục tiêu thấp hơn**, không phải năng lực phân bổ khi hụt.
+— *Nguồn: Luật NSNN 89/2025/QH15, quy định dự phòng 2–4% tổng chi (H1); dự phòng kế hoạch đầu tư công trung hạn (H1) `[CẦN KIỂM CHỨNG điều khoản]`; Chỉ thị 01/CT-NHNN (H1, đã có trong transcript do B đưa vào).*
+— *Vị trí: V4, câu trả lời cho câu hỏi 1 của B — đúng chỗ A nói "tôi không có bằng chứng rằng đã có kế hoạch dự phòng cụ thể cho vùng kết quả 8%".*
+— *Vì sao mạnh hơn:* đây là điểm A **tự khai là điểm yếu lớn nhất** và mang nguyên vào kết luận V5. A đã có mầm lập luận ở V2 ("thứ bị loại là kịch bản đặt mục tiêu dưới 10%, không phải năng lực phân bổ dự phòng") nhưng **bỏ trống không dẫn được một định chế nào**, rồi hai vòng sau đầu hàng luôn. Với các điều khoản dự phòng, "chi phí ngân sách bằng không" của B mất lực: cái được thêm vào không phải năng lực ứng phó (đã có) mà chỉ là một văn bản công bố mục tiêu thấp hơn — đúng thứ lập luận thiết bị cam kết của A nhắm loại bỏ.
+
+**5. Bất đối xứng khả năng phục hồi chạy ngược lại tiêu chí phân định của B, vì hạ tầng có lead time nhiều năm.**
+B neo toàn bộ khung vào "hụt tăng trưởng một năm phục hồi được trong một năm". Với hạ tầng thì mệnh đề này sai: §8 ghi **nguy cơ mất cân đối cung–cầu điện 2026–2028**, nhu cầu điện tăng 8–10%/năm giai đoạn 2026–2030, vốn hạ tầng điện hơn **136 tỷ USD**, EVN 2026 khởi công 87 / hoàn thành 86 dự án lưới. Một dự án nguồn hay lưới chậm khởi công một năm là **thiếu điện ở 2029–2030**, không phải "hụt một năm rồi bù".
+— *Nguồn: Case file §8 (EVN/Bộ Công Thương — H1; East Asia Forum — H2).*
+— *Vị trí: V3 phản biện 2 của A (thành đòn thứ 6), hoặc V5 tại đoạn "cấu trúc sai số bất đối xứng".*
+— *Vì sao mạnh hơn:* A dựng cấu trúc sai số bất đối xứng **ba lần (V1, V3, V5)** nhưng luôn ở dạng trừu tượng ("giữ lại hạ tầng, thể chế, năng lực"). Ở đây có **ràng buộc vật chất có mốc thời gian ngay trong case file** biến khẩu hiệu đó thành số. Quan trọng hơn: nó tấn công trực diện **thước đo** mà B tuyên bố ở V1 và **không bao giờ bị A đụng tới trong suốt 5 vòng** — A luôn tranh chấp bằng chứng của B, chưa bao giờ tranh chấp thước đo của B.
+
+**6. Định lượng hàm mục tiêu của chính A: mốc nhân khẩu học và số học lũy kế 5 năm.**
+Cửa sổ dân số vàng dự báo kết thúc khoảng **2039**; Việt Nam thành quốc gia dân số già khoảng **2036** khi nhóm 65+ vượt 14% dân số. Ghép với số học lũy kế: chuỗi 10%/năm so chuỗi 8%/năm trong 5 năm cho quy mô nền kinh tế 2030 chênh khoảng **9,6%** (1,10⁵/1,08⁵).
+— *Nguồn: dự báo dân số TCTK–UNFPA (H1/H2, báo chí H3 đưa lại rộng rãi); phép nhân lũy kế là số học thuần.*
+— *Vị trí: V1 (trụ "chi phí của việc KHÔNG tăng trưởng cao") và V5 — thay cho phép quy đổi 7,7–10,3 tỷ USD mà A đã phải rút.*
+— *Vì sao mạnh hơn:* trục trung tâm của A — "cửa sổ dân số vàng đang khép" — được **khẳng định ba lần mà không một lần có số**, trong khi mọi khẳng định của B đều có số. Phiên bản lũy kế 5 năm cũng là **phiên bản sống sót** của đòn định lượng chi phí: nó không giả định chỉ tiêu có sức mạnh nhân quả sản xuất ra sản lượng (đúng chỗ B bẻ gãy ở V3), chỉ đo độ lớn phần thua thiệt nếu quỹ đạo thấp hơn thành hiện thực. A **bỏ hẳn tuyến định lượng này ở V5** thay vì tái dựng ở dạng chống đạn.
+
+**7. Sai lệch một chiều có hệ thống của dự báo định chế, neo bằng vintage 2025.**
+Đầu 2025 các định chế dự báo Việt Nam tăng quanh **6,1–6,6%** (IMF ~6,1%; WB 6,6%; ADB 6,6%), thực hiện **8,02%** — sai số 1,4–1,9 điểm % và **cùng một chiều ở cả ba tổ chức**. Nếu sai số dự báo với nền kinh tế đang tăng tốc lệch một chiều có hệ thống, thì "khoảng cách 2,5–3,2 điểm % giữa chỉ tiêu và dải dự báo" không phải khoảng cách trung lập mà là khoảng cách **đã bị thổi lên bởi độ thận trọng của người dự báo**.
+— *Nguồn: WB/IMF/ADB các bản dự báo đầu 2025 (H2) qua báo chí kinh tế (H3); GDP 2025 8,02% (Cục Thống kê — H1). `[CHƯA XÁC MINH đầy đủ vintage chính xác từng bản dự báo; §9 đã ghi nhận hướng này ở dạng lưu ý]`*
+— *Vị trí: V1 (phần phân loại bốn loại con số) và V3 khi A bác bước "khó đạt → không nên đặt".*
+— *Vì sao mạnh hơn:* A chỉ dùng một quan sát ("IMF nâng từ 7,1 lên 7,5") — đủ để nói xu hướng đang tốt lên, **không đủ để đụng vào tiền đề nền của B rằng 10% nằm ngoài vùng khả dĩ**. Chuỗi sai lệch 2025 làm việc đó, và làm được mà không cần A phủ nhận dự báo hay nghi ngờ số liệu thống kê — hai điều position của A cấm.
+
+### Đánh giá trần steelman
+
+Steelman của A **còn cách trần một khoảng đáng kể**, và khoảng cách phân bố **không ngẫu nhiên**: A rất mạnh ở tuyến logic hình thức (bắt non sequitur, equivocation, false dilemma, phân biệt khả thi/hợp lý — trình độ cao, nhất quán qua cả 5 vòng) nhưng **gần như bỏ trống tuyến bằng chứng thể chế và định chế** — không một lần dẫn NQ 25/NQ-CP 2025, Đề án 715, quy định dự phòng ngân sách/đầu tư công, hay thứ bậc pháp lý của trần CPI so với chữ "phấn đấu".
+
+Đây là **dấu hiệu né hệ thống rõ nhất**: mọi trụ cột thể chế của position A đều được trình bày như **suy luận khái niệm**, trong khi mỗi trụ đều có ít nhất một văn kiện hạng 1 chống lưng. Hệ quả quan sát được: ở V4 A phải tự nhận thua đúng ba điểm (dấu ICOR, phương án dự phòng vùng 8%, phép quy đổi tỷ USD) mà **cả ba đều có phiên bản cứu được bằng nguồn** — cho thấy các nhượng bộ đó là **thiếu đạn**, không phải thất bại của khung lập luận.
+
+Ngoài ra A **chưa bao giờ tranh chấp thước đo của B** (tính bất đối xứng khả năng phục hồi), chỉ tranh chấp bằng chứng bên trong thước đo đó, dù case file §8 chứa sẵn một phản ví dụ có mốc thời gian.
+
+---
+
+## Steelman audit — Bên B
+
+### Lập luận chưa dùng / dùng dưới mức
+
+**1. Bất nhất nội tại của chính lộ trình ICOR — dùng đúng con số mà hệ thống tự đặt ra.**
+Đồng nhất thức: tỷ lệ đầu tư = ICOR × tốc độ tăng trưởng. §5 ghi ICOR 2021–2025 là **6,4** và kiến nghị 2026–2030 giảm **1,6 điểm** (về ~4,8). Ngay cả khi chấp nhận trọn vẹn mục tiêu cải thiện hiệu quả vốn của chính hệ thống, 10% tăng trưởng đòi tổng đầu tư **~48% GDP**, so với ~33–35% GDP hàm ý trong chính §4. Để đóng khoảng cách này chỉ bằng hiệu quả, ICOR phải rơi về **~3,3–3,5** — giảm gần một nửa trong một năm, gấp hơn hai lần mức cải thiện hệ thống đặt cho cả 5 năm.
+— *Nguồn: §4, §5 (TCTK/Bộ Tài chính — H1); phép tính là suy dẫn từ đồng nhất thức, phải ghi rõ là tính toán giả định.*
+— *Vị trí: V1 (trụ "số học không cho phép") hoặc V3 ngay sau khi A gọi ICOR là "tỷ số kế toán, không phải hằng số công nghệ".*
+— *Vì sao mạnh hơn:* B chỉ dùng ICOR như **chỉ báo kiểm chứng hậu nghiệm** (V2, V4), chưa bao giờ dùng như **ràng buộc số học tiền nghiệm**. Phiên bản này miễn nhiễm với cả hai đòn A đã dùng: không cần ICOR là hằng số (nó dùng chính lộ trình cải thiện của hệ thống), và không dính đòn "6,4 bị đẩy lên cơ học vì năm COVID" (4,8 là con số hướng tới, không phải bình quân quá khứ). **B đã để A rút khẳng định về dấu ICOR mà không thu về được gì thay thế.**
+
+**2. Ràng buộc điện — hoàn toàn không xuất hiện trong 5 vòng, dù position liệt là trụ cột.**
+B đã tính được ở V2 rằng để tổng đạt ~11,7% thì CN–XD phải tăng ~18–19%. Ghép với §8: nhu cầu điện tăng ~8–10%/năm, **nguy cơ mất cân đối cung–cầu điện 2026–2028**, chỉ đạo **tiết kiệm tối thiểu 3%** điện năng toàn quốc 2026. Một hệ thống đồng thời yêu cầu công nghiệp tăng gần 19% và yêu cầu tiết kiệm 3% điện đang phát **hai mệnh lệnh không tương thích về mặt vật lý** — đúng "ràng buộc không tháo được bằng quyết tâm" ở dạng cụ thể nhất, không cần bất kỳ giả định nhân quả nào về lạm phát.
+— *Nguồn: §8 (EVN/Bộ Công Thương — H1; East Asia Forum — H2, kèm cảnh báo §8 rằng độ vênh điện–GDP KHÔNG tự chứng minh số liệu sai).*
+— *Vị trí: V2 nối ngay sau đòn số học đóng góp ngành; hoặc V5 khi A khẳng định "vốn hạ tầng điện có cấu phần nới ràng buộc cung".*
+— *Vì sao mạnh hơn:* A đã **chủ động dùng hạ tầng điện làm luận cứ nới cung ở V2 và B không phản hồi**. Trả lời sẵn có rất mạnh: 136 tỷ USD vốn lưới 2026–2030 và 87 dự án khởi công 2026 là công suất cho **các năm sau**, không phải cho 5 tháng còn lại — chính lập luận "lệch khung thời gian" mà A đã phải tự thừa nhận ở trục ICOR, áp lại cho trục điện. **Đây là tuyến duy nhất trong position B mà B né hoàn toàn.**
+
+**3. Môi trường nửa cuối năm khác nửa đầu — cú sốc thương mại 24/7/2026.**
+A dựng chỉ báo tự bác quanh các chuỗi độc lập (hải quan, IIP) "hiện đang tăng tương ứng". Nhưng các chuỗi đó đo giai đoạn **trước** 24/7/2026, khi USTR ban hành kết luận cuối cùng Mục 301 áp **12,5%** với hàng Việt Nam (§7), trong khi FDI chiếm ~80% kim ngạch xuất khẩu và cả Mỹ lẫn Trung Quốc đều được dự báo chậm lại nửa cuối. Ngoại suy động lượng 6 tháng đầu sang 6 tháng cuối là **ngoại suy qua một điểm gãy chế độ**.
+— *Nguồn: §7 (USTR — H1; East Asia Forum — H2; KBSV — H3, phải ghi rõ là CTCK có lợi ích). Tỷ lệ "45–50% miễn trừ" đã bị case file gắn `[CẦN KIỂM CHỨNG — nguồn vênh nhau]` → chỉ dùng định tính, không quy đổi thành con số thiệt hại.*
+— *Vị trí: V3 (đáp trực diện phép thử "chuỗi độc lập" của A) hoặc V4 câu hỏi 3.*
+— *Vì sao mạnh hơn:* phản hồi thực tế của B ở V2 chỉ là "hải quan/IIP tăng nhờ chu kỳ điện tử và cầu ngoài" — một **quy kết nguyên nhân không có bằng chứng**, dễ bị đòi chứng minh. Phiên bản này không cần giải thích quá khứ, chỉ cần chỉ ra **biến ngoại sinh đã đổi dấu đúng vào ranh giới của kỳ phải giao kết quả** — vừa củng cố tuyến "khoảng cách nới rộng", vừa làm chỉ báo tự bác của A mất tính chẩn đoán.
+
+**4. Chứng minh vế mềm gãy bằng kênh mẫu số thuần kế toán — không cần quan hệ nhân quả lạm phát.**
+Bội chi, nợ công, GDP/người, tỷ trọng chế biến chế tạo đều là **tỷ lệ có GDP ở mẫu số** (§2), và toàn bộ khung kế hoạch 2026 được hiệu chỉnh theo đúng một giả định tăng trưởng ≥10%. "Tuyệt đối không có kịch bản nào dưới 10%" (§2.2) vì thế không chỉ là thiếu phương án dự phòng: khi sản lượng về vùng 8%, các tỷ lệ mà nghị quyết hứa giữ "trong giới hạn quy định" **bị lệch theo một hướng chưa ai lập kế hoạch** — vế mềm gãy bằng số học, không cần chứng minh cầu kéo giá.
+— *Nguồn: Nghị quyết QH về KH 2026 (§2) — H1; Luật NSNN và kế hoạch tài chính–NSNN 03 năm, được ghi nhận "hiệu lực pháp lý yếu, mang tính tham khảo" (Kiểm toán Nhà nước — H2/H3).*
+— *Vị trí: V4, **thay cho phần B buộc phải rút** ("không có căn cứ nào" để quy 4,38% cho mức quyết tâm), và nhắc lại ở V5.*
+— *Vì sao mạnh hơn:* ở V4 B mất cơ chế "ai trả giá" khi rút hàm ý nhân quả về CPI và **không thay thế bằng gì** — A khai thác đúng khoảng trống đó trong kết luận. Kênh mẫu số là **cơ chế gãy duy nhất không thể bị đòi tách khỏi giá nhập khẩu**, vì nó là đồng nhất thức chứ không phải giả thuyết — đúng yêu cầu "chỉ ra cơ chế cụ thể" mà position B đặt ra.
+
+**5. Chỉ tiêu trung gian của chính A đạt được ở mức 8% — hàm mục tiêu của A không đòi 10% trong 2026.**
+A neo toàn bộ lập luận vào lộ trình GDP/người 5.400–5.500 USD (2026). Từ nền ~5.026 USD (§3), mức đó đòi tăng ~7,4% tính bằng USD; với tăng trưởng thực 8%, chỉ số giảm phát quanh 4% và lộ trình tỷ giá lên giá 26.300 → 25.900 mà chính case file dẫn (§6), GDP/người danh nghĩa quy USD **vượt 5.400 mà không cần chạm 10%**. Nghĩa là mức quyết tâm đang tranh cãi **không mua thêm gì cho cột mốc 2026 của chính A**, trong khi vẫn mang trọn rủi ro.
+— *Nguồn: §3, §6 (TCTK — H1; UOB — H3, NHTM có lợi ích). Phép quy đổi là tính toán suy dẫn, phải nêu rõ giả định về chỉ số giảm phát và dân số, gắn `[CẦN KIỂM CHỨNG]`.*
+— *Vị trí: V2 hoặc V4 câu hỏi 1 gửi A.*
+— *Vì sao mạnh hơn:* suốt 5 vòng B **chỉ bảo vệ hàm mục tiêu của B** (lũy kế 10–15 năm, TFP) và **chưa một lần chạm vào hàm mục tiêu của A** — nên tranh chấp bị đóng khung thành "hai hệ giá trị không phân định được", đúng địa hình bất lợi cho bên đề nghị hiệu chỉnh. Đây là đòn duy nhất trong danh sách **thắng ngay trong khung của A**, và không đòi B phải biện minh điểm 8–8,5% bằng hàm chi phí — vấn đề A tấn công liên tục ở V3.
+
+**6. Tiền lệ nội địa 2009–2011 — bằng chứng cho trụ cột "nhất quán thời gian" mà B chỉ khẳng định chứ chưa chứng minh.**
+Sau gói kích cầu 2009 (~143–160 nghìn tỷ đồng), CPI tháng 12/2011 tăng **18,13%** so cùng kỳ, tăng trưởng rơi về **5,03%** (2012) và ~5,4% (2013), hệ thống phải lập **VAMC (2013)** để xử lý nợ xấu — đúng mô hình "chuỗi 10-10-10 rồi 4-5-5" mà position B nêu, **xảy ra ở chính Việt Nam**. Đây cũng là phản chứng trực tiếp cho "cấu trúc sai số bất đối xứng" của A: phần dư của một đợt ép tăng trưởng không chỉ là hạ tầng giữ lại được, mà còn là một tầng nợ xấu và dự án dở dang mất nhiều năm mới tiêu hóa.
+— *Nguồn: TCTK thông cáo 2012–2013 (H1); VAMC/NHNN (H1); VEPR "Tổng quan kinh tế Việt Nam 2012" (H2); World Bank Taking Stock 7/2013 (H2); Nhân Dân/SGGP (H3). Con số GDP 2012 công bố ban đầu 5,03% có bản sửa đổi sau — nếu dẫn phải ghi rõ mốc công bố.*
+— *Vị trí: V3 (đáp đòn "bác đầu mút mà không biện minh điểm") hoặc V5.*
+— *Vì sao mạnh hơn:* B **đã tự cảnh báo survivorship bias khi A dẫn Hàn Quốc/Đài Loan nhưng chưa bao giờ đưa ca dương tính của chính mình** — nên tiêu chí "bất đối xứng phục hồi" đứng suốt 5 vòng như một **tiên đề chưa có dữ liệu**. Tiền lệ nội địa miễn nhiễm với mọi phản bác về khả năng so sánh quốc tế và định lượng được vế "mất nhiều năm" mà A liên tục gọi là "xác suất × thiệt hại chưa lượng hóa".
+
+**7. Goodhart có tiền lệ được chính hệ thống thừa nhận bằng văn bản: Quyết định 715/QĐ-TTg (22/5/2015).**
+Trong nhiều năm, tổng GRDP các tỉnh cộng lại chênh với GDP quốc gia — độ chênh nới rộng theo năm — và Thủ tướng đã phải ban hành Đề án đổi mới quy trình biên soạn GRDP, chuyển việc tính GRDP về Tổng cục Thống kê; sau đó số liệu hai cấp mới tương thích. Đây không phải cáo buộc ai: đó là **văn kiện khắc phục của chính hệ thống**, chứng minh áp lực chỉ tiêu đặt lên cấp tỉnh từng bẻ cong khâu đo lường tới mức phải sửa bằng thể chế — và cho một chỉ báo sống cho 2026: **nếu độ vênh GRDP–GDP tái xuất hiện sau NQ 169, giả thuyết cơ chế được xác nhận.**
+— *Nguồn: QĐ 715/QĐ-TTg 22/5/2015 (H1); TCTK và Báo Chính phủ về lý do bổ sung quy trình biên soạn GDP–GRDP (H1/H3).*
+— *Vị trí: V2 khi dựng Goodhart, và V4 khi B nêu chỉ báo kiểm chứng.*
+— *Vì sao mạnh hơn:* B trình Goodhart đúng chuẩn mực — "giả thuyết cơ chế, không phải cáo buộc" — nhưng vì thế A bẻ được bằng gọng kìm "hoặc vô hại, hoặc ràng buộc thật" và đòn equivocation. Có tiền lệ văn bản, Goodhart chuyển từ giả thuyết sang **cơ chế đã từng hiện thực hóa trong đúng quan hệ trung ương–địa phương này**, và chỉ báo GRDP–GDP **mạnh hơn nhiều** so với hai chỉ báo B đã chọn (tỷ trọng giải ngân quý IV, ICOR 2026) vì nó đo trực tiếp **khâu đo lường** chứ không đo kết quả kinh tế.
+
+### Đánh giá trần steelman
+
+Steelman của B **còn cách trần một khoảng đáng kể**, và khoảng cách tập trung ở một chỗ rất dễ nhận diện: B chọn chiến trường "cơ chế thể chế + số học tổng cầu" và giữ rất kỷ luật, nhưng **bỏ trống gần như toàn bộ tuyến ràng buộc vật chất và ngoại sinh** — điện (§8) **không xuất hiện một lần nào trong 5 vòng**, Mục 301 và môi trường xuất khẩu nửa cuối (§7) cũng vậy, dù cả hai đều là trụ cột được liệt kê tường minh trong position B và đều rơi đúng vào giai đoạn mà toàn bộ tranh chấp xoay quanh.
+
+Đây là dấu hiệu **né hệ thống, không phải bỏ sót ngẫu nhiên**: cả hai tuyến đều dùng bằng chứng "cứng" không đòi giả định nhân quả — tức đúng loại bằng chứng B thiếu nhất sau khi buộc phải rút hàm ý nhân quả về CPI ở V4 và không thay thế bằng gì.
+
+Khoảng cách thứ hai mang tính chiến lược: B tranh luận suốt 5 vòng **bên trong hàm mục tiêu của mình mà không một lần kiểm tra hàm mục tiêu của đối phương**, khiến cuộc tranh biện bị đẩy về thế "hai hệ giá trị" — địa hình bất lợi có hệ thống cho bên đề nghị hiệu chỉnh, vì bên giữ nguyên trạng thắng mọi thế hòa. Ở các đòn B thực sự đánh, chất lượng cao và tự phê rất tốt (đính chính "gần gấp đôi", nhượng bộ miền vs điểm, tách (a)/(b)/(c)), nên trần chưa chạm **không nằm ở kỹ năng lập luận mà ở phổ bằng chứng được huy động**: B dùng chưa tới một nửa kho dữ kiện mà position và case file đã đặt sẵn trong tay.
+
+---
+
+### Đối chiếu hai audit (orchestrator tổng hợp — không phải kết luận của auditor)
+
+**Kết quả đối xứng ở mức kết luận.** Cả hai auditor, độc lập với nhau, đều kết luận bằng đúng một cụm: steelman của bên mình audit **"còn cách trần một khoảng đáng kể"**. Không bên nào được đánh giá là đã chạm trần, và không bên nào bị đánh giá tệ hơn hẳn bên kia. Đây là tín hiệu **thuận** cho câu hỏi thiên lệch prior: nếu model steelman một bên yếu có hệ thống, ta sẽ kỳ vọng thấy một audit nói "gần trần" và một audit nói "còn xa".
+
+**Nhưng hai bên bỏ trống hai tuyến khác nhau — và bổ sung nhau một cách đáng chú ý:**
+
+| | Tuyến mạnh | Tuyến bỏ trống |
+|---|---|---|
+| **A** | Logic hình thức (non sequitur, equivocation, false dilemma, khả thi ↔ hợp lý) — "trình độ cao, nhất quán qua cả 5 vòng" | **Bằng chứng thể chế/định chế** — không một lần dẫn NQ 25/NQ-CP 2025, QĐ 715, quy định dự phòng NSNN, thứ bậc pháp lý trần CPI |
+| **B** | Cơ chế thể chế + số học tổng cầu — "kỷ luật", tự phê tốt | **Ràng buộc vật chất & ngoại sinh** — điện (§8) **không xuất hiện lần nào** trong 5 vòng; Mục 301 và môi trường xuất khẩu nửa cuối (§7) cũng vậy |
+
+Cả hai auditor đều gọi phần bỏ trống của bên mình là **"né hệ thống"**, không phải bỏ sót ngẫu nhiên.
+
+**Phát hiện đáng chú ý nhất: hai auditor viện dẫn CÙNG MỘT văn kiện theo HAI CHIỀU NGƯỢC NHAU.**
+`Quyết định 715/QĐ-TTg (22/5/2015)` — Đề án đổi mới quy trình biên soạn GRDP — xuất hiện ở cả hai báo cáo:
+- **Auditor A** dùng nó để **đóng** kênh Goodhart: GRDP tỉnh do trung ương biên soạn từ 2017, nên chủ tịch tỉnh bị đo bằng con số mình không sản xuất ra.
+- **Auditor B** dùng nó để **chứng minh** Goodhart: chính việc phải ban hành đề án này là văn kiện thừa nhận rằng áp lực chỉ tiêu từng bẻ cong khâu đo lường tới mức phải sửa bằng thể chế.
+
+Cả hai cách đọc đều hợp lệ và cùng dựa trên một sự kiện có thật. Điều này cho thấy **tuyến bằng chứng mạnh nhất còn bỏ ngỏ của phiên nằm ở chính chỗ hai bên đều không đụng tới** — và rằng nếu có EXTRA ROUND, chủ đề đối xứng tự nhiên nhất là *cơ chế đo lường GRDP cấp tỉnh*, vì mỗi bên có một cách dùng riêng cho cùng một văn kiện.
+
+**Hai quan sát chiến lược, mỗi bên một cái:**
+- **A chưa bao giờ tranh chấp *thước đo* của B** (tính bất đối xứng khả năng phục hồi) — chỉ tranh chấp bằng chứng bên trong thước đo đó, dù §8 có sẵn phản ví dụ có mốc thời gian (hạ tầng điện có lead time nhiều năm).
+- **B chưa bao giờ kiểm tra *hàm mục tiêu* của A** — khiến tranh chấp bị đẩy về thế "hai hệ giá trị không phân định được", mà auditor B ghi nhận là **địa hình bất lợi có hệ thống cho bên đề nghị hiệu chỉnh**, vì bên giữ nguyên trạng thắng mọi thế hòa.
+
+**Cảnh báo diễn giải bắt buộc:** báo cáo audit đo **trần của model**, không đo chất lượng tương đối của hai advocate và **không phải căn cứ cộng/trừ điểm**. Việc một bên có 7 mục "chưa dùng" không có nghĩa bên đó lập luận kém hơn — nó có nghĩa auditor tìm được 7 chỗ có thể mạnh hơn. Hai bên đều được audit đúng một lần, cùng điều kiện, và **cùng ra 7 mục**.
+
 
 ## Phụ lục C — Ghi chú vận hành
 
@@ -431,7 +576,7 @@ Theo `source_policy_vn2026.md` quy tắc 6: phiên chặn `WebFetch` với hầu
 | Vòng 4 — Chất vấn chéo | ✅ Hoàn thành (B hỏi 193 / A trả lời 928 / A hỏi 244 / B trả lời 903) |
 | Vòng 5 — Kết luận | ✅ Hoàn thành (A 858 / B 874) |
 | Fact-check V1–V5 | ✅ Đã chạy 08/08/2026 — 0 🔴, 7 🟡, 3 ⚠️ (nhãn phạm vi ở Phụ lục A) |
-| Steelman audit ×2 | ⬜ Chưa chạy |
+| Steelman audit ×2 | ✅ Đã chạy 08/08/2026 — đối xứng, mỗi bên 7 mục, cả hai "còn cách trần đáng kể" |
 | GATE 2 | ⬜ Chưa tới |
 | Phase 2 — hội đồng 3 judge | ⬜ Chưa chạy |
 

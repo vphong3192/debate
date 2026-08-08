@@ -129,3 +129,119 @@ Tôi nêu sẵn **chỉ báo bác bỏ** lập luận mình: nếu quý III đ�
 
 > `[vượt ngân sách từ: 725/600 — trần cho phép 660]` Bản đầu 764 từ; đã yêu cầu cắt gọn MỘT lần theo protocol, bản cắt còn 725 từ, vượt trần 65 từ.
 
+### PHẢN BIỆN 2 — Advocate B
+
+**Steelman.** Ba đòn của A đều đúng địa chỉ. (1) *Non sequitur:* tôi bác được đầu mút 10% nhưng công bố một điểm 8–8,5% mà không đưa hàm chi phí theo mức mục tiêu; câu hỏi chuẩn tắc quyết ở biên 9,0 vs 8,2 và tôi chưa đứng vào đó. (2) *Equivocation:* tôi định giá cùng một tuyên bố mạnh khi buộc tội, yếu khi rút. (3) *Cán cân:* chi phí tôi tự khai là chắc chắn và vào nền mọi năm sau, còn lợi ích chỉ là xác suất nhân thiệt hại chưa lượng hóa.
+
+**0. Đính chính của tôi trước.** Vòng 1 tôi viết định hướng tín dụng ~15% "hàm ý nửa cuối phải bơm gần gấp đôi nửa đầu". Sai: 7,41% đến 26/6 cộng ~7,6% là 15%, nhịp gần bằng nhau. Tôi rút phát biểu đó.
+
+Nhưng dữ kiện A dựng lên trên đó không đứng vững. Kiểm chứng: 2025 định hướng **16%**, thực hiện **~19,1%** `[Nguồn: NHNN qua VnEconomy / Người Lao Động, 12/2025–01/2026 — H1/H3]` — vượt hơn 3 điểm % ngay trong năm GDP đạt 8,02%. Con số 2026 lại được công bố kèm mệnh đề "điều chỉnh tăng/giảm phù hợp diễn biến thực tế" `[Nguồn: Chỉ thị 01/CT-NHNN, 01/2026 — H1]`. Vậy 15% là **định hướng co giãn**, không phải trần cứng, và tiền lệ gần nhất là nó bị vượt khi tăng trưởng cần thêm. Nó chứng minh vế mềm **chưa bị gọi tên**, không chứng minh vế mềm sẽ thắng khi bị gọi.
+
+**1. Nhận phần A đúng — và nó vẫn dẫn về kết luận của tôi.** Giả sử 15% giữ được, chia đều các quý, siết bất động sản `[Nguồn: Chỉ thị 01/CT-NHNN, 01/2026 — H1]`: kênh tín dụng bị khóa. Cộng ràng buộc điện `[Case file §8]` và ICOR 6,4 `[Case file §5]`, không kênh nào còn lại bù nổi ~3,5 điểm %. Kết luận buộc phải là: kết quả về vùng 8 — đúng vùng mà hệ thống từ chối lập kịch bản. A và tôi giờ gần như đồng ý về trạng thái thế giới; chúng tôi khác nhau ở chỗ **có nên chuẩn bị cho nó hay không**.
+
+**2. Câu (a) — hàm chi phí.** Nhượng bộ thẳng: bằng chứng của tôi xác định một **miền**, không một **điểm**; ở biên 9,0 vs 8,2 nó không phân định được và tôi không giả vờ ngược lại. Nhưng chi phí không trơn như A giả định: trần CPI 4,5% là neo danh nghĩa có hiệu lực rời rạc, cân đối điện 2026–2028 là ràng buộc vật lý `[Case file §8]`, tín dụng là hạn mức hành chính — cả ba đều là **ngưỡng**, không phải dốc tuyến tính. Neo cho miền: 8,02% là mức 2025 đạt được **với CPI trong trần** `[Case file §3, §6]`, tức mức quan sát được ở ICOR và tiềm năng hiện hành; 8–8,5% là mức đó cộng biên cải thiện giải ngân. Quan trọng hơn: **đề nghị trung tâm của tôi không cần hàm chi phí.** "Xây kịch bản điều hành dưới 10%" là quyết định nhị phân về quản trị rủi ro, đúng ở mọi điểm trong miền.
+
+**3. Câu (b) — hai người trả tiền khác nhau, không phải equivocation.** Chi phí rút chỉ tiêu là uy tín, ở trung ương, **không tiêu nguồn lực thực** — tôi viết "chi phí ngân sách bằng không", không viết "chi phí bằng không", và cùng câu đó đã ghi "nó tốn uy tín của một tuyên bố". Lực Goodhart rơi xuống chỗ khác: 34 chủ tịch tỉnh có chỉ tiêu GRDP đích danh và nghĩa vụ báo cáo hằng quý trước ngày 25 `[Case file §2.2]`. Một thiết bị cam kết rẻ với người **đặt** và đắt với người **bị đo** là bất đối xứng chuẩn của quan hệ ủy quyền, không phải mâu thuẫn.
+
+**4. Cán cân — A định giá sai đại lượng.** Tôi viết mất 1,5–2 điểm % "so với **chỉ tiêu**", không phải so với sản lượng thực sẽ đạt. Quy nó thành 7,7–10,3 tỷ USD hàng hóa thật chỉ đúng nếu **bản thân con số chỉ tiêu sản xuất ra sản lượng**. Nếu chỉ tiêu có sức mạnh nhân quả đó thì nó cũng đủ mạnh để bẻ cong hành vi cấp tỉnh — A không thể giữ cả hai. Còn chi phí lạm phát không phải xác suất: nó đã hiện và đo được — 4,38%, nhà ở–điện nước–vật liệu xây dựng +6,72%.
+
+**Nguồn trích dẫn trong lượt này:** Case file §2.2, §3, §5, §6, §8; NHNN qua VnEconomy / Người Lao Động (12/2025–01/2026, H1/H3) — tín dụng 2025 định hướng 16%, thực hiện ~19,1%; Chỉ thị 01/CT-NHNN (01/2026, H1) — định hướng tín dụng 2026 ~15%, kèm mệnh đề điều chỉnh phù hợp diễn biến thực tế, siết bất động sản; Cục Thống kê (CPI 6 tháng 2026, đã dẫn vòng 1).
+
+> `[vượt ngân sách từ: 688/600 — trần cho phép 660]` Bản đầu 694 từ; đã yêu cầu cắt gọn MỘT lần theo protocol, bản cắt còn 688 từ, vượt trần 28 từ.
+
+> **Ghi chú đối xứng vòng 3 (orchestrator):** A 725 từ (+65), B 688 từ (+28). Tổng hợp cả bốn lượt phản biện V2–V3: B 713 / A 667 / A 725 / B 688 — **không lượt nào nằm trong trần 660**. Chênh lệch tích lũy giữa hai bên: A 1.392 từ, B 1.401 từ (lệch 9 từ, ~0,6%) — về tổng thể ngân sách vẫn đối xứng, dù từng lượt đều vượt.
+
+
+---
+
+> **Quy ước heading phụ lục (BẮT BUỘC giữ nguyên văn):** `scripts/make_judge_input.sh` cắt input cho judge từ `## Vòng 1 — Mở đầu` đến TRƯỚC `## Phụ lục B`. Phụ lục A (fact-check) đặt TRƯỚC Phụ lục B.
+
+## Phụ lục A — Fact-check (phạm vi: CHƯA CHẠY)
+
+⛔ **CHƯA CHẠY.** Fact-check chưa được thực hiện cho bất kỳ vòng nào. Mọi tổng điểm chấm trên transcript ở trạng thái này phải gắn nhãn **"chưa fact-check"**, và KHÔNG được phát biểu "0 cờ đỏ" cho bất kỳ vòng nào.
+
+**Danh sách khẳng định ngoài case file cần kiểm ưu tiên khi chạy fact-check:**
+
+| # | Khẳng định | Bên đưa | Vòng |
+|---|---|---|---|
+| 1 | IIP 6 tháng 2026 +10,8% (cao nhất từ 2019); chế biến chế tạo +11,4% | A (B đã tự xác nhận đúng) | V1, V2 |
+| 2 | Phát ngôn "không điều hành theo phương án dưới 10%" là của Thứ trưởng Nguyễn Đức Chi, họp báo Bộ Tài chính 17/6/2026 | A (B đã tự xác nhận đúng) | V1, V2 |
+| 3 | Cấu phần CPI 6 tháng: nhà ở–điện nước–VLXD +6,72%; giao thông +5,23%; ăn uống +4,79% | B | V1 |
+| 4 | Lạm phát cơ bản bình quân 6 tháng 2026 = 4,12% | B (A dùng lại) | V1, V2 |
+| 5 | Kịch bản Cục Thống kê cập nhật: quý III 11,16%, quý IV 12,09% | B (A xác nhận và nhận bản nặng hơn) | V1, V2, V3 |
+| 6 | CPI tháng 6/2026 giảm 0,39% so tháng trước; chênh CPI–lõi do xăng dầu, gas thế giới | A | V2 |
+| 7 | Họp báo NHNN 02/7/2026, Phó Thống đốc Phạm Thanh Hà; định hướng tín dụng 2026 ~15% | A | V3 |
+| 8 | **Tín dụng 2025: định hướng 16%, thực hiện ~19,1%** — A dẫn "~17,87–19,01%", B dẫn "~19,1%"; hai bên vênh nhau về cùng một đại lượng | A và B | V3 |
+| 9 | **Chỉ thị 01/CT-NHNN (01/2026)** — số hiệu, và mệnh đề "điều chỉnh tăng/giảm phù hợp diễn biến thực tế" | B | V3 |
+| 10 | Phép tính tự dựng: để tổng đạt 11,7% thì CN–XD phải tăng ~18–19% (B), ~18,8% / ~17,5% (A tính lại) | B, A xác nhận | V2 |
+| 11 | Phép tính tự dựng: 1,5–2 điểm % sản lượng ≈ 7,7–10,3 tỷ USD | A | V3 |
+
+> Mục 8 và 9 là ưu tiên cao nhất: chúng là nền của đòn phản công quyết định ở vòng 3 của cả hai bên, và hai bên đưa con số vênh nhau.
+
+## Phụ lục B — Steelman audit (đo trần lập luận — KHÔNG cộng/trừ điểm, KHÔNG nạp cho judge)
+
+⛔ **CHƯA CHẠY.** Bắt buộc chạy trước GATE 2, đối xứng hai bên.
+
+## Phụ lục C — Ghi chú vận hành
+
+### C1. Trạng thái phiên
+
+**Phiên DỪNG sau vòng 3** vì hết ngân sách context của orchestrator, không phải vì lỗi nội dung. Điểm dừng nằm đúng ranh giới một vòng hoàn chỉnh.
+
+| Hạng mục | Trạng thái |
+|---|---|
+| GATE 1 (case file) | ✅ Đã duyệt 08/08/2026, ghim commit `9998fd2` |
+| Vòng 1 — Mở đầu | ✅ Hoàn thành (A 877, B 877) |
+| Vòng 2 — Phản biện 1 | ✅ Hoàn thành (B 713, A 667) |
+| Vòng 3 — Phản biện 2 | ✅ Hoàn thành (A 725, B 688) |
+| Vòng 4 — Chất vấn chéo | ⬜ Chưa chạy |
+| Vòng 5 — Kết luận | ⬜ Chưa chạy |
+| Fact-check V1–V5 | ⬜ Chưa chạy (danh sách ưu tiên ở Phụ lục A) |
+| Steelman audit ×2 | ⬜ Chưa chạy |
+| GATE 2 | ⬜ Chưa tới |
+| Phase 2 — hội đồng 3 judge | ⬜ Chưa chạy |
+
+### C2. Sai lệch giao thức có chủ ý (khai báo bắt buộc)
+
+**C2.1 — Case file rút gọn cho advocate ở vòng 2 và vòng 3 (lỗi của orchestrator).** Skill quy định advocate/fact-checker/auditor nhận case file **ĐẦY ĐỦ**; chỉ judge mới được nhận bản rút gọn, và phải rút bằng `make_case_file_input.sh`. Để tiết kiệm context, orchestrator đã dán cho advocate một bản case file **tự nén** ở vòng 2 và vòng 3.
+
+- **Cái bị lược:** các câu "Lưu ý phương pháp" ở §2 (văn kiện không nói bên nào thắng khi hai vế xung đột), §8 (cảnh báo hai chiều về chỉ báo điện–GDP), §9 (dự báo định chế thận trọng có hệ thống); một số diễn giải ở §10.
+- **Cái được giữ nguyên:** toàn bộ số liệu, mốc ngày, phân hạng nguồn, và **mọi nhãn `[CẦN KIỂM CHỨNG]`**.
+- **Tính đối xứng:** bản nén được áp giống nhau cho cả A và B trong cùng vòng → nếu có thiên lệch thì là thiên lệch chung, không nghiêng về một bên.
+- **Khắc phục:** lượt V3-B trở đi đã khôi phục bản đầy đủ. Vòng 4, 5 và mọi subagent sau đó dùng bản đầy đủ.
+- **Đánh giá rủi ro:** các câu bị lược là **ràng buộc lập luận**, tức thứ định hình hành vi advocate — cùng lớp rủi ro với bài học P0-2 (14/07/2026). Hội đồng judge và người đọc cần chiết khấu tương ứng khi diễn giải vòng 2–3. Orchestrator KHÔNG chạy lại hai vòng đó để xóa dấu vết, vì transcript phải phản ánh cái đã thực sự xảy ra.
+
+**C2.2 — Fact-check gộp thay vì theo từng vòng.** Skill cho phép fact-check theo vòng là tùy chọn. Orchestrator quyết định chạy **một lần bao trọn V1–V5 sau vòng 5** thay vì sau mỗi vòng, để tiết kiệm context. Hệ quả phải khai báo: **advocate KHÔNG nhận được cờ fact-check giữa chừng để tự đính chính** — khác điều kiện thí nghiệm so với phiên 12/06 và 14/07.
+
+**C2.3 — Vòng 1 chạy mù đối xứng.** Hai lượt mở đầu được chạy độc lập, không bên nào thấy lượt của bên kia trước khi viết. Theo tiền lệ phiên 14/07 (lượt mở đầu của B không tham chiếu A). Ghi nhận vì bảng nạp context của skill nói advocate được thấy "transcript các lượt đã phát biểu", có thể đọc theo nghĩa B được thấy lượt A ở vòng 1.
+
+### C3. Ngân sách từ — phát hiện harness
+
+**Cả 4/4 lượt phản biện đều vượt trần 660**, kể cả sau khi mỗi lượt đã được yêu cầu cắt gọn đúng một lần theo protocol:
+
+| Lượt | Bản đầu | Sau cắt | Vượt trần |
+|---|---|---|---|
+| V2 B | 724 | 713 | +53 |
+| V2 A | 685 | 667 | +7 |
+| V3 A | 764 | 725 | +65 |
+| V3 B | 694 | 688 | +28 |
+
+Tổng tích lũy V2–V3: **A 1.392 từ, B 1.401 từ** (lệch 9 từ, ~0,6%) — đối xứng ở cấp tổng dù từng lượt đều vượt.
+
+Hai lượt mở đầu (ngân sách 800, trần 880) đều đạt **đúng 877 từ** — trong trần. Chỉ các lượt 600 từ mới vượt.
+
+**Đề xuất sửa harness sau phiên:** ngân sách 600 từ cho vòng phản biện có thể quá chật với chủ đề mật độ số liệu cao (mỗi lượt phải steelman + xử lý 4–5 mũi tấn công + dẫn số có nguồn). Cân nhắc một trong hai: (a) nâng ngân sách vòng phản biện lên 700–750 từ cho các bộ chủ đề định lượng; hoặc (b) buộc advocate tự chạy phép đếm và tự cắt TRƯỚC khi xuất, thay vì để orchestrator phát hiện sau.
+
+### C4. Ràng buộc hạ tầng
+
+`WebFetch` bị chặn với **mọi** tên miền đã thử (chinhphu.vn, xaydungchinhsach.chinhphu.vn, vneconomy.vn, eastasiaforum.org). Toàn bộ case file và mọi kiểm chứng của advocate chỉ dựa được vào `WebSearch` (tiêu đề + trích đoạn + tóm tắt máy), không phải đọc trực tiếp trang gốc. Case file mang **16 nhãn `[CẦN KIỂM CHỨNG]`**. Xem `knowledge/source_policy_vn2026.md` quy tắc 6.
+
+### C5. Cách resume phiên
+
+1. Nạp lại `knowledge/case_file_vn2026.md` tại commit `9998fd2` (**bản đầy đủ**, không nén).
+2. Chạy vòng 4 (chất vấn chéo — B hỏi trước, 3 câu/bên, ≤100 từ/câu, ≤300 từ/trả lời) và vòng 5 (kết luận — A trước, B sau, 800 từ/lượt, **bắt buộc có mục "Giới hạn của lập luận phía tôi"**).
+3. Chạy `debate-fact-checker` bao V1–V5 theo danh sách ưu tiên ở Phụ lục A.
+4. Chạy 2 instance `debate-auditor` đối xứng → Phụ lục B.
+5. Trình GATE 2, chờ `APPROVE TRANSCRIPT`.
+6. Phase 2: `make_judge_input.sh` + `make_case_file_input.sh` → hội đồng 3 judge → `quote_check.sh` từng scorecard → tổng hợp trung vị.
+

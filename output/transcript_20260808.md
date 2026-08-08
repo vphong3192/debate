@@ -151,6 +151,22 @@ Nhưng dữ kiện A dựng lên trên đó không đứng vững. Kiểm chứn
 
 > **Ghi chú đối xứng vòng 3 (orchestrator):** A 725 từ (+65), B 688 từ (+28). Tổng hợp cả bốn lượt phản biện V2–V3: B 713 / A 667 / A 725 / B 688 — **không lượt nào nằm trong trần 660**. Chênh lệch tích lũy giữa hai bên: A 1.392 từ, B 1.401 từ (lệch 9 từ, ~0,6%) — về tổng thể ngân sách vẫn đối xứng, dù từng lượt đều vượt.
 
+## Vòng 4 — Chất vấn chéo
+
+> *Ngân sách: 3 câu hỏi/bên, mỗi câu ≤100 từ; mỗi câu trả lời ≤300 từ. B hỏi trước theo `protocol/debate_protocol.md`.*
+>
+> *Quy tắc vòng: câu hỏi phải nhắm vào nội dung đối phương ĐÃ phát biểu và trích kèm; người trả lời phải trả lời trực diện trước rồi mới bổ sung bối cảnh; cấm hỏi dồn nhiều câu trong một câu.*
+
+### CHẤT VẤN — Advocate B hỏi Advocate A
+
+**Câu 1.** Anh viết: "Câu hỏi chuẩn tắc quyết ở biên khác: giữa 9,0% và 8,2%, không giữa 10% và 8%." Chính sách đang tranh biện loại bỏ mọi kịch bản điều hành đặt mục tiêu dưới 10% `[Case file §2.2]`. Xin trả lời đúng một điều: trong khung của anh, một kịch bản điều hành đặt mục tiêu 9,0% có được phép tồn tại hay không?
+
+**Câu 2.** Anh khẳng định: "Giải ngân nhanh một danh mục đã chọn làm giảm ICOR (rút ngắn thời gian vốn nằm chờ), không tăng." Đây là khẳng định về **dấu** của một quan hệ, đưa ra không kèm nguồn. Xin nêu một bằng chứng cụ thể — chuỗi số liệu, nghiên cứu, hoặc phép tính từ §5 — cho thấy dấu đó là giảm.
+
+**Câu 3.** Anh định nghĩa: "Vế mềm ràng buộc bộ công cụ được phép dùng — cấm mua sản lượng bằng nới tiền tệ, tỷ giá, kỷ luật ngân sách." Anh đã nêu chỉ báo tự bác cho luận điểm Goodhart. Xin nêu đúng một chỉ báo quan sát được trong quý III–IV/2026 mà nếu nó xuất hiện, anh chấp nhận rằng ràng buộc bộ công cụ này đã bị phá.
+
+> *Đo được: Câu 1 = 64 từ, Câu 2 = 61 từ, Câu 3 = 68 từ (tổng 193/300). Cả ba câu trong trần 100 — không phải cắt gọn.*
+
 
 ---
 

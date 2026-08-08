@@ -422,7 +422,7 @@ Theo `source_policy_vn2026.md` quy tắc 6: phiên chặn `WebFetch` với hầu
 
 ---
 
-## Steelman audit — Bên A
+### Steelman audit — Bên A
 
 ### Lập luận chưa dùng / dùng dưới mức
 
@@ -478,7 +478,7 @@ Ngoài ra A **chưa bao giờ tranh chấp thước đo của B** (tính bất �
 
 ---
 
-## Steelman audit — Bên B
+### Steelman audit — Bên B
 
 ### Lập luận chưa dùng / dùng dưới mức
 

@@ -4,7 +4,7 @@
 **Bộ chủ đề:** `_chamcong` — `knowledge/case_file_chamcong.md`, `knowledge/judge_notes_chamcong.md`, `rubrics/scoring_rubric_chamcong.md`, `agents/advocate_template_chamcong.md`, `agents/position_{A,B}_chamcong.md`
 **Advocate A:** Khung lập luận "chính sách này KHÔNG công bằng, phải cải cách" (steelman)
 **Advocate B:** Khung lập luận "chính sách này CHÍNH ĐÁNG, biện minh được" (steelman)
-**Case file phiên bản:** ngày duyệt GATE 1 08/08/2026 — commit `c8ecf8d`; addendum (nếu có): chưa có
+**Case file phiên bản:** ngày duyệt GATE 1 08/08/2026 — commit `c8ecf8d`; **addendum §11** duyệt 08/08/2026 (sau vòng 3) — commit `6c9218b`, phạm vi: **§11** (case file) + **K7** (judge_notes). Lượt V1–V3 chạy trên bản `c8ecf8d`; lượt V4–V5 chạy trên bản `6c9218b`.
 **Ngày duyệt GATE 2:** [chưa duyệt]
 **Model:** subagent = alias `opus` (model ID `claude-opus-5`); orchestrator = `claude-opus-5`; ngày chạy = 08/08/2026
 
@@ -131,7 +131,74 @@ Cuối cùng, nhánh "miễn trừ là thực hành ngầm ngoài nội quy" đ�
 **Nguồn trích dẫn trong lượt này:** Case file §1, §2, §4, §6, §7, §9; NĐ 90/2020/NĐ-CP (qua §2); TT 200/2014/TT-BTC (mẫu 01a-LĐTL, khu vực doanh nghiệp); TT 24/2024/TT-BTC — Công báo Chính phủ; Cổng Xây dựng chính sách: TT 24/2024/TT-BTC hiệu lực 01/01/2025, thay thế TT 107/2017/TT-BTC.
 
 ## Vòng 4 — Chất vấn chéo
-[chưa chạy]
+
+### B hỏi A
+
+**Câu hỏi 1:** Ở V3, A rút khẳng định bốn ràng buộc hiện diện "đều là bản ghi khách quan" và tự nhận: *"Nếu bản ghi ấy chưa đủ dùng, đề xuất của tôi là xây nó, chi phí xây thuộc về phía tôi."* Câu hỏi một điều: trong khoảng từ lúc bắt đầu xây bản ghi phân công ca đến lúc nó vận hành được, **căn cứ chính** để đánh giá mức độ hoàn thành nhiệm vụ và chi trả thu nhập tăng thêm cho bác sĩ là gì? Xin nêu một căn cứ cụ thể, không nêu nguyên tắc.
+
+**Câu hỏi 2:** A lập luận: *"Trạng thái tạm thời tự chặn đường tới điều kiện chấm dứt của nó thì không còn là tạm thời"*, và hỏi *"mốc thoát là gì, ai chịu trách nhiệm, hạn nào?"*. Case file §11 nêu mốc chậm nhất 30/11/2026 đơn vị sự nghiệp công lập phải ban hành quy chế đánh giá riêng `[CẦN KIỂM CHỨNG]`. Nếu mốc này được xác nhận, A có **rút** khẳng định "điều kiện không có lối ra" không? Xin trả lời có hoặc không trước, rồi giải thích.
+
+**Câu hỏi 3:** A viết: *"phải có người quy đổi dữ liệu chấm công thành mức độ hoàn thành nhiệm vụ và thu nhập tăng thêm"*, và *"Bước quy đổi là phán đoán quản lý"*. Trong phương án của A, bộ chỉ số kết quả cũng phải được quy đổi thành mức xếp loại và mức chi trả. Bước quy đổi trong **phương án của A** có thoát khỏi phán đoán quản lý không? Xin trả lời có hoặc không trước, rồi giải thích.
+
+### A trả lời
+
+**Trả lời 1:** Căn cứ cụ thể: **số phiên trực đã hoàn thành theo bảng phân công trực của khoa**. Chọn nó vì QĐ 73/2011/QĐ-TTg tính phụ cấp thường trực theo **phiên trực**, với hệ số 0,5 (12/24), 0,75 (16/24), 1,3 (ngày nghỉ hằng tuần) `[Case file §3]` `[CẦN KIỂM CHỨNG hệ số lễ/Tết; hiệu lực mức tiền đến 2026]`. Để chi được khoản phụ cấp ấy, bệnh viện đã phải lập và lưu bản ghi phiên trực từ trước — đây là bản ghi đang chạy, không phải thứ tôi hứa xây.
+
+Nhượng bộ thẳng, vì B hỏi đúng chỗ: căn cứ đó chỉ phủ **nghĩa vụ hiện diện**, không phủ **nghĩa vụ kết quả**. Trong khoảng quá độ, phương án của tôi **không có** căn cứ kết quả đủ mạnh để phân hóa thu nhập tăng thêm giữa các bác sĩ. Hệ quả tôi chấp nhận và không giấu: giai đoạn đó, phần thu nhập tăng thêm chi theo mặt bằng/hệ số của quy chế chi tiêu nội bộ hiện hành `[Case file §4]` `[CẦN KIỂM CHỨNG điều khoản về quy chế chi tiêu nội bộ và thu nhập tăng thêm]`, tức **ít phân hóa hơn** phương án của B trong thời gian đó. Chi phí này thuộc về phía tôi, đúng như tôi tự nhận ở V3.
+
+Hai điểm tôi không nhượng. Thứ nhất, việc thiếu căn cứ kết quả không tự nó biến giờ vào–ra hành chính thành căn cứ **chính** hợp lệ: phân hóa thu nhập theo một biến không phải mục tiêu là một lựa chọn, không phải mặc định [suy luận, có nhãn]. Thứ hai, mệnh đề (c) — miễn trừ lãnh đạo khoa phòng — không được giai đoạn quá độ bào chữa chút nào: chi phí hành chính của việc quẹt thẻ áp cho trưởng khoa không cao hơn áp cho bác sĩ dưới quyền [suy luận, có nhãn], nên lý do khả dĩ "chi phí hành chính" `[Case file §9]` không đỡ được (c) trong chính giai đoạn này.
+
+**Trả lời 2:** **Có.** Nếu mốc chậm nhất 30/11/2026 được xác nhận `[Case file §11]` `[CẦN KIỂM CHỨNG]`, tôi rút khẳng định "điều kiện không có lối ra" ở dạng tuyệt đối.
+
+Giải thích. Ở V3 tôi hỏi ba điều: mốc thoát là gì, ai chịu trách nhiệm, hạn nào. Mốc trong §11 trả lời được hai: chủ thể là chính đơn vị sự nghiệp công lập, hạn là 30/11/2026. Một trạng thái có chủ thể và có hạn định thì không còn là trạng thái tự chặn đường thoát của nó. Tôi không giữ khẳng định đã bị dữ kiện mới làm suy yếu.
+
+Tôi cũng hạ cấp tiền đề của mục (II) trong lượt V3: câu "chế độ ấy không sinh ra thông tin để xây bộ chỉ số" là **suy luận của tôi**, không phải dữ kiện §1 xác lập; từ đây tôi chỉ dùng nó dưới nhãn suy luận, không trình như dữ kiện.
+
+Ba điều còn lại sau khi rút. (i) Mốc buộc **ban hành** quy chế, nhưng bản thân mốc không nói quy chế ấy phải chứa gì; §11 có nêu khung kết quả thực hiện nhiệm vụ tối đa 70/100 điểm và nguyên tắc đánh giá qua tiêu chí cụ thể và sản phẩm công việc, song cả số điều lẫn phân bổ điểm lẫn câu chữ đều đang mang nhãn `[CẦN KIỂM CHỨNG]` `[Case file §11]` — tôi không trình chúng như đã xác lập, và §11 không tự nó xác lập rằng chế độ đang tranh là trái pháp luật. (ii) Nếu sau mốc, quy chế được ban hành mà vẫn lấy chấm công làm căn cứ **chính**, thì tranh luận quay về nội dung mệnh đề (b) — không còn được gọi là quá độ. (iii) Mốc này không đụng gì tới mệnh đề (c): không có mốc nào biến miễn trừ theo chức vụ thành tạm thời. Phần tôi rút là (II); (b) và (c) tôi giữ.
+
+**Trả lời 3:** **Không.** Bước quy đổi trong phương án của tôi cũng không thoát khỏi phán đoán quản lý.
+
+Giải thích. Ai chọn chỉ số nào vào bộ, đặt trọng số ra sao, ngưỡng nào là "hoàn thành tốt", hiệu chỉnh case-mix đến đâu — tất cả đều là lựa chọn của người quản lý [suy luận, có nhãn]. Case file §9 đã ghi rõ Goodhart áp cho **cả hai** phương án, kèm case-mix và rủi ro né bệnh nhân nặng; §5 ghi gaming và lệch phác đồ về phía chỉ số được tính điểm, dù chỉ là loại suy. Tôi đã rút ở V3 khẳng định "gaming để lại dấu vết, hiệu chỉnh được theo case-mix" và không viện lại nó ở đây. Vậy tôi không có quyền bán bộ chỉ số như một cơ chế khách quan.
+
+Đính chính kèm theo: ở V3 tôi viết "theo mô tả của chính B, người quy đổi là người vận hành cơ chế". B chỉ nói người ký xác nhận bảng chấm công; tôi đã mở rộng nội hàm khi gán cho B, và tôi rút cách gán đó.
+
+Khác biệt tôi vẫn giữ, và nó không phải "có hay không phán đoán" mà là phán đoán đặt lên cái gì, kiểm tra được đến đâu. (i) Đối tượng: phán đoán về biến gần với mục tiêu chăm sóc người bệnh, so với phán đoán về giờ vào–ra hành chính. (ii) Khả năng phát biểu công khai: tiêu chí kết quả buộc phải viết ra thành tiêu chí và sản phẩm công việc, chịu phép thử công khai `[Case file §9]`; đó là điều kiện để người bị đánh giá phản đối được. (iii) Thủ tục: nội quy về thời giờ làm việc phải tham khảo ý kiến tổ chức đại diện người lao động tại cơ sở `[Case file §2, BLLĐ 2019 Điều 118]`.
+
+Và mệnh đề (c) không phụ thuộc câu trả lời này: dù quy đổi bằng phán đoán, miễn trừ theo chức vụ vẫn thất bại nguyên tắc tổng quát hóa `[Case file §9]`, trừ khi biện minh bằng tính chất công việc, có đăng ký lịch, mở cho mọi người đủ điều kiện.
+
+### A hỏi B
+
+**Câu hỏi 1:** Ở V3, B viết: "nếu đọc §1 chặt — miễn trừ **toàn phần, không đăng ký, không cơ chế thay thế** — thì tôi **không bảo vệ** dạng đó", và "miễn trừ **để trống** không chịu được phép thử tổng quát hóa". Nhưng dạng đó chính là chế độ đang tranh: lãnh đạo khoa phòng được miễn, không kèm cơ chế thay thế nào được mô tả `[Case file §1]`. Xin một câu trả lời dứt khoát: đối với chế độ như §1 mô tả — không phải biến thể giả định có đăng ký lịch — B kết luận nó chính đáng hay bất công?
+
+**Câu hỏi 2:** Ở V3, B đưa "Mốc thoát cụ thể: chu kỳ đánh giá viên chức **trước 15/12 hàng năm** với **đủ năm nhóm tiêu chí**". Case file §11 xác lập NĐ 233/2026/NĐ-CP hiệu lực 01/7/2026, **thay thế** NĐ 90/2020/NĐ-CP `[Case file §11]` — văn bản B dựa vào. Câu hỏi: sau 01/7/2026, mốc thoát ấy còn căn cứ hiệu lực nào không?
+
+**Câu hỏi 3:** Ở V3, B viết: "chấm công chỉ ràng buộc phần 'có mặt', không ràng buộc phần 'làm gì'". Trong chế độ đang tranh, chấm công là **căn cứ chính** để đánh giá mức độ hoàn thành nhiệm vụ, còn bộ chỉ số kết quả **không có hoặc chỉ có hình thức** `[Case file §1]`. Câu hỏi: khi đó, dữ liệu chỉ ràng buộc "có mặt" ràng buộc được phán đoán về **mức độ hoàn thành nhiệm vụ** đến đâu?
+
+### B trả lời
+
+**Trả lời 1:** Dứt khoát, và tôi tách theo ba mệnh đề đúng như `[Case file §1]` cho phép.
+
+(a) Bác sĩ lâm sàng phải chấm công: **chính đáng**.
+(b) Lấy chấm công làm căn cứ chính khi chưa có bộ chỉ số kết quả: **chính đáng có điều kiện và có hạn** — chỉ trong giai đoạn quá độ, tới mốc quy chế đánh giá mới (xem Trả lời 2).
+(c) Miễn trừ lãnh đạo khoa phòng, đọc chặt như A đề nghị — miễn toàn phần, không đăng ký lịch, không cơ chế thay thế: **bất công**. Tôi giữ nguyên lời V3, không lùi, không đổi sang biến thể giả định.
+
+Lý do tôi kết luận (c) bất công: nghĩa vụ giải trình khi ấy được phân bổ theo **địa vị** chứ không theo **chức năng**, và không chịu được phép thử tổng quát hóa/công khai `[Case file §9]`. Các lý do khả dĩ của miễn trừ — công việc di động, đã chịu cơ chế trách nhiệm giải trình khác, chi phí hành chính `[Case file §9]` — theo tôi là lý do thật, nhưng chúng chỉ biện minh cho **một hình thức giải trình khác**, không biện minh cho **khoảng trống**. Chính phản biện khả dĩ mà §9 ghi — xử lý bằng cơ chế báo vắng/đăng ký lịch thay vì miễn trừ toàn phần — là điều tôi cho là đúng.
+
+Hai hệ quả tôi nhận ngay. Thứ nhất: ở mệnh đề (c), A thắng theo cách đọc chặt §1, và tôi không tranh chỗ đó bằng cách đọc lỏng. Thứ hai: vì §1 nói rõ ba mệnh đề tách rời, thua ở (c) **không** kéo theo thua ở (a) và (b) — và biện pháp khắc phục mà (c) đòi hỏi là **thêm ràng buộc giải trình cho lãnh đạo**, không phải **gỡ chấm công của bác sĩ**. Đó là chỗ tôi và A vẫn khác nhau về kết luận chính sách, dù đã hội tụ về chẩn đoán.
+
+**Trả lời 2:** Trả lời thẳng: **không**. Sau 01/7/2026, mốc "trước 15/12 hàng năm với đủ năm nhóm tiêu chí" mà tôi dẫn ở V3 không còn căn cứ hiệu lực, vì NĐ 233/2026/NĐ-CP hiệu lực 01/7/2026 **thay thế** NĐ 90/2020/NĐ-CP `[Case file §11]`. Tôi **rút** mốc thoát đó.
+
+Tôi thay bằng mốc trong chính §11: chậm nhất **30/11/2026**, đơn vị sự nghiệp công lập phải ban hành quy chế đánh giá riêng `[CẦN KIỂM CHỨNG]` `[Case file §11]`. Đây là mốc cụ thể hơn mốc tôi đã rút: nó không chỉ ấn định thời điểm đánh giá, mà ấn định thời điểm **phải có công cụ đánh giá**. Lập luận "giai đoạn quá độ" của tôi vì thế không mất chỗ đứng — nó đổi chỗ đứng, từ một văn bản hết hiệu lực sang một văn bản đang hiệu lực, và có hạn chót gần hơn.
+
+Nhưng tôi phải nói nốt chiều bất lợi, vì né sẽ là không trung thực. Khung tiêu chí kết quả thực hiện nhiệm vụ tối đa **70/100** điểm, khung tiêu chí chung tối đa **30/100** `[CẦN KIỂM CHỨNG số điều, phân bổ điểm chi tiết, nội dung Phụ lục I]`, cùng nguyên tắc đánh giá **thông qua tiêu chí cụ thể và sản phẩm công việc** `[CẦN KIỂM CHỨNG câu chữ]` `[Case file §11]`, đi ngược chiều mệnh đề (b) của tôi. Nếu các con số ấy được xác nhận, thì sau khi quy chế mới ban hành, chấm công **không thể** giữ vai trò căn cứ chính — cùng lắm là một cấu phần nhỏ trong nhóm ý thức tổ chức kỷ luật.
+
+Nên phát biểu lại (b) cho chính xác: bảo vệ của tôi là bảo vệ **có hạn định thời gian**, không phải bảo vệ vô thời hạn. Tôi cũng ghi nhận §11 không tự nó xác lập chế độ đang tranh là trái pháp luật `[Case file §11]`.
+
+**Trả lời 3:** Trả lời thẳng: **ràng buộc rất yếu, và yếu một chiều**. Dữ liệu hiện diện chỉ chống đỡ được điều kiện **cần**, không chống đỡ điều kiện **đủ**. Nó chặn được phần dưới — loại trừ trường hợp vắng mặt trong khung giờ có nghĩa vụ hiện diện lâm sàng `[Case file §9]` — nhưng không phân hóa được phần trên: giữa một bác sĩ có mặt đủ và làm tốt với một bác sĩ có mặt đủ và làm ở mức tối thiểu, dữ liệu chấm công không nói được gì. Khi bộ chỉ số kết quả không có hoặc chỉ có hình thức `[Case file §1]`, phần phán đoán còn lại về "mức độ hoàn thành nhiệm vụ" **không** đến từ dữ liệu chấm công; nó đến từ phán đoán của người quản lý. Tôi nhận điều đó, và nhận rằng đây là điểm căng nhất trong mệnh đề (b) của tôi.
+
+Điều tôi vẫn giữ, gồm hai ý. Thứ nhất, §1 ghi "căn cứ chính", không ghi "căn cứ duy nhất" `[Case file §1]`; phần bổ khuyết là phán đoán quản lý — và A vừa trả lời **không** rằng bước quy đổi trong phương án của A cũng không thoát khỏi phán đoán quản lý. Vậy khác biệt giữa hai phương án ở khâu này là **mức độ**, đúng như tôi đã nhận ở V3 khi chấp nhận phân biệt đo/đánh giá của A. Thứ hai, hiện diện đúng khung giờ không phải biến ngoại lai với nghĩa vụ chuyên môn; với ràng buộc hiện diện có lý do lâm sàng `[Case file §9]`, nó là **một phần** của nhiệm vụ, chứ không phải chỉ báo thay thế cho nhiệm vụ.
+
+Kết luận thành thật: chấm công đứng được như **sàn kỷ luật tạm thời**, không đứng được như **thước đo hoàn thành nhiệm vụ đầy đủ**. Và như Trả lời 2 đã nói, tỷ trọng 70/30 trong §11 `[CẦN KIỂM CHỨNG]` đặt hạn chót cho vai trò tạm thời ấy.
 
 ## Vòng 5 — Kết luận
 [chưa chạy]
@@ -392,6 +459,12 @@ Fact-checker vòng 3 nêu nghi vấn NĐ 90/2020/NĐ-CP đã bị thay thế nh�
 | V2 — A | 600 | 660 | bản đầu 662 → sau cắt **636** | Vượt trần **2 từ**. Áp quy tắc cơ học (một lần cắt) thay vì miễn trừ theo phán đoán của orchestrator — để orchestrator tự quyết "bao nhiêu là đủ gần trần" chính là loại tùy nghi mà harness thiết kế để loại bỏ. Sau cắt: B 644 / A 636, lệch 1,3% |
 | V3 — A | 600 | 660 | bản đầu 676 → sau cắt **593** | Một lần cắt, đạt |
 | V3 — B | 600 | 660 | **643** | ĐẠT ngay bản đầu. Vòng 3: A 593 / B 643, lệch 8,4% — trong ngưỡng ±10% |
+| V4 — B hỏi | 300 (3×100) | 330 | **268** | ĐẠT |
+| V4 — A trả lời | 900 (3×300) | 990 | **945** | ĐẠT |
+| V4 — A hỏi | 300 (3×100) | 330 | **234** | ĐẠT |
+| V4 — B trả lời | 900 (3×300) | 990 | **909** | ĐẠT |
+
+> **Đối xứng vòng 4:** phần hỏi B 268 / A 234 (chênh 34 từ, cùng nằm dưới trần); phần trả lời A 945 / B 909 (chênh 36 từ, lệch 4,0%). Không bên nào phải cắt gọn ở vòng này.
 
 > **Đánh giá đối xứng V1:** hai lượt sau cắt là **988 (A)** và **990 (B)** — lệch **0,2%**, nằm sâu trong ngưỡng ±10% mà nguyên tắc nền tảng đòi hỏi. Tức cả hai bên đều vượt trần tuyệt đối như nhau, và **không bên nào có lợi thế độ dài so với bên kia**. Judge nên đọc cờ vượt ngân sách như một khiếm khuyết chung của vòng 1, không phải lợi thế của một bên.
 

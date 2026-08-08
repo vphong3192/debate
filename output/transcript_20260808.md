@@ -245,6 +245,36 @@ Và một chỉ báo thứ hai để nhánh Goodhart của tôi cũng bác đư�
 
 > **Ghi chú đối xứng vòng 4 (orchestrator):** lượt hỏi — B 193 từ / A 244 từ. Lượt trả lời — A 928 từ (318/326/284, sau một lần cắt gọn câu 1) / B 903 từ (318/295/290, không cắt). Chênh lượt trả lời 25 từ (~2,7%). **Vòng 4 là vòng đầu tiên của phiên mà mọi lượt đều nằm trong trần cho phép** — trái với vòng 2–3, nơi cả 4/4 lượt phản biện đều vượt trần 660 sau khi đã cắt gọn một lần. Ghi nhận như dữ kiện cho đề xuất sửa harness ở Phụ lục C3.
 
+## Vòng 5 — Kết luận
+
+> *Ngân sách 800 từ/lượt (trần 880). A phát biểu trước, B kết thúc sau cùng theo `protocol/debate_protocol.md` (cân bằng lợi thế lời cuối: B đi sau ở vòng 1 nên đi sau ở vòng 5). Lượt kết luận bắt buộc có mục "Giới hạn của lập luận phía tôi".*
+>
+> *Điều kiện thí nghiệm: A viết kết luận KHÔNG thấy lượt kết luận của B (B chưa phát biểu). B viết kết luận CÓ thấy lượt của A — đây là bất đối xứng cố hữu của thứ tự phát biểu, đã được cân bằng bằng việc A đi trước ở vòng 1.*
+
+### KẾT LUẬN — Advocate A
+
+**Phần không còn tranh chấp sau bốn vòng.** Hai bên đồng ý mục tiêu 10% rất khó đạt — tôi chưa bao giờ phủ nhận và đã nhận bản số học nặng nhất (quý III 11,16%, quý IV 12,09%) `[Nguồn: Cục Thống kê qua VietnamPlus, 07/2026 — H1/H3]`; đệm lạm phát mỏng, CPI bình quân 6 tháng 4,38% so chỉ tiêu ~4,5% `[Case file §6]`; chưa số liệu nào cho thấy trần ổn định đã bị phá — B nói thẳng "tôi không khẳng định trần đã bị phá". Mỗi bên đã rút một khẳng định: B rút hàm ý nhân quả từ 4,38% về mức quyết tâm; tôi rút khẳng định về dấu quan hệ giải ngân → ICOR, và nêu rõ dấu ngắn hạn nhiều khả năng ngược với điều tôi đã viết.
+
+**Khung mục tiêu & đánh đổi.** Hàm mục tiêu không đổi: thu nhập đầu người tích lũy trước khi cửa sổ dân số vàng khép `[Case file §2, §10]`; tiêu chí phân định: ràng buộc ổn định là trần cứng, mục tiêu chỉ ép ở dư địa bên dưới. Điều bốn vòng làm rõ là phương án của B **cũng có người trả giá**, mức do chính B khai: mất ~1,5–2 điểm % so chỉ tiêu. Vòng 3 B đúng khi bác cách tôi quy con số đó thành 7,7–10,3 tỷ USD hàng hóa thật; tôi không giữ phép quy đổi ấy. Nhưng cán cân vẫn chưa được cân: chi phí lạm phát B viện dẫn, chính B thừa nhận không tách được khỏi giá nhập khẩu, và bằng chứng của B chỉ xác định một **miền**, không một **điểm** — nên biên chuẩn tắc 9,0 vs 8,2 vẫn chưa bên nào đứng vào ngoài tôi.
+
+**Bằng chứng & dữ kiện.** Giữ đúng bốn loại con số: *chỉ tiêu* ≥10% `[Case file §2]`; *kịch bản* 11,16/12,09%; *dự báo* IMF 7,5%, ADB 7,2%, WB 6,8% `[Case file §9]`; *thực hiện* 2025 đạt 8,02%, 6 tháng 2026 **ước** 8,18% `[Case file §3]`. Chỉ báo bản lề của tôi không bị lật: tín dụng đến 26/6 tăng 7,41%, **thấp hơn** cùng kỳ 2025 (8,3%) `[Case file §6]`; định hướng 2026 ~15% `[Nguồn: Chỉ thị 01/CT-NHNN, 01/2026 — H1]` **thấp hơn** thực hiện 2025 ~19,1% `[Nguồn: NHNN qua VnEconomy/Người Lao Động, 12/2025–01/2026 — H1/H3]`. B đáp rằng đó là định hướng co giãn, "vế mềm chưa bị gọi tên" — cách đọc hợp lệ, nhưng là dự đoán hành vi tương lai, còn dấu của dữ kiện hiện có đi ngược chiều B cần.
+
+**Cơ chế & khả thi định lượng.** Nguồn tăng trưởng tôi viện dẫn không phụ thuộc dấu ICOR đã rút: hơn 600.000 tỷ đồng nằm trong kế hoạch 1.013.443,4 tỷ, giải ngân mới 37,3% đến 16/7, 25 bộ/cơ quan TW và 11 địa phương dưới bình quân `[Case file §5]`. Đây là vốn đã có trong dự toán, không phải tín dụng mới — lý do vế cứng và vế mềm không nhất thiết cắn nhau.
+
+**Điều kiện thu hẹp của B — tôi nhận một nửa.** B tuyên bố: nếu ngoài (a) xây kịch bản dưới 10%, hệ thống thôi nâng kịch bản quý mỗi lần thực hiện hụt, B coi mức quyết tâm là **hợp lý** kể cả khi chỉ tiêu năm vẫn ≥10%.
+
+Tôi **không nhận** (b) như một cần gạt độc lập, vì lý do số học chứ không vì lập trường: kịch bản quý là **phần dư của một đồng nhất thức**, không phải một hành vi siết thêm. Khi 6 tháng đã ước 8,18%, mọi đường quý tương thích với ≥10% cả năm đều buộc nửa cuối ~11,6–11,7% `[Case file §3, §4]`. Vậy "giữ ≥10% nhưng thôi nâng kịch bản quý" hoặc bất khả về số học, hoặc chính là hạ chỉ tiêu năm mà giữ tên gọi cũ. Nếu là vế sau, (b) không phải điều kiện nhỏ tách rời (a); nó là (a) mở rộng, và bất đồng vẫn nằm đúng ở con số 10%.
+
+Tôi **nhận** phần chẩn đoán đứng sau (b), kèm hệ quả: đường quý 11,16/12,09% không nên dùng làm thước đo đạt/không đạt cho 34 chủ tịch tỉnh hằng quý `[Case file §2.2]`. Đo cấp tỉnh bằng một đường mà chính tôi thừa nhận rất khó đạt là chỗ nguy cơ Goodhart của B mạnh nhất, và tôi không có bằng chứng bác. Đó là hiệu chỉnh **khâu đo lường**, không phải hạ mức quyết tâm.
+
+**Logic.** Bất đồng cuối cùng vì thế không phải "khả thi hay không", mà là cấu trúc sai số: đặt cao mà trượt thì mất một năm chỉ tiêu nhưng giữ lại hạ tầng, thể chế, năng lực giải ngân; đặt thấp mà đạt thì năng lực không bao giờ được huy động, và thời gian nhân khẩu học không mua lại được `[Case file §10]`. Suy từ "khó đạt" sang "không nên đặt" vẫn là đánh tráo khái niệm khả thi ↔ hợp lý `[Case file §11.2]`.
+
+**Giới hạn của lập luận phía tôi:** Tôi sai nếu tín dụng cả năm 2026 đạt ≥17%, hoặc CPI bình quân cả năm vượt 4,5% — hai điều kiện tôi cam kết ở vòng 4 và giữ nguyên. Tôi cũng sai nếu ICOR 2026 xấu đi so với 6,4 kèm giải ngân dồn bất thường vào quý IV `[Case file §5]`. Điểm yếu lớn nhất tôi thừa nhận: tôi **không có bằng chứng** rằng đã tồn tại phương án phân bổ cụ thể cho vùng kết quả 8%; nếu khoảng trống đó là thật, B đúng ở phần quan trọng nhất của mình.
+
+**Nguồn trích dẫn trong lượt này:** Case file §2, §2.2, §3, §4, §5, §6, §9, §10, §11.2; Cục Thống kê qua VietnamPlus, 07/2026 (H1/H3); Chỉ thị 01/CT-NHNN, 01/2026 (H1); NHNN qua VnEconomy/Người Lao Động, 12/2025–01/2026 (H1/H3).
+
+> *Đo được sau cắt gọn: 858/800 từ (trần 880) — trong trần. Bản đầu 921 từ, vượt trần 41 từ → orchestrator yêu cầu cắt gọn MỘT lần theo protocol, kèm ràng buộc không được bỏ mục "Giới hạn của lập luận phía tôi", không bỏ đoạn trả lời điều kiện thu hẹp của B, không bỏ trục nào.*
+
 
 ---
 

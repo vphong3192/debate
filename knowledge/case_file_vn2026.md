@@ -1,7 +1,7 @@
 # CASE FILE — Mục tiêu tăng trưởng hai con số của Việt Nam năm 2026 (nền sự kiện chung)
 
 > **Đề tranh biện:** *"Việt Nam có nên kiên định mục tiêu tăng trưởng GDP hai con số (≥10%) cho năm 2026 và ưu tiên mục tiêu này khi nó xung đột với các mục tiêu vĩ mô khác (lạm phát, chất lượng đầu tư, an toàn tài chính) không?"*
-> Trạng thái: **CHỜ DUYỆT GATE 1** — lập ngày 07/08/2026.
+> Trạng thái: **ĐÃ DUYỆT GATE 1 — 08/08/2026** (lập 07/08/2026).
 > Phân hạng nguồn theo `knowledge/source_policy_vn2026.md` (H1 = thống kê chính thức/văn bản quy phạm; H2 = định chế quốc tế/học thuật; H3 = báo chí kinh tế/phân tích tổ chức tài chính; H4 = hạn chế).
 > **Nguyên tắc:** file này chỉ chứa SỰ KIỆN kiểm chứng được và CẢNH BÁO PHƯƠNG PHÁP trung lập (áp đối xứng hai bên). KHÔNG chứa khung được/mất điểm — khung chấm nằm ở `knowledge/judge_notes_vn2026.md`, chỉ nạp cho judge.
 > **Cảnh báo hạ tầng (đọc trước khi dùng bất kỳ con số nào):** phiên này chạy trong môi trường chặn `WebFetch` với hầu hết tên miền. Toàn bộ dữ kiện dưới đây thu thập qua `WebSearch` (tiêu đề + trích đoạn + tóm tắt), **không phải từ đọc trực tiếp trang gốc**. Độ tin cậy vì thế thấp hơn một case file bình thường. Advocate phải trích kèm nguồn cụ thể và **không được nâng con số có nhãn `[CẦN KIỂM CHỨNG]` thành căn cứ trung tâm** của một lập luận.

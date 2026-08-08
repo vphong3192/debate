@@ -81,8 +81,75 @@ Về **công bằng phân phối** và **liên nhân–thông tin**: bốn chi�
 ---
 > **Quy ước heading phụ lục (BẮT BUỘC giữ nguyên văn):** `scripts/make_judge_input.sh` cắt input cho judge từ `## Vòng 1 — Mở đầu` đến TRƯỚC `## Phụ lục B` — đổi các heading dưới đây (kể cả chữ "Phụ lục B") sẽ làm steelman audit lọt vào input của judge hoặc làm input rỗng. Phụ lục A (fact-check) đặt TRƯỚC Phụ lục B.
 
-## Phụ lục A — Fact-check (phạm vi: [chưa chạy])
-[bảng của fact-checker]
+## Phụ lục A — Fact-check (phạm vi: V1)
+
+**Đối chiếu:** `knowledge/case_file_chamcong.md` (commit c8ecf8d) → WebSearch (H1–H3 theo bảng hạng trong header case file)
+
+### Bên A — vòng 1
+
+| Bên | Khẳng định (trích nguyên văn) | Kết quả | Nguồn đối chiếu |
+|-----|------------------------------|---------|-----------------|
+| A | "Tách ba mệnh đề `[Case file §1]`: (a)… (b) chấm công **thay thế** đánh giá kết quả, và (c) miễn trừ **theo cấp bậc**" | ✅ Đúng | §1 nêu đúng ba mệnh đề (a)(b)(c) |
+| A | "'công việc di động, không đo được bằng giờ có mặt', 'đã có cơ chế trách nhiệm giải trình khác' `[Case file §9]`" | ✅ Đúng (tag đúng chỗ) | §9 liệt kê lý do khả dĩ của miễn trừ. §9 là mục diễn giải — chỉ kiểm vị trí tag |
+| A | "**Phép thử công khai (publicity test)**… **Phép thử tổng quát hóa (universalizability)**" `[Case file §9]` | ✅ Đúng (tag đúng chỗ) | §9: "nguyên tắc tổng quát hóa & phép thử công khai" |
+| A | "bốn chiều công bằng đóng góp phần phương sai riêng… niềm tin là biến tương quan của công bằng thủ tục" `[Colquitt và cộng sự, JAP 2001 — §7]` | ✅ Đúng | §7 khớp: 183 nghiên cứu; bốn chiều; niềm tin |
+| A | "Quy luật Goodhart cắt hai chiều… **né bệnh nhân nặng (patient selection)** do case-mix" `[Case file §9]` | ✅ Đúng (tag đúng chỗ) | §9 khớp |
+| A | "P4P/QOF… cải thiện ở mốc 1 năm nhưng kém nhất quán ở mốc 3 năm, mạnh nhất với chỉ số quy trình vốn thực hiện thấp" `[PMC12188983 — §5]` | ✅ Đúng | §5 khớp gần nguyên văn cả ba vế |
+| A | "Ba khối tôi dùng đều là **loại suy (analogy)**… khối này nói về trả theo chỉ số, **không** phải chấm công" | ✅ Đúng (khai báo đúng phạm vi) | Tuân thủ "Lưu ý bắt buộc" §5 |
+| A | "Can thiệp bị cảm nhận là **kiểm soát**… cảm nhận là **hỗ trợ** thì có thể làm tăng… **không** phải kết luận đã đóng" `[Frey & Jegen, JES 2001 — §7]` | ✅ Đúng | §7 khớp cả hai vế điều kiện lẫn cảnh báo tranh cãi học thuật |
+| A | "9.680 nhân viên y tế thôi việc/bỏ việc trong ~18 tháng 2021–2022… suy nhân quả từ đây là sai" `[Bộ Y tế — §8]` | ✅ Đúng | §8 khớp con số, phạm vi, nguồn H1; khai báo đúng "Lưu ý bắt buộc" §8 |
+| A | "Bác sĩ bệnh viện công là **viên chức**, không phải công chức" `[Case file §1]` | ✅ Đúng | §1 khớp |
+| A | "nội quy lao động phải bằng văn bản khi từ 10 người lao động trở lên… **tham khảo ý kiến tổ chức đại diện người lao động tại cơ sở**" `[BLLĐ 2019 Điều 118 — §2]` | ✅ Đúng | §2 khớp ba vế; xác nhận độc lập qua tổng hợp Điều 118 (H3) |
+| **A-11** | "…**việc tham khảo lập thành văn bản**" `[BLLĐ 2019 Điều 118 — §2]` | **🟡 Thiếu nguồn (gán sai văn bản)** | Chi tiết này KHÔNG có trong §2 và KHÔNG nằm trong Điều 118 BLLĐ 2019. Yêu cầu lập biên bản/văn bản nằm ở **NĐ 145/2020/NĐ-CP**. Nội dung thực chất có cơ sở, nhưng tag nguồn sai điều luật → cờ vàng, không phải cờ đỏ |
+| A | "khung đánh giá viên chức gồm **cả** nhóm hành vi… **lẫn** 'kết quả thực hiện chức trách, nhiệm vụ được giao'" `[NĐ 90/2020 — §2]` | ✅ Đúng | §2 liệt kê đúng 5 nhóm; A tuân thủ "Lưu ý trung lập" của §2 |
+| A | "trực 12/24 giờ = 0,5 lần, 16/24 giờ = 0,75 lần, ngày nghỉ hằng tuần = 1,3 lần" `[QĐ 73/2011 — §3]` | ✅ Đúng | §3 khớp cả ba hệ số. A **không** dẫn các mức tiền vốn mang nhãn `[CẦN KIỂM CHỨNG]` → không vi phạm gỡ nhãn |
+| A | "Khung KPI viên chức từ 01/7/2026 còn mang nhãn dự kiến… tôi **không** viện dẫn nó như quy định bắt buộc" | ✅ Đúng (giữ nguyên nhãn) | Tuân thủ đúng cảnh báo §2 |
+| **A-15** | "cái được tối ưu là sự hiện diện — biến **gần như không tương quan với chất lượng lâm sàng**" | **🟡 Thiếu nguồn** | Khẳng định thực nghiệm về mức tương quan, trình bày như sự thật, không tag nguồn, không có trong case file. Không tìm được nguồn H1–H2 trong 2 lần tìm |
+| A | *(hạng mục đặc biệt)* có bịa bệnh viện / văn bản nội bộ / khảo sát / vụ việc cụ thể không? | ✅ Không | Tuân thủ "Cấm tuyệt đối" §1 |
+
+### Bên B — vòng 1
+
+| Bên | Khẳng định (trích nguyên văn) | Kết quả | Nguồn đối chiếu |
+|-----|------------------------------|---------|-----------------|
+| B | "Ba mệnh đề tách rời `[Case file §1]`: (a)… (c)… (b)…" | ✅ Đúng | §1 khớp |
+| B | *(Steelman)* "Đối phương lập luận rằng khuyết tật trung tâm nằm ở công bằng thủ tục…" | ✅ Đúng (tóm tắt khớp lượt A) | Đối chiếu trực tiếp lượt A: trùng cả hai luận điểm chính. Không phát hiện xuyên tạc |
+| **B-3** | "nghĩa vụ chấm công áp cho **toàn bộ** nhân lực bệnh viện — điều dưỡng, kỹ thuật viên, hành chính — không chọn riêng bác sĩ" | **🟡 Thiếu nguồn** | §1 định nghĩa chính sách chuẩn hóa chỉ nêu "(1) **bác sĩ lâm sàng** phải điểm danh" và "(3) lãnh đạo khoa phòng được MIỄN". Case file KHÔNG xác lập phạm vi áp dụng cho điều dưỡng/kỹ thuật viên/hành chính. Là tiền đề thực tế thêm ngoài đề bài, chưa được xác lập |
+| B | "Theo thuyết công bằng Adams, bất mãn sinh từ so sánh với **nhóm tham chiếu**" `[Case file §9]` | ✅ Đúng (tag đúng chỗ) | §9 khớp |
+| B | "quy luật Goodhart cắt hai chiều: chỉ số kết quả bị **gaming** và tạo động cơ **né bệnh nhân nặng** do case-mix" `[§5, §9]` | ✅ Đúng | Cả hai tag đúng chỗ |
+| B | "QOF cải thiện… ở mốc 1 năm nhưng **kém nhất quán ở mốc 3 năm**…" `[PMC12188983 — §5]` | ✅ Đúng | §5 khớp (cùng nguồn, cùng ba vế như A trích) |
+| B | "kèm gaming và **giảm hài lòng, giảm động lực nội tại**" `[PMC7359468 — §5]` | ✅ Đúng | §5 khớp; mã nguồn đúng |
+| B | "Bằng chứng về trả theo hiệu quả… là **loại suy**… khối này **không** chứng minh chấm công tốt" `[§5]` | ✅ Đúng (khai báo đúng phạm vi) | Tuân thủ "Lưu ý bắt buộc" §5 |
+| B | "ngưỡng >90 phút/ngày hồ sơ điện tử ngoài giờ và >60 phút tác vụ hành chính đo **giấy tờ chuyên môn**, không đo thao tác quẹt thẻ" `[§6]` | ✅ Đúng | §6 khớp + đúng "Lưu ý bắt buộc" §6. B **không** dẫn con số phần trăm Sinsky 2016 (mang nhãn `[CẦN KIỂM CHỨNG]`) |
+| B | "chính lý thuyết đó là **có điều kiện** (kiểm soát vs hỗ trợ) và các phân tích gộp còn đối lập nhau" `[§7]` | ✅ Đúng | §7 khớp |
+| B | "nội quy lao động là **nghĩa vụ luật định**… nội dung chủ yếu **bao gồm thời giờ làm việc, thời giờ nghỉ ngơi**" `[BLLĐ 2019 Điều 118 — §2]` | ✅ Đúng | §2 khớp; xác nhận độc lập (H3) |
+| B | "Khung đánh giá viên chức chứa **cả** 'tác phong, lề lối làm việc' và 'ý thức tổ chức kỷ luật', không chỉ nhóm kết quả" `[NĐ 90/2020 — §2]` | ✅ Đúng | §2 khớp |
+| B | "Cơ chế tự chủ tài chính trao thẩm quyền quản trị nội bộ đáng kể… điều khoản cụ thể về thu nhập tăng thêm `[CẦN KIỂM CHỨNG]`" `[NĐ 60/2021 + NĐ 111/2025 — §4]` | ✅ Đúng (giữ nguyên nhãn) | §4 khớp. Tổng hợp H3 xác nhận nguyên tắc "đơn vị được quyết định mức chi… trong quy chế chi tiêu nội bộ" |
+| B | "phụ cấp đặc thù tính theo **phiên trực**" `[QĐ 73/2011 — §3]` | ✅ Đúng | §3 + "Ý nghĩa dữ kiện (trung lập)". B không dẫn mức tiền |
+| B | "Chấm công phục vụ ba chức năng **hành chính–pháp lý**: căn cứ tính lương và chế độ; dữ liệu phân bổ nhân lực, lập lịch trực; xử lý mối lo có thật về rời vị trí trong giờ" `[§9]` | ✅ Đúng | Tag §9 đúng chỗ. Vế "căn cứ tính lương" có cơ sở độc lập: TT 107/2017/TT-BTC có mẫu Bảng chấm công C01-HD làm căn cứ lập bảng thanh toán lương/phụ cấp/thu nhập tăng thêm `[H1]` — *lưu ý kỹ thuật: C01-HD thuộc nhóm mẫu hướng dẫn, không thuộc nhóm chứng từ bắt buộc; B không khẳng định là "bắt buộc" nên không phát sinh cờ* |
+| **B-15** | "lãnh đạo khoa phòng đã chịu cơ chế trách nhiệm giải trình **khác và nặng hơn** — chịu trách nhiệm về **chỉ số hoạt động cả khoa và về sự cố y khoa**" `[§9]` | **🟡 Thiếu nguồn (phần mở rộng)** | §9 chỉ nêu "đã chịu cơ chế trách nhiệm giải trình khác" — KHÔNG có so sánh mức độ ("nặng hơn") và KHÔNG có hai nội dung cụ thể được liệt kê. Quy chế bệnh viện (QĐ 1895/1997) có quy định trưởng khoa "chịu trách nhiệm trước giám đốc về mọi hoạt động của khoa" `[H3 tổng hợp]`, hỗ trợ một phần vế đầu; nhưng §3 ghi rõ nhiều nội dung QĐ 1895 đã bị bãi bỏ. Vế "về sự cố y khoa" và so sánh "nặng hơn" không xác minh được trong 2 lần tìm |
+| B | "Khung KPI viên chức còn mang nhãn dự kiến… tôi không viện dẫn" | ✅ Đúng (giữ nguyên nhãn) | §2 khớp |
+| B | *(hạng mục đặc biệt)* có bịa bệnh viện / văn bản nội bộ / khảo sát / vụ việc cụ thể không? | ✅ Không | Tuân thủ §1 |
+
+### Tổng hợp cờ — vòng 1
+
+| Cờ | Bên A | Bên B |
+|----|-------|-------|
+| 🔴 Sai | **0** | **0** |
+| 🟡 Thiếu nguồn | **2** (A-11 gán "lập thành văn bản" cho Điều 118 BLLĐ thay vì NĐ 145/2020; A-15 "hiện diện gần như không tương quan với chất lượng lâm sàng") | **2** (B-3 "chấm công áp cho toàn bộ nhân lực bệnh viện"; B-15 "trách nhiệm khác **và nặng hơn**… chỉ số hoạt động cả khoa và sự cố y khoa") |
+| ⚠️ Không xác minh được | 0 | 0 |
+
+**Ba hạng mục ưu tiên của vòng này — không bên nào vi phạm:**
+1. **Bịa vụ việc cụ thể:** không phát hiện ở cả hai bên.
+2. **Gỡ nhãn `[CẦN KIỂM CHỨNG]`:** không phát hiện. Cả hai chủ động giữ nhãn cho khung KPI 01/7/2026; cả hai tránh dẫn mức tiền QĐ 73/2011; B giữ nhãn cho điều khoản thu nhập tăng thêm NĐ 60/2021; B không dẫn con số Sinsky 2016.
+3. **Trình bằng chứng loại suy như bằng chứng trực tiếp:** không phát hiện. A khai báo rõ ba khối §5/§7/§8; B khai báo rõ §5 và §6.
+
+### Tự kiểm đối xứng — vòng 1
+
+- **Số khẳng định được kiểm:** A **17** mục; B **18** mục. Chênh 1 mục, trong dung sai; nguyên nhân: B có thêm khối steelman tóm tắt lượt đối phương (được kiểm về tính khớp với văn bản gốc lượt A).
+- **Số cờ:** cân bằng tuyệt đối (mỗi bên 0 🔴 / 2 🟡).
+- **Cùng tiêu chuẩn khắt khe, áp cho cả hai bên ở ba điểm:** (i) chi tiết pháp lý thêm ngoài case file phải tag đúng văn bản (bắt A-11); (ii) dữ kiện thực tế thêm ngoài định nghĩa chính sách §1 phải có nguồn (bắt B-3); (iii) mở rộng nội dung §9 vượt quá câu chữ của §9 phải có nguồn riêng (bắt B-15, tương ứng A-15 cho khẳng định thực nghiệm không nguồn).
+- **Ngân sách tìm kiếm:** 4 WebSearch + 2 WebFetch, không mục nào vượt 2 lần tìm. Hai WebFetch thất bại do egress bị chặn (hethongphapluat.com, thuvienphapluat.vn) — thay bằng nguồn tổng hợp H3; chỉ ảnh hưởng mức độ chắc chắn của A-11, không đổi kết luận.
+- **Lưu ý không tính cờ:** A liệt "BLLĐ 2019 Điều 105 (đối chiếu)" trong danh sách nguồn nhưng không đưa khẳng định nào từ Điều 105 vào thân bài — không có nội dung để kiểm.
 
 ## Phụ lục B — Steelman audit (đo trần lập luận — KHÔNG cộng/trừ điểm, KHÔNG nạp cho judge)
 [báo cáo 2 auditor — orchestrator dán sau GATE 2]

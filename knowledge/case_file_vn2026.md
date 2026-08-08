@@ -8,14 +8,23 @@
 
 ---
 
-## §1. Định vị đề tranh biện (trung lập)
+## §1. Định vị đề tranh biện — mức quyết tâm ĐƯỢC ĐO TỪ NGUỒN
 
-Câu hỏi KHÔNG phải "Việt Nam có nên tăng trưởng cao không" (không ai phản đối), cũng KHÔNG phải "10% có đạt được không" (đó là câu hỏi dự báo, không phải câu hỏi chính sách). Câu hỏi là về **thứ tự ưu tiên khi các mục tiêu xung đột**:
+Câu hỏi KHÔNG phải "Việt Nam có nên tăng trưởng cao không" (không ai phản đối), cũng KHÔNG phải "10% có đạt được không" (đó là câu hỏi dự báo, không phải câu hỏi chính sách). Câu hỏi là: **mức quyết tâm mà hệ thống ĐANG THỰC SỰ áp dụng cho mục tiêu ≥10% có hợp lý không.**
 
-- Khi lạm phát tiến sát trần chỉ tiêu, khi hiệu quả đầu tư thấp, khi giải ngân chậm — hệ thống nên **ép các đòn bẩy mạnh hơn để giữ mục tiêu 10%**, hay **để tăng trưởng rơi về mức tiềm năng và giữ các ràng buộc**?
-- Cả hai bên đều thừa nhận mục tiêu 10% tồn tại trong văn kiện chính thức (§2). Tranh chấp nằm ở **giá trị chuẩn tắc của việc coi nó là ràng buộc cứng**.
+Mức quyết tâm đó **không do người lập case file giả định** — nó được đo từ văn kiện và hành vi điều hành quan sát được (§2.2). Kết quả đo cho thấy một cấu hình **hai vế căng nhau**:
 
-Cụm từ "bằng mọi giá" trong câu hỏi gốc của người dùng là cách nói thông tục. Để tranh biện đối xứng, nó được diễn giải thành **"ưu tiên mục tiêu tăng trưởng khi nó xung đột với các mục tiêu vĩ mô khác"** — không diễn giải thành "chấp nhận mọi chi phí không giới hạn" (không bên nào biện hộ được cho phiên bản đó, và một đề bất đối xứng thì phép chấm mất ý nghĩa).
+- **Vế cứng (ràng buộc vận hành):** Bộ Tài chính kiên định kịch bản hai con số và **không xây dựng bất kỳ kịch bản điều hành nào dưới 10%**; kịch bản quý được điều chỉnh **LÊN** sau khi quý I hụt, chứ không hạ mục tiêu; chỉ tiêu tăng trưởng được **giao xuống từng địa phương** (NQ 169/NQ-CP) kèm nghĩa vụ báo cáo hằng quý về Bộ Tài chính.
+- **Vế mềm (ràng buộc công bố):** văn kiện dùng chữ "**phấn đấu** từ 10% trở lên"; nghị quyết gắn mục tiêu với ổn định vĩ mô/lạm phát/nợ công/bội chi; Thủ tướng tuyên bố "**tuyệt đối không đánh đổi** ổn định kinh tế vĩ mô và an toàn hệ thống tài chính – ngân hàng để lấy tăng trưởng nóng trong ngắn hạn".
+
+**ĐỀ TRANH BIỆN CHÍNH THỨC:**
+> *"Mức quyết tâm mà Việt Nam đang áp dụng cho mục tiêu tăng trưởng hai con số năm 2026 — kiên định kịch bản ≥10%, không xây phương án điều hành dưới 10%, giao chỉ tiêu tới từng địa phương kèm giám sát hằng quý, đồng thời tuyên bố không đánh đổi ổn định vĩ mô — có hợp lý không?"*
+
+Cụm "bằng mọi giá" trong câu hỏi gốc của người dùng **đã được loại bỏ** theo yêu cầu ngày 07/08/2026, và thay bằng mức quyết tâm đo được ở trên. Hệ quả bắt buộc cho cả hai advocate:
+
+1. **Không bên nào được tranh luận với phiên bản "chấp nhận mọi chi phí không giới hạn"** — nguồn cho thấy đó không phải chính sách công bố. B dựng phiên bản đó để đánh là **strawman**, trừ nặng ở Chiều 5.
+2. **Không bên nào được rút mức quyết tâm xuống thành "chỉ là định hướng mềm"** — nguồn cho thấy có ràng buộc vận hành cụ thể và đo được. A né bằng cách này là **né đề**, trừ nặng.
+3. **Căng thẳng giữa hai vế là DỮ KIỆN TRUNG TÂM của phiên, không phải bằng chứng về động cơ xấu.** Hai vế có thể tương thích (nếu ràng buộc ổn định thực sự vận hành như trần cứng, và mục tiêu chỉ ép ở phần dư địa hiệu quả) hoặc không tương thích (nếu số học buộc phải phá một trong hai). **Chứng minh theo chiều nào là nhiệm vụ của advocate** — case file không kết luận thay.
 
 ## §2. Khung mục tiêu chính thức & văn kiện
 
@@ -26,6 +35,26 @@ Cụm từ "bằng mọi giá" trong câu hỏi gốc của người dùng là c
 - **Mục tiêu trung hạn:** Hội nghị Trung ương (tháng 4/2026) và định hướng Đại hội XIV đặt tăng trưởng GDP bình quân **2026–2030 từ 10%/năm trở lên**; GDP bình quân đầu người đến 2030 **khoảng 8.500 USD**; tỷ trọng công nghiệp chế biến chế tạo **~28% GDP**; kinh tế số **~30% GDP**. Mục tiêu 2030: nước đang phát triển có công nghiệp hiện đại, **thu nhập trung bình cao**; 2045: **nước phát triển, thu nhập cao**. `[Nguồn: Nghị quyết Đại hội XIV, Báo Chính phủ — H1]`
 - **Tổng vốn đầu tư toàn xã hội 2026–2030** được đặt mục tiêu **~38,5 triệu tỷ đồng (>1.460 tỷ USD)**, khoảng **gấp đôi giai đoạn trước**. `[Nguồn: tổng hợp báo chí về nghị quyết — H3]` `[CẦN KIỂM CHỨNG: con số này xuất hiện trong tóm tắt tìm kiếm, chưa đối chiếu văn bản gốc]`
 - **"Bộ tứ trụ cột" thể chế** (Tổng Bí thư Tô Lâm nêu tháng 5/2025): **NQ 57** (khoa học công nghệ, đổi mới sáng tạo, chuyển đổi số), **NQ 59** (hội nhập quốc tế), **NQ 66** (hoàn thiện thể chế pháp luật), **NQ 68** (kinh tế tư nhân — mục tiêu 2030 tư nhân là động lực quan trọng nhất; 2045 đóng góp **trên 60% GDP**). `[Nguồn: Báo Chính phủ, Tạp chí Cộng sản — H1/H3]`
+- **Bối cảnh nhân sự:** ngày **07/4/2026**, Quốc hội khóa XVI bầu **Lê Minh Hưng** làm Thủ tướng Chính phủ nhiệm kỳ 2026–2031 (**495/495** đại biểu có mặt tán thành), kế nhiệm ông Phạm Minh Chính. `[Nguồn: Quốc hội / chinhphu.vn — H1]`
+
+### §2.2. Đo mức độ quyết tâm — bằng chứng vận hành (nền cho §1)
+
+> Mục này tập hợp **bằng chứng quan sát được** về việc mục tiêu ≥10% đang được vận hành cứng hay mềm. Trình bày trung lập: liệt kê chỉ dấu theo cả hai chiều, KHÔNG kết luận mức quyết tâm là đúng hay sai.
+
+**Chỉ dấu QUYẾT TÂM CỨNG (mục tiêu vận hành như ràng buộc phải hoàn thành):**
+- **Không có kịch bản dự phòng dưới 10%.** Bộ Tài chính (khoảng 17/6/2026) tuyên bố xây dựng **nhiều kịch bản điều hành** nhưng **"tuyệt đối không có kịch bản nào đặt mục tiêu tăng trưởng thấp hơn 10%"**; nêu **8 nhóm giải pháp** thúc đẩy tăng trưởng hai con số. `[Nguồn: Bộ Tài chính qua CafeF, Stockbiz — H1/H3]` `[CẦN KIỂM CHỨNG câu chữ nguyên văn — chưa đọc được văn bản gốc]`
+- **Điều chỉnh kịch bản LÊN sau khi hụt, không hạ mục tiêu.** Quý I đạt 7,83% so với kịch bản 9,1%; phản ứng là nâng yêu cầu các quý sau (quý II 10,5% → quý III 10,6% → quý IV 10,74%) thay vì điều chỉnh chỉ tiêu năm (§4).
+- **Giao chỉ tiêu xuống từng địa phương.** **Nghị quyết 169/NQ-CP ngày 27/6/2026** giao mục tiêu tăng trưởng cho các địa phương năm 2026 và giai đoạn 2026–2030, thực hiện Kết luận 18-KL/TW, **NQ 25/2026/QH16** và **NQ 109/NQ-CP ngày 16/4/2026**. Đây được ghi nhận là **lần đầu tiên** Quốc hội giao chỉ tiêu tăng trưởng GRDP cụ thể cho từng địa phương trong kế hoạch 5 năm. Mức giao cao nhất: **Hải Phòng 13–13,5%** năm 2026 và bình quân **13–14%** giai đoạn 2026–2030; nhiều tỉnh (Quảng Ninh, Bắc Ninh, Ninh Bình, Hưng Yên, Thanh Hóa, Nghệ An, Khánh Hòa) được giao từ khoảng 10% đến trên 13%. `[Nguồn: NQ 169/NQ-CP, Báo Chính phủ, VietnamPlus, VTV — H1/H3]`
+- **Cơ chế giám sát định kỳ.** Chủ tịch UBND tỉnh/thành phải **báo cáo đánh giá tình hình thực hiện hằng quý**, cập nhật kịch bản tăng trưởng theo từng chỉ tiêu và kiến nghị giải pháp, **gửi Bộ Tài chính trước ngày 25 của tháng cuối quý**. Các bộ được giao theo dõi chỉ tiêu theo phân công tại NQ 109/NQ-CP, đánh giá tình hình tại địa phương và **kiến nghị giải pháp để bảo đảm hoàn thành chỉ tiêu**. `[Nguồn: NQ 169/NQ-CP qua LuatVietnam, Báo Chính phủ — H1/H3]`
+- Nghị quyết KT–XH 2026 được Quốc hội thông qua với tỷ lệ tán thành cao (**90,51%**), tức mục tiêu có hậu thuẫn thể chế rộng.
+
+**Chỉ dấu QUYẾT TÂM CÓ RÀNG BUỘC (mục tiêu vận hành như định hướng có trần):**
+- **Câu chữ văn kiện là "phấn đấu"**, không phải chỉ tiêu pháp định phải đạt: Nghị quyết Quốc hội ghi *"tốc độ tăng GDP phấn đấu từ 10% trở lên"* (§2.1). Trong hệ thống chỉ tiêu KT–XH, "phấn đấu" khác về sắc thái ràng buộc so với chỉ tiêu ấn định. `[CẦN KIỂM CHỨNG: mức độ ràng buộc pháp lý của chữ "phấn đấu" trong thực tiễn điều hành — chưa có nguồn phân tích chuyên môn về điểm này]`
+- **Nghị quyết gắn tăng trưởng với ràng buộc ổn định:** yêu cầu "ưu tiên thúc đẩy tăng trưởng **gắn với** giữ vững ổn định kinh tế vĩ mô, kiểm soát lạm phát và bảo đảm các cân đối lớn, nợ công, bội chi NSNN **trong giới hạn quy định**" (§2.1). NQ 169 cũng đặt yêu cầu tăng trưởng cao "**bền vững và gắn với ổn định kinh tế vĩ mô**".
+- **Tuyên bố cấp cao bác bỏ "tăng trưởng bằng mọi giá":** Thủ tướng **Lê Minh Hưng** (phát biểu khoảng **29/7/2026**) nhấn mạnh Việt Nam **"tuyệt đối không đánh đổi ổn định kinh tế vĩ mô và an toàn hệ thống tài chính – ngân hàng để lấy tăng trưởng nóng trong ngắn hạn, thiếu tính bền vững"**; quan điểm nhất quán là thúc đẩy tăng trưởng **trên nền tảng** ổn định vĩ mô, an toàn hệ thống tài chính – ngân hàng và **tăng cường kỷ luật ngân sách**. `[Nguồn: phát biểu Thủ tướng, đưa tin qua Sputnik VN — H4; nội dung tương tự được VOV phản ánh — H3]` `[CẦN KIỂM CHỨNG: nguồn trực tiếp truy được là hạng thấp; advocate trích phải ghi rõ tư cách nguồn và KHÔNG dùng làm trụ cột duy nhất]`
+- Giới phân tích trong nước liên tục đặt vấn đề "tăng trưởng cao mà không đánh đổi bằng lạm phát" như một yêu cầu điều hành, cho thấy ràng buộc lạm phát được coi là có hiệu lực. `[Nguồn: VOV, Nhân Dân — H3]`
+
+> **Lưu ý phương pháp bắt buộc:** hai nhóm chỉ dấu trên **cùng tồn tại** và chúng **căng nhau về logic khi số học không cho phép đạt cả hai** (§4: nửa cuối năm cần ~11,6–11,7% trong khi CPI đã 4,38%/trần 4,5%). Advocate được lập luận rằng hai vế tương thích, hoặc không tương thích — nhưng **phải xử lý cả hai nhóm chỉ dấu**, không được chỉ trích nhóm có lợi cho mình. Trích một nhóm và lờ nhóm kia là cherry-picking, bị trừ ở Chiều 2.
 
 ## §3. Số liệu thực hiện — 2025 và 6 tháng đầu 2026
 
@@ -96,7 +125,9 @@ Cụm từ "bằng mọi giá" trong câu hỏi gốc của người dùng là c
 
 ## §10. Hồ sơ nguyên tắc & tranh cãi (DIỄN GIẢI — cả hai bên dùng chung, không phải sự kiện)
 
-- **Mục tiêu như ràng buộc cứng vs mục tiêu như định hướng (stretch goal):** một chỉ tiêu tham vọng có thể vận hành như công cụ điều phối (huy động cải cách, phá vỡ quán tính hành chính) mà không cần đạt đúng con số; hoặc như mệnh lệnh phải hoàn thành, tạo động cơ ép số. Cùng một văn kiện chịu được cả hai cách đọc — tranh chấp nằm ở chỗ **thực tế hệ thống hành chính vận hành theo cách nào**, và bên nào khẳng định điều đó phải đưa bằng chứng, không được suy đoán.
+- **Mục tiêu như ràng buộc cứng vs mục tiêu như định hướng (stretch goal):** một chỉ tiêu tham vọng có thể vận hành như công cụ điều phối (huy động cải cách, phá vỡ quán tính hành chính) mà không cần đạt đúng con số; hoặc như mệnh lệnh phải hoàn thành, tạo động cơ ép số. Cùng một văn kiện chịu được cả hai cách đọc — tranh chấp nằm ở chỗ **thực tế hệ thống hành chính vận hành theo cách nào**, và bên nào khẳng định điều đó phải đưa bằng chứng, không được suy đoán. §2.2 cung cấp bằng chứng theo cả hai chiều.
+- **Giá trị của việc từ chối xây kịch bản dự phòng (§2.2):** trong lý thuyết cam kết chính sách, việc công khai loại bỏ phương án lùi có thể là **thiết bị cam kết** (commitment device) — nó ngăn hệ thống tự cho phép mình hạ chuẩn, và neo kỳ vọng của bộ máy lẫn thị trường. Cách đọc đối lập: nó **triệt tiêu giá trị thông tin** của mục tiêu (một mục tiêu không bao giờ được điều chỉnh thì không còn phản hồi được thực tế) và **chuyển rủi ro sang khâu thực thi** — cấp dưới phải tự xoay xở để báo cáo đạt. Cả hai cách đọc đều là lập luận hợp lệ; bên nào dùng phải nêu cơ chế và, nếu có thể, chỉ báo phân biệt hai kịch bản.
+- **Chỉ tiêu cấp dưới và động cơ báo cáo:** giao chỉ tiêu tới từng địa phương kèm giám sát hằng quý (§2.2) làm tăng trách nhiệm giải trình, đồng thời tạo cấu trúc động cơ mà lý thuyết tổ chức gọi là **hiệu ứng chỉ tiêu** (target ratchet / Goodhart): khi một thước đo trở thành mục tiêu, nó có xu hướng mất tính đại diện. Đây là **giả thuyết cơ chế**, không phải cáo buộc — bên nào dùng phải trình đúng tư cách đó (§11.5) và chỉ ra chỉ báo quan sát được, không suy đoán về hành vi cụ thể của địa phương nào.
 - **Chi phí của việc KHÔNG tăng trưởng cao:** già hóa dân số trước khi giàu, cửa sổ dân số vàng khép lại, áp lực tài khóa của hệ thống an sinh, mục tiêu 2045. Đây là chi phí thật và trì hoãn được tính bằng thập kỷ — nhưng lượng hóa nó thành "phải là 10% chứ không phải 8%" đòi hỏi lập luận riêng.
 - **Chi phí của tăng trưởng ép:** lạm phát và mất giá đồng tiền (thuế đánh vào người thu nhập cố định), nợ xấu chậm hiện, đầu tư kém hiệu quả (ICOR), méo mó động cơ hành chính, hy sinh chính các nguồn tăng trưởng dài hạn (năng suất, thể chế) để mua sản lượng ngắn hạn.
 - **Tính nhất quán thời gian (time consistency):** một chuỗi 8%/năm ổn định có thể cho tổng lũy kế cao hơn một chuỗi 10–10–10 rồi 4–5–5 do xử lý hậu quả. Bên nào viện dẫn lập luận này phải nêu cơ chế cụ thể dẫn tới đổ vỡ, không chỉ nêu khả năng.
@@ -113,3 +144,8 @@ Cụm từ "bằng mọi giá" trong câu hỏi gốc của người dùng là c
 6. **Không nghi ngờ tính trung thực của số liệu thống kê quốc gia mà không có bằng chứng cụ thể.** Nêu độ vênh (vd điện–GDP §8) như **câu hỏi cần giải thích** là hợp lệ; tuyên bố "số liệu bị thổi phồng" như sự kiện là không hợp lệ ở cả hai chiều.
 7. **Thận trọng với số liệu `[CẦN KIỂM CHỨNG]`.** Được dùng, nhưng phải giữ nguyên nhãn và không đặt làm trụ cột của một lập luận chính.
 8. **Bối cảnh diễn tiến:** tính đến 07/08/2026, năm tài khóa còn ~5 tháng; chưa có số liệu quý III. Mọi khẳng định về kết quả cả năm 2026 là **dự đoán**, phải trình đúng tư cách đó.
+9. **Hai vế của mức quyết tâm (§2.2) phải được xử lý cùng nhau.** Cấm hai lối tắt đối xứng:
+   - Lối tắt của B: dựng chính sách thành "tăng trưởng bằng mọi giá" rồi đánh — nguồn bác bỏ phiên bản đó (tuyên bố "tuyệt đối không đánh đổi ổn định vĩ mô").
+   - Lối tắt của A: rút chính sách thành "chỉ là con số phấn đấu, không ràng buộc ai" rồi tuyên bố không có gì phải bàn — nguồn bác bỏ phiên bản đó (không kịch bản dưới 10%, giao chỉ tiêu địa phương, báo cáo hằng quý).
+   Bên nào dùng lối tắt của mình bị trừ ở Chiều 5 (strawman / né đề); bên nào **chỉ ra được lối tắt của đối phương kèm dẫn chứng từ §2.2** được cộng ở Chiều 5.
+10. **Sự tồn tại của căng thẳng không phải bằng chứng về sự thiếu trung thực.** Mọi chính phủ đều công bố đồng thời mục tiêu tăng trưởng và cam kết ổn định; căng thẳng chỉ trở thành mâu thuẫn khi ràng buộc thực sự bị chạm. Advocate được lập luận rằng ràng buộc đã bị chạm (hoặc chưa), nhưng phải bằng số liệu, không bằng suy đoán về ý định.

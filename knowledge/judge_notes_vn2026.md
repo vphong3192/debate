@@ -2,11 +2,21 @@
 
 > **Quy tắc nạp (bắt buộc):** File này chỉ được orchestrator nạp cho **debate-judge ở Phase 2** (và SWAP TEST / NOISE TEST). **Tuyệt đối không nạp** cho advocate, fact-checker hay steelman auditor — đây là tiêu chí được/mất điểm theo chủ đề, tức phần mở rộng của rubric; advocate thấy nó là vi phạm Quy tắc thông tin (`protocol/debate_protocol.md`).
 >
-> **Định vị hai bên:** **Position A = NÊN kiên định mục tiêu ≥10% cho 2026 và ưu tiên nó khi xung đột** với các mục tiêu vĩ mô khác. **Position B = KHÔNG NÊN** coi mục tiêu là ràng buộc cứng; khi xung đột thì giữ ràng buộc ổn định/chất lượng và điều chỉnh mục tiêu về mức tiềm năng.
+> **Đề chính thức (case file §1):** *"Mức quyết tâm mà Việt Nam đang áp dụng cho mục tiêu tăng trưởng hai con số năm 2026 — kiên định kịch bản ≥10%, không xây phương án điều hành dưới 10%, giao chỉ tiêu tới từng địa phương kèm giám sát hằng quý, đồng thời tuyên bố không đánh đổi ổn định vĩ mô — có hợp lý không?"*
+>
+> **Định vị hai bên:** **Position A = mức quyết tâm hiện hành HỢP LÝ**, nên giữ nguyên. **Position B = QUÁ LIỀU**, nên hiệu chỉnh (xây kịch bản dự phòng dưới 10%, công khai điều chỉnh mục tiêu năm về ~8–8,5%, nới cơ chế chỉ tiêu giao xuống địa phương).
 >
 > **Cách dùng:** đây là hướng dẫn áp neo rubric (`rubrics/scoring_rubric_vn2026.md`) vào từng nhánh lập luận — KHÔNG phải điểm định trước. Chấm lập luận *như đã viết trong transcript*; advocate đưa lập luận tốt ngoài khung này → vẫn chấm theo neo rubric.
 >
-> **Cảnh báo bất đối xứng của đề (đọc trước khi chấm):** đề gốc của người dùng chứa cụm "bằng mọi giá", vốn nghiêng về B nếu hiểu theo nghĩa đen. Đề đã được viết lại thành câu hỏi ưu tiên (case file §1) để đối xứng. Judge **không được** cho B điểm chỉ vì "không ai bảo vệ được 'bằng mọi giá'" — B phải thắng bằng lập luận chống lại **phiên bản mạnh của A** (mục tiêu như ràng buộc cứng có điều kiện), không phải chống lại phiên bản biếm họa. Ngược lại, A **không được** thoát bằng cách rút về "tôi chỉ nói tăng trưởng cao là tốt" — đó là né đề.
+> **Cảnh báo bất đối xứng của đề (đọc trước khi chấm):** đề gốc của người dùng chứa cụm "bằng mọi giá". Người dùng đã yêu cầu **bỏ cụm đó** (07/08/2026) và thay bằng **mức quyết tâm đo từ nguồn** (case file §2.2). Hệ quả khi chấm:
+> - Judge **không được** cho B điểm chỉ vì "không ai bảo vệ được 'bằng mọi giá'". Nguồn cho thấy chính sách công bố **bác bỏ** phiên bản đó (tuyên bố của Thủ tướng). B đánh phiên bản đó là **strawman** → trừ Chiều 5.
+> - Judge **không được** cho A thoát bằng cách rút mức quyết tâm xuống "chỉ là con số phấn đấu, không ràng buộc ai". Nguồn cho thấy có ràng buộc vận hành đo được (không kịch bản dưới 10%; NQ 169 giao chỉ tiêu 34 địa phương; báo cáo hằng quý về Bộ Tài chính) → **né đề**, trừ Chiều 5.
+>
+> **TRỤC TRUNG TÂM CỦA PHIÊN — chấm kỹ nhất ở đây:** case file §2.2 ghi nhận **hai vế căng nhau** (vế cứng: không phương án lùi + chỉ tiêu giao đích danh + giám sát hằng quý; vế mềm: chữ "phấn đấu" + trần lạm phát/nợ công + tuyên bố "tuyệt đối không đánh đổi ổn định vĩ mô"). Chất lượng của cả phiên phụ thuộc vào việc mỗi bên xử lý căng thẳng này ra sao:
+> - **A phải chứng minh hai vế TƯƠNG THÍCH** — điển hình: quyết tâm ép vào khâu thực thi/hiệu quả vốn đã bố trí, không ép vào khâu nới tiền tệ; trần ổn định là trần thật và chưa bị chạm.
+> - **B phải chứng minh hai vế KHÔNG THỂ CÙNG ĐÚNG** khi số học đòi ~11,6–11,7% nửa cuối năm với CPI 4,38%/trần 4,5% — và phải chỉ ra **vế nào gãy trước, qua cơ chế nào**.
+> - Bên nào chỉ khẳng định kết luận của mình mà không dựng cầu nối này → **không quá neo 4** ở Chiều 1 và Chiều 3, dù các phần khác viết tốt.
+> - Bên nào chỉ trích nhóm chỉ dấu có lợi cho mình và lờ nhóm kia → cherry-picking, trừ Chiều 2.
 
 ## K1 — Trục Khung mục tiêu & đánh đổi (Chiều 1) — đối chiếu case file §1, §10
 
@@ -40,10 +50,11 @@
 - **Cả hai được điểm** khi gọi đúng tên ngụy biện của đối phương **và vạch cơ chế**, không chỉ dán nhãn. Dán nhãn sai tên ngụy biện → trừ chính bên dán.
 - **Nhất quán xuyên vòng:** soi riêng trường hợp một bên vừa lập luận "dữ liệu 6 tháng đã đủ kết luận" ở một vòng rồi "còn 5 tháng, chưa thể kết luận" ở vòng khác — cả hai bên đều có động cơ làm điều này ở hai chiều ngược nhau.
 
-## K5 — Trục Xử lý phản biện & trung thực trí tuệ (Chiều 5) — đối chiếu case file §10
+## K5 — Trục Xử lý phản biện & trung thực trí tuệ (Chiều 5) — đối chiếu case file §2.2, §10, §11.9
 
-- **A phải xử lý (không được né):** số học "nửa cuối năm cần ~11,7%" (§4); CPI 4,38% là bình quân 6 tháng cao nhất 12 năm (§6); ICOR 6,4 và yêu cầu năng suất 8,5% vs hiện 5,8% (§5); ràng buộc điện 2026–2028 (§8). Né bất kỳ điểm nào trong số này khi đã bị tấn công trực diện → trừ chiều 5.
-- **B phải xử lý (không được né):** kết quả 2025 đạt 8,02% vượt mọi dự báo đầu năm (§3, §9); tín dụng 6 tháng 7,41% **thấp hơn** cùng kỳ (§6) — tức chưa có bằng chứng bơm tiền; dư địa giải ngân đầu tư công ~63% kế hoạch còn lại + bội thu ngân sách (§5); chi phí không thể hoãn của tăng trưởng thấp (§10). Né → trừ chiều 5.
+- **A phải xử lý (không được né):** số học "nửa cuối năm cần ~11,7%" (§4); CPI 4,38% là bình quân 6 tháng cao nhất 12 năm (§6); ICOR 6,4 và yêu cầu năng suất 8,5% vs hiện 5,8% (§5); ràng buộc điện 2026–2028 (§8); **và trên hết: cáo buộc "không thể vừa từ chối mọi kịch bản dưới 10% vừa hứa không đánh đổi ổn định"** (§2.2). Né bất kỳ điểm nào trong số này khi đã bị tấn công trực diện → trừ chiều 5; né riêng điểm cuối → trừ nặng, vì đó là trục trung tâm.
+- **B phải xử lý (không được né):** kết quả 2025 đạt 8,02% vượt mọi dự báo đầu năm (§3, §9); tín dụng 6 tháng 7,41% **thấp hơn** cùng kỳ (§6) — tức chưa có bằng chứng bơm tiền; dư địa giải ngân đầu tư công ~63% kế hoạch còn lại + bội thu ngân sách (§5); chi phí không thể hoãn của tăng trưởng thấp (§10); **và trên hết: phản biện "trần ổn định đã được công bố ở cấp cao nhất và chưa có số liệu nào cho thấy nó bị phá — cảnh báo của anh là suy đoán về tương lai"** (§2.2). Né → trừ chiều 5; né riêng điểm cuối → trừ nặng.
+- **Cộng điểm Chiều 5** cho bên **chỉ ra được lối tắt của đối phương kèm dẫn chứng từ §2.2** (A dựng đối phương thành "phủ nhận mọi tăng trưởng cao"; B dựng chính sách thành "bằng mọi giá") — case file §11.9 quy định rõ đây là hành vi được thưởng.
 - **Được điểm cao** khi mục "giới hạn lập luận phía tôi" nêu **điều kiện làm kết luận mình sai** một cách cụ thể và kiểm chứng được (vd A: "nếu CPI quý III vượt 4,7% hoặc tín dụng quý IV vượt 18% thì lập luận của tôi hỏng"; B: "nếu giải ngân đầu tư công quý III đạt trên 60% kế hoạch mà CPI đứng yên thì lập luận của tôi hỏng"). Mục giới hạn chỉ nói chung chung ("dự báo luôn có sai số") → không quá neo 4.
 - **Bị 0** khi công kích động cơ/nhân cách thay vì lập luận (neo rubric + case file §11.5).
 

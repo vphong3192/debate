@@ -211,6 +211,40 @@ Nếu B muốn một chỉ báo thứ hai, tôi chấp nhận CPI bình quân c�
 >
 > **Ghi chú đối xứng lượt hỏi (orchestrator):** B dùng 193 từ cho 3 câu hỏi, A dùng 244 từ (chênh 51 từ, A nhiều hơn ~26%). Cả hai bên đều nằm trong trần từng câu (100) nên protocol không kích hoạt yêu cầu cắt gọn; ghi nhận để Judge cân nhắc nếu phần chênh tạo lợi thế thực chất.
 
+### TRẢ LỜI CHẤT VẤN — Advocate B
+
+**Trả lời câu 1.** **Chưa — nhưng gần, và tôi nói rõ khoảng cách còn lại nhỏ đến mức nào.**
+
+Đề nghị của tôi gồm ba phần: (a) xây kịch bản điều hành dưới 10%; (b) thôi nâng yêu cầu các quý sau mỗi lần thực hiện hụt; (c) nới cơ chế chỉ tiêu giao địa phương. Giả định của anh cho tôi (a), giữ nguyên (b) và (c). Tôi thừa nhận thẳng: (a) là phần nặng nhất, và nếu nó được thêm vào thật thì lập luận sắc nhất của tôi — "hệ thống không có phương án chuẩn bị cho tình huống nhiều khả năng nhất" — biến mất.
+
+Hai khiếm khuyết còn lại, theo thứ tự quan trọng. Thứ nhất, kịch bản quý vẫn là 11,16% và 12,09% `[Nguồn: Cục Thống kê qua VietnamPlus, 07/2026 — H1/H3]`, trong khi 34 chủ tịch tỉnh vẫn bị đo hằng quý trước ngày 25 `[Case file §2.2]` theo một đường đi mà chính anh không tranh cãi là rất khó đạt; áp lực dồn xuống khâu thực thi không đổi. Thứ hai, quy tắc "chệch xuống thì nâng yêu cầu lên" còn nguyên, nên mục tiêu vẫn chưa lấy lại chức năng thông tin.
+
+Tôi nêu điều kiện tường minh để anh kiểm được lời tôi: nếu ngoài (a), hệ thống thôi nâng kịch bản quý và cho phép cập nhật kịch bản quý theo thực hiện, tôi coi mức quyết tâm là **hợp lý** — kể cả khi chỉ tiêu năm vẫn ghi ≥10%. Bất đồng còn lại giữa tôi và anh nằm ở (b), không ở con số 10%.
+
+Một điều kiện kỹ thuật: kịch bản dưới 10% phải là kịch bản **điều hành có tham số** (đầu tư công, tín dụng, thu ngân sách ở mức 8–8,5%) và được dùng làm căn cứ giao nhiệm vụ, không phải phụ lục phân tích nội bộ — vì thứ đang bị loại, theo chính mô tả anh dẫn, là kịch bản "đặt mục tiêu" dưới 10% `[Case file §2.2]`.
+
+**Trả lời câu 2.** **Không có căn cứ nào cho phép tôi quy một phần định lượng của 4,38% cho mức quyết tâm.** Tôi không có phép phân rã đó và không dẫn được nghiên cứu nào. Nếu câu chữ "chi phí lạm phát… đã hiện và đo được" hàm ý quan hệ nhân quả từ mục tiêu tới mức giá, tôi **rút** phần hàm ý đó.
+
+Điều tôi giữ, ở tư cách khác: 4,38% `[Case file §6]` không phải bằng chứng về thiệt hại đã gây ra, mà là **biến trạng thái** đo dư địa còn lại — 0,12 điểm % dưới trần 4,5%. Vai trò của nó trong lập luận của tôi là **ràng buộc**, không phải hậu quả. Và lập luận đó đứng được kể cả khi toàn bộ 4,38% do giá nhập khẩu: đệm mỏng vì lý do gì cũng là đệm mỏng, và nó mỏng đúng lúc số học đòi nới mạnh đồng thời tài khóa lẫn tiền tệ.
+
+Phần bất lợi cho tôi, nói thẳng: anh đúng khi dẫn CPI tháng 6 giảm 0,39% so tháng trước và lạm phát lõi 4,12% thấp hơn CPI 4,38%, chênh đến từ xăng dầu và gas thế giới `[Nguồn: Cục Thống kê, Thông cáo giá tháng 6/2026 — H1]`. Đó là bằng chứng nghiêng về kênh nhập khẩu, và tôi không có phản chứng.
+
+Thứ gần nhất với một kênh nội địa mà tôi có là nhóm nhà ở – điện nước – vật liệu xây dựng +6,72% `[Nguồn: Cục Thống kê qua Nhân Dân/VietnamPlus, 07/2026 — H1/H3]`, nhóm nhạy với cầu xây dựng và đầu tư công. Nhưng tôi trình đây là **giả thuyết cơ chế**, không phải quy kết: chưa tách được khỏi giá vật liệu và năng lượng thế giới. Chỉ báo phân biệt, quan sát được trong quý III–IV: chỉ số giá vật liệu xây dựng tăng tốc cùng nhịp giải ngân trong khi giá hàng hóa thế giới đi ngang.
+
+**Trả lời câu 3.** Đây: **cả năm 2026, GDP ước đạt ≥9,0% đồng thời CPI bình quân cả năm ≤4,5%, tín dụng cả năm ≤15% (không nới hạn mức định hướng), bội chi và nợ công trong giới hạn nghị quyết** `[Case file §2, §6]`. Nếu bộ bốn điều kiện này cùng xảy ra, tôi sai ở luận điểm trung tâm — rằng hai vế không thể cùng đúng và vế mềm là vế gãy.
+
+Chỉ báo này thỏa yêu cầu của anh vì nó **không đòi ≥11% ở quý nào**. Sáu tháng đã đạt 8,18% (ước) `[Case file §3]`; để cả năm đạt 9,0% thì nửa cuối cần khoảng 9,8% `[phép tính thô từ Case file §3, trọng số hai nửa năm xấp xỉ]` — thấp hơn hẳn kịch bản 11,16%/12,09% và nằm trong vùng tôi chưa bao giờ lập luận là bất khả. Tôi chỉ lập luận rằng ~3,5 điểm % còn thiếu không mua được nếu không chạm bộ công cụ; mức 9,8% đạt được với cả ba trần còn nguyên chính là phản chứng trực tiếp cho mệnh đề đó.
+
+Tôi nhận rằng ngưỡng 9,0% do tôi chọn và anh có quyền coi là tự phục vụ, nên tôi nêu luôn phiên bản quan sát sớm hơn, cùng logic: **quý III/2026 ước ≥9,5%, CPI bình quân 9 tháng ≤4,5%, tín dụng đến 30/9 ≤11,5%** — có số vào cuối tháng 9, trước khi biết kết quả năm.
+
+Và một chỉ báo thứ hai để nhánh Goodhart của tôi cũng bác được: nếu tỷ trọng giải ngân đầu tư công quý IV không vượt rõ thông lệ và ICOR 2026 không xấu đi so với 6,4 `[Case file §5]`, thì giả thuyết cơ chế của tôi về áp lực chỉ tiêu ở cấp thực thi không được số liệu đỡ, và tôi rút nó.
+
+**Nguồn trích dẫn trong lượt này:** Case file §2, §2.2, §3, §5, §6; Cục Thống kê qua VietnamPlus (07/2026, H1/H3) — kịch bản cập nhật quý III 11,16%, quý IV 12,09%; Cục Thống kê, Thông cáo báo chí tình hình giá tháng 6/2026 (H1) — CPI tháng 6 giảm 0,39% so tháng trước, lạm phát cơ bản 6 tháng 4,12%, nguyên nhân từ giá xăng dầu và gas thế giới; Cục Thống kê qua Nhân Dân / VietnamPlus (07/2026, H1/H3) — CPI bình quân 6 tháng 4,38%, nhóm nhà ở – điện nước – vật liệu xây dựng +6,72%.
+
+> *Đo được: Trả lời 1 = 318 từ, Trả lời 2 = 295 từ, Trả lời 3 = 290 từ (tổng 903/900, trần lượt 990). Cả ba câu trong trần 330 — không phải cắt gọn.*
+
+> **Ghi chú đối xứng vòng 4 (orchestrator):** lượt hỏi — B 193 từ / A 244 từ. Lượt trả lời — A 928 từ (318/326/284, sau một lần cắt gọn câu 1) / B 903 từ (318/295/290, không cắt). Chênh lượt trả lời 25 từ (~2,7%). **Vòng 4 là vòng đầu tiên của phiên mà mọi lượt đều nằm trong trần cho phép** — trái với vòng 2–3, nơi cả 4/4 lượt phản biện đều vượt trần 660 sau khi đã cắt gọn một lần. Ghi nhận như dữ kiện cho đề xuất sửa harness ở Phụ lục C3.
+
 
 ---
 

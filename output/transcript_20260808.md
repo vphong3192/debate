@@ -199,6 +199,18 @@ Nếu B muốn một chỉ báo thứ hai, tôi chấp nhận CPI bình quân c�
 
 > *Đo được sau cắt gọn: Trả lời 1 = 318 từ, Trả lời 2 = 326 từ, Trả lời 3 = 284 từ (tổng 928/900, trần lượt 990). Bản đầu Trả lời 1 = 331 từ, vượt trần câu 330 đúng 1 từ → orchestrator yêu cầu cắt gọn MỘT lần theo protocol, chỉ sửa câu 1, giữ nguyên câu 2 và câu 3. Cả ba câu hiện trong trần 330.*
 
+### CHẤT VẤN — Advocate A hỏi Advocate B
+
+**Câu 1.** Anh viết: *"đề nghị trung tâm của tôi không cần hàm chi phí. 'Xây kịch bản điều hành dưới 10%' là quyết định nhị phân về quản trị rủi ro, đúng ở mọi điểm trong miền."* Giả sử hệ thống giữ nguyên chỉ tiêu ≥10%, giữ nguyên việc giao chỉ tiêu GRDP đích danh cho 34 địa phương kèm nghĩa vụ báo cáo hằng quý `[Case file §2.2]`, và chỉ bổ sung một kịch bản điều hành dưới 10%. Xin trả lời đúng một điều: mức quyết tâm khi đó, theo anh, đã hợp lý chưa?
+
+**Câu 2.** Anh viết: *"chi phí lạm phát không phải xác suất: nó đã hiện và đo được — 4,38%."* Con số đó là bình quân 6 tháng, vẫn dưới trần 4,5%, và hình thành trong chính giai đoạn mức quyết tâm này đang vận hành `[Case file §6]`. Xin nêu đúng một điều: căn cứ nào cho phép quy một phần của mức 4,38% đó cho mức quyết tâm ≥10%, tách khỏi các yếu tố giá nhập khẩu?
+
+**Câu 3.** Vòng 1 anh nêu chỉ báo tự bác: *"nếu quý III đạt ≥11% mà CPI bình quân vẫn ≤4,5% và tín dụng cả năm ≤15%, tôi sai."* Phần lớn lập luận các vòng sau của anh nhằm chứng minh mức ≥11% là bất khả. Xin nêu đúng một điều: một chỉ báo bác bỏ khác, quan sát được trong quý III–IV/2026, không đòi điều kiện mà chính anh lập luận là không thể xảy ra.
+
+> *Đo được: Câu 1 = 94 từ, Câu 2 = 73 từ, Câu 3 = 77 từ (tổng 244/300). Cả ba câu trong trần 100 — không phải cắt gọn.*
+>
+> **Ghi chú đối xứng lượt hỏi (orchestrator):** B dùng 193 từ cho 3 câu hỏi, A dùng 244 từ (chênh 51 từ, A nhiều hơn ~26%). Cả hai bên đều nằm trong trần từng câu (100) nên protocol không kích hoạt yêu cầu cắt gọn; ghi nhận để Judge cân nhắc nếu phần chênh tạo lợi thế thực chất.
+
 
 ---
 

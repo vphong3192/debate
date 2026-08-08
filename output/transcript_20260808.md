@@ -111,7 +111,7 @@ Cuối cùng, nhánh "miễn trừ là thực hành ngầm ngoài nội quy" đ�
 ---
 > **Quy ước heading phụ lục (BẮT BUỘC giữ nguyên văn):** `scripts/make_judge_input.sh` cắt input cho judge từ `## Vòng 1 — Mở đầu` đến TRƯỚC `## Phụ lục B` — đổi các heading dưới đây (kể cả chữ "Phụ lục B") sẽ làm steelman audit lọt vào input của judge hoặc làm input rỗng. Phụ lục A (fact-check) đặt TRƯỚC Phụ lục B.
 
-## Phụ lục A — Fact-check (phạm vi: V1)
+## Phụ lục A — Fact-check (phạm vi: V1–V2)
 
 **Đối chiếu:** `knowledge/case_file_chamcong.md` (commit c8ecf8d) → WebSearch (H1–H3 theo bảng hạng trong header case file)
 
@@ -181,6 +181,80 @@ Cuối cùng, nhánh "miễn trừ là thực hành ngầm ngoài nội quy" đ�
 - **Ngân sách tìm kiếm:** 4 WebSearch + 2 WebFetch, không mục nào vượt 2 lần tìm. Hai WebFetch thất bại do egress bị chặn (hethongphapluat.com, thuvienphapluat.vn) — thay bằng nguồn tổng hợp H3; chỉ ảnh hưởng mức độ chắc chắn của A-11, không đổi kết luận.
 - **Lưu ý không tính cờ:** A liệt "BLLĐ 2019 Điều 105 (đối chiếu)" trong danh sách nguồn nhưng không đưa khẳng định nào từ Điều 105 vào thân bài — không có nội dung để kiểm.
 
+---
+
+## Fact-check vòng 2
+
+> ⚠️ **KHAI BÁO LỖI VẬN HÀNH CỦA ORCHESTRATOR (đọc trước khi diễn giải bảng này).** Ở lượt fact-check vòng 2, orchestrator **không nạp văn bản các lượt Vòng 1** cho fact-checker. Hậu quả: mọi mục mà fact-checker cần đối chiếu ngược về Vòng 1 — cụ thể là phần **steelman** và phần **trích lại lời đối phương** của bên B — bị gắn `⚠️ Không xác minh được` **vì thiếu dữ liệu nạp, KHÔNG phải vì B nói mơ hồ**. Đây là lý do bảng dưới có chênh lệch ⚠️ 3 (B) – 1 (A). **Judge KHÔNG được đọc chênh lệch ⚠️ này như tín hiệu chất lượng lập luận của B.** Chính fact-checker đã tự phát hiện và yêu cầu orchestrator xử lý; orchestrator đã xử lý ở mục "Hậu kiểm" ngay dưới bảng.
+
+| Bên | Khẳng định (trích nguyên văn) | Kết quả | Nguồn đối chiếu |
+|-----|------------------------------|---------|-----------------|
+| B | "Case file §1 chỉ định nghĩa chính sách với **bác sĩ lâm sàng** và miễn trừ lãnh đạo; nó không xác lập phạm vi áp cho điều dưỡng/kỹ thuật viên/hành chính." | ✅ Đúng | §1 chỉ nêu "bác sĩ lâm sàng"; không có nhóm nào khác. Đính chính chính xác |
+| B | "§9 chỉ nêu lãnh đạo 'đã chịu cơ chế trách nhiệm giải trình khác'" | ✅ Đúng | §9 nguyên văn; không có "nặng hơn", không liệt kê nội dung cụ thể |
+| B | "lãnh đạo khoa phòng… là người phụ trách bộ phận chấm công và **ký xác nhận bảng chấm công**" `[mẫu 01a-LĐTL, TT 200/2014/TT-BTC]` — phần mẫu 01a-LĐTL | ✅ Đúng (có bảo lưu) | Mẫu 01a-LĐTL "Bảng chấm công" thuộc TT 200/2014/TT-BTC có thật; chân bảng có 3 chữ ký: **Người chấm công – Phụ trách bộ phận – Người duyệt**; hướng dẫn: "Hàng ngày tổ trưởng (Trưởng ban, phòng, nhóm…) hoặc người được ủy quyền" chấm công. *Bảo lưu:* nguồn khả dụng là H3, không truy được PDF phụ lục gốc (egress chặn) |
+| B | "TT 200/2014/TT-BTC — **chế độ kế toán doanh nghiệp**" (B tự khai báo phạm vi) | ✅ Đúng | TT 200/2014/TT-BTC Điều 1: áp dụng đối với **doanh nghiệp** thuộc mọi lĩnh vực, mọi thành phần kinh tế. B khai báo đúng phạm vi và KHÔNG áp thẳng cho bệnh viện công — ghi nhận |
+| **B-5** | "đơn vị sự nghiệp y tế **theo TT 107/2017/TT-BTC**, CẦN KIỂM CHỨNG mẫu tương ứng" | **🔴 Sai (văn bản viện dẫn đã hết hiệu lực)** | **TT 107/2017/TT-BTC đã bị thay thế bởi TT 24/2024/TT-BTC** (ban hành 17/4/2024, hiệu lực 01/01/2025, áp dụng từ năm tài chính 2025) `[H1: Công báo Chính phủ, Cổng Xây dựng chính sách]`. Tại thời điểm tranh biện (2026), đơn vị sự nghiệp công lập không còn theo TT 107/2017. *Giảm nhẹ:* B đã tự gắn `[CẦN KIỂM CHỨNG]` cho **mẫu tương ứng**, nhưng **tên văn bản được nêu như đang hiệu lực** |
+| B | (hệ quả) mẫu bảng chấm công của đơn vị sự nghiệp y tế và người ký trên mẫu đó | ⚠️ Không xác minh được | Không truy được danh mục chứng từ kèm TT 24/2024 sau 2 lượt tìm. Nhãn `[CẦN KIỂM CHỨNG]` của B ở đây là **đúng quy trình** — không tính cờ |
+| B | "P4P kèm **lệch phác đồ về phía chỉ số được tính điểm**" `[§5]` | ✅ Đúng (tag đúng chỗ) | §5 nguyên văn `[PMC7359468]`. Áp cho một phương án dựa trên chỉ số kết quả → **cùng loại bằng chứng**, không phải loại suy sang chấm công |
+| B | "rủi ro **né bệnh nhân nặng** do case-mix" `[§9]` | ✅ Đúng (tag đúng chỗ) | §9 liệt kê case-mix, né bệnh nhân nặng |
+| **B-9** | "chi phí của chấm công — **có thật**, tôi thừa nhận — rơi trước hết lên **thời gian và động lực** của bác sĩ" `[§7]` | **🟡 Thiếu nguồn (tag chỉ đỡ một phần)** | §7 (Frey & Jegen 2001) nói can thiệp ngoại sinh **"có thể"** suy giảm động lực nội tại **nếu cảm nhận là KIỂM SOÁT**, và §7 ghi rõ có **tranh cãi học thuật**. Trình bày dưới dạng "có thật" bỏ điều kiện + bỏ tranh cãi. Cấu phần "**thời gian**" không nằm ở §7 (gánh nặng thời gian thuộc §6, mà §6 lưu ý đo hồ sơ bệnh án điện tử, KHÔNG đo quẹt thẻ) |
+| B | "phụ cấp trực tính **theo phiên**" `[§3]` | ✅ Đúng | §3. B dùng đúng phần không bị gắn `[CẦN KIỂM CHỨNG]` của §3 |
+| B | "nội quy lao động vẫn buộc phải có nội dung **thời giờ làm việc**" `[§2]` | ✅ Đúng | §2, BLLĐ 2019 Điều 118 |
+| **B-12** | Trích A (Vòng 1): "khi chỉ số bị gaming, cái được tối ưu ít nhất vẫn nằm trên trục chăm sóc" | ⚠️→ **✅ Đúng (orchestrator hậu kiểm)** | Fact-checker gắn ⚠️ vì không được nạp Vòng 1. **Orchestrator đã đối chiếu cơ học với transcript** (chuẩn hóa NFC + casefold + dấu câu): chuỗi **KHỚP nguyên văn** lượt V1 của A. Cáo buộc cherry-picking của B **có nền sự kiện** |
+| B | Steelman lập luận đối phương | ⚠️→ **✅ Đúng (orchestrator hậu kiểm)** | Đối chiếu trực tiếp lượt V1-A: bốn chi tiết B tóm tắt (đặc quyền chức vụ tự nó hợp pháp; lý do miễn trừ bị từ chối khi bác sĩ nêu; phép thử tổng quát hóa/công khai; đề xuất tách nghĩa vụ hiện diện khỏi nghĩa vụ kết quả áp cho mọi cấp) đều khớp, không thêm/không bóp méo. Phần gán `[§9]` khớp §9 |
+| A | "Chi tiết 'việc tham khảo lập thành văn bản' **không nằm trong Điều 118**" | ✅ Đúng | §2 liệt kê nghĩa vụ tham khảo ý kiến, không có yêu cầu hình thức văn bản cho thủ tục tham khảo. Đính chính chính xác; A gắn `[CẦN KIỂM CHỨNG]` cho phần hướng dẫn → đúng quy trình |
+| A | "dữ liệu điểm danh giờ hành chính **không chứa** thông tin về chất lượng lâm sàng — nhận định về nội dung biến đo" | ✅ Đúng (mệnh đề khái niệm, không phải khẳng định thực nghiệm) | §1 định nghĩa biến đo là giờ vào–ra hành chính. Việc rút mệnh đề tương quan thực nghiệm là đính chính hợp lệ |
+| A | "chính sách đang tranh là điểm danh **vân tay/thẻ từ/app**" `[§1]` | ✅ Đúng | §1 (1) |
+| **A-4** | "**dữ liệu do máy sinh, trưởng khoa không tạo ra nó**" | **🟡 Thiếu nguồn** | §1 chỉ nêu **phương tiện** ghi nhận; không nói gì về ai tạo/ai có quyền sửa dữ liệu. Đây là suy luận từ phương tiện, được trình bày như dữ kiện đối trọng với đòn "người vận hành" của B |
+| A | "§1 miễn trừ cho lãnh đạo khoa phòng như một **nhóm**, không cho 'người ký bảng chấm công'" | ✅ Đúng | §1 (3): diện miễn theo **chức danh**, không theo vai trò xác nhận |
+| A | "B đòi **thay** bằng cơ chế giải trình khác; **§1 không có cơ chế thay thế nào**" | ✅ Đúng | §1 chỉ nêu "được miễn"; không mô tả cơ chế thay thế. Khớp cả với lượt B vòng 2 |
+| A | "thiết kế của tôi cũng bị gaming, cũng chịu rủi ro né bệnh nhân nặng" `[§5, §9]` | ✅ Đúng (tag đúng chỗ) | §5 "gaming"; §9 "Goodhart áp cho **cả hai** phương án" |
+| **A-8** | "gaming chỉ số **để lại dấu vết trong dữ liệu lâm sàng, có thể audit và hiệu chỉnh theo case-mix**" | **🟡 Thiếu nguồn** | Case file nêu case-mix như **vấn đề** của đo đầu ra (§9), không xác lập rằng hiệu chỉnh case-mix khả thi/đã vận hành; §5 không nói gaming để lại dấu vết khả kiểm. Khẳng định về tính khả kiểm/khả audit là khẳng định thực nghiệm–kỹ thuật, không nguồn |
+| A | "QĐ 73 là chế định chi trả, và Điều 118 buộc nội quy có nội dung thời giờ làm việc" `[§2, §3]` | ✅ Đúng | §2 + §3 |
+| A | "NĐ 90/2020 đặt 'kết quả thực hiện chức trách, nhiệm vụ được giao' là **một trong năm nhóm tiêu chí**" `[§2]` | ✅ Đúng | §2 liệt kê đúng 5 nhóm. Ghi nhận: A không tuyên bố NĐ 90 cấm chấm công, và không phủ nhận lưu ý trung lập của §2 |
+| A | "chế độ lấy chấm công làm **căn cứ chính** với chỉ số kết quả chỉ **hình thức**" `[§1]` | ✅ Đúng | §1 (2) nguyên văn |
+| **A-12** | "lịch trực, bàn giao ca, giao ban, thời gian đáp ứng **đều là bản ghi khách quan**" `[§9]` | **🟡 Thiếu nguồn (tag vượt nội dung)** | §9 nêu bốn thứ này là "**ràng buộc hiện diện có lý do lâm sàng… gắn với thời điểm cụ thể**" — KHÔNG mô tả chúng là "bản ghi khách quan" và không khẳng định chúng đã được ghi nhận thành dữ liệu. Tag đúng chỗ về danh mục, **sai về thuộc tính được gán** |
+| A | Steelman lượt B vòng 2 | ✅ Đúng | Đối chiếu trực tiếp lượt B vòng 2: cả bốn chi tiết đều khớp, không thêm/không bóp méo |
+
+### Kiểm tra chuyên đề — vòng 2
+
+**Đính chính có thực chất không** — cả hai bên ✅, không bên nào tái dựa vào khẳng định đã rút:
+- B rút "áp đồng đều nhiều nhóm" → phần còn lại chỉ nói "áp đồng đều **trong nhóm chịu chế độ**", nhất quán.
+- B rút cụm "nặng hơn" → phần sau chỉ dùng "**thay** bằng cơ chế giải trình khác", không so sánh mức độ.
+- A rút "tham khảo lập thành văn bản" → mục (iii) chỉ dùng Điều 118 cho nội dung thời giờ làm việc.
+- A rút "hiện diện gần như không tương quan…" → mục (ii) dùng phiên bản khái niệm, không quay lại mệnh đề tương quan.
+
+**Ba hạng mục nền:**
+- *Bịa tình huống cụ thể:* không phát hiện ở cả hai bên. ✅
+- *Gỡ nhãn `[CẦN KIỂM CHỨNG]`:* không bên nào gỡ nhãn của case file. B giữ nhãn cho mẫu chứng từ hành chính sự nghiệp; A **thêm** nhãn cho yêu cầu hình thức tham khảo. ✅ (Ngoại lệ đã tính riêng: tên văn bản TT 107/2017 nêu như đang hiệu lực → 🔴 B-5.)
+- *Dùng bằng chứng loại suy như trực tiếp:* B áp §5 (P4P) vào **phương án dựa trên chỉ số kết quả** của A — cùng loại đối tượng, không phải loại suy sang chấm công → không vi phạm. A cũng chỉ dùng §5/§9 để tự nhận rủi ro cho phương án của mình. Không cờ.
+
+### Tổng hợp cờ — vòng 2
+
+| Cờ | Bên A | Bên B |
+|----|-------|-------|
+| 🔴 Sai | **0** | **1** (B-5 — TT 107/2017/TT-BTC đã hết hiệu lực từ 01/01/2025, thay bởi TT 24/2024/TT-BTC) |
+| 🟡 Thiếu nguồn / tag vượt nội dung | **3** (A-4 "dữ liệu do máy sinh"; A-8 "gaming để lại dấu vết, có thể hiệu chỉnh case-mix"; A-12 "bản ghi khách quan" gán cho §9) | **1** (B-9 — `[§7]` bỏ điều kiện "có thể" và thêm chiều "thời gian") |
+| ⚠️ Không xác minh được | 1 | 1 *(sau hậu kiểm của orchestrator: 2 trong 3 ⚠️ ban đầu đã chuyển thành ✅)* |
+
+### Tự kiểm đối xứng — vòng 2
+
+- **Số khẳng định được kiểm:** B **13**; A **12**. Chênh 1 — trong ngưỡng.
+- **Cùng tiêu chuẩn "tag phải đỡ đúng thuộc tính được gán"** áp cho cả hai: B bị 🟡 ở `[§7]` (bỏ điều kiện "có thể" + thêm chiều "thời gian"); A bị 🟡 ở `[§9]` (thêm thuộc tính "bản ghi khách quan"). Không bên nào bị kiểm lỏng hơn ở khâu này.
+- **Cùng tiêu chuẩn "suy luận từ §1 không phải dữ kiện có nguồn"**: A bị 🟡 ở "dữ liệu do máy sinh"; B không có khẳng định cùng dạng ở lượt này (khẳng định cấu trúc của B **có** viện dẫn văn bản, nên bị kiểm ở trục khác và nhận 🔴 về hiệu lực văn bản). **Khác biệt về LOẠI cờ giữa hai bên phản ánh loại khẳng định họ đưa ra, không phải mức khắt khe khác nhau.**
+- **Về chênh lệch ⚠️ ban đầu (3–1):** hoàn toàn do **lỗi nạp của orchestrator**, không do B nói mơ hồ hơn — B nói trước nên phần steelman/trích của B hướng về Vòng 1 (fact-checker không được nạp), trong khi steelman của A hướng về lượt B vòng 2 (có nạp) nên kiểm được. Orchestrator đã hậu kiểm cơ học và giải quyết 2 trong 3 mục.
+
+### Hậu kiểm của orchestrator (bổ sung sau khi fact-checker báo thiếu dữ liệu nạp)
+
+Fact-checker yêu cầu orchestrator đối chiếu chuỗi B trích A với transcript Vòng 1 nguyên văn trước khi Judge dùng cáo buộc cherry-picking. Orchestrator đã chạy đối chiếu cơ học (chuẩn hóa Unicode NFC + casefold + chuẩn hóa dấu câu, khớp chuỗi trên file transcript):
+
+```
+TRÍCH CỦA B: "khi chỉ số bị gaming, cái được tối ưu ít nhất vẫn nằm trên trục chăm sóc"
+KẾT QUẢ:     KHỚP — có trong transcript
+```
+
+→ Trích của B là **nguyên văn**, không bịa, không ghép. Hai mục ⚠️ của B chuyển thành ✅ trong bảng trên. **Bài học vận hành đã ghi vào Phụ lục C:** từ vòng 3 trở đi, fact-checker phải được nạp **toàn bộ các lượt đã phát biểu**, không chỉ lượt của vòng đang kiểm — nếu không, mọi phần steelman và trích dẫn chéo sẽ bị gắn ⚠️ oan, và bên nói trước trong vòng luôn chịu thiệt hệ thống vì phần steelman của họ hướng về vòng trước.
+
 ## Phụ lục B — Steelman audit (đo trần lập luận — KHÔNG cộng/trừ điểm, KHÔNG nạp cho judge)
 [báo cáo 2 auditor — orchestrator dán sau GATE 2]
 
@@ -196,5 +270,11 @@ Cuối cùng, nhánh "miễn trừ là thực hành ngầm ngoài nội quy" đ�
 | V2 — A | 600 | 660 | bản đầu 662 → sau cắt **636** | Vượt trần **2 từ**. Áp quy tắc cơ học (một lần cắt) thay vì miễn trừ theo phán đoán của orchestrator — để orchestrator tự quyết "bao nhiêu là đủ gần trần" chính là loại tùy nghi mà harness thiết kế để loại bỏ. Sau cắt: B 644 / A 636, lệch 1,3% |
 
 > **Đánh giá đối xứng V1:** hai lượt sau cắt là **988 (A)** và **990 (B)** — lệch **0,2%**, nằm sâu trong ngưỡng ±10% mà nguyên tắc nền tảng đòi hỏi. Tức cả hai bên đều vượt trần tuyệt đối như nhau, và **không bên nào có lợi thế độ dài so với bên kia**. Judge nên đọc cờ vượt ngân sách như một khiếm khuyết chung của vòng 1, không phải lợi thế của một bên.
+
+**Lỗi vận hành của orchestrator (khai báo bắt buộc — ảnh hưởng cách đọc Phụ lục A):**
+
+| # | Lỗi | Phát hiện bởi | Hậu quả | Xử lý |
+|---|---|---|---|---|
+| 1 | **Nạp thiếu context cho fact-checker vòng 2:** chỉ nạp hai lượt của vòng 2, KHÔNG nạp các lượt vòng 1 | Chính fact-checker tự phát hiện và báo lại | Mọi phần **steelman** và **trích dẫn chéo** của bên B (bên nói trước, nên các phần này hướng về vòng 1) bị gắn `⚠️ Không xác minh được` vì thiếu dữ liệu — tạo chênh lệch ⚠️ 3–1 **không phản ánh chất lượng lập luận**. Đây là thiên lệch **hệ thống chống lại bên nói trước trong mỗi vòng** | Orchestrator hậu kiểm cơ học bằng khớp chuỗi chuẩn hóa Unicode trên file transcript → 2/3 mục ⚠️ của B chuyển thành ✅ (trích của B là nguyên văn). Banner cảnh báo đặt ngay đầu bảng fact-check vòng 2. **Từ vòng 3: nạp toàn bộ các lượt đã phát biểu cho fact-checker, không chỉ lượt của vòng đang kiểm** |
 
 **Điều kiện thí nghiệm cần khai báo:** advocate B ở V1 được nhắc rõ trong spec rằng bản đầu của A đã vượt trần và phải cắt — đây là thông tin vận hành, không phải nội dung lập luận của A, nhưng ghi lại để minh bạch điều kiện không hoàn toàn đối xứng giữa hai lượt V1.

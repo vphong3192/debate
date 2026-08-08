@@ -1,7 +1,7 @@
 # CASE FILE — Chấm công bác sĩ vs đánh giá hiệu quả, và miễn trừ cho lãnh đạo khoa phòng (nền sự kiện chung)
 
 > Chủ đề tranh biện: **"Việc bệnh viện công yêu cầu bác sĩ điểm danh chấm công hàng ngày thay cho đánh giá theo hiệu quả công việc, đồng thời miễn chấm công cho lãnh đạo khoa phòng, có công bằng và chính đáng không?"**
-> Trạng thái: **CHỜ DUYỆT GATE 1 — lập ngày 08/08/2026**. Mỗi mục kèm nguồn theo `knowledge/source_policy.md` (bảng hạng áp dụng riêng cho chủ đề này, xem dưới).
+> Trạng thái: **ĐÃ DUYỆT GATE 1 — 08/08/2026**. Mỗi mục kèm nguồn theo `knowledge/source_policy.md` (bảng hạng áp dụng riêng cho chủ đề này, xem dưới).
 > Nguyên tắc: file này chỉ chứa SỰ KIỆN có thể kiểm chứng và CẢNH BÁO PHƯƠNG PHÁP trung lập (áp đối xứng cho cả hai bên), KHÔNG chứa diễn giải kết luận và KHÔNG chứa khung được/mất điểm (khung chấm nằm ở `knowledge/judge_notes_chamcong.md`, chỉ nạp cho judge).
 > **Quy ước hạng nguồn cho chủ đề này:** H1 = văn bản quy phạm pháp luật gốc & cơ quan nhà nước (Luật, Nghị định, Quyết định Thủ tướng, Thông tư, cổng thông tin Bộ Y tế/Chính phủ); H2 = học thuật bình duyệt (NEJM, JAMA, Annals, Mayo Clin Proc, Journal of Applied Psychology, Journal of Economic Surveys, tổng quan hệ thống); H3 = báo chí lớn & tổng hợp pháp luật (Báo Chính phủ, Lao Động, Tuổi Trẻ, VnExpress, VietnamPlus, LuatVietnam, Thư viện Pháp luật).
 

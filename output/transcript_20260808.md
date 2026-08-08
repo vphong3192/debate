@@ -167,6 +167,38 @@ Nhưng dữ kiện A dựng lên trên đó không đứng vững. Kiểm chứn
 
 > *Đo được: Câu 1 = 64 từ, Câu 2 = 61 từ, Câu 3 = 68 từ (tổng 193/300). Cả ba câu trong trần 100 — không phải cắt gọn.*
 
+### TRẢ LỜI CHẤT VẤN — Advocate A
+
+**Trả lời câu 1.** **Không.** Trong khung của tôi, một kịch bản điều hành **đặt mục tiêu** 9,0% không được phép tồn tại. Tôi không bác tiền đề câu hỏi.
+
+Lý do phải nhất quán với lập luận tôi dùng ở vòng 3: giá trị của một thiết bị cam kết nằm ở chi phí rút lui. Một mục tiêu thay thế 9,0% được công bố **không mua được gì**: nó vẫn nằm trên toàn bộ dải dự báo 6,8–7,5% `[Case file §9]`, nên chịu y nguyên phản bác "khó đạt" của B; đổi lại, nó xác lập tiền lệ rằng chỉ tiêu được hạ mỗi khi thực hiện hụt — đúng cơ chế mà nghĩa vụ báo cáo hằng quý của 34 địa phương `[Case file §2.2]` dựa vào để có hiệu lực. Ba lần điều chỉnh B liệt kê đều theo hướng lên; mở chiều xuống là mất sức ràng buộc ngay trong năm đầu.
+
+Thứ được phép tồn tại là **nhiều kịch bản điều hành** ở cấp phân bổ – ứng phó; thứ bị loại là kịch bản **đặt mục tiêu** dưới 10% `[Case file §2.2]` `[CẦN KIỂM CHỨNG câu chữ nguyên văn]`. Tôi nói rõ giới hạn: tôi **không có bằng chứng** rằng đã có kế hoạch dự phòng cụ thể cho vùng kết quả 8%; tôi chỉ có bằng chứng về cách mô tả thứ bị loại. B đúng khi coi khoảng trống đó là một chi phí thật.
+
+Về cụm "biên 9,0 vs 8,2": nó mô tả **nơi bất đồng chuẩn tắc giữa tôi và B được phân định** — gánh nặng chứng minh của B — chứ không phải đề xuất công bố chỉ tiêu 9,0. Nếu câu chữ của tôi gây hiểu là đề xuất, đó là lỗi diễn đạt của tôi và tôi làm rõ tại đây.
+
+Chi phí của câu trả lời "không": hệ thống bước vào quý IV không có mục tiêu thay thế công bố. Tôi cho rằng chi phí đó nhỏ hơn chi phí xóa tiền lệ, nhưng nó không bằng không.
+
+**Trả lời câu 2.** **Tôi không có bằng chứng đó.** Case file không chứa chuỗi ICOR theo năm, cũng không chứa nghiên cứu liên hệ tốc độ giải ngân với ICOR; tôi cũng không dẫn được nghiên cứu nào ở đây. Tôi **rút** khẳng định đó ở tư cách một mệnh đề về dấu, và giữ nó ở mức **giả thuyết cơ chế chưa được chứng minh**.
+
+Nói thẳng thêm phần bất lợi cho tôi: kiểm bằng chính đồng nhất thức, ICOR ≈ (tổng đầu tư/GDP) ÷ g. Giải ngân nhanh trong năm làm **tăng tử số** (vốn thực hiện tăng), trong khi sản lượng của công trình phần lớn đến ở các năm sau. Vì độ trễ đó, dấu **ngắn hạn** nhiều khả năng ngược với điều tôi đã viết — ICOR đo trong năm có thể xấu đi ngay cả khi việc giải ngân là đúng. Kênh làm giảm mà tôi viện dẫn (rút ngắn thời gian vốn nằm chờ, giảm đội vốn và trượt giá, đưa công trình vào khai thác sớm) là kênh **nhiều năm**, không phải kênh trong năm. Tôi đã lẫn hai khung thời gian; B bắt đúng.
+
+Một lưu ý về mẫu số, nêu như tính chất số học chứ không như phản bác: ICOR bình quân 6,4 là của giai đoạn 2021–2025 `[Case file §5]`, giai đoạn có năm tăng trưởng rất thấp vì dịch `[CẦN KIỂM CHỨNG]`; vì g nằm ở mẫu số, bình quân giai đoạn bị đẩy lên về mặt cơ học. Điều này không chứng minh gì cho tôi, chỉ cảnh báo rằng dùng 6,4 làm hằng số cho 2026 cũng cần thận trọng ở cả hai chiều.
+
+Phần lập luận của tôi **không** phụ thuộc dấu này vẫn đứng: nguồn tăng trưởng tôi viện dẫn là vốn đã bố trí trong dự toán chứ không phải tín dụng mới `[Case file §5]`. Tôi giữ nguyên điều kiện tự nhận thua đã nêu ở vòng 2: ICOR 2026 xấu đi so với 6,4 kèm giải ngân dồn bất thường vào quý IV thì luận điểm này của tôi sai.
+
+**Trả lời câu 3.** Chỉ báo đó là: **tăng trưởng tín dụng cả năm 2026 đạt từ 17% trở lên** — tức vượt định hướng ~15% `[Nguồn: Chỉ thị 01/CT-NHNN, 01/2026 — H1]` từ 2 điểm % trở lên — quan sát qua số liệu NHNN/Cục Thống kê công bố cho quý III và cả năm. Nếu điều đó xảy ra, tôi chấp nhận ràng buộc bộ công cụ đã bị phá, và cùng với nó là trụ cột "mục tiêu ép ở dư địa hiệu quả, không ép ở khâu nới tiền tệ" của tôi.
+
+Tôi chọn biến này vì ba lý do. Một, nó là **hành vi chính sách**, không phải kết quả chịu cú sốc ngoại sinh: nới hạn mức là một quyết định, không phải giá dầu. Hai, nó chính là kênh mà số học của B đòi hỏi — nếu ~3,5 điểm % còn thiếu được đuổi theo, tín dụng là chỗ dấu vết hiện ra trước. Ba, nó đo được trước khi có số GDP cả năm.
+
+Tôi phải xử lý ngay tiền lệ B đã nêu và nó bất lợi cho tôi: 2025 định hướng 16%, thực hiện ~19,1% `[Nguồn: NHNN qua VnEconomy/Người Lao Động, 12/2025–01/2026 — H1/H3]`, tức vượt hơn 3 điểm %, mà tôi không gọi đó là phá trần. Vì vậy tôi **đặt ngưỡng thấp hơn mức vượt của 2025**, có chủ ý: năm 2025 CPI vẫn trong trần, còn 2026 đệm chỉ còn 0,12 điểm % `[Case file §6]`, nên cùng một mức vượt mang ý nghĩa khác. Đặt ngưỡng ở 17% là tự buộc mình vào một phép thử chặt hơn tiền lệ, chứ không phải một phép thử không bao giờ kích hoạt.
+
+Nếu B muốn một chỉ báo thứ hai, tôi chấp nhận CPI bình quân cả năm vượt 4,5% cũng là điều kiện đủ để tôi thua ở trục này.
+
+**Nguồn trích dẫn trong lượt này:** Case file §2.2, §5, §6, §9; Chỉ thị 01/CT-NHNN (01/2026, H1) — định hướng tín dụng 2026 ~15% kèm mệnh đề điều chỉnh theo diễn biến thực tế; NHNN qua VnEconomy / Người Lao Động (12/2025–01/2026, H1/H3) — tín dụng 2025 định hướng 16%, thực hiện ~19,1%.
+
+> *Đo được sau cắt gọn: Trả lời 1 = 318 từ, Trả lời 2 = 326 từ, Trả lời 3 = 284 từ (tổng 928/900, trần lượt 990). Bản đầu Trả lời 1 = 331 từ, vượt trần câu 330 đúng 1 từ → orchestrator yêu cầu cắt gọn MỘT lần theo protocol, chỉ sửa câu 1, giữ nguyên câu 2 và câu 3. Cả ba câu hiện trong trần 330.*
+
 
 ---
 

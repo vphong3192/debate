@@ -117,7 +117,18 @@ Cuối cùng, nhánh "miễn trừ là thực hành ngầm ngoài nội quy" đ�
 **Nguồn trích dẫn trong lượt này:** Case file §1; Case file §2 (NĐ 90/2020/NĐ-CP); Case file §3 (QĐ 73/2011/QĐ-TTg); Case file §9.
 
 ### Advocate B
-[đang chạy]
+
+**Đính chính.** (1) **Cờ đỏ:** tôi **rút** "TT 107/2017/TT-BTC" — văn bản này đã bị **TT 24/2024/TT-BTC** thay thế (ban hành 17/4/2024, hiệu lực 01/01/2025, áp dụng từ năm tài chính 2025) `[Nguồn: TT 24/2024/TT-BTC; Cổng Xây dựng chính sách, 2024]`. Tôi không khẳng định mẫu bảng chấm công tương ứng của khu vực sự nghiệp `[CẦN KIỂM CHỨNG]`; mẫu 01a-LĐTL chỉ áp cho **doanh nghiệp** `[TT 200/2014/TT-BTC]`. Đòn "lãnh đạo là người vận hành" tôi hạ xuống **suy luận có nhãn** và dựng lại ở (III). (2) **Cờ vàng:** rút "chi phí… **có thật**"; §7 nói can thiệp ngoại sinh **có thể** suy giảm động lực nội tại **nếu cảm nhận là kiểm soát**, và có **tranh cãi học thuật** `[Case file §7]`; rút cấu phần "thời gian" — §6 đo hồ sơ bệnh án điện tử, không đo quẹt thẻ `[Case file §6]`.
+
+**Steelman.** A rút ba khẳng định và tự nhận gánh nặng chứng minh cho bản ghi phân công ca. A lập luận: ba điều kiện tôi đã chấp nhận không điều nào được §1 thỏa, nên tôi đang bảo vệ một chính sách khác; chấm công không sinh ra thông tin để xây bộ chỉ số mà nó viện làm điều kiện chấm dứt; và khách quan ở khâu **đo** không chuyển thành khách quan ở khâu **đánh giá**.
+
+**(I) Trả lời thẳng, có nhượng bộ.** §1 định danh diện miễn trừ bằng **chức vụ**; §9 nêu lý do khả dĩ là **chức năng**: công việc di động, đã chịu cơ chế trách nhiệm giải trình khác `[Case file §9]`. Định danh một nhóm chức năng bằng danh mục chức vụ là cách làm thông thường, không tự động thành đặc quyền địa vị. Nhưng nếu đọc §1 chặt — miễn trừ **toàn phần, không đăng ký, không cơ chế thay thế** — thì tôi **không bảo vệ** dạng đó, và nói thẳng: miễn trừ **để trống** không chịu được phép thử tổng quát hóa. Cái tôi bảo vệ ở (c) là **cơ sở** của miễn trừ, không phải **hình thức trống** của nó. Nhượng bộ này không chuyển thành kết luận của A: lời giải là **bổ sung** giải trình thay thế — đúng cấu trúc A dùng ở vòng 2 khi nói tự xác nhận được sửa bằng chuyển thẩm quyền lên cấp trên chứ không xóa nghĩa vụ. Phương án A cũng giữ miễn trừ **có điều kiện**.
+
+**(II) Mốc thoát.** Tiền đề của A sai một chỗ: không ai tuyên bố bộ chỉ số kết quả phải được xây **từ** dữ liệu chấm công; nguồn của nó là hồ sơ bệnh án và hệ thống thông tin bệnh viện. "X không sinh ra Y" không kéo theo "X chặn Y" — **non sequitur**. Mốc thoát cụ thể: chu kỳ đánh giá viên chức **trước 15/12 hàng năm** với **đủ năm nhóm tiêu chí**, trong đó có nhóm **kết quả thực hiện chức trách, nhiệm vụ** `[Nguồn: NĐ 90/2020/NĐ-CP — Case file §2]`; chủ thể chịu trách nhiệm là người đứng đầu đơn vị theo thẩm quyền quản trị nội bộ `[Case file §4 — CẦN KIỂM CHỨNG điều khoản về quy chế chi tiêu nội bộ]`. Tôi giữ nguyên tuyên bố vòng 1: **(b) là mệnh đề yếu nhất của tôi**, và tôi chỉ bảo vệ nó ở dạng "căn cứ chính trong giai đoạn quá độ **có mốc**". Nếu chỉ số kết quả chỉ **hình thức** `[Case file §1]`, A đúng rằng khung đánh giá khuyết một nhóm bắt buộc.
+
+**(III) Đo và đánh giá.** Tôi **nhận** phân biệt này; nó đúng. Nhưng kết luận vượt tiền đề: từ "khâu quy đổi vẫn là phán đoán quản lý" không suy ra hai phương án **ngang nhau** về tính chủ quan. Có dữ liệu đầu vào kiểm chứng được thì phán đoán bị **ràng buộc** và người bị đánh giá có vật đối chứng để khiếu nại; không có thì phán đoán không có neo — đó chính là **tính khả kiểm** A giữ lại ở vòng 2. Áp cùng chuẩn cho tôi: đây là chênh lệch **mức độ**, không phải loại, và chấm công chỉ ràng buộc phần "có mặt", không ràng buộc phần "làm gì".
+
+**Nguồn trích dẫn trong lượt này:** Case file §1, §2, §4, §6, §7, §9; NĐ 90/2020/NĐ-CP (qua §2); TT 200/2014/TT-BTC (mẫu 01a-LĐTL, khu vực doanh nghiệp); TT 24/2024/TT-BTC — Công báo Chính phủ; Cổng Xây dựng chính sách: TT 24/2024/TT-BTC hiệu lực 01/01/2025, thay thế TT 107/2017/TT-BTC.
 
 ## Vòng 4 — Chất vấn chéo
 [chưa chạy]
@@ -285,6 +296,8 @@ KẾT QUẢ:     KHỚP — có trong transcript
 | V1 — B | 800 | 880 | bản đầu 1010 → sau cắt **990** | Xử lý y hệt lượt A: một lần cắt duy nhất, gửi về chính instance đã viết |
 | V2 — B | 600 | 660 | **644** | ĐẠT ngay bản đầu, không cần cắt |
 | V2 — A | 600 | 660 | bản đầu 662 → sau cắt **636** | Vượt trần **2 từ**. Áp quy tắc cơ học (một lần cắt) thay vì miễn trừ theo phán đoán của orchestrator — để orchestrator tự quyết "bao nhiêu là đủ gần trần" chính là loại tùy nghi mà harness thiết kế để loại bỏ. Sau cắt: B 644 / A 636, lệch 1,3% |
+| V3 — A | 600 | 660 | bản đầu 676 → sau cắt **593** | Một lần cắt, đạt |
+| V3 — B | 600 | 660 | **643** | ĐẠT ngay bản đầu. Vòng 3: A 593 / B 643, lệch 8,4% — trong ngưỡng ±10% |
 
 > **Đánh giá đối xứng V1:** hai lượt sau cắt là **988 (A)** và **990 (B)** — lệch **0,2%**, nằm sâu trong ngưỡng ±10% mà nguyên tắc nền tảng đòi hỏi. Tức cả hai bên đều vượt trần tuyệt đối như nhau, và **không bên nào có lợi thế độ dài so với bên kia**. Judge nên đọc cờ vượt ngân sách như một khiếm khuyết chung của vòng 1, không phải lợi thế của một bên.
 

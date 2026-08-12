@@ -222,7 +222,26 @@ Kết luận thành thật: chấm công đứng được như **sàn kỷ luậ
 **Nguồn trích dẫn trong lượt này:** Case file §1, §2, §3, §5, §6, §7, §8, §9, §11; transcript V4 (lượt B); Chinhphu.vn – xaydungchinhsach, "Nghị định 233/2026/NĐ-CP về đánh giá, xếp loại chất lượng với đơn vị sự nghiệp công lập và viên chức", 2026; LuatVietnam, "Từ 01/7/2026, viên chức được chấm điểm theo tháng, quý…", 2026.
 
 ### Kết luận — Advocate B
-[đang chạy]
+
+`[vượt ngân sách từ: 983/800 — đã yêu cầu cắt gọn một lần (988 → 983), vẫn vượt trần +10% (880); xử lý y hệt lượt A cùng vòng]`
+
+**Đính chính ba cờ vàng vòng 3.** (B-04) Tôi rút tag `[§4]` gắn cho câu "chủ thể chịu trách nhiệm là người đứng đầu đơn vị" — §4 không xác lập chủ thể đó; khẳng định này rút khỏi lập luận. (B-05) "Nguồn của nó là hồ sơ bệnh án và hệ thống thông tin bệnh viện" — không nguồn, tôi rút. (B-10) "Định danh nhóm chức năng bằng danh mục chức vụ là cách làm thông thường" — khẳng định về thực tiễn hành chính không nguồn, tôi rút; phần (c) dưới đây không cần tiền đề đó.
+
+**Trục 4 — Logic: đáp đòn *ignoratio elenchi*.** A đúng ở dạng thức. §1 định nghĩa chế độ đang tranh là chấm công giữ vai trò **căn cứ chính** `[Case file §1]`. Nếu tôi chỉ bảo vệ "sàn kỷ luật" rồi tuyên đã bảo vệ (b), đó đúng là chuyển đề. Nên tôi nói thẳng: **theo cách đọc chặt §1, tôi không bảo vệ được (b) như §1 định nghĩa, và tôi không tuyên là bảo vệ được.** Cái tôi giữ là mệnh đề hẹp hơn, và tôi gọi đúng tên nó.
+
+Cùng tiêu chuẩn áp cho cả hai. A ở V5 nói A không đòi gỡ nghĩa vụ hiện diện, chỉ gỡ vai trò căn cứ chính, và cũng đòi thêm giải trình cho lãnh đạo. Vậy phần §1 tôi vừa buông chính là phần A cũng bỏ; phần còn lại — hiện diện có chấm công + giải trình cho lãnh đạo — hai bên **hội tụ**. Cái còn tranh thật: trong cửa sổ chưa có bộ chỉ số, cái gì gánh trọng số phân hóa. A đề xuất **số phiên trực theo bảng phân công**, và đã tự nhận nó không thoát phán đoán quản lý, tự áp Goodhart cho nó (tranh ca dễ, né ca nặng) — tôi ghi nhận đó là lượt trung thực. Hệ quả: phương án A cũng là **proxy đầu vào**, chỉ khác ở trọng số lâm sàng. Tôi nhận nó **tốt hơn** chấm công ở chiều phân hóa; tôi giữ rằng nó **không phủ** chức năng hành chính–pháp lý hằng ngày `[§9: đầu ra khó quan sát → giám sát đầu vào; ràng buộc hiện diện gắn thời điểm cụ thể]`.
+
+**Trục 1 — Công bằng tổ chức & khuyến khích.** (c): giữ nguyên kết luận V4 — miễn trừ **toàn phần** là **bất công**: hỏng ở chiều phân phối (cùng nghĩa vụ nền, khác gánh nặng) và liên nhân–thông tin (không giải trình lý do), không qua phép thử công khai. Chính §9 nêu lối xử lý đúng: báo vắng/đăng ký lịch thay vì miễn trừ toàn phần — biện pháp đó **thêm** ràng buộc cho lãnh đạo chứ không **gỡ** chấm công của bác sĩ; (c) sai không kéo theo (a) sai. Hệ quả khuyến khích áp cho chính tôi: đo hiện diện thưởng người **có mặt** chứ không thưởng người **làm**, và nếu bị cảm nhận là kiểm soát thì **có thể** xói mòn động lực nội tại `[§7 — Frey & Jegen 2001; tranh cãi chưa ngã ngũ]`. Chi phí này có thật; nó phải đặt cạnh chi phí phương án kia, không cạnh một phương án lý tưởng.
+
+**Trục 2 — Bằng chứng.** Sự kiện: QOF/P4P cải thiện mốc 1 năm, kém nhất quán mốc 3 năm, có gaming và lệch phác đồ về phía chỉ số được tính điểm `[Case file §5]`. Diễn giải — khai báo là **loại suy** từ hệ thống khác, không phải bằng chứng trực tiếp về viên chức y tế Việt Nam: nó chỉ chống mệnh đề "chuyển sang đo đầu ra là cải thiện hiển nhiên"; nó **không** chứng minh chấm công là thước đo tốt. Tôi không dùng con số 9.680 thôi việc theo hướng nhân quả `[§8]`, và không mượn §6 (đo giấy tờ chuyên môn, không đo quẹt thẻ).
+
+**Trục 3 — Pháp lý & quy chế.** Bác sĩ bệnh viện công là **viên chức**, không phải công chức `[§1]`. Nội quy lao động là nghĩa vụ luật định, nội dung chủ yếu gồm thời giờ làm việc — nhưng **phải tham khảo ý kiến tổ chức đại diện người lao động**; vế sau là điểm thủ tục của A, tôi thừa nhận `[BLLĐ 2019, Điều 118 — §2]`. **NĐ 233/2026/NĐ-CP** (26/6/2026, hiệu lực 01/7/2026) là quy định **đang hiệu lực**, không phải dự thảo, thay NĐ 90/2020; tôi kiểm chứng độc lập khung **70/100 cho kết quả thực hiện nhiệm vụ**, 30 cho tiêu chí chung, đánh giá **liên tục theo tháng/quý**, mốc **30/11/2026** ban hành quy chế riêng `[Nguồn: xaydungchinhsach.chinhphu.vn, 2026; LuatVietnam, 2026; ninhbinh.gov.vn, 2026]`; số điều và Phụ lục I vẫn `[CẦN KIỂM CHỨNG]`. Quy tắc chuyển tiếp — chưa ban hành quy chế riêng thì đánh giá cuối 2026 vẫn theo quy chế kiểu NĐ 90/2020 — **do chính A nêu ở V5**; tôi dùng nó với ghi nhận đó, và nhận khuôn A đặt: cửa sổ **tạm và có hạn**. Tôi không dừng ở "hợp pháp": hợp pháp ở khâu ban hành không đủ để chính đáng ở khâu vai trò — "căn cứ chính" đi ngược chiều 70/30.
+
+**Phán định cuối.** (a) chính đáng — A không tranh. (b) theo cách đọc chặt §1: **không đứng**; cái đứng được là chấm công như sàn kỷ luật và căn cứ hành chính trong cửa sổ đến 30/11/2026. (c) **bất công** — A thắng. Khác biệt chính sách còn lại rất hẹp: khác **nhịp** gỡ và khác **cái gánh trọng số trong quá độ**.
+
+**Giới hạn của lập luận phía tôi:** Nếu đơn vị đã có sẵn bảng phân công trực và sổ bàn giao ca đủ tin cậy để phân hóa, thì tiền đề "chưa có bộ chỉ số" là mô tả sai và trụ quá độ của tôi sụp. Nếu chấm công thực sự chi phối phần lớn thu nhập tăng thêm đúng như §1, thì khái niệm "sàn" của tôi không mô tả đối tượng đang tranh. Và nếu qua 30/11/2026 đơn vị vẫn không ban hành quy chế riêng, sự chậm trễ ấy là lựa chọn quản trị chứ không phải ràng buộc khách quan — biện hộ "quá độ" mất hiệu lực hoàn toàn.
+
+**Nguồn trích dẫn trong lượt này:** Case file §1, §2, §5, §6, §7, §8, §9, §11; BLLĐ 2019 Điều 118; NĐ 233/2026/NĐ-CP; Frey & Jegen 2001; xaydungchinhsach.chinhphu.vn, 2026; LuatVietnam, 2026; ninhbinh.gov.vn, 2026; transcript V4–V5 (lượt A).
 
 ---
 > **Quy ước heading phụ lục (BẮT BUỘC giữ nguyên văn):** `scripts/make_judge_input.sh` cắt input cho judge từ `## Vòng 1 — Mở đầu` đến TRƯỚC `## Phụ lục B` — đổi các heading dưới đây (kể cả chữ "Phụ lục B") sẽ làm steelman audit lọt vào input của judge hoặc làm input rỗng. Phụ lục A (fact-check) đặt TRƯỚC Phụ lục B.
@@ -488,6 +507,20 @@ Fact-checker vòng 3 nêu nghi vấn NĐ 90/2020/NĐ-CP đã bị thay thế nh�
 > **Đối xứng vòng 4:** phần hỏi B 268 / A 234 (chênh 34 từ, cùng nằm dưới trần); phần trả lời A 945 / B 909 (chênh 36 từ, lệch 4,0%). Không bên nào phải cắt gọn ở vòng này.
 
 | V5 — A | 800 | 880 | bản đầu 941 → sau cắt **928** | Đã yêu cầu cắt gọn một lần, vẫn vượt trần → ghi chú thích vượt ngân sách ngay trong lượt để judge biết |
+| V5 — B | 800 | 880 | bản đầu 988 → sau cắt **983** | Xử lý y hệt lượt A cùng vòng: một lần cắt duy nhất |
+
+> **Tổng kết ngân sách từ toàn phiên (để judge cân nhắc theo rubric chiều 5 — "judge trừ nếu phần vượt tạo lợi thế"):**
+>
+> | Vòng | A | B | Chênh |
+> |---|---|---|---|
+> | V1 (giới hạn 800, trần 880) | 988 ⚠️ | 990 ⚠️ | 0,2% |
+> | V2 (600 / 660) | 636 ✅ | 644 ✅ | 1,3% |
+> | V3 (600 / 660) | 593 ✅ | 643 ✅ | 8,4% |
+> | V4 hỏi (300 / 330) | 234 ✅ | 268 ✅ | — |
+> | V4 trả lời (900 / 990) | 945 ✅ | 909 ✅ | 4,0% |
+> | V5 (800 / 880) | 928 ⚠️ | 983 ⚠️ | 5,9% |
+>
+> **Kết luận về đối xứng:** cả hai bên vượt trần đúng **hai lần** (V1 và V5), mỗi lần đều được cấp **đúng một** lượt cắt gọn gửi về chính instance đã viết. Không vòng nào có chênh lệch vượt ngưỡng ±10% của nguyên tắc nền tảng. **Không bên nào có lợi thế độ dài so với bên kia** — cờ vượt ngân sách nên được đọc như khiếm khuyết chung của phiên (đặc biệt ở hai lượt dài 800 từ), không như lợi thế của một bên.
 
 > **Đánh giá đối xứng V1:** hai lượt sau cắt là **988 (A)** và **990 (B)** — lệch **0,2%**, nằm sâu trong ngưỡng ±10% mà nguyên tắc nền tảng đòi hỏi. Tức cả hai bên đều vượt trần tuyệt đối như nhau, và **không bên nào có lợi thế độ dài so với bên kia**. Judge nên đọc cờ vượt ngân sách như một khiếm khuyết chung của vòng 1, không phải lợi thế của một bên.
 

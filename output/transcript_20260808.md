@@ -6,7 +6,7 @@
 **Advocate A:** mức quyết tâm hiện hành là HỢP LÝ, nên giữ nguyên (steelman)
 **Advocate B:** mức quyết tâm hiện hành là QUÁ LIỀU, nên hiệu chỉnh (steelman)
 **Case file phiên bản:** ngày duyệt GATE 1 08/08/2026 — commit `9998fd2`; addendum: (chưa có)
-**Ngày duyệt GATE 2:** (chưa duyệt)
+**Ngày duyệt GATE 2:** 08/08/2026 — người dùng chỉ thị "finalize score" (hiểu là APPROVE TRANSCRIPT). Hai câu hỏi kèm theo tại gate KHÔNG được trả lời → giữ nguyên hiện trạng: (a) **không** làm addendum case file cho hai lỗi §3 phát hiện ở Phụ lục A; (b) **không** chạy lại fact-check với transcript nguyên văn (sai lệch C6.4 giữ nguyên khai báo). Cả hai đều đã ghi trong Phụ lục A và Phụ lục A CÓ trong input judge.
 **Model:** subagent = alias `opus` (frontmatter `.claude/agents/debate-*.md`); orchestrator = cùng họ model. *Model ID chính xác không ghi vào artifact đẩy lên repo theo quy định môi trường chạy; ghi nhận trong log phiên.* Ngày chạy = 08/08/2026.
 
 > *Lưu ý cho người đọc: hai advocate được giao nhiệm vụ trình bày phiên bản mạnh nhất của mỗi khung lập luận. Nội dung không đại diện quan điểm của hệ thống hay người vận hành.*
@@ -577,8 +577,8 @@ Cả hai cách đọc đều hợp lệ và cùng dựa trên một sự kiện 
 | Vòng 5 — Kết luận | ✅ Hoàn thành (A 858 / B 874) |
 | Fact-check V1–V5 | ✅ Đã chạy 08/08/2026 — 0 🔴, 7 🟡, 3 ⚠️ (nhãn phạm vi ở Phụ lục A) |
 | Steelman audit ×2 | ✅ Đã chạy 08/08/2026 — đối xứng, mỗi bên 7 mục, cả hai "còn cách trần đáng kể" |
-| GATE 2 | ⬜ Chưa tới |
-| Phase 2 — hội đồng 3 judge | ⬜ Chưa chạy |
+| GATE 2 | ✅ Duyệt 08/08/2026 ("finalize score") |
+| Phase 2 — hội đồng 3 judge | 🔄 Đang chạy |
 
 ### C2. Sai lệch giao thức có chủ ý (khai báo bắt buộc)
 
@@ -615,16 +615,56 @@ Hai lượt mở đầu (ngân sách 800, trần 880) đều đạt **đúng 877
 
 `WebFetch` bị chặn với **mọi** tên miền đã thử (chinhphu.vn, xaydungchinhsach.chinhphu.vn, vneconomy.vn, eastasiaforum.org). Toàn bộ case file và mọi kiểm chứng của advocate chỉ dựa được vào `WebSearch` (tiêu đề + trích đoạn + tóm tắt máy), không phải đọc trực tiếp trang gốc. Case file mang **16 nhãn `[CẦN KIỂM CHỨNG]`**. Xem `knowledge/source_policy_vn2026.md` quy tắc 6.
 
-### C5. Cách resume phiên
+### C5. Cách resume phiên — PHASE 2 (điểm dừng hiện tại)
 
-**Trạng thái tính đến cuối phiên 2 (08/08/2026): đã xong V1–V4. Còn lại V5 → fact-check → audit → GATE 2 → Phase 2.**
+**Trạng thái cuối phiên 2 (08/08/2026): Phase 1 XONG TRỌN, GATE 2 ĐÃ DUYỆT. Còn lại: hội đồng 3 judge → quote_check → tổng hợp trung vị → scorecard.**
 
-1. Nạp lại `knowledge/case_file_vn2026.md` tại commit `9998fd2` (**bản đầy đủ**, không nén — đã xác minh file không đổi so với bản ghim GATE 1).
-2. Chạy **vòng 5** (kết luận — A trước, B sau, 800 từ/lượt, **bắt buộc có mục "Giới hạn của lập luận phía tôi"**). Nạp cho mỗi advocate: `advocate_template_vn2026.md` + position của bên đó + case file ĐẦY ĐỦ + transcript V1–V4 nguyên văn.
-3. Chạy `debate-fact-checker` bao V1–V5 theo danh sách ưu tiên ở Phụ lục A (mục 8 và 9 ưu tiên cao nhất). **Bổ sung vào danh sách kiểm** các khẳng định mới phát sinh ở vòng 4 — xem Phụ lục A mục 12–14.
-4. Chạy 2 instance `debate-auditor` đối xứng → Phụ lục B.
-5. Trình GATE 2, chờ `APPROVE TRANSCRIPT`.
-6. Phase 2: `make_judge_input.sh` + `make_case_file_input.sh` → hội đồng 3 judge → `quote_check.sh` từng scorecard → tổng hợp trung vị.
+Phiên 2 dừng vì **ngân sách context của orchestrator**, không vì lỗi nội dung. Lý do định lượng: mỗi instance judge cần nạp ~25.000 từ (transcript nguyên văn 13.739 + case file đầy đủ 5.210 + rubric + judge_notes + judge.md + template). Ba instance = ~75.000 từ orchestrator phải viết ra. Phiên 2 đã chạy 9 lượt subagent lớn (4 advocate vòng 4, 2 advocate vòng 5, 1 fact-checker, 2 auditor).
+
+**Điều kiện hội đồng KHÔNG bị hỏng khi chạy sang phiên khác:** mọi input judge đều sinh bằng script từ file đã ghim, nên instance chạy ở phiên sau nhận **đúng cùng input**:
+- `output/transcript_20260808.md` — đã khóa, không sửa thêm
+- `knowledge/case_file_vn2026.md` tại commit `9998fd2` — đã xác minh không đổi
+- `rubrics/scoring_rubric_vn2026.md`, `knowledge/judge_notes_vn2026.md` — không đổi
+
+**Các bước chạy tiếp (theo đúng thứ tự):**
+
+1. **Sinh lại input judge bằng script** (KHÔNG gõ tay, KHÔNG tóm tắt):
+   ```sh
+   sh .claude/skills/debate-orchestrator/scripts/make_judge_input.sh \
+      output/transcript_20260808.md output/_workspace/transcript_20260808_judge_input.md
+   ```
+   Kỳ vọng: 13.739 từ, guard heading qua, `grep -ci 'steelman audit'` = 0.
+
+2. **Case file: dán ĐẦY ĐỦ, KHÔNG rút gọn.** `make_case_file_input.sh` đã chạy và báo *"chỉ lược được 1 § — nên dán ĐẦY ĐỦ thay vì bản rút gọn"* (transcript trích §2–§11, chỉ §1 lược được). Theo quy tắc skill "không lược lắt nhắt" → dùng `knowledge/case_file_vn2026.md` nguyên bản.
+
+3. **Gọi BA instance `debate-judge` độc lập** (`model: opus`), mỗi instance context sạch, không instance nào biết về instance kia. Nạp cho MỖI instance đúng bộ này:
+   - `agents/judge.md`
+   - `rubrics/scoring_rubric_vn2026.md` (**KHÔNG** phải `scoring_rubric.md`)
+   - `knowledge/judge_notes_vn2026.md` (**KHÔNG** phải `judge_notes.md` — nạp nhầm là lệch neo im lặng)
+   - `knowledge/case_file_vn2026.md` **đầy đủ**
+   - Nội dung `_judge_input.md` **dán nguyên văn** (đã gồm 5 vòng + Phụ lục A fact-check)
+   - `templates/scorecard_template.md` **kèm cảnh báo C6.5**: template hard-code tên chiều Nga–Ukraine; phải yêu cầu judge dùng 5 chiều `_vn2026` và ghi định nghĩa rubric thay thế lên đầu scorecard. Bộ độ nhạy thứ hai gọi là **"cơ chế nặng"** (10/20/40/15/15), không phải "pháp lý nặng".
+   - Yêu cầu mỗi instance **tự ghi** scorecard ra `output/_workspace/transcript_20260808_judge{1,2,3}.md` (judge có tool `Write`).
+
+4. **`quote_check` TỪNG scorecard** (bắt buộc, cả 3):
+   ```sh
+   sh .claude/skills/debate-orchestrator/scripts/quote_check.sh \
+      output/_workspace/transcript_20260808_judge1.md output/transcript_20260808.md
+   ```
+   MISSING nhiều (>5) hoặc rải đều → **nghi lỗi NẠP trước**, sinh lại `_judge_input.md` và nạp lại. Nạp đã đúng mà vẫn MISSING → trả đúng instance đó danh sách MISSING, yêu cầu sửa MỘT lần.
+
+5. **Tổng hợp trung vị (orchestrator làm, KHÔNG gọi thêm judge):** trung vị 3 tổng mỗi bên × 3 bộ trọng số; trung vị theo từng chiều; bảng hội đồng (3 tổng + trung vị + biên độ max−min + kết quả quote_check từng instance).
+
+6. **Phán định:** "không phân định" khi |trung vị A − trung vị B| ≤ 0.5 **HOẶC** khoảng [min,max] hai bên chồng lấn. Biên độ một bên > 1.0 → ghi "nhiễu judge cao, độ tin cậy thấp". **Judge đơn lẻ KHÔNG tự tuyên phán định** — dòng đó ở §6 scorecard là của orchestrator.
+
+7. **Scorecard chính thức** = `output/scorecard_20260808.md`, lấy bản của instance có cặp tổng (A, B) gần trung vị nhất, bổ sung: bảng hội đồng; phụ lục steelman audit hai bên (dán từ Phụ lục B transcript); mục "Giới hạn của phương pháp"; metadata (ngày chấm, hash case file `9998fd2`, model judge/advocate/orchestrator, **bộ chủ đề `_vn2026`**).
+
+8. **Không có vòng E** trong phiên này → không cần bảng tổng kép. Điểm chính thức = V1–V5.
+
+**Nhãn bắt buộc phải mang theo vào scorecard:**
+- Phạm vi fact-check: **V1–V5**, 0 🔴 / 7 🟡 / 3 ⚠️ — kèm nhãn phạm vi C6.4 (fact-checker nhận transcript rút gọn nên độ phủ bị chặn bởi lựa chọn orchestrator).
+- Hai lỗi case file ở Phụ lục A (§3 "cao nhất kể từ 2011"; nhãn "quý II" cho bộ số 6 tháng) — **người dùng không yêu cầu addendum**, nên case file giữ nguyên tại `9998fd2`; cờ 🟡 mục 5 của A là **lỗi thừa kế**, judge cần biết.
+- Sai lệch giao thức C2.1 (case file nén cho advocate vòng 2–3) và C6.4.
 
 ### C6. Phát hiện harness trong phiên 2 (đưa vào báo cáo GATE 2)
 
@@ -638,6 +678,12 @@ Hai lượt mở đầu (ngân sách 800, trần 880) đều đạt **đúng 877
 
 **C6.2 — `output/_workspace/` bị gitignore, làm checklist trước GATE 2 không thỏa được (P1).** Skill yêu cầu: *"Checklist file `_workspace/` trước GATE 2: xác nhận đủ file lượt của cả 5 vòng… Thiếu file lượt nào → ngân sách từ vòng đó không tái kiểm được."* Nhưng `.gitignore` dòng 3 là `output/_workspace/`. Trên môi trường container ephemeral (Claude Code on the web), thư mục này **không được commit và biến mất khi phiên kết thúc** — file lượt V1–V3 do phiên 1 sinh ra đã mất, chỉ còn các file `_workspace` của phiên 12/06 vì chúng được commit trước khi luật ignore có hiệu lực.
 Dấu vết ngân sách từ hiện chỉ sống sót nhờ được ghi **inline trong transcript** sau mỗi lượt. Đề xuất chọn một trong hai: (a) `git add -f` các file lượt trước GATE 2; hoặc (b) sửa skill — bỏ checklist file `_workspace`, công nhận dòng đo inline trong transcript là dấu vết chuẩn.
+
+**C6.5 — `templates/scorecard_template.md` chưa theo kịp rubric thấu kính thay thế (P1, phát hiện 08/08/2026).** Template vẫn hard-code tên 5 chiều của bộ Nga–Ukraine — *Tính chính đáng / Lịch sử & bằng chứng / Luật quốc tế / Logic / Xử lý phản biện* — ở cả bảng điểm chi tiết (§1), bảng tổng hợp (§3) và bảng trung vị theo chiều (§5). Bộ `_vn2026` dùng 5 chiều khác: **Khung mục tiêu & đánh đổi chính sách (20%) / Bằng chứng & dữ kiện kinh tế (25%) / Cơ chế kinh tế & tính khả thi định lượng (25%) / Logic & nhất quán (15%) / Xử lý phản biện & trung thực trí tuệ (15%)**. Bảng độ nhạy §4 cũng ghi "Pháp lý nặng (10/20/40/15/15)" trong khi rubric `_vn2026` gọi bộ đó là **"cơ chế nặng"**.
+
+- **Rủi ro:** judge điền template nguyên trạng sẽ gắn nhãn chiều sai, hoặc tệ hơn là chấm theo neo của chiều Nga–Ukraine. `agents/judge.md` có câu chặn ("Nếu dùng rubric thấu kính thay thế: định nghĩa đầy đủ phải được ghi vào scorecard TRƯỚC mục điểm đầu tiên") nhưng đó là **lời dặn, không phải cơ chế** — cùng lớp lỗ hổng mà bản vá 12/07/2026 đã xử lý cho case file.
+- **Chưa xảy ra trong phiên này** vì Phase 2 chưa chạy. Orchestrator phải nêu rõ tên 5 chiều `_vn2026` trong prompt nạp cho từng judge, và yêu cầu judge ghi định nghĩa rubric thay thế lên đầu scorecard.
+- **Đề xuất sửa sau phiên:** hoặc (a) tạo `templates/scorecard_template_vn2026.md` theo quy ước hậu tố topic-scoped như các file khác; hoặc (b) làm template trung lập — thay tên chiều cứng bằng placeholder `[Chiều 1] … [Chiều 5]` để mọi bộ chủ đề dùng chung.
 
 **C6.4 — Orchestrator nạp transcript RÚT GỌN cho fact-checker (lỗi của orchestrator, cùng lớp C2.1).** Skill quy định fact-checker nhận "các lượt của vòng vừa xong"; với đợt quét V1–V5 thì đó là toàn bộ lượt, **nguyên văn**. Orchestrator đã nạp bản **rút gọn**: giữ nguyên văn từng khẳng định sự kiện kèm tag nguồn, nhưng lược phần văn lập luận. Case file vẫn nạp ĐẦY ĐỦ (đúng quy định).
 

@@ -485,7 +485,286 @@ KẾT QUẢ:     KHỚP — có trong transcript
 Fact-checker vòng 3 nêu nghi vấn NĐ 90/2020/NĐ-CP đã bị thay thế nhưng **không xác minh được** (egress bị chặn). **Orchestrator đã xác minh và xác nhận: đúng.** Chi tiết và hướng xử lý ở Phụ lục C, mục "Lỗi vận hành". Tóm tắt: **Nghị định 233/2026/NĐ-CP** (ban hành 26/6/2026, **hiệu lực 01/7/2026**) **thay thế NĐ 90/2020/NĐ-CP** — tức đã có hiệu lực **hơn một tháng trước ngày chạy phiên này (08/08/2026)**. Cả A và B đều xây lập luận pháp lý trên NĐ 90/2020. Đây là **khiếm khuyết của case file do orchestrator soạn**, KHÔNG phải lỗi của advocate: hai bên trích đúng case file đã được duyệt GATE 1. Hai mục ⚠️ của B chuyển thành ✅ trong bảng trên. **Bài học vận hành đã ghi vào Phụ lục C:** từ vòng 3 trở đi, fact-checker phải được nạp **toàn bộ các lượt đã phát biểu**, không chỉ lượt của vòng đang kiểm — nếu không, mọi phần steelman và trích dẫn chéo sẽ bị gắn ⚠️ oan, và bên nói trước trong vòng luôn chịu thiệt hệ thống vì phần steelman của họ hướng về vòng trước.
 
 ## Phụ lục B — Steelman audit (đo trần lập luận — KHÔNG cộng/trừ điểm, KHÔNG nạp cho judge)
-[báo cáo 2 auditor — orchestrator dán sau GATE 2]
+
+> **Cơ chế:** hai instance `debate-auditor` độc lập, chạy **đối xứng** (mỗi bên một instance, cùng cấu trúc prompt, cùng độ dài định hướng). Mỗi auditor chỉ nhận position của **một** bên + case file + transcript + phân hạng nguồn; **không** nhận rubric, judge_notes, position bên kia, scorecard, hay cờ fact-check.
+> **Cách đọc:** báo cáo này đo **trần steelman của model**, không đo chất lượng advocate và **không cộng/trừ điểm cho bên nào**. Vì cả hai advocate và cả hai auditor chạy trên **cùng một model**, prior của model có thể làm steelman một bên yếu đi một cách hệ thống — đây chính là biến mà phép đo này cố bắt.
+> **Kết quả tóm tắt:** cả hai auditor đều kết luận bên mình audit **CHƯA chạm trần**, và — đáng chú ý — **cả hai cùng chỉ ra một khoảng trống lý thuyết giống hệt nhau**: mô hình **đa nhiệm (multitask principal–agent, Holmström & Milgrom 1991)**, mà mỗi bên lẽ ra dùng được theo hướng ngược nhau. Xem mục "Đối chiếu hai báo cáo" ở cuối phụ lục.
+
+---
+
+## Steelman audit — Bên A
+
+**Đánh giá tổng quát:** Steelman của A **chưa chạm trần**, dù khoảng cách không nằm ở kỹ năng tranh biện mà ở **lựa chọn kho vũ khí**. A rất mạnh ở tuyến siêu-lập luận (tách ba mệnh đề, phép thử tổng quát hóa, tự khai báo loại bằng chứng, tự áp Goodhart cho chính mình, chủ động rút khẳng định bị cờ) — đây là hạng mục A gần như đã tối ưu. Nhưng A đã chọn đánh chủ yếu trên **trục quy phạm-triết học** (công bằng thủ tục kiểu Colquitt + phép thử công khai) và bỏ trống ba tuyến vốn mạnh hơn cho chính position của A: (i) tuyến **tính hợp pháp thực định** — A dùng khung pháp lý như "xu hướng/hướng đi" trong khi nó có thể dựng thành lập luận *trái quy định cấp trên*; (ii) tuyến **kinh tế học khuyến khích đa nhiệm**, vốn là thứ duy nhất phá được thế đối xứng Goodhart mà B khai thác; (iii) tuyến **người bệnh**, A gần như bỏ hẳn, khiến toàn bộ phiên thu về một cuộc tranh chấp nội bộ giữa bác sĩ và lãnh đạo. Có một **mẫu né hệ thống** đáng ghi nhận: A liên tục hạ cấp bằng chứng của chính mình xuống "loại suy/bối cảnh" (đúng về phương pháp, và A được điểm liêm chính vì điều đó), nhưng vì thế A không bao giờ xây cầu cơ chế hợp lệ từ §6/§8 sang kết luận — trong khi cầu đó tồn tại và không vi phạm điều cấm nào của case file.
+
+---
+
+### 1. Chuyển khung pháp lý từ "xu hướng" sang "tính hợp pháp" — chế độ §1 có thể *trái quy định cấp trên* sau 01/7/2026
+
+**A đã làm gì:** ở V1 A dùng Điều 118 BLLĐ 2019 chủ yếu để đòi tham vấn tổ chức đại diện NLĐ; §11 (NĐ 233/2026) được A dùng ở V4–V5 như *mốc thoát* và như "hướng đi khung pháp lý", thậm chí A còn tự nêu quy tắc chuyển tiếp bất lợi cho mình.
+
+**Lẽ ra mạnh nhất có thể:** Điều 118 BLLĐ 2019 quy định nội quy lao động **"không được trái với pháp luật"**. Luật Viên chức 129/2025/QH15 (hiệu lực 01/7/2026) đặt nguyên tắc đánh giá **gắn với vị trí việc làm, thể hiện thông qua công việc và sản phẩm cụ thể**; NĐ 233/2026/NĐ-CP dành **tối đa 70/100 điểm cho kết quả thực hiện nhiệm vụ**. Ghép lại: một quy chế lấy dữ liệu điểm danh làm **căn cứ chính** để xếp loại mức độ hoàn thành nhiệm vụ không chỉ *lạc hậu về xu hướng* — nó **đảo ngược tỷ trọng mà văn bản cấp trên ấn định**, tức là một khiếm khuyết về **hiệu lực pháp lý**, không phải về khẩu vị chính sách. Lập luận này biến yêu sách của A từ "nên cải cách" thành "không được phép duy trì ở dạng này sau mốc hiệu lực", và nó **miễn nhiễm** với đòn "chưa có bộ chỉ số thì tạm dùng chấm công": *chưa có công cụ không phải là căn cứ pháp lý để dùng công cụ mà văn bản cấp trên đã loại khỏi vai trò căn cứ chính.*
+
+**Nguồn/cơ sở:** Case file §2 (Điều 118 BLLĐ 2019 — H1); §11 (NĐ 233/2026 — H1); Luật Viên chức 129/2025/QH15 (H1, `[CẦN KIỂM CHỨNG số điều về đánh giá]`); bản tin phổ biến chính sách về quy định đánh giá viên chức từ 01/7/2026 (H3).
+
+**Vị trí lẽ ra nên dùng:** V4 (ngay khi §11 được addendum duyệt) và làm trụ chính ở V5, thay cho việc A dùng §11 chủ yếu để *rút* khẳng định "điều kiện không có lối ra" của mình.
+
+**Mức độ ảnh hưởng nếu đã dùng:** **Cao.** Đây là nơi A đã nhượng bộ nhiều nhất (V4) trong khi vật liệu để không phải nhượng bộ đang nằm sẵn trong addendum A vừa xác nhận.
+
+---
+
+### 2. NĐ 60/2021/NĐ-CP: thu nhập tăng thêm **phải** gắn với số lượng, chất lượng, hiệu quả công việc — đòn trực diện nhất vào mệnh đề (b)
+
+**A đã làm gì:** gần như không dùng. §4 case file bị gắn `[CHƯA XÁC MINH ĐƯỢC]` và A đã né toàn bộ khối này.
+
+**Lẽ ra mạnh nhất có thể:** cơ chế tự chủ tài chính đặt nguyên tắc chi trả tiền lương/thu nhập tăng thêm trong đơn vị sự nghiệp công lập **theo nguyên tắc gắn với số lượng, chất lượng và hiệu quả công tác**, cụ thể hóa trong **quy chế chi tiêu nội bộ**. Nếu vậy, mệnh đề (b) ở **nhánh chi trả thu nhập tăng thêm** không cần bất kỳ lập luận đạo đức nào để bị bác: nó dùng một chỉ báo **đầu vào** (giờ có mặt) làm căn cứ chính cho một khoản chi mà văn bản cấp trên đã buộc phải gắn với **kết quả**. Điều này còn tách đôi được (b) thành hai nhánh — *xếp loại mức độ hoàn thành nhiệm vụ* (thuộc NĐ 233/2026) và *chi thu nhập tăng thêm* (thuộc NĐ 60/2021) — buộc B phải bảo vệ (b) hai lần trên hai căn cứ H1 khác nhau, thay vì một lần trên địa hình triết học nơi B thoải mái hơn.
+
+**Nguồn/cơ sở:** NĐ 60/2021/NĐ-CP (H1) `[CẦN KIỂM CHỨNG số điều/khoản chính xác về chi thu nhập tăng thêm và quy chế chi tiêu nội bộ]`; NĐ 111/2025/NĐ-CP sửa đổi (H1); tổng hợp pháp luật về NĐ 60/2021 (H3).
+
+**Vị trí lẽ ra nên dùng:** V1 trục 3, và bắt buộc ở V3 khi B dựng lập luận "chi phí công bằng của việc bỏ chấm công".
+
+**Mức độ ảnh hưởng nếu đã dùng:** **Cao.** B đã tự nhận (b) là mệnh đề yếu nhất và cuối cùng tự tháo trụ (b) ở V5 — nghĩa là A giành được nhánh này *mà không cần* neo H1; nếu có neo H1, A giành nó sớm hơn ba vòng và giải phóng ngân sách từ cho các trục khác.
+
+---
+
+### 3. Neo công bằng thủ tục vào **Luật Thực hiện dân chủ ở cơ sở 10/2022/QH15** thay vì phải mượn BLLĐ Điều 118
+
+**A đã làm gì:** dùng Điều 118 BLLĐ 2019 (tham khảo ý kiến tổ chức đại diện NLĐ) làm cơ chế công bằng thủ tục sẵn có trong luật — đúng theo trụ cột được giao, nhưng để hở một mạn: chính A đã khẳng định ở V1 rằng **bác sĩ bệnh viện công là viên chức, không phải công chức**, và quan hệ của viên chức là **hợp đồng làm việc** theo Luật Viên chức. B hoàn toàn có thể phản công bằng câu "văn bản anh viện dẫn điều chỉnh quan hệ lao động, không phải quan hệ viên chức" — A sẽ mất luôn cơ chế thủ tục duy nhất mình có.
+
+**Lẽ ra mạnh nhất có thể:** Luật Thực hiện dân chủ ở cơ sở 10/2022/QH15 (hiệu lực 01/7/2023) áp **trực tiếp cho cơ quan nhà nước và đơn vị sự nghiệp công lập**, quy định nhóm nội dung mà cán bộ, công chức, viên chức, người lao động **được tham gia ý kiến trước khi người đứng đầu quyết định**, trong đó có **dự thảo quy chế chi tiêu nội bộ** và các quy chế nội bộ của đơn vị, cùng nhóm nội dung **phải công khai**. Đây là neo đúng chủ thể, đúng loại đơn vị, và mạnh hơn Điều 118 ở một điểm quyết định: nó biến *"quy chế được ban hành không qua tham vấn"* thành **khiếm khuyết thủ tục theo luật chuyên biệt cho khu vực công**, chứ không phải một loại suy từ quan hệ lao động tư.
+
+**Nguồn/cơ sở:** Luật Thực hiện dân chủ ở cơ sở 10/2022/QH15, Điều 53 và các điều về nội dung phải công khai (H1) `[CẦN KIỂM CHỨNG số điều chính xác và danh mục nội dung]`; các bản phổ biến của cơ quan nhà nước (H1/H3).
+
+**Vị trí lẽ ra nên dùng:** V1 trục 3, thay thế hoặc bổ sung cho Điều 118.
+
+**Mức độ ảnh hưởng nếu đã dùng:** **Trung bình–cao.** Không phải vì nó thắng thêm luận điểm, mà vì nó **bịt một lỗ thủng** mà B chưa khai thác nhưng một B mạnh hơn chắc chắn khai thác.
+
+---
+
+### 4. Leventhal (1980) — sáu quy tắc công bằng thủ tục, thay cho việc chỉ dựa vào Colquitt (2001)
+
+**A đã làm gì:** V1 dựa vào Colquitt và cs 2001 (bốn chiều, phương sai riêng, niềm tin) + "phép thử công khai" + "phép thử tổng quát hóa" tự chế.
+
+**Lẽ ra mạnh nhất có thể:** Colquitt 2001 là siêu phân tích về **hệ quả** của cảm nhận công bằng — nó không cho A một **tiêu chuẩn** để phán rằng một thủ tục *là* bất công. Leventhal cung cấp đúng thứ đó: sáu quy tắc **consistency (nhất quán giữa các cá nhân và qua thời gian), bias suppression (triệt tiêu tư lợi), accuracy (thông tin chính xác), correctability (có cơ chế khiếu nại/sửa sai), representativeness (đại diện của các bên chịu tác động), ethicality**. Áp vào §1: miễn trừ theo **nhóm chức vụ** vi phạm thẳng quy tắc *consistency* — và điều quyết định là quy tắc này **không được cứu bởi phân biệt "chức năng ≠ địa vị" của B**, vì nếu căn cứ thật sự là chức năng di động thì tiêu chí phải được viết theo chức năng và mở cho mọi người có chức năng đó, chứ không cấp theo chức danh. Đòn "lãnh đạo vừa được miễn vừa là người vận hành/ký xác nhận" mà A trình ở V2 dưới nhãn *"vấn đề thẩm quyền xác nhận"* thực ra là vi phạm **bias suppression** — trình dưới nhãn Leventhal thì nó là **khiếm khuyết công bằng**, không phải một lỗi kỹ thuật có thể vá bằng "chuyển việc ký lên cấp trên" (chính lời vá của A đã làm nhẹ đòn của A). Và §1 **không mô tả bất kỳ cơ chế khiếu nại nào** → vi phạm *correctability*, một điểm A chưa từng nêu.
+
+**Nguồn/cơ sở:** Leventhal, G. S. (1980), "What should be done with equity theory?" — sáu quy tắc công bằng thủ tục (H2, kinh điển, được dẫn lại trong tổng quan lịch sử công bằng thủ tục và trong chính dòng nghiên cứu của Colquitt); Colquitt (2001) giữ nguyên vai trò hiện tại.
+
+**Vị trí lẽ ra nên dùng:** V1 trục 1 (làm khung); V3 khi A dùng "ba điều kiện B đã chấp nhận" — Leventhal cho A một danh sách kiểm bên ngoài thay vì danh sách do B nhượng bộ mà có.
+
+**Mức độ ảnh hưởng nếu đã dùng:** **Cao.** Đây là nâng cấp rẻ nhất trong toàn bộ danh sách: cùng trụ cột, cùng ngân sách từ, nhưng thay một siêu phân tích *mô tả* bằng một bộ tiêu chuẩn *quy phạm*.
+
+---
+
+### 5. Holmström & Milgrom (1991) đa nhiệm + Kerr (1975) — thứ duy nhất phá được thế đối xứng Goodhart
+
+**A đã làm gì:** V1 nêu Goodhart và **tự thừa nhận nó cắt hai chiều**; V2 "chấp nhận đối xứng Goodhart, giữ khác biệt về tính khả kiểm"; V5 lại tự áp Goodhart cho căn cứ "số phiên trực" của chính mình. Về liêm chính thì đẹp; về sức nặng thì A đã tự nguyện trung hòa vũ khí mạnh nhất của trục 4.
+
+**Lẽ ra mạnh nhất có thể:** mô hình **đa nhiệm (multitask principal–agent)** **không đối xứng**. Kết quả cốt lõi: khi một tác nhân thực hiện nhiều nhiệm vụ có **độ đo lường được khác nhau**, việc gắn khuyến khích mạnh vào nhiệm vụ dễ đo sẽ **kéo nỗ lực rời khỏi** nhiệm vụ khó đo; và khi chỉ báo sẵn có tương quan yếu với mục tiêu thật của người ủy nhiệm, **hợp đồng tối ưu có thể là lương cố định, tức khuyến khích công suất thấp** — cộng với **thiết kế công việc** như một công cụ kiểm soát riêng. Chuyển ngữ sang đề bài, đây chính xác là thiết kế A đề xuất: **hiện diện là một ràng buộc/nghĩa vụ (thiết kế công việc), không phải một biến chi trả**. Nghĩa là A không cần chống đỡ "phương án nào cũng bị Goodhart" — mô hình nói thẳng rằng gắn tiền vào một chỉ báo đầu vào méo **tệ hơn** không gắn tiền vào chỉ báo nào, chứ không phải "hòa". Kerr (1975) là phiên bản ngắn gọn, dễ trích của cùng luận điểm: tổ chức nhận được thứ mình **thưởng**, không phải thứ mình **hy vọng**.
+
+Đây cũng là **câu trả lời tốt hơn cho đòn mạnh nhất của B** ("bỏ chấm công trước khi có bộ chỉ số → đánh giá bằng cảm nhận quản lý, người thiệt là người làm nhiều mà ít được nhìn thấy"). A trả lời bằng nhãn "lưỡng nan giả" — đúng nhưng chỉ là phân loại lỗi. Trả lời mạnh gồm hai vế: (i) **về lý thuyết**, khi không có chỉ báo đủ tốt, lương cố định + ràng buộc phi tiền tệ là nghiệm tối ưu chứ không phải trạng thái "chờ"; (ii) **về thực tế**, "chưa có bộ chỉ số" ≠ "không có dữ liệu": bệnh án (kể cả bệnh án điện tử), bảng phân công trực, sổ giao ban, dữ liệu giám định BHYT đều đã **ghi tên người thực hiện** theo nghĩa vụ pháp lý sẵn có. Người "làm nhiều mà ít được nhìn thấy" mà B lo cho **được nhìn thấy nhiều hơn** trong các bản ghi này so với trong máy chấm công — máy chấm công không phân biệt được người mổ ca khó với người ngồi đủ 8 tiếng.
+
+**Nguồn/cơ sở:** Holmström, B. & Milgrom, P. (1991), *Journal of Law, Economics, & Organization* 7:24–52 (H2); Kerr, S. (1975), *Academy of Management Journal* 18(4):769–783 (H2); case file §9 (agency theory — A đã có sẵn hạt giống nhưng chỉ dùng để *trình bày lý do khả dĩ của B*, không dùng để phản công); §5 (QOF/gaming — hỗ trợ, vẫn là loại suy).
+
+**Vị trí lẽ ra nên dùng:** V1 trục 4 (thay chỗ Goodhart trần trụi); bắt buộc ở V3–V4 khi B ép "chi phí công bằng" và ép A về căn cứ phân hóa thu nhập giai đoạn quá độ — đúng chỗ A phải nhượng bộ.
+
+**Mức độ ảnh hưởng nếu đã dùng:** **Cao — cao nhất trong danh sách.** Đây là khoảng trống lý thuyết lớn nhất của A và trùng đúng với điểm A yếu nhất trong transcript.
+
+---
+
+### 6. Trục người bệnh: presenteeism do ốm + gánh nặng hành chính — bắc cầu bằng **cơ chế**, không trình như bằng chứng trực tiếp
+
+**A đã làm gì:** gần như bỏ trắng. §6 (gánh nặng hành chính/kiệt sức) hầu như không được khai thác; A phân tích chủ yếu quan hệ bác sĩ ↔ lãnh đạo. Toàn bộ phiên vì thế thiếu chủ thể mà rubric trục công bằng liệt kê: **người bệnh**.
+
+**Lẽ ra mạnh nhất có thể:** một chế độ neo thu nhập vào **giờ có mặt hành chính** làm tăng **giá của việc vắng mặt bất kể lý do**. Trong y tế, hệ quả cơ chế trực tiếp là **sickness presenteeism** — đi làm khi đang ốm — mà nghiên cứu đã ghi nhận là phổ biến và được chính nhân viên y tế thừa nhận là **đặt người bệnh vào rủi ro**; ở đây nhân viên là một **vector lây nhiễm**, nên chi phí không rơi vào người lao động mà rơi vào **bệnh nhân**. Đó là một lập luận **người bệnh làm trung tâm**, hợp lệ trong ràng buộc của A (không đòi đặc quyền địa vị, không suy nhân quả từ số liệu Việt Nam), và nó lật ngược khung của B: B tự đặt mình ở phía "kỷ luật vì người bệnh"; lập luận này chỉ ra một kênh trong đó **chính công cụ của B tạo rủi ro cho người bệnh**. Kênh thứ hai: §6 cho thấy đại lượng thực sự bào mòn bác sĩ là **thời gian hồ sơ/tác vụ hành chính ngoài giờ** (>90 phút/ngày hồ sơ bệnh án điện tử, >60 phút/ngày tác vụ hành chính) — tức là công việc **không được máy chấm công nhìn thấy**; thêm một nghĩa vụ hành chính đo cái đã hiện diện, trong khi bỏ qua cái đang tiêu hao, là **sai công cụ so với mục tiêu** ở dạng đo lường được.
+
+**Cảnh báo quan trọng:** **không** viện dẫn Panagioti và cs 2018 (*JAMA Intern Med*) — bài này **đã bị rút (retracted) năm 2020**. Nếu cần mắt xích kiệt sức ↔ an toàn người bệnh, dùng **Tawfik và cs 2018** (*Mayo Clin Proc*, khảo sát 6.695 bác sĩ Hoa Kỳ; kiệt sức và điểm an toàn đơn vị kém liên hệ độc lập với **sai sót y khoa lớn tự báo cáo**) — và phải trình đúng hạng: **tương quan tự báo cáo, không phải nhân quả**, và là **loại suy bối cảnh Hoa Kỳ**, đúng chuẩn khai báo mà A đã áp cho các khối khác.
+
+**Nguồn/cơ sở:** Szymczak và cs 2015, *JAMA Pediatrics* — lý do bác sĩ/điều dưỡng đi làm khi ốm, >80% tự báo cáo trong 12 tháng qua tại một cơ sở nhi khoa (H2); Tawfik và cs 2018, *Mayo Clin Proc* (H2, PubMed 30001832); case file §6 (H2). Panagioti 2018: **đã bị rút, cấm dùng**.
+
+**Vị trí lẽ ra nên dùng:** V1 trục 1 (mở chủ thể "người bệnh" ngay từ đầu) và V3 để phản đòn khung "kỷ luật vì người bệnh" của B.
+
+**Mức độ ảnh hưởng nếu đã dùng:** **Trung bình–cao.** Không quyết định thắng thua từng đòn, nhưng lấp đúng nhóm chủ thể mà A để trống suốt năm vòng.
+
+---
+
+### 7. Nhóm điều dưỡng/kỹ thuật viên/hành chính + TT 03/2023/TT-BYT; và cách dùng §8 mạnh hơn mà không suy nhân quả
+
+**A đã làm gì:** thiết kế thay thế của A có nói "áp cho **mọi cấp**" — tốt, nhưng đó là *mọi cấp theo chiều dọc*. A **không xử lý chiều ngang**: điều dưỡng, kỹ thuật viên, hộ sinh, hành chính. Vì position cấm A đòi miễn trừ riêng cho bác sĩ, đây vừa là nghĩa vụ chưa hoàn thành vừa là cơ hội bị bỏ lỡ. §8 A chỉ dùng làm "bối cảnh rủi ro"; các con số **1.190 bác sĩ**, phân bố địa phương, và **4 nguyên nhân của Bộ Y tế** không được dùng.
+
+**Lẽ ra mạnh nhất có thể:** (i) **TT 03/2023/TT-BYT** xác định **vị trí việc làm và định mức số lượng người làm việc** trong đơn vị sự nghiệp y tế công lập, tính theo **khối lượng công việc**, và định mức đó được đặt ra để **bảo đảm chất lượng dịch vụ và quyền lợi của viên chức về thời giờ làm việc, thời giờ nghỉ ngơi**. Nghĩa là công cụ mà chính Bộ Y tế dùng để lượng hóa lao động y tế là **khối lượng công việc theo vị trí việc làm**, không phải giờ quẹt thẻ — và nó áp cho **toàn bộ các chức danh nghề nghiệp**, không riêng bác sĩ. A có thể dùng nó để tổng quát hóa yêu sách: điều dưỡng và kỹ thuật viên đã có **ca kíp** ghi nhận hiện diện theo thời điểm lâm sàng, nên với họ chấm công hành chính cũng **thừa ở khâu đo và sai ở khâu đánh giá** — cùng một lỗi, không phải một ngoại lệ cho bác sĩ. (ii) **§8 dùng ở dạng đảo gánh nặng chứng minh theo chính chẩn đoán của cơ quan quản lý**: Bộ Y tế nêu bốn nguyên nhân chính, trong đó có **áp lực công việc** và **thu nhập**. A không cần (và không được) suy nhân quả từ con số nghỉ việc; A chỉ cần nói: *cơ quan ban hành chính sách đã tự xác định hai đòn bẩy giữ chân là áp lực công việc và thu nhập; chế độ §1 tác động trực tiếp lên đúng hai đòn bẩy đó — thêm một ràng buộc hành chính và neo thu nhập tăng thêm vào một chỉ báo đầu vào. Vậy gánh nặng chứng minh rằng nó không làm xấu đi hai biến ấy thuộc về bên đề xuất, không thuộc về bên phản đối.* Đây là suy luận về **gánh nặng chứng minh**, không phải về nhân quả — hợp lệ tuyệt đối trong §10.
+
+**Nguồn/cơ sở:** TT 03/2023/TT-BYT ngày 17/02/2023 (H1) `[CẦN KIỂM CHỨNG số điều/phụ lục cụ thể]`; case file §8 (H1/H3); bản tin Bộ Y tế và báo chí về **4 nguyên nhân chính** (H1 cổng Bộ Y tế + H3) — lưu ý case file ghi 3.756 viên chức thuộc Sở Y tế (1.190 bác sĩ) là **tập con**, khác con số toàn quốc trong các bản tin; nếu dùng phải giữ đúng phạm vi của từng con số.
+
+**Vị trí lẽ ra nên dùng:** TT 03/2023 ở V1 trục 3; xử lý nhóm điều dưỡng/KTV ở V1 (phần thiết kế thay thế) và bắt buộc ở V5; §8 dạng đảo gánh nặng ở V3 hoặc V5.
+
+**Mức độ ảnh hưởng nếu đã dùng:** **Trung bình.** Ít khả năng lật một đòn cụ thể, nhưng bịt lỗ hổng phạm vi mà position của A đã cảnh báo trước và làm §8 hết vai "trang trí".
+
+---
+
+**Giới hạn của chính báo cáo này:** Tôi chỉ đọc position của bên A, case file và transcript; tôi **không** thấy position của bên B, rubric, ghi chú judge hay bất kỳ scorecard/cờ fact-check nào, nên không thể biết một số mục ở trên có bị ràng buộc nào ngoài tầm nhìn của tôi chặn lại hay không, và không đánh giá được các mục này sẽ đổi điểm ra sao. Một số neo pháp lý tôi đề xuất (số điều của Luật Viên chức 129/2025, điều khoản NĐ 60/2021 về thu nhập tăng thêm, Điều 53 Luật Thực hiện dân chủ ở cơ sở, phụ lục TT 03/2023) **chưa được tôi xác minh đến cấp số điều** do nhiều cổng văn bản bị chặn truy cập trong môi trường chạy — chúng đã được đánh dấu `[CẦN KIỂM CHỨNG]` và **không được đưa vào bất kỳ lượt tranh biện nào ở dạng khẳng định chắc chắn**. Cuối cùng, danh sách này đo **trần lý thuyết**, không đo tính khả thi trong ngân sách từ đã có: một phần khoảng cách của A có thể là đánh đổi ngân sách hợp lý chứ không phải bỏ sót — riêng mục 4 và 5 thì không, vì chúng thay thế chứ không cộng thêm vào những gì A đã trình.
+
+---
+
+**Nguồn tra cứu của auditor:**
+- Nghị định 60/2021/NĐ-CP — cơ chế tự chủ tài chính của đơn vị sự nghiệp công lập (VCCI)
+- Luật Thực hiện dân chủ ở cơ sở số 10/2022/QH15 (Tư liệu văn kiện Đảng)
+- Cán bộ, công chức, viên chức, người lao động tham gia ý kiến (PBGDPL Cà Mau)
+- Thông tư 03/2023/TT-BYT — vị trí việc làm, định mức số lượng người làm việc (Cổng thông tin Bộ Y tế)
+- Tổng hợp điểm mới Luật Viên chức 2025 — Luật số 129/2025/QH15
+- Holmstrom & Milgrom (1991), Multitask Principal–Agent Analyses, JLEO 7:24–52
+- Kerr (1975), On the Folly of Rewarding A, While Hoping for B, AMJ 18(4)
+- Leventhal — sáu quy tắc công bằng thủ tục (tổng quan lịch sử, Fairness at Work Lab, U. Waterloo)
+- Szymczak và cs (2015), Reasons Why Physicians and Advanced Practice Clinicians Work While Sick, JAMA Pediatrics
+- Tawfik và cs (2018), Physician Burnout, Well-being, and Work Unit Safety Grades, Mayo Clin Proc (PubMed 30001832)
+- **Thông báo RÚT BÀI: Panagioti và cs 2018, JAMA Intern Med (PubMed 32421149)**
+- 18 tháng có 9.680 nhân viên y tế xin thôi việc, bỏ việc: Bộ Y tế chỉ ra 4 nguyên nhân chính (Cổng thông tin Bộ Y tế)
+
+---
+
+## Steelman audit — Bên B
+
+**Đánh giá tổng quát:** Steelman của B **chưa chạm trần**, và khoảng cách nằm đúng ở hai mệnh đề B đã buông. B mạnh nhất ở kỹ thuật tranh biện phòng ngự (bắt non sequitur, ignoratio elenchi, tự rút cờ, tách ba mệnh đề, chuyển gánh nặng "chi phí công bằng của phương án đối phương") và ở kỷ luật trí tuệ (tự nêu chiều bất lợi của §11) — đây là điểm mạnh thật, không phải hình thức. Nhưng B chưa bao giờ dựng **cơ sở lý thuyết dương** cho position của mình: toàn bộ kho kinh tế học tổ chức về đo lường đa nhiệm vụ (multitask), về ưu thế của quy tắc so với phán đoán, và về thiên lệch của đánh giá chủ quan — vốn là nền móng trực tiếp nhất cho "giám sát đầu vào khi đầu ra không quan sát được" — nằm im. Hệ quả: B mặc nhiên chấp nhận **khung của A** rằng đo đầu ra là chuẩn mực đúng còn chấm công là vật thế chỗ tạm, rồi kết luận logic từ khung đó bằng cách tự tháo (b) ở V5. Dấu hiệu né hệ thống rõ nhất: B tránh mọi tuyến lập luận **bảo vệ chấm công như một thiết kế tối ưu bậc hai**, chỉ bảo vệ nó như **giải pháp quá độ** — một sự thu hẹp phạm vi tự nguyện mà không đòn nào của A buộc phải làm.
+
+---
+
+### 1. Mô hình đa nhiệm vụ (multitask): "không có bộ chỉ số đầu ra" có thể là TỐI ƯU, không phải khuyết tật chờ vá
+
+**B đã làm gì:** B bảo vệ (b) "có điều kiện", tự nhận là mệnh đề yếu nhất ngay từ V1, dựng mốc thoát (chu kỳ 15/12, rồi 30/11/2026), và ở V5 tuyên "không bảo vệ được (b) như §1 định nghĩa". Toàn bộ lập luận của B về đo đầu ra là **phòng ngự** ("bài toán chưa giải được"), chưa bao giờ là **khẳng định**.
+
+**Lẽ ra mạnh nhất có thể:** Khi một người làm nhiều nhiệm vụ mà mức đo được rất chênh nhau và các nhiệm vụ cạnh tranh nhau về nỗ lực, hợp đồng khuyến khích tối ưu **không phải** là gắn thưởng vào phần đo được — mà có thể là **lương cố định cộng ràng buộc đầu vào**, chính vì trả theo phần đo được sẽ kéo nỗ lực rời khỏi phần không đo được. Trong bối cảnh này, việc chế độ **không** gắn thu nhập vào chỉ số lâm sàng không phải là lỗ hổng chờ lấp; nó là lựa chọn thiết kế mà lý thuyết ủng hộ, và "chấm công làm căn cứ chính" chính là hình thái **khuyến khích cường độ thấp** (low-powered) — nó phân bổ thu nhập tăng thêm theo một biên **không phải biên lâm sàng**, do đó không bóp méo phân bổ nỗ lực giữa các nhiệm vụ chuyên môn. Nói cách khác: A đòi B đi từ chấm công sang bộ chỉ số đầu ra, nhưng lý thuyết nói bước đi đó có thể làm cho công bằng và chất lượng **tệ hơn**, không phải tốt hơn. Ở khu vực công điều này còn nặng hơn vì có **nhiều chủ thể ủy nhiệm** (người bệnh, BHYT, cơ quan chủ quản, cộng đồng) với mục tiêu xung đột — điều kiện kinh điển khiến khuyến khích cường độ thấp là tối ưu chứ không phải là sự lười biếng quản trị.
+
+**Nguồn/cơ sở:** Holmström & Milgrom (1991), *Journal of Law, Economics, & Organization* 7:24–52 — **H2**. Dixit (2002), "Incentives and Organizations in the Public Sector: An Interpretative Review", *Journal of Human Resources* 37(4):696–727 — **H2**. Nối được với case file §9 (lý thuyết ủy nhiệm) và §5 (tác dụng phụ của P4P).
+
+**Vị trí lẽ ra nên dùng:** V1 (trục 2, thay cho cách trình bày "P4P là loại suy"), và **bắt buộc** ở V5 thay cho đoạn tự tháo (b).
+
+**Mức độ ảnh hưởng nếu đã dùng: cao.** Đây là mục duy nhất trong danh sách này có thể đảo ngược nhượng bộ lớn nhất của B. Nó biến §1(b) từ "vật thế chỗ đáng xấu hổ" thành "thiết kế tối ưu bậc hai có cơ sở lý thuyết", và biến đòi hỏi của A ("phải có bộ chỉ số") thành một đề xuất phải tự gánh burden of proof. Nó cũng tương thích với §11: khung 70/30 nói "kết quả thực hiện nhiệm vụ", **không** nói "chỉ số đầu ra lâm sàng đo lường được" — B lẽ ra chỉ ra được rằng chính §11 không đứng về phía yêu cầu của A.
+
+---
+
+### 2. Cơ chế trách nhiệm giải trình thay thế cho lãnh đạo khoa phòng **có tên trong luật** — B để trống chỗ này rồi thua ở (c)
+
+**B đã làm gì:** V1 nêu điều kiện "chức năng điều hành di động"; V2 nêu đòn "người vận hành/ký xác nhận bảng chấm công" rồi V3 tự hạ xuống "suy luận có nhãn"; V3 tuyên không bảo vệ miễn trừ "để trống"; V4 kết luận (c) **bất công**, nhường thẳng cho A. Case file §9 đã đặt sẵn cụm "**cơ chế trách nhiệm giải trình khác**" nhưng B **không bao giờ gọi tên** cơ chế đó là gì.
+
+**Lẽ ra mạnh nhất có thể:** Đòn quyết định của A là "§1 **không có cơ chế thay thế nào**". Đây là **lập luận từ sự im lặng** về một văn bản chỉ mô tả *chế độ chấm công*, không mô tả toàn bộ hệ thống trách nhiệm giải trình. Cơ chế thay thế không cần §1 phát minh ra vì pháp luật chung đã có: nguyên tắc đánh giá viên chức quy định rõ với **viên chức lãnh đạo, quản lý**, việc đánh giá **phải gắn với kết quả thực hiện nhiệm vụ của đơn vị được giao quản lý, phụ trách**, và mức xếp loại của người đứng đầu **không được cao hơn** mức xếp loại của đơn vị mình phụ trách. Đó chính xác là điều lý thuyết ủy nhiệm kê đơn: **người chịu trách nhiệm dư (residual) bị giám sát bằng ĐẦU RA; người thừa hành bị giám sát bằng ĐẦU VÀO.** Vậy miễn trừ chấm công cho lãnh đạo khoa không phải là "miễn trách nhiệm", mà là **hoán đổi loại trách nhiệm** — và tiêu chí hoán đổi là **chức năng** (ai gánh kết quả của cả khoa), không phải **địa vị**. Đây là câu trả lời trực tiếp, hợp khuôn khổ position, cho cả phép thử tổng quát hóa lẫn phép thử công khai: châm ngôn được tổng quát hóa không phải "lãnh đạo thì được miễn" mà "ai bị đánh giá bằng kết quả của tập thể thì không bị đánh giá lại bằng thời gian có mặt của cá nhân".
+
+**Nguồn/cơ sở:** NĐ 90/2020/NĐ-CP, nguyên tắc đánh giá đối với lãnh đạo, quản lý gắn với kết quả của đơn vị phụ trách — **H1** (`[CẦN KIỂM CHỨNG số điều/khoản chính xác]`; nội dung được nhắc lại trong nhiều quy chế đánh giá cấp bộ/sở — **H3**). NĐ 233/2026/NĐ-CP (case file §11) thay thế NĐ 90/2020 — cần kiểm nguyên tắc này có được giữ nguyên không, và nếu **có** thì B mạnh hơn nữa vì trọng số 70/100 dành cho kết quả nhiệm vụ áp cho lãnh đạo chính là cơ chế thay thế được **định lượng**. Lý thuyết ủy nhiệm: case file §9 + Dixit (2002) — **H2**.
+
+**Vị trí lẽ ra nên dùng:** V2 (thay vì đòn "người vận hành" vốn phải rút), và **dứt khoát ở V4** trước khi tuyên (c) bất công.
+
+**Mức độ ảnh hưởng nếu đã dùng: cao.** Đây là nhượng bộ tốn kém nhất của B trong toàn phiên, và nó được đưa ra **trước khi** phản biện mạnh nhất được thử. Trả lời thẳng câu hỏi trung tâm của audit: nhượng bộ ở (c) **là non**, không phải sai hiển nhiên — vẫn còn khả năng A thắng sau khi B chơi hết bài này (vì §1 mô tả miễn trừ là "được miễn" chứ không nói "được thay bằng"), nhưng B đã kết luận trước khi tuyến này được đặt lên bàn.
+
+---
+
+### 3. Quy tắc vs. tiêu chuẩn: "diện miễn trừ rộng hơn điều kiện chức năng" là phản đối về **độ khớp**, không phải về **tính chính đáng**
+
+**B đã làm gì:** Khi A đánh "điều kiện chức năng của B **hẹp hơn diện miễn trừ**", B không có phản hồi cấu trúc; B chuyển sang thừa nhận và cuối cùng nhường (c).
+
+**Lẽ ra mạnh nhất có thể:** Mọi quy tắc phân loại theo chức danh đều **vừa thừa vừa thiếu** so với tiêu chí thực chất đằng sau nó — đó là bản chất của quy tắc, không phải bằng chứng của đặc quyền. Lựa chọn thay thế mà A ngầm đòi hỏi là một **tiêu chuẩn** áp dụng theo từng ca ("ai thực sự có công việc di động thì được miễn"), tức là chuyển quyền quyết định miễn trừ sang **phán đoán của người quản lý cho từng cá nhân** — chính xác là loại tùy nghi mà A dùng để công kích chấm công ở chỗ khác, và chính xác là loại tùy nghi mà B đã (đúng) chỉ ra là nguồn bất công đối với "người làm nhiều nhưng ít được nhìn thấy". Quy tắc thô nhưng đồng nhất, công khai, không thương lượng được thì **khó thao túng hơn** và rẻ hơn về chi phí quản trị; tiêu chuẩn tinh nhưng tùy nghi thì mở cửa cho thiên vị. Nói cách khác: A đòi độ khớp hoàn hảo mà không tính chi phí của cơ chế tạo ra độ khớp đó.
+
+**Nguồn/cơ sở:** Kaplow (1992), "Rules versus Standards: An Economic Analysis", *Duke Law Journal* 42(3):557–629 — **H2**. Prendergast & Topel (1996), *Journal of Political Economy* 104(5):958–978 — **H2** (tổ chức dùng **quy tắc quan liêu** như biện pháp đối phó với thiên vị của cấp trên). Case file §9 (chi phí hành chính là lý do khả dĩ của miễn trừ) — đã có sẵn nhưng B chỉ nhắc, không triển khai.
+
+**Vị trí lẽ ra nên dùng:** V3 hoặc V4, ngay tại lượt B tiếp nhận đòn "hẹp hơn diện miễn trừ".
+
+**Mức độ ảnh hưởng nếu đã dùng: cao.** Nó không nhất thiết cứu (c), nhưng nó buộc A phải trả giá: A phải hoặc chấp nhận rằng phản đối của mình cũng đánh vào mọi quy tắc phân loại theo chức danh trong luật lao động, hoặc phải đề xuất một cơ chế miễn trừ cá thể hóa và gánh chi phí công bằng của tùy nghi. Hiện tại A lấy được nhượng bộ này **miễn phí**.
+
+---
+
+### 4. Bằng chứng học thuật cho lập luận công bằng cốt lõi của B — B nói đúng ý nhưng nói tay không
+
+**B đã làm gì:** V1 nêu "chi phí công bằng" của phương án đối phương: bỏ chấm công trước khi có bộ chỉ số → đánh giá bằng **cảm nhận của người quản lý**; người thiệt nhất là **người làm nhiều nhưng ít được nhìn thấy**. Đây là lập luận hay nhất B đưa ra trong cả phiên — và nó được trình bày **hoàn toàn không nguồn**, như một trực giác.
+
+**Lẽ ra mạnh nhất có thể:** Khi thước đo khách quan vắng mặt, tổ chức buộc phải dùng đánh giá chủ quan của cấp trên, và đánh giá chủ quan mở cửa cho **thiên vị**: cấp trên thưởng theo ưa thích cá nhân, gây phần thưởng tùy tiện và phân công công việc kém hiệu quả; một trong những cách tổ chức chống lại là **ràng buộc bằng quy tắc quan liêu cứng**. Ghép với ba/bốn chiều công bằng tổ chức: chấm công ghi điểm cao đúng ở những tiêu chí thủ tục mà đánh giá chủ quan hỏng nhất — **nhất quán giữa các cá nhân**, **triệt tiêu thiên lệch**, **chính xác về dữ liệu**, **có thể phản đối/hiệu chỉnh** (dữ liệu quẹt thẻ là thứ nhân viên có thể chỉ ra là sai; ấn tượng của trưởng khoa thì không). Đây là cách biến "chấm công thô thiển" thành "chấm công là hàng rào thủ tục bảo vệ người yếu thế trong tổ chức".
+
+**Nguồn/cơ sở:** Prendergast & Topel (1996), *JPE* 104(5):958–978 — **H2**. Leventhal (1980), sáu tiêu chí công bằng thủ tục (nhất quán, triệt tiêu thiên lệch, chính xác, khả năng hiệu chỉnh, đại diện, đạo đức) — **H2**, là nền lý thuyết phía dưới Colquitt và cs (2001) vốn đã có trong case file §7. Case file §7 + §9.
+
+**Vị trí lẽ ra nên dùng:** V1 (nơi lập luận này xuất hiện lần đầu) và V5 (nơi B lẽ ra phải bảo vệ nó khỏi cáo buộc "đây là lập luận tiện lợi trá hình").
+
+**Mức độ ảnh hưởng nếu đã dùng: trung bình–cao.** Không đổi cấu trúc phán định, nhưng đây là chỗ B dễ bị gạt nhất bằng một câu ("suy đoán không bằng chứng"), và B đã để hở suốt 5 vòng lập luận mạnh nhất của chính mình.
+
+---
+
+### 5. Kho pháp lý chưa khai thác: trả lương theo thời gian là **chuẩn nền luật định**, hồ sơ chấm công là **công cụ bảo vệ người lao động**, và Điều 118–119 là **cơ chế công bằng thủ tục có sẵn**
+
+**B đã làm gì:** B dùng Điều 118 (nội quy lao động là nghĩa vụ luật định, nội dung chủ yếu gồm thời giờ làm việc), NĐ 90/2020, tự chủ tài chính. B **tự nhận chiều liên nhân–thông tin/thủ tục là chiều dễ hỏng nhất** và đề xuất khắc phục bằng sáng kiến của riêng mình (công bố lý do miễn trừ, mở khiếu nại) — trong khi câu trả lời luật định đã nằm ngay trong §2 của case file.
+
+**Lẽ ra mạnh nhất có thể:** Ba nhánh, không nhánh nào là "đúng luật nên công bằng":
+- **Chuẩn nền:** BLLĐ 2019 Điều 96 ghi nhận ba hình thức trả lương — **theo thời gian**, theo sản phẩm, theo khoán. Trả lương theo thời gian là hình thức mặc định và hợp pháp của quan hệ lao động; do đó **đo thời gian làm căn cứ chi trả không phải một lỗi phạm trù**, và gánh nặng chứng minh thuộc về bên muốn rời khỏi chuẩn nền để sang trả theo đầu ra — chứ không ngược lại như A ngầm giả định suốt phiên. Kèm Điều 6 (quyền của NSDLĐ: tuyển dụng, bố trí, **quản lý, điều hành, giám sát lao động**).
+- **Bảo vệ người lao động:** không có dữ liệu chấm công thì **không chứng minh được** giờ làm thêm, làm đêm, số phiên trực, và không kiểm tra được trần giờ làm thêm — tức là bản ghi chấm công là **chứng cứ đứng về phía bác sĩ** trong tranh chấp về chế độ, không chỉ là công cụ kiểm soát của bệnh viện. B chỉ nói "căn cứ tính lương và chế độ" một cách trung tính; đảo chiều đối tượng thụ hưởng là bước còn thiếu.
+- **Công bằng thủ tục có sẵn:** Điều 118 buộc **tham khảo ý kiến tổ chức đại diện người lao động tại cơ sở** trước khi ban hành nội quy; Điều 119 buộc **đăng ký nội quy** tại cơ quan chuyên môn về lao động thuộc UBND cấp tỉnh, và cơ quan này **phải thông báo, hướng dẫn sửa đổi và đăng ký lại nếu nội dung trái pháp luật**. Đó là **tiếng nói (voice) + rà soát bên ngoài** — hai thành tố kinh điển của công bằng thủ tục, gắn thẳng vào chiều mà B tự khai là yếu nhất.
+- **Bổ trợ:** TT 03/2023/TT-BYT hướng dẫn **vị trí việc làm, định mức số lượng người làm việc** trong đơn vị sự nghiệp y tế công lập — tức khối lượng/thời gian làm việc là dữ liệu đầu vào **luật định** cho định biên, chống đỡ trực tiếp cho trụ "chức năng hành chính mà đánh giá chuyên môn không thay thế được" (case file §3 đánh dấu `[CẦN KIỂM CHỨNG]`; đối tượng điều chỉnh là **viên chức**, khác TT 19/2023/TT-BYT vốn dành cho **công chức**).
+
+**Nguồn/cơ sở:** BLLĐ 2019 Điều 6, 96, 118, 119 — **H1** (tra qua tổng hợp pháp luật — **H3**). TT 03/2023/TT-BYT (17/02/2023, hiệu lực 05/4/2023) — **H1/H3**. Điều 105, 107 `[CẦN KIỂM CHỨNG]`.
+
+**Vị trí lẽ ra nên dùng:** V1 (trục 3 và trục 1), Điều 118–119 phải xuất hiện ngay chỗ B tự nhận chiều thủ tục là yếu nhất.
+
+**Mức độ ảnh hưởng nếu đã dùng: trung bình–cao.** Nhánh "chuẩn nền + gánh nặng chứng minh" là đòn khung (framing) có thể đổi thế trận trục 4; nhánh Điều 118–119 vá đúng lỗ B tự khai báo — để hở một điểm yếu mà lời giải nằm sẵn trong case file là dạng hụt trần rõ nhất.
+
+---
+
+### 6. Vế "crowding IN" và tình trạng nhân rộng yếu của bằng chứng "kiểm soát giết động lực"
+
+**B đã làm gì:** B nói crowding-out là "có điều kiện" và §6 đo giấy tờ chuyên môn chứ không đo quẹt thẻ. Đúng nhưng cụt: B chưa từng dùng **vế thứ hai** của Frey & Jegen, và chưa từng đụng tới trạng thái nhân rộng của bằng chứng thực nghiệm.
+
+**Lẽ ra mạnh nhất có thể:** Cùng một can thiệp ngoại sinh có thể **làm giảm** động lực nội tại nếu được cảm nhận là **kiểm soát**, nhưng **làm tăng** nếu được cảm nhận là **hỗ trợ/ghi nhận** — nghĩa là dấu của hiệu ứng do **thiết kế và cách truyền đạt** quyết định, không do bản thân việc đo. Chấm công đồng nhất, tự động, áp cho mọi người, dùng để ghi nhận công sức và làm chứng cứ hưởng chế độ, nằm gần cực "hỗ trợ" hơn là phán đoán chủ quan có chọn lọc của cấp trên. Thêm nữa, nghiên cứu thực nghiệm nền tảng về "chi phí ẩn của kiểm soát" khi được **nhân rộng bốn lần** thì hiệu ứng phần lớn vẫn tồn tại nhưng **không đủ lớn để triệt tiêu hiệu lực của khuyến khích kinh tế** — tức độ lớn hiệu ứng nhỏ hơn cách nó thường được viện dẫn. B được phép nói điều này mà **không** phủ nhận chi phí động lực tồn tại: đây là tranh cãi chưa ngã ngũ (case file §7 đã ghi rõ Cameron & Pierce, Eisenberger & Cameron đối lập Deci và cs).
+
+**Nguồn/cơ sở:** Frey & Jegen (2001), *Journal of Economic Surveys* — **H2** (case file §7). Falk & Kosfeld (2006), *AER* 96(5):1611–1630 — **H2**. Ziegelmeyer, Schmelz & Ockenfels (2012), "Hidden costs of control: four repetitions and an extension", *Experimental Economics* 15(2):323–340 — **H2**.
+
+**Vị trí lẽ ra nên dùng:** V1 trục 2; và **bắt buộc** ở lượt nào A dùng crowding-out như tiền đề đã ngã ngũ.
+
+**Mức độ ảnh hưởng nếu đã dùng: trung bình.** Không lật mệnh đề nào, nhưng nó chuyển "chi phí động lực" từ một khoản B phải nhận sang một khoản **hai bên cùng phải định lượng** — song song với đòn "Goodhart áp cho cả hai phương án" mà B đã dùng tốt.
+
+---
+
+### 7. Bằng chứng thực nghiệm cho chức năng "rời vị trí trong giờ" — trụ B nêu tên rồi bỏ hoang, và có nguồn **riêng cho Việt Nam**
+
+**B đã làm gì:** Case file §9 đặt sẵn "ràng buộc hiện diện có lý do lâm sàng" và "chức năng giám sát & rủi ro hành nghề ngoài giờ". B nhắc lướt trong ba chức năng hành chính–pháp lý ở V1 rồi **không quay lại lần nào** trong bốn vòng còn lại.
+
+**Lẽ ra mạnh nhất có thể:** Hành nghề kép (dual practice) của bác sĩ bệnh viện công là hiện tượng **được ghi nhận trong y văn hệ thống y tế**, gắn với vắng mặt trong giờ công và chuyển dịch thời gian/nguồn lực sang khu vực tư; và có nghiên cứu **riêng cho Việt Nam** dựa trên khảo sát 483 bác sĩ tại 10 bệnh viện công ở 4 tỉnh, ghi nhận khoảng một nửa số bác sĩ tham gia ít nhất một hình thức hành nghề tư. Điều đó biến mối lo "rời vị trí trong giờ" từ giả định quản trị thành **vấn đề chính sách có bằng chứng**, và cho ràng buộc hiện diện một lý do không phải là "quản lý thích kiểm soát". Quan trọng hơn về mặt **công bằng**: khi một phần đồng nghiệp rút thời gian khỏi khu vực công, gánh nặng dồn sang người ở lại — nên chấm công là công cụ bảo vệ người ở lại, đúng mạch lập luận "người làm nhiều nhưng ít được nhìn thấy". B phải dùng nguồn này **trung thực cả hai chiều**: nghiên cứu Việt Nam ghi nhận người hành nghề kép có xu hướng **thâm niên cao hơn, giữ vị trí cao hơn** trong bệnh viện — dữ kiện này **cắt vào (c)** chứ không đỡ cho (c), và chính vì thế nó dẫn thẳng tới kết luận khắc phục mà B đã nêu: **thêm ràng buộc giải trình cho lãnh đạo, không gỡ chấm công của bác sĩ**.
+
+**Guard bắt buộc:** đây là lập luận cấp hệ thống về một hiện tượng đã được nghiên cứu, **không** phải và không được trình bày như quy chụp động cơ trốn việc cho bác sĩ phản đối chế độ (điều B bị cấm, và cũng là điều case file §10 cấm). Không được suy ra bất kỳ bệnh viện hay cá nhân cụ thể nào (§1).
+
+**Nguồn/cơ sở:** Do & Do (2018), "Dual practice of public hospital physicians in Vietnam", *Health Policy and Planning* 33(8):898 — **H2**. Ferrinho, Van Lerberghe và cs (2004), "Dual practice in the health sector: review of the evidence", *Human Resources for Health* 2:14 — **H2**. Bevan & Hood (2006), *Public Administration* 84(3):517–538 — **H2**, bổ trợ cho tuyến "chỉ tiêu đầu ra sinh gaming" mà B mới chỉ chống bằng QOF.
+
+**Vị trí lẽ ra nên dùng:** V2 hoặc V3, làm trụ độc lập cho (a) và (b) — đúng chỗ B chỉ còn phòng ngự.
+
+**Mức độ ảnh hưởng nếu đã dùng: trung bình–cao.** Đây là nguồn **đặc thù bối cảnh Việt Nam** duy nhất trong cả danh sách; nó cho B một chân đế thực nghiệm ở trục lịch sử/thực tế mà B gần như bỏ trống, và nó neo lập luận "chấm công có chức năng riêng, không thay thế được bằng đánh giá chuyên môn" bằng dữ liệu thay vì bằng suy luận.
+
+---
+
+**Trả lời thẳng câu hỏi về nhượng bộ:** nhượng bộ ở **(c)** là **non chứ chưa chắc sai** — B nhường trước khi thử hai phản biện mạnh nhất còn lại (mục 2: cơ chế thay thế nằm ở pháp luật chung, "§1 im lặng" là lập luận từ sự im lặng; mục 3: thừa/thiếu bao hàm là thuộc tính của mọi quy tắc, và cơ chế cá thể hóa mà A ngầm đòi hỏi lại tái nhập đúng loại tùy nghi A đang phê phán). Nhượng bộ ở **(b)** ở V5 là **quá rộng**: nó chỉ đúng nếu chấp nhận tiền đề "đo đầu ra là chuẩn mực đúng, chấm công là vật thế chỗ" — tiền đề mà mô hình đa nhiệm vụ bác bỏ trực tiếp và position của B cho phép bác bỏ. Ngược lại, việc B rút các cờ, tự nêu chiều bất lợi của §11 và tách bạch ba mệnh đề là **không** nên coi là nhượng bộ thừa; đó là kỷ luật lập luận đúng và không đánh đổi được.
+
+**Giới hạn của chính báo cáo này:** Auditor chạy trên **cùng model** với hai advocate, nên chính danh sách này có thể chịu cùng prior đã làm yếu steelman của B ngay từ đầu — nó đo được khoảng cách nhưng không tự chứng minh mình đã chạm trần. Ba nguồn then chốt (nguyên tắc đánh giá lãnh đạo trong NĐ 90/2020 và việc nó có được giữ trong NĐ 233/2026 hay không; Điều 105/107 BLLĐ; toàn văn TT 03/2023) **chưa được xác minh tới cấp điều khoản** trong phiên tra cứu này và đã được đánh dấu tương ứng; nếu điều khoản ở mục 2 không tồn tại hoặc bị bãi bỏ, sức nặng của mục đó giảm đáng kể. Báo cáo **không** chấm điểm, **không** dự đoán kết quả, và **không** hàm ý rằng bên B lẽ ra phải thắng ở bất kỳ mệnh đề nào.
+
+---
+
+**Nguồn tra cứu của auditor:**
+- BLLĐ 2019 Điều 6, 96, 118, 119 (hethongphapluat.com; luatminhkhue.vn; thuvienphapluat.vn)
+- Thông tư 03/2023/TT-BYT — vị trí việc làm, định mức số lượng người làm việc trong đơn vị sự nghiệp y tế công lập (Cổng thông tin Bộ Y tế)
+- Thông tư 19/2023/TT-BYT — vị trí việc làm công chức nghiệp vụ chuyên ngành y tế (để phân biệt đối tượng)
+- Nghị định 90/2020/NĐ-CP + nguyên tắc xếp loại người đứng đầu gắn với đơn vị phụ trách (Báo Chính phủ)
+- Holmström & Milgrom (1991), JLEO 7:24–52
+- Dixit (2002), Journal of Human Resources 37(4):696–727
+- Prendergast & Topel (1996), JPE 104(5):958–978
+- Kaplow (1992), Duke Law Journal 42(3):557–629
+- Bevan & Hood (2006), Public Administration 84(3):517–538
+- Falk & Kosfeld (2006), AER 96(5):1611–1630
+- Ziegelmeyer và cs (2012), Experimental Economics 15(2):323–340 — bốn lần nhân rộng
+- Do & Do (2018), Health Policy and Planning 33(8):898 — dual practice tại Việt Nam
+- Ferrinho, Van Lerberghe và cs (2004), Human Resources for Health 2:14
+
+---
+
+## Đối chiếu hai báo cáo audit (orchestrator tổng hợp — không phải nội dung của auditor)
+
+**Phát hiện trùng nhau đáng chú ý nhất:** hai auditor **độc lập** cùng nêu **Holmström & Milgrom (1991)** như khoảng trống lý thuyết lớn nhất — nhưng theo hai hướng đối nghịch:
+- Auditor A: mô hình đa nhiệm **không đối xứng**, nên A không cần chấp nhận thế hòa Goodhart; gắn tiền vào chỉ báo đầu vào méo **tệ hơn** không gắn tiền vào chỉ báo nào.
+- Auditor B: chính mô hình đó nói **lương cố định + ràng buộc đầu vào có thể là tối ưu**, nên "không có bộ chỉ số đầu ra" là **lựa chọn thiết kế được lý thuyết ủng hộ**, không phải khuyết tật chờ vá.
+
+Cùng một tài liệu H2 chống đỡ được cả hai position tùy cách khai thác — và **không advocate nào chạm tới nó**. Đây là chỉ báo mạnh rằng khoảng cách tới trần là **thật và hai chiều**, không phải một bên bị model bỏ rơi.
+
+**Bất đối xứng cần khai báo cho judge:** auditor B trả lời thẳng câu hỏi về nhượng bộ và kết luận rằng nhượng bộ của B ở **(c) là NON** (B nhường trước khi thử hai phản biện mạnh nhất còn lại) và ở **(b) là QUÁ RỘNG** (chỉ đúng nếu chấp nhận tiền đề "đo đầu ra là chuẩn mực đúng" — tiền đề mà chính position của B cho phép bác bỏ). Auditor A không đưa ra phán định tương đương về nhượng bộ của A, vì A nhượng bộ ít hơn về phạm vi.
+**Judge phải đọc điều này đúng cách:** nó KHÔNG có nghĩa B "lẽ ra phải thắng" — auditor B nói rõ "**không** hàm ý rằng bên B lẽ ra phải thắng ở bất kỳ mệnh đề nào", và vẫn còn khả năng A thắng (c) sau khi B chơi hết bài. Nó có nghĩa: **khoảng cách giữa transcript và trần lập luận lớn hơn ở phía B**, nên phần hội tụ mà transcript thể hiện có thể phản ánh **giới hạn của model** chứ không chỉ phản ánh sức mạnh thực của hai position.
+
+**Một kết quả kiểm soát chất lượng ngoài phạm vi được giao:** auditor A phát hiện và cảnh báo rằng **Panagioti và cs 2018 (*JAMA Intern Med*) đã bị RÚT (retracted) năm 2020** khi đề xuất tuyến lập luận về an toàn người bệnh, và đề xuất **Tawfik và cs 2018 (*Mayo Clin Proc*)** thay thế kèm đúng hạng bằng chứng (tương quan tự báo cáo, không phải nhân quả). Không advocate nào đã dùng bài bị rút — nhưng nếu tuyến đó được khai thác mà không có cảnh báo này, cả phiên sẽ mang một nguồn hỏng.
 
 ## Phụ lục C — Ghi chú vận hành
 

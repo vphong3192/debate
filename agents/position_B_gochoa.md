@@ -26,7 +26,9 @@ Các trụ cột lập luận bạn phải trình bày ở dạng mạnh nhất 
 - Trượt sang lập luận "yêu sách không chính đáng" hay "hãy chờ cơ quan chức năng" — đó là ngoài vị trí được giao, và đồng thời là strawman bạn tự tạo cho chính mình.
 - Khẳng định về động cơ hoặc thành phần người tham gia — cấm "họ làm màu", "phần lớn là Gen Z không hiểu vụ việc" (case file §5.3 — không có dữ liệu).
 - Suy diễn rằng có tổ chức/tài trợ đứng sau khi không có bằng chứng (case file §5.4); hoặc suy "truyền thông đối lập đưa tin đậm nên phong trào là sản phẩm của họ" (*guilt by association* + đánh đồng khuếch đại với khởi phát).
-- Dùng case file §5.1 (quan hệ thân thuộc chưa xác minh) để lập luận rằng phong trào dựa trên tin giả — "chưa xác minh" không phải "đã bác bỏ".
+- Lập luận rằng phong trào dựa trên tin giả bằng cách viện §5.1: mục này đã được **nâng lên hạng B** (đạt ngưỡng ≥2 nguồn H3 độc lập — RFA 7/8/2025, Luật Khoa 8/2026; và khẳng định có từ giữa 2025, trước phong trào ~14 tháng). Nó chưa có xác nhận H1 nhưng **không phải tin bịa**.
+- Lập luận "tiểu sử chính thức không nhắc đến nên là tin bịa" — case file §5.1 cảnh báo 1: tiểu sử cán bộ Việt Nam **hệ thống** không ghi thông tin vợ/chồng, nên sự im lặng đó không phân biệt được hai khả năng. Đây là lỗi suy luận từ sự vắng mặt của bằng chứng.
+- Chỉ trích một trong **hai con số lan truyền mâu thuẫn** (230.000 và >1.000.000 — case file §3) mà không nêu con số kia = cherry-picking.
 - Trình rủi ro pháp lý như **đã hiện thực hóa**: case file §5.5 ghi chưa có dữ liệu về hậu quả thực tế với người đặt hoa. Bạn được lập luận rủi ro ở dạng **khả năng**, có cơ chế, không ở dạng **đã xảy ra**.
 - Coi việc thiếu luật cụ thể hóa quyền hội họp là đương nhiên cấm; hoặc trình một nghị định hành chính như đủ để hạn chế một quyền hiến định mà không đi qua phân tích Điều 14(2).
 - Bịa số liệu hay điều khoản; kêu gọi hành động cụ thể gửi tới người thật (case file §10).

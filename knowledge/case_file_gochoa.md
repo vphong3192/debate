@@ -43,7 +43,7 @@ KEEP_EXTRA="5 8 9 10" sh .claude/skills/debate-orchestrator/scripts/make_case_fi
 Case file này được soạn trong điều kiện truy cập web hạn chế (một số tên miền bị chặn ở môi trường soạn thảo). Phase 0 phải làm đủ các việc sau bằng WebSearch/WebFetch trước khi trình duyệt:
 
 1. **Xác minh toàn bộ §2 (khung pháp lý).** Mọi số điều trong §2 hiện mang nhãn `[CẦN KIỂM CHỨNG]`. Rubric chiều 2 cho **neo 0** khi bịa điều khoản — nếu để advocate trích số điều chưa xác minh, lỗi thuộc về orchestrator chứ không phải advocate. Đây là hạng mục ưu tiên số 1.
-2. **Xác minh hoặc loại bỏ §5 (dữ kiện đang tranh chấp).** Đặc biệt mục §5.1 — nếu không xác minh được, giữ nguyên nhãn và giữ nguyên lệnh cấm sử dụng.
+2. ~~**Xác minh §5.1**~~ — **ĐÃ LÀM 16/8/2026**: nâng từ hạng C lên **hạng B (dùng được có điều kiện)**; nhân thân + chức vụ bà Lâm Thị Phương Thanh xác minh được ở mức H1. Còn lại: đọc toàn văn hai bài RFA/Luật Khoa để xác định chúng có **thực sự độc lập** hay cùng lặp một nguồn gốc (egress bị chặn ở phiên soạn thảo). §5.2–§5.5 **vẫn hạng C**, giữ nguyên lệnh cấm.
 3. **Bổ sung §6 (tiền lệ trong nước).** Hiện là `[CẦN BỔ SUNG]`. Không có tiền lệ được xác minh thì chiều "Hệ quả & phân bổ rủi ro" sẽ chỉ còn suy đoán thuần túy ở cả hai bên.
 4. **Kiểm tra diễn biến mới** tính đến ngày chạy phiên; mọi diễn biến sau mốc đóng băng xử lý theo §9.
 5. **Ghi mốc đóng băng** (ngày + giờ UTC) vào §9 và vào header transcript.
@@ -87,7 +87,8 @@ Case file này được soạn trong điều kiện truy cập web hạn chế (
 ## §3. Diễn biến phong trào đặt hoa (tháng 8/2026)
 
 - **Đầu tháng 8/2026** — Vụ việc lan rộng trên **Threads**; xuất hiện lời kêu gọi đặt hoa / chụp ảnh tại gốc cây nơi xảy ra tai nạn, gọi là **"gốc cây công lý"** / **"gốc cây số 55"** (số 55 Nguyễn Huy Tự). `[Nguồn: Luật Khoa, RFA — H3]`
-- **Quy mô lan truyền được nêu:** trên **230.000 bài đăng** từ Việt Nam liên quan đến vụ việc tính đến 14/8/2026. `[Nguồn: Luật Khoa — H3]` `[CẦN KIỂM CHỨNG: phương pháp đếm, phạm vi đếm — con số nền tảng mạng xã hội thường gộp nhiều hashtag/chủ đề]`
+- **Quy mô lan truyền — HAI CON SỐ MÂU THUẪN, phải trình cả hai:** trên **230.000 bài đăng** tính đến 14/8/2026; và **hơn 1.000.000 bài viết** tính đến 14h ngày 12/8/2026. `[Nguồn: Luật Khoa, các bài khác nhau — H3]` `[CẦN KIỂM CHỨNG: hai con số này ngược chiều thời gian (số lớn hơn ở mốc SỚM hơn) → gần như chắc chắn khác phương pháp/phạm vi đếm]`
+  > *Lưu ý phương pháp (bắt buộc):* bên nào **chỉ trích một trong hai con số** để phục vụ lập luận của mình mà không nêu con số kia là **cherry-picking** — neo thấp chiều 2. Ngoài ra **bài đăng ≠ người**: không con số nào trong hai con số này đo được số người tham gia.
 - **13/8/2026** — Lượng hoa đặt dưới gốc cây tăng đáng kể trong ngày. `[Nguồn: RFA — H3]`
 - **Yêu sách được nêu công khai trong phong trào:** khởi tố / điều tra / công bố kết luận điều tra vụ tai nạn. `[Nguồn: RFA, Luật Khoa — H3]` `[CẦN KIỂM CHỨNG: liệu có yêu sách nào KHÁC ngoài yêu sách tố tụng này được nêu phổ biến không — dữ kiện này then chốt cho cả hai bên]`
 - **Hình thức tham gia được ghi nhận:** đặt hoa, chụp ảnh check-in tại chỗ, đăng bài trên mạng xã hội. `[Nguồn: RFA, Luật Khoa — H3]`
@@ -99,17 +100,39 @@ Case file này được soạn trong điều kiện truy cập web hạn chế (
 
 - **13–14/8/2026** — Hoa tưởng niệm tại gốc cây **bị dọn dẹp**; việc dọn diễn ra **có sự hiện diện/giám sát của lực lượng công an**; có ghi nhận việc **giải tán người đến đặt hoa**. `[Nguồn: Luật Khoa, Thông Luận — H3 có điều kiện]` `[CẦN KIỂM CHỨNG: có nguồn H3 độc lập thứ hai không; có văn bản/phát ngôn chính thức nào giải thích căn cứ pháp lý của việc dọn dẹp không]`
 - **Sau khi bị cản trở tại chỗ** — Xuất hiện **"Cây tưởng niệm số 55" bản trực tuyến**, cho phép gửi hoa, thắp nến, viết lời tưởng niệm ảo. `[Nguồn: Luật Khoa — H3]`
-- **Có tin bài trên Threads/Facebook bị hạn chế hiển thị tại Việt Nam theo yêu cầu của cơ quan chức năng.** `[Nguồn: một nguồn duy nhất, chưa đạt ngưỡng 2 nguồn H3 độc lập]` `[CẦN KIỂM CHỨNG — chưa được dùng như dữ kiện đã xác lập]`
+- **Rạng sáng 13/8/2026 — nhiều tài khoản Threads báo bài viết của họ về vụ việc "không hiển thị tại Việt Nam"**, kèm thông báo nền tảng có nội dung: *"Bộ Văn hóa, Thể thao và Du lịch Việt Nam đề nghị hạn chế khả năng tiếp cận bài viết của bạn"*. `[Nguồn: Luật Khoa 8/2026, bài "Bộ Văn hóa chặn thông tin tố cáo Nguyễn Sỹ Cương trên Threads"; ảnh chụp màn hình của người dùng — H3]` `[CẦN KIỂM CHỨNG: nguyên văn chính xác của thông báo; số lượng tài khoản bị ảnh hưởng; có nguồn H3 độc lập thứ hai không]`
+  > *Lưu ý phương pháp (bắt buộc):* thông báo do **nền tảng** hiển thị cho người dùng là một **hạng bằng chứng khác** với tin đồn — nó không phải lời kể của một bên có lợi ích. Nhưng nó chỉ chứng minh **Meta nói rằng đã nhận đề nghị từ cơ quan được nêu tên**; nó không tự nó chứng minh nội dung, căn cứ pháp lý, hay ai trong cơ quan đó ra quyết định. Advocate KHÔNG được suy trực tiếp từ thông báo này sang kết luận về động cơ hay về cá nhân cụ thể nào (xem §5.1 cảnh báo 2 và 3).
 - **Chưa ghi nhận thông cáo chính thức nào** của Công an TP Hà Nội hoặc cơ quan nhà nước khác về vụ tai nạn hoặc về việc dọn hoa, tính đến mốc lập file. `[Trạng thái vụ việc]`
 - **Chưa xác minh được** bất kỳ phát ngôn chính thức nào gán cho phong trào này các khung "cách mạng màu", "diễn biến hòa bình", "thế lực thù địch". `[Trạng thái: TÌM CHƯA THẤY — không được trình như "đã có" cũng không được trình như "chắc chắn không có"]`
 
-## §5. Dữ kiện ĐANG TRANH CHẤP / CHƯA KIỂM CHỨNG — **CẤM DÙNG NHƯ SỰ THẬT ĐÃ XÁC LẬP**
+## §5. Dữ kiện theo HẠNG XÁC MINH — đọc kỹ quy tắc sử dụng của từng hạng
 
-> Mục đặc thù của chủ đề này. Đây là các mệnh đề đang lan truyền rộng nhưng **chưa đạt ngưỡng nguồn** của `source_policy.md`. Advocate được phép **nhắc tới sự tồn tại của tin đồn** (vd: "một tin chưa kiểm chứng đang lan truyền rằng…"), nhưng **không được dùng nội dung của nó làm tiền đề** cho bất kỳ suy luận nào. Vi phạm → cờ đỏ fact-check + neo thấp chiều 2.
+> Mục đặc thù của chủ đề này. **Hai hạng, hai quy tắc khác nhau — nhầm hạng là lỗi chiều 2.**
+> - **HẠNG B — dùng được CÓ ĐIỀU KIỆN:** đạt ngưỡng ≥2 nguồn H3 độc lập nhưng **không có nguồn H1/H2**. Được dùng làm tiền đề **chỉ khi** dẫn kèm (a) tên nguồn cụ thể và (b) câu nêu rõ chưa có xác nhận chính thức. Dùng mà bỏ một trong hai điều kiện → neo thấp chiều 2.
+> - **HẠNG C — CẤM dùng làm tiền đề:** chưa đạt ngưỡng nguồn. Được phép **nhắc tới sự tồn tại của tin đồn** ("một thông tin chưa kiểm chứng đang lan truyền rằng…") nhưng **không được dùng nội dung của nó để suy ra bất cứ điều gì**. Vi phạm → cờ đỏ fact-check + neo 1 chiều 2.
 
-- **§5.1 — Quan hệ thân thuộc giữa ông Nguyễn Sỹ Cương và một quan chức cấp cao** (tin lan truyền nêu quan hệ hôn nhân với một quan chức cấp bộ). **CHƯA XÁC MINH ĐƯỢC từ nguồn độc lập.** `[CẦN KIỂM CHỨNG — ưu tiên cao]`
-  > *Vì sao mục này quan trọng cho cả hai bên:* phần lớn khung tự sự "có ô dù nên không bị khởi tố" đang tựa vào mệnh đề này. Nếu nó sai, một trụ lớn của phong trào mất chân đứng; nếu nó đúng, nó là dữ kiện nặng. Chừng nào chưa xác minh, **cả hai bên đều không được dùng** — bên A không được dùng để chứng minh có bao che, bên B không được dùng để chứng minh phong trào dựa trên tin giả (vì "chưa xác minh" ≠ "đã bác bỏ").
-- **§5.2 — Nguyên nhân của việc chưa khởi tố.** Các giả thuyết đang lưu hành (can thiệp, chờ giám định, vướng thủ tục, hồ sơ phức tạp) đều **chưa có nguồn**. Không bên nào được trình bất kỳ giả thuyết nào như nguyên nhân đã xác lập.
+### §5.1 — Quan hệ hôn nhân giữa ông Nguyễn Sỹ Cương và bà Lâm Thị Phương Thanh — **HẠNG B** (nâng hạng 16/8/2026, từ "chưa xác minh")
+
+**Đã xác minh, H1 — về nhân thân bà Lâm Thị Phương Thanh (độc lập với câu hỏi hôn nhân):**
+- Sinh 26/7/1967, quê Ninh Bình; Thạc sĩ Luật, Cử nhân Lịch sử; Ủy viên Trung ương Đảng các khóa XII, XIII, XIV. `[Nguồn: tiểu sử chính thức trên xaydungchinhsach.chinhphu.vn, baochinhphu.vn, daibieunhandan.vn, daihoidang.vn — H1]` `[CẦN KIỂM CHỨNG chi tiết quê quán: nguồn ghi "xã Gia Tân, huyện Gia Viễn" và "xã Gia Phong" — chênh nhau]`
+- **8/4/2026** — Quốc hội khóa XVI, Kỳ họp thứ Nhất, phê chuẩn bổ nhiệm bà giữ chức **Bộ trưởng Bộ Văn hóa, Thể thao và Du lịch** nhiệm kỳ 2026–2031, **481/481** đại biểu tán thành. Trước đó là **Thứ trưởng Thường trực** cùng bộ. `[Nguồn: VOV, VietnamPlus, Người Lao Động, Báo Văn Hóa, Tạp chí Tòa án — H1/H3]`
+- Các chức vụ trước đó được nêu: **Bí thư Tỉnh ủy Lạng Sơn**, **Phó Chánh Văn phòng Trung ương Đảng**; tháng 8/2025 được bầu làm **Bí thư Đảng ủy Văn phòng Trung ương Đảng** nhiệm kỳ 2025–2030. `[Nguồn: tiểu sử chính thức — H1; RFA 7/8/2025 — H3]`
+
+**Về quan hệ hôn nhân — trạng thái bằng chứng:**
+- **KHÔNG có nguồn H1/H2 nào xác nhận.** Không tìm thấy văn bản chính thức, phát ngôn cơ quan nhà nước, hay báo chí nhà nước nào nêu quan hệ này.
+- **Đạt ngưỡng ≥2 nguồn H3 độc lập** (`source_policy.md` quy tắc 1): **RFA tiếng Việt, 7/8/2025**, bài "Vợ của đại biểu Nguyễn Sỹ Cương làm bí thư văn phòng trung ương Đảng"; và **Luật Khoa, 8/2026**, bài "Bộ Văn hóa chặn thông tin tố cáo Nguyễn Sỹ Cương trên Threads" — hai tòa soạn khác nhau, khẳng định độc lập về mặt tổ chức.
+- **Mốc thời gian đáng chú ý:** khẳng định này xuất hiện từ **tháng 6–8/2025** (Thời Báo 20/6/2025 — H4; RFA 7/8/2025 — H3), tức **trước phong trào đặt hoa khoảng 14 tháng**. Nó **không phải sản phẩm của làn sóng tháng 8/2026**.
+- **Không tìm thấy đính chính, phủ nhận, hay phản bác nào** từ bất kỳ phía nào, kể cả từ cơ quan nhà nước hay báo chí nhà nước.
+- `[CẦN KIỂM CHỨNG còn lại: (a) RFA và Luật Khoa dựa vào nguồn gốc nào — nếu cả hai cùng lặp lại MỘT nguồn ban đầu thì tính độc lập chỉ là hình thức; hai bài này bị chặn egress ở môi trường soạn thảo nên chưa đọc được toàn văn; (b) Wikipedia tiếng Việt (hai bài "Lâm Thị Phương Thanh" và "Vụ tông xe ở Hà Nội 2025") dẫn nguồn gì cho khẳng định này]`
+
+> **Ba cảnh báo phương pháp bắt buộc, áp đối xứng:**
+> 1. **Vắng mặt trong tiểu sử chính thức KHÔNG phải bằng chứng phủ định.** Tiểu sử cán bộ Việt Nam **hệ thống** không ghi thông tin vợ/chồng — dù quan hệ có thật hay không thì tiểu sử đều im lặng như nhau. Bên B **không được** lập luận "tiểu sử chính thức không nhắc đến nên tin này là bịa".
+> 2. **Quan hệ hôn nhân KHÔNG tự nó chứng minh can thiệp.** Kể cả khi §5.1 được xác nhận hoàn toàn, nó mới xác lập một **quan hệ**, chưa xác lập bất kỳ hành vi tác động nào vào tiến trình tố tụng. Bước suy từ quan hệ sang can thiệp là một bước riêng, cần bằng chứng riêng, và vẫn thuộc **§5.2 hạng C**. Bên A trượt từ (1) sang (2) mà không có bước trung gian → ngụy biện, neo thấp chiều 4.
+> 3. **Xung đột lợi ích là một mệnh đề CẤU TRÚC, khác với mệnh đề về hành vi.** "Bộ có thẩm quyền yêu cầu hạn chế nội dung do vợ người bị tố cáo đứng đầu" là một nhận định về **cấu trúc thẩm quyền** — nếu §5.1 và §4 đều đúng thì nó đúng theo định nghĩa, không cần chứng minh động cơ. Nó **không** đồng nghĩa với "bà Thanh đã đích thân can thiệp". Bên nào gộp hai mệnh đề này làm một → neo thấp chiều 4.
+
+### §5.2–§5.5 — **HẠNG C: CẤM dùng làm tiền đề**
+
+- **§5.2 — Nguyên nhân của việc chưa khởi tố.** Các giả thuyết đang lưu hành (can thiệp, chờ giám định, vướng thủ tục, hồ sơ phức tạp) đều **chưa có nguồn**. Không bên nào được trình bất kỳ giả thuyết nào như nguyên nhân đã xác lập. **Lưu ý:** §5.1 được nâng lên hạng B **không** kéo theo §5.2 — quan hệ hôn nhân là một chuyện, nguyên nhân của việc chưa khởi tố là chuyện khác và vẫn chưa có bằng chứng nào.
 - **§5.3 — Thành phần và động cơ của người tham gia.** Không có khảo sát, không có dữ liệu nhân khẩu. Mọi khẳng định kiểu "phần lớn là Gen Z", "phần lớn làm vì muốn được chú ý", "phần lớn hiểu rõ vụ việc" đều **không có nguồn**. Cấm cả hai bên khẳng định về động cơ tập thể của người tham gia.
 - **§5.4 — Có hay không sự điều phối, tài trợ, tổ chức đứng sau.** Không có bằng chứng công khai theo cả hai chiều. Xem lưu ý phương pháp §3.
 - **§5.5 — Hậu quả pháp lý thực tế đã xảy ra với người đặt hoa** (bị mời làm việc, xử phạt hành chính, khởi tố…). **CHƯA CÓ DỮ LIỆU.** `[CẦN BỔ SUNG — trực tiếp quyết định chất lượng chiều "Hệ quả & phân bổ rủi ro"; nếu vẫn trống tại GATE 1 thì cả hai bên chỉ được lập luận về rủi ro ở dạng khả năng, không dạng thực tế]`

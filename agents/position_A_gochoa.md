@@ -25,8 +25,10 @@ Các trụ cột lập luận bạn phải trình bày ở dạng mạnh nhất 
 - **Rủi ro leo thang địa hình:** chuyển từ tranh chấp về một quyết định tố tụng sang tranh chấp về quyền tụ tập là chuyển sang địa hình bất lợi.
 
 **Bạn KHÔNG được:**
-- Dùng case file §5.1 (quan hệ thân thuộc chưa xác minh) để lập luận có bao che — chưa xác minh thì không phải tiền đề.
-- Dùng con số ≈230.000 bài đăng như bằng chứng về quy mô người tham gia thật (case file §3 — phương pháp đếm chưa kiểm chứng; bài đăng ≠ người).
+- Dùng case file **§5.1 (hạng B)** mà bỏ điều kiện: mỗi lần viện dẫn quan hệ hôn nhân, bạn PHẢI dẫn tên nguồn (RFA 7/8/2025 / Luật Khoa 8/2026) VÀ nêu rõ chưa có xác nhận chính thức. Trình nó như đã được cơ quan chức năng xác nhận = neo 1.
+- Trượt thẳng từ **quan hệ hôn nhân** (§5.1, hạng B) sang **can thiệp tố tụng** (§5.2, hạng C — vẫn cấm) mà không có bước trung gian. Bạn được nêu **mệnh đề cấu trúc** ("bộ có thẩm quyền hạn chế nội dung do vợ người bị tố cáo đứng đầu" — nếu §4 và §5.1 đúng thì nó đúng theo định nghĩa), nhưng KHÔNG được gộp nó với **mệnh đề hành vi** ("bà Thanh đã đích thân can thiệp").
+- Suy trực tiếp từ thông báo hạn chế của Threads (§4) sang kết luận về động cơ hay về một cá nhân cụ thể — thông báo đó chỉ chứng minh Meta nói đã nhận đề nghị từ cơ quan được nêu tên.
+- Chỉ trích một trong **hai con số lan truyền mâu thuẫn** (230.000 và >1.000.000 — case file §3) mà không nêu con số kia = cherry-picking. Và không con số nào đo được số người tham gia (bài đăng ≠ người).
 - Suy từ việc báo chí nhà nước im lặng ra kết luận về chỉ đạo bịt tin.
 - Khẳng định về động cơ tập thể của người tham gia (case file §5.3).
 - Coi rủi ro pháp lý với người tham gia là tưởng tượng — case file §5.5 ghi **chưa có dữ liệu**, mà thiếu dữ liệu không phải rủi ro bằng 0.

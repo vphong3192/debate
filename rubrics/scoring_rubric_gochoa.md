@@ -54,10 +54,10 @@ Bộ trọng số thay thế cho phân tích độ nhạy:
 
 | Neo | Mô tả |
 |---|---|
-| **10** | Mọi khẳng định có nguồn H1–H3 phù hợp; áp đúng ngưỡng "khẳng định gây tranh cãi cần ≥2 nguồn H3 độc lập"; phân biệt rõ "sự kiện X" và "X nghĩa là Y"; xử lý đúng dữ kiện bất lợi; **tôn trọng §5** — nhắc tin chưa kiểm chứng đúng cách (nêu sự tồn tại của tin đồn) mà không dùng nó làm tiền đề |
+| **10** | Mọi khẳng định có nguồn H1–H3 phù hợp; áp đúng ngưỡng "khẳng định gây tranh cãi cần ≥2 nguồn H3 độc lập"; phân biệt rõ "sự kiện X" và "X nghĩa là Y"; xử lý đúng dữ kiện bất lợi; **áp đúng hạng của §5** — dữ kiện hạng B dùng kèm đủ hai điều kiện (dẫn tên nguồn + nêu rõ chưa có xác nhận chính thức), dữ kiện hạng C chỉ được nhắc tới sự tồn tại chứ không làm tiền đề |
 | **7** | Phần lớn có nguồn tốt; vài khẳng định thiếu nguồn nhưng không sai; cherry-picking nhẹ |
-| **4** | Nhiều khẳng định không nguồn; trộn lẫn sự kiện và diễn giải; dùng nguồn H4 làm bằng chứng sự kiện (bất kể ở đầu nào của quang phổ); suy từ "không có bằng chứng về X" thành "đã chứng minh không có X" hoặc ngược lại (case file §3) |
-| **1** | Sai sự kiện nghiêm trọng lặp lại; **dùng nội dung §5 làm tiền đề cho suy luận** (vd lập luận dựa trên quan hệ thân thuộc chưa xác minh); trình vụ đang điều tra như đã có kết luận |
+| **4** | Nhiều khẳng định không nguồn; trộn lẫn sự kiện và diễn giải; dùng nguồn H4 làm bằng chứng sự kiện (bất kể ở đầu nào của quang phổ); suy từ "không có bằng chứng về X" thành "đã chứng minh không có X" hoặc ngược lại (case file §3); **dùng dữ kiện §5 hạng B mà thiếu một trong hai điều kiện**; cherry-picking giữa hai con số lan truyền mâu thuẫn (case file §3) |
+| **1** | Sai sự kiện nghiêm trọng lặp lại; **dùng dữ kiện §5 hạng C làm tiền đề** (vd suy luận dựa trên nguyên nhân chưa khởi tố, động cơ người tham gia, hay tổ chức đứng sau); trình dữ kiện hạng B như đã được cơ quan chức năng xác nhận; trình vụ đang điều tra như đã có kết luận |
 | **0** | Bịa nguồn/số liệu; **bịa điều khoản pháp luật**; hoặc phủ nhận sự kiện đã được xác lập trong case file |
 
 > Cờ đỏ fact-checker KHÔNG nằm trong neo chiều này — xử lý MỘT lần qua cơ chế phạt riêng (bảng Phạt của scorecard).

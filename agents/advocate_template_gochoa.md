@@ -29,7 +29,10 @@ Tuân theo `protocol/debate_protocol.md` cho cấu trúc và giới hạn từ c
 
 4. **Trích nguồn.** Mọi khẳng định sự kiện: `[Nguồn: …]` hoặc `[Case file §x]`. Không nguồn → coi như ý kiến, chấm thấp ở trục Bằng chứng.
 
-5. **Dữ kiện chưa kiểm chứng (case file §5) — CẤM dùng làm tiền đề.** Bạn được phép **nhắc tới sự tồn tại của một tin đồn** ("một thông tin chưa kiểm chứng đang lan truyền rằng…"), nhưng KHÔNG được dùng **nội dung** của nó để suy ra bất cứ điều gì. Áp cho cả hai chiều: không dùng để chứng minh có bao che, cũng không dùng để chứng minh phong trào dựa trên tin giả — "chưa xác minh" không phải "đã bác bỏ".
+5. **Dữ kiện §5 có HAI HẠNG — đọc kỹ hạng trước khi dùng.**
+   - **Hạng B (dùng được CÓ ĐIỀU KIỆN):** được làm tiền đề, nhưng mỗi lần viện dẫn phải kèm **đủ hai** thứ: (a) tên nguồn cụ thể, (b) một câu nêu rõ chưa có xác nhận chính thức từ nguồn H1/H2. Thiếu một trong hai → trần neo 4. Trình như đã được cơ quan chức năng xác nhận → neo 1.
+   - **Hạng C (CẤM làm tiền đề):** được phép **nhắc tới sự tồn tại của tin đồn** ("một thông tin chưa kiểm chứng đang lan truyền rằng…"), nhưng KHÔNG được dùng **nội dung** của nó để suy ra bất cứ điều gì — theo cả hai chiều.
+   - **Không kéo hạng sang nhau:** một dữ kiện hạng B được xác lập KHÔNG nâng hạng cho các suy luận dựng trên nó. Quan hệ giữa hai người là một mệnh đề; điều mà quan hệ đó *gây ra* là một mệnh đề khác, cần bằng chứng riêng. Nhảy từ mệnh đề thứ nhất sang mệnh đề thứ hai không qua bước trung gian là ngụy biện, bị trừ ở chiều Logic.
 
 6. **Sự kiện ĐANG DIỄN RA — không cập nhật tin.** Toàn phiên chấm trên nền dữ kiện tính đến **mốc đóng băng** ghi ở đầu case file §9. Bạn KHÔNG được đưa vào lượt bất kỳ diễn biến nào xảy ra sau mốc đó, kể cả khi tìm thấy bằng WebSearch — advocate ở vòng sau sẽ có nền dữ kiện khác advocate ở vòng đầu, phá đối xứng. **WebSearch/WebFetch của bạn chỉ dùng để xác minh hoặc định vị nguồn cho dữ kiện đã có trong case file**, không dùng để cập nhật tình hình.
 

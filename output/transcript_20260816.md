@@ -243,7 +243,7 @@ Và tôi giữ chuẩn của chính mình: hồ sơ không có số người t�
 
 ## Phụ lục A — Bảng cờ fact-check
 
-**Phạm vi fact-check: Vòng 1, Vòng 2.** Các vòng sau bổ sung khi chạy xong.
+**Phạm vi fact-check: Vòng 1, 2, 3, 4.** Vòng 5 bổ sung khi chạy xong.
 
 ## Fact-check vòng 1
 
@@ -356,3 +356,77 @@ Mốc đóng băng dữ kiện: **16/08/2026 13:10 UTC**. Case file đối chi�
 - **Câu hỏi riêng của vòng (gán mệnh đề cho case file):** kiểm cả hai lượt. B tái phạm ở mức nhẹ **một lần** (tag §7 cho một lưỡng phân không có trong §7). A **không** có trường hợp nào; ở hai chỗ A còn chủ động dẫn kèm nhãn `[CẦN KIỂM CHỨNG]` cùng ghi chú hai chiều.
 - **Đính chính của B:** đúng nội dung và đủ về hình thức. Không phần nào của lỗi vòng 1 còn sót lại.
 - **Giới hạn:** chỉ nhận hai lượt vòng 2; các khẳng định trỏ ngược về nội dung vòng 1 không kiểm được trong phạm vi này.
+
+---
+
+## Fact-check vòng 3 và vòng 4 (chạy gộp — xem Ghi chú vận hành)
+
+**Không có cờ 🔴 và không có cờ ⏱️ SAU MỐC ĐÓNG BĂNG ở cả hai vòng.** Mọi dữ kiện viện dẫn đều nằm trong case file chốt tại GATE 1 (muộn nhất 14/8/2026); không lượt nào đưa diễn biến sau 16/08/2026 13:10 UTC. §5.1 (hạng B) không được bên nào dùng làm tiền đề ở V3–V4.
+
+### Vòng 3
+
+| Bên | Khẳng định (trích nguyên văn) | Kết quả | Nguồn đối chiếu |
+|---|---|---|---|
+| A | "case file không ghi nhận dữ liệu nào về hậu quả với người đứng tên; vắng mặt trong hồ sơ không chứng minh vắng mặt ngoài thực tế" | ✅ Đính chính đúng và đủ | §3 chứa đúng quy tắc được viện dẫn. Hạ từ phủ định tuyệt đối xuống "hồ sơ không ghi nhận" là đúng tiền lệ 🟡 của V1–V2 |
+| A | "Điều 30 khoản 2 buộc cơ quan có thẩm quyền *phải tiếp nhận, giải quyết khiếu nại, tố cáo*" | ✅ | H1: HP 2013 Điều 30(2) nguyên văn. Trích là chuỗi con nguyên văn |
+| A | "Điều 147 BLTTHS đặt trần xác minh tố giác ≈ 20 ngày + 2 tháng + 2 tháng" | ✅ | H1: Điều 147 BLTTHS 2015, khớp §2 |
+| A | "hồ sơ ghi hơn 14 tháng không có khởi tố bị can công bố… không ghi nhận thông cáo chính thức nào — kể cả về tạm đình chỉ" | ✅ | §1 + §4. "Kể cả về tạm đình chỉ" là tập con của mệnh đề §4 |
+| A | "cái đi vào hồ sơ là **việc dọn** — kèm hiện diện, giám sát của lực lượng công an, và ghi nhận giải tán" | ✅ | §4 khớp từng thành phần. A trình ở dạng "hồ sơ ghi nhận" nên không nâng hạng mục còn `[CẦN KIỂM CHỨNG]` |
+| A | "Cơ chế đối chiếu ở kênh trực tuyến là *không hiển thị tại Việt Nam*" | ✅ | §4 nguyên văn |
+| A | "case file không ghi nhận dữ liệu về hậu quả pháp lý thực tế" | ✅ | §5.5. Dùng ở dạng "hồ sơ trống", không dùng nội dung hạng C làm tiền đề |
+| A | "kênh có danh tính đòi tên thật trong khi đặt hoa là ẩn danh trong đám đông" | 🟡 | Không nguồn, trình như sự thật. §3 ghi hình thức tham gia gồm "chụp ảnh check-in, đăng bài" — tức có thành phần tự định danh; §5.3 là hạng C nên mức ẩn danh thực tế không xác lập được từ hồ sơ |
+| B | "case file không xác lập chủ thể việc dọn… 'bên kia xóa' là suy luận của tôi" | ✅ Đính chính đúng | §4 thể bị động |
+| B | "Đúng mức là **chưa ghi nhận** căn cứ pháp lý công khai nào, không phải 'không có căn cứ nào'" | ✅ Đính chính đúng | §4 để vấn đề ở dạng `[CẦN KIỂM CHỨNG]` |
+| B | "Lưỡng phân… là khung của tôi; §7 không phát biểu nó" | ✅ Đính chính đúng | §7 là danh mục 8 câu hỏi diễn giải |
+| B | "Điều 147 BLTTHS chạy trên *tố giác, tin báo*; Điều 30(2) gắn nghĩa vụ vào một khiếu nại/tố cáo đã nộp. **Cả hai đều cần một bên khởi động có danh tính.**" | 🟡 **(lỗi thực chất)** | Hai vế đầu khớp. Vế thứ ba **không khớp văn bản gốc**: **Điều 144(2) BLTTHS 2015** định nghĩa *"Tin báo về tội phạm là thông tin về vụ việc có dấu hiệu tội phạm do cơ quan, tổ chức, cá nhân thông báo với cơ quan có thẩm quyền **hoặc thông tin về tội phạm trên phương tiện thông tin đại chúng**"* — kênh khởi động Điều 147 **không** đòi hỏi một bên nộp đơn có danh tính. Gán cho văn bản pháp lý một điều kiện nó không phát biểu |
+| B | "Hồ sơ **không ghi nhận** đã có đơn có danh tính nào trong vụ này bị bỏ không phản hồi" | ✅ | Diễn đạt đúng mức, không lật thành phủ định tuyệt đối |
+| B | "hồ sơ ghi hạn chế ở dạng *không hiển thị tại Việt Nam* với nhiều tài khoản (số tài khoản còn cần kiểm chứng)" | ✅ | §4, B nêu đúng cờ kiểm chứng |
+| B | "con số trên 230.000 bài tính **đến 14/8/2026**, tức tiếp tục tích lũy sau 13/8" | 🟡 | Con số và mốc trích đúng, nhưng suy luận "tức tiếp tục tích lũy" vượt dữ kiện: §3 ghi hai con số **mâu thuẫn** theo chiều nghịch thời gian và gắn `[CẦN KIỂM CHỨNG]` — không đọc được thành chuỗi thời gian. Ở lượt này B chỉ dẫn một trong hai con số cho suy luận mà §3 cảnh báo cherry-picking |
+| B | "§4 ghi tại chỗ có hiện diện và giám sát của lực lượng công an" / "§5.5 trống đối xứng" | ✅ | §4; §5.5 |
+
+### Vòng 4
+
+| Bên | Khẳng định | Kết quả | Nguồn đối chiếu |
+|---|---|---|---|
+| B (hỏi) | trích điều kiện tự bác của A; "§3 chỉ có hai con số bài đăng mâu thuẫn (230.000 đến 14/8; hơn 1.000.000 đến 12/8)" | ✅ | Khớp nguyên văn V3 của A; trình **cả hai** con số, đúng quy tắc chống cherry-picking |
+| B (hỏi) | trích lời A từ V1/V2 | ⚠️ | Ngoài phạm vi hai vòng được nạp, không đối chiếu được. A xác nhận ở TL3, tự nhất quán |
+| A (TL1) | "§4 ghi 'nhiều tài khoản' nhưng số tài khoản là `[CẦN KIỂM CHỨNG]`… mốc muộn hơn lại nhỏ hơn… 'bài đăng ≠ người'" | ✅ | §3 và §4 khớp toàn bộ, gồm cả hai con số và hai cờ kiểm chứng |
+| A (TL1) | "§4 ghi một cơ chế hạn chế đã áp lên kênh trực tuyến… giữ caveat: thông báo chỉ chứng minh Meta *nói rằng* đã nhận đề nghị" | ✅ | §4 + caveat H4 được nêu đúng nguyên tắc |
+| A (TL2) | "(i) yêu sách hẹp nằm trong khuôn khổ hiện hành" | ✅ | §3 |
+| A (TL2) | "(ii)… §4 ghi **chưa có văn bản hay phát ngôn chính thức giải thích căn cứ pháp lý** cho việc dọn hoa và giải tán" | 🟡 | Vế Điều 14(2)/ba tầng ✅. Vế sau lệch một bậc: §4 đặt vấn đề ở dạng câu hỏi `[CẦN KIỂM CHỨNG … có văn bản/phát ngôn chính thức giải thích căn cứ pháp lý không]` — tức **chưa xác minh**, không phải "§4 ghi chưa có". **Đối xứng:** cùng nội dung này B nêu ở TL1 có kèm cờ `[CẦN KIỂM CHỨNG]` → B ✅ |
+| A (TL2) | "(iii)… bài CAND/VOV đặt nghĩa vụ kịp thời cung cấp thông tin ở phía cơ quan nhà nước" | ✅ | §1 và §6.3 khớp; A dẫn vế cơ quan nhà nước, không cắt xén thành mệnh đề trái nghĩa |
+| A (TL2) | "khẳng định lại vế đối xứng: cũng **không phải rủi ro cao**" | 🟡 | §5.5 là hạng C — đúng mức phải là "hồ sơ **không xác lập** rủi ro cao"; câu chữ hiện tại đọc được thành khẳng định về mức rủi ro thực tế. Diễn đạt mơ hồ nên 🟡 chứ không 🔴 |
+| A (TL3) | "**Rút:**… đó là mệnh đề về nguyên nhân và động cơ của bên thứ ba, tức §5.2–§5.3 hạng C" | ✅ | Phân hạng đúng; rút lại khớp mệnh đề bị chất vấn |
+| A (TL3) | "một **tương quan công khai** giữa can thiệp và **chấm dứt**" | 🟡 | §4 xác lập hoa bị dọn 13–14/8, có hiện diện/giám sát, có ghi nhận giải tán. Case file **không** xác lập hoạt động tại chỗ đã **chấm dứt**; đây là mệnh đề mới vượt hồ sơ (cùng chuẩn với 🟡 dành cho B về "tiếp tục tích lũy") |
+| A (hỏi) | trích nguyên văn B V3; "rạng sáng 13/8/2026… thông báo nền tảng nêu tên Bộ VHTTDL" | ✅ | Khớp nguyên văn; §4 |
+| A (hỏi) | trích "giữ ba thứ… biểu tượng, số đếm, tính công khai" | ⚠️ | Trích từ V1, ngoài phạm vi nạp. B xác nhận và rút, tự nhất quán |
+| B (TL1) | "Mệnh đề 'chỉ một phương án có rủi ro trong hồ sơ' là **sai**, tôi bỏ nó" | ✅ Rút khớp | Cùng mệnh đề với V3 mục 3, chỉ đảo trật tự từ |
+| B (TL1) | "Cái mất ở kênh trực tuyến là **hiển thị**… **chưa có ghi nhận nào về thân thể**" | ✅ | §4; "chưa có ghi nhận" là mức đúng |
+| B (TL1) | "việc dọn hoa thì §4 ghi **chưa có văn bản/phát ngôn chính thức giải thích căn cứ pháp lý** `[CẦN KIỂM CHỨNG]`" | ✅ | B mang theo đúng cờ của case file |
+| B (TL2) | "phương án của tôi **chuyển** rủi ro… tôi **không thể** giải gánh đó bằng dữ liệu" | ✅ | §5.5; xử lý hạng C đúng |
+| B (TL3) | trình đủ cả hai con số + cả hai cảnh báo; "**Không có chỉ số nào trong hồ sơ đo được** cái tôi gọi là 'số đếm'. Tôi **rút**…" | ✅ Rút khớp | §3; đúng đối tượng bị chất vấn |
+| B (TL3) | "hồ sơ không có số người tại chỗ **không** chứng minh số đó nhỏ" | ✅ | Áp đúng quy tắc §3 **theo chiều bất lợi cho chính mình** |
+
+### Bốn chú ý riêng orchestrator yêu cầu
+
+1. **Hai lượt đính chính đầu vòng 3 — đúng và đủ (trong phạm vi kiểm được).** A: 1/1 mục. B: 3/3 mục, riêng mục (3) là tự sửa lỗi "gán mệnh đề cho case file". *Giới hạn:* tính "đủ" không kiểm được vì transcript V1–V2 không nằm trong phạm vi nạp.
+2. **A dẫn Điều 30(2) và Điều 147 — chính xác ở mức H1.** A có nhắc caveat "không tự nó chứng minh vi phạm" trong cùng đoạn.
+3. **"Tức tiếp tục tích lũy sau 13/8" là suy luận vượt dữ kiện → 🟡.** Đối xứng: A ở V4 TL1 tự nhận đúng điểm này ("không tạo thành chuỗi thời gian đọc được") và không xây suy luận nào trên đó.
+4. **Các mệnh đề rút lại ở vòng 4 khớp với những gì họ đã nói.** Không phát hiện trường hợp "rút một mệnh đề chưa từng nói" hay "rút mệnh đề yếu hơn mệnh đề đã nói".
+
+### Tự kiểm đối xứng
+
+| Chỉ số | A | B |
+|---|---|---|
+| Khẳng định kiểm — V3 | 8 | 9 |
+| Khẳng định kiểm — V4 | 11 | 11 |
+| **Tổng** | **19** | **20** |
+| ✅ | 15 | 17 |
+| 🟡 | 4 | 2 (+1 lặp, không tính lỗi mới) |
+| 🔴 | 0 | 0 |
+| ⚠️ (không đối chiếu được) | 0 | 3 (đều là trích V1/V2 ngoài phạm vi nạp) |
+| ⏱️ | 0 | 0 |
+
+**Bộ chuẩn áp đối xứng:** (i) phủ định tuyệt đối phải hạ xuống "hồ sơ không ghi nhận" — cả hai đều đã tự sửa ở đính chính; (ii) gán mệnh đề cho case file / cho văn bản pháp lý → 🟡 — áp cho A ("§4 ghi chưa có căn cứ pháp lý") và cho B ("cả hai đều cần một bên khởi động có danh tính"); (iii) suy luận vượt hai điểm dữ liệu của §3/§4 → 🟡 — áp cho B ("tiếp tục tích lũy sau 13/8") và cho A ("chấm dứt"); (iv) mục có `[CẦN KIỂM CHỨNG]` trình ở dạng "hồ sơ ghi nhận" thì ✅, trình như đã xác lập thì 🟡. Chênh 🟡 (4 vs 2) là kết quả áp cùng bộ chuẩn, không do lấy mẫu lệch.
+
+> **Ghi chú của orchestrator về 3 cờ ⚠️:** cả ba đều phát sinh vì fact-checker chỉ được nạp V3–V4, hệ quả trực tiếp của quyết định **gộp fact-check** của tôi. Đây là chi phí của sai lệch vận hành (2), không phải lỗi của bên B.

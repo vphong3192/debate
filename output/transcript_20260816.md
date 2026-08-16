@@ -18,6 +18,7 @@
 - **Cơ chế ngân sách từ hỏng ở vòng 1 — cả hai bên đều vượt lớn.** Bản đầu: A 1123/800, B 1258/800. Mỗi bên được yêu cầu cắt gọn **đúng một lần** theo protocol, cùng một nội dung yêu cầu (quy trình đối xứng). Sau khi cắt: **A 1092, B 1130**. Đây là **thất bại của quy tắc, không phải lợi thế của một bên**: "cắt gọn một lần" không có chế tài khi advocate cắt lấy lệ (A chỉ giảm 31 từ), và protocol chỉ còn cách chú thích cho judge.
   **Điểm mấu chốt để judge không hiểu sai:** hai lượt cùng vượt trần tuyệt đối (880) nhưng chênh nhau chỉ **3,5%** — tức **đối xứng giữa hai bên VẪN được giữ** trong ngưỡng ±10% của Nguyên tắc 2. Không bên nào có lợi thế độ dài so với bên kia; cái bị vi phạm là ngân sách tuyệt đối, và bị vi phạm ngang nhau. Judge **không nên** trừ một bên vì độ dài trong khi bên kia dài tương đương.
   **Đề xuất vá sau phiên:** cho phép gọi lại instance MỚI khi bản cắt vẫn vượt >10%, thay vì chỉ chú thích.
+  **KẾT QUẢ KIỂM CHỨNG ĐỀ XUẤT NÀY — vòng 2 đạt ngay từ bản đầu.** Ở vòng 2, spec lượt nêu thẳng con số mục tiêu (~560) VÀ báo trước rằng bản vượt >10% sẽ bị **gọi lại bằng instance mới** thay vì cho cắt. Kết quả: **B 596/600, A 639/600 — cả hai ĐẠT ngay bản đầu, không cần cắt gọn lần nào.** So với vòng 1 (chỉ nhắc giới hạn, không có chế tài): cả hai vượt 40–57%. Kết luận vận hành: **chế tài là thứ tạo khác biệt, không phải lời nhắc.** Đây là bằng chứng trong phiên cho bản vá đề xuất ở trên — nên đưa vào protocol.
 - **Advocate tự xác minh nhãn `[CẦN KIỂM CHỨNG]` của case file bằng WebSearch.** Ở V1, **cả hai** advocate đều tra và dẫn nguồn ngoài cho Điều 16 và Điều 30 Hiến pháp 2013 (A thêm Điều 147 BLTTHS) — các mục case file §2 có nêu nhưng còn gắn nhãn. Việc này **nằm trong quyền được cấp** (WebSearch dùng để xác minh dữ kiện đã có trong case file, không dùng để cập nhật tin sau mốc đóng băng), và cả hai đều khai báo minh bạch. **Rủi ro bất đối xứng đã không hiện thực hóa ở vòng 1** vì hai bên làm như nhau, nhưng nó vẫn là khoảng trống thật của harness: không có gì bảo đảm điều đó lặp lại ở các vòng sau. Harness hiện chưa có quy tắc cho tình huống "advocate tự gỡ nhãn case file" — đề xuất bổ sung sau phiên.
 
 ---
@@ -78,7 +79,37 @@
 
 ## Vòng 2 — Phản biện 1
 
-[chờ điền]
+### Phản biện 1 — Advocate B
+
+**Đính chính.** Vòng 1 tôi gán cho case file mệnh đề "vụ Tuyên Quang không phải tiền lệ cho câu hỏi duy trì hiện diện khi bị ngăn cản". Case file chỉ nêu các điểm khác biệt và cảnh báo §6 thiếu chiều đối chứng `[Case file §6, §6.2]`; kết luận đó là suy luận của tôi.
+
+**Steelman A.** Điểm mạnh nhất của A không phải rủi ro mà là hai đòn logic: (i) "tiếp tục tại chỗ" và "chuyển kênh" không loại trừ nhau, nên tôi phải chứng minh việc chuyển **thay thế** được áp lực chứ không chỉ **an toàn hơn**; (ii) kênh trực tuyến cũng đã bị hạn chế `[Case file §4]`, nên phương án của tôi không miễn nhiễm. Cả hai đúng như phát biểu.
+
+**1. False dilemma: đúng về mệnh đề, sai về đối tượng quyết định.** Ở mức mệnh đề, hai hình thức cộng được. Nhưng đề bài không hỏi phong trào nên có bao nhiêu kênh, nó hỏi **một người trẻ đứng trước quyết định** có nên đến gốc cây không. Ở mức đó, cái khan hiếm không phải kênh mà là **ngân sách rủi ro của một cá nhân cụ thể** — và "làm cả hai" vẫn đặt đúng người ấy lên vỉa hè, nơi đã ghi nhận giải tán `[Case file §4]`. Thêm nữa, hai hình thức cộng được về nguồn lực nhưng **không cộng được về khung tự sự**: chừng nào còn hiện diện vật lý bị ngăn cản, câu hỏi công chúng bị dịch từ "vì sao 14 tháng chưa có kết luận" `[Case file §1]` sang "có được tụ tập không". Cái sau là câu hỏi bên kia có sẵn công cụ trả lời.
+
+**2. Thay thế áp lực, không chỉ an toàn hơn.** Áp lực đẩy được một quyết định tố tụng cần hai thứ: (a) khoảng trống thông tin bị giữ ở trạng thái nhìn thấy được, (b) một địa chỉ buộc phải phản hồi. Hình thức tại chỗ mạnh ở (a) — nhưng 13–14/8 cho thấy chính (a) bị bên kia xóa với chi phí thấp: dọn xong thì tọa độ trở lại trống `[Case file §4]`. Số đếm trực tuyến thì tích lũy, không quét vỉa hè mà xóa được.
+
+Ở đây bằng chứng của A quay lại chống A. Hạn chế nội dung trên Threads đi kèm **một thông báo nêu tên cơ quan đề nghị**; còn việc dọn hoa và giải tán, đến mốc đóng băng, **không có căn cứ pháp lý công khai nào được viện dẫn** `[Case file §4]`. Chống kênh trực tuyến thì bên kia phải để lại dấu vết quy được cho một chủ thể; chống người ở vỉa hè thì không. Kênh có danh tính đẩy thêm một bậc: Điều 30 đặt nghĩa vụ **tiếp nhận, giải quyết** khiếu nại, tố cáo `[Nguồn: Hiến pháp 2013, Điều 30; cand.com.vn]` — thứ bó hoa không tạo ra được. Đây là lập luận về **cơ chế sinh áp lực**, không phải về an toàn. Nó sai nếu đơn có danh tính bị trả lời hình thức mà bên nhận không chịu chi phí nào.
+
+**3. "Appeal to consequences" bắn trượt.** A nói việc hình thức bị gán khung xấu là mệnh đề về phản ứng của người khác, không phải về tính chính đáng. Đồng ý — và tôi không tranh tính chính đáng; đề bài khóa vào **phương tiện**. Khẳng định của tôi là công cụ: khung tự sự quyết định người có thẩm quyền đang đứng trước lựa chọn nào — nhượng bộ một quyết định tố tụng hẹp, hay nhượng bộ trên câu hỏi trật tự công cộng `[Case file §7]`. Cái sau đắt hơn hẳn với họ, nên xác suất đáp ứng thấp hơn. Đó là cơ chế nối, không phải ngụy biện hệ quả.
+
+**Nguồn trích dẫn trong lượt này:** Case file §1, §4, §6, §6.2, §7; Hiến pháp 2013 Điều 30 — cand.com.vn
+
+`[ngân sách từ: 596/600 — ĐẠT, không cần cắt gọn]`
+
+### Phản biện 1 — Advocate A
+
+**Steelman B.** B đưa ra ba đòn thật. (1) Đề bài không hỏi phong trào nên có mấy kênh, mà hỏi một người cụ thể có nên ra vỉa hè; ở cấp đó "làm cả hai" vẫn đặt đúng người ấy vào chỗ đã ghi nhận giải tán `[Case file §4]`. (2) Chống kênh trực tuyến buộc bên kia để lại dấu vết quy được cho một chủ thể, chống người ở vỉa hè thì không — nên kênh trực tuyến **sinh áp lực** tốt hơn, chứ không chỉ an toàn hơn. (3) Duy trì hiện diện bị ngăn cản dịch câu hỏi công chúng sang "có được tụ tập không". Đòn (2) là đóng góp mạnh nhất của vòng này.
+
+**1. Dịch xuống cấp cá nhân không tự chọn phương án B.** Tôi nhận cấp phân tích đó là chính đáng và nó làm **tăng** gánh nặng biện minh cho tôi — nên tôi tiếp tục không kêu gọi ai làm gì `[Case file §10]`. Nhưng nếu "ngân sách rủi ro của một cá nhân" là tiêu chí quyết định thì nó phải **xếp hạng** các phương án. Phương án B đề xuất — đơn kiến nghị, luật sư gia đình, chất vấn qua đại biểu — đều đòi gắn **tên thật** vào một văn bản gửi cơ quan nhà nước; đặt hoa là hành vi ẩn danh trong đám đông. §5.5 ghi **chưa có dữ liệu** về hậu quả pháp lý thực tế với người đặt hoa `[Case file §5.5]`; cũng không có dữ liệu nào về hậu quả với người đứng tên. Hai ô trống thì tiêu chí này **chưa phân định được**, không phải phân định về phía B. Rủi ro thân thể tại chỗ là thật; rủi ro định danh không bằng 0.
+
+**2. Dấu vết: chuỗi của B đứt ở ba chỗ.** (a) Dấu vết ấy **đã** được tạo ra rạng sáng 13/8 `[Case file §4]`, và đến mốc đóng băng vẫn chưa có thông cáo chính thức nào về vụ tai nạn hay việc dọn hoa `[Case file §4]`. Dấu vết là điều kiện cần, không phải cơ chế đủ — B phải nói nó chuyển thành áp lực bằng đường nào. (b) Việc dọn hoa không phải không dấu vết: §4 ghi **có sự hiện diện/giám sát của lực lượng công an** và có ghi nhận giải tán — case file để nhãn cần nguồn H3 độc lập thứ hai `[Case file §4]`. Cái thiếu là **căn cứ pháp lý công khai**; một hành động không nêu được căn cứ thì khó chuẩn hóa hơn — đó là chi phí, không phải sự miễn phí. (c) Cơ chế ghi nhận được ở §4 không phải xóa bài mà là **"không hiển thị tại Việt Nam"** `[Case file §4]`. Số đếm vẫn tích lũy trong khi khả năng tiếp cận của đúng công chúng cần chuyển động thì giảm. Tích lũy một con số mà người phải đọc nó không thấy không phải là áp lực tích lũy.
+
+**3. Khung tự sự: dự đoán chưa có neo, và tác nhân bị gán sai.** Cơ chế của B phải chịu đúng ba yêu cầu B áp cho tôi. Neo dữ kiện: đến mốc đóng băng **chưa xác minh được** phát ngôn chính thức nào gán cho phong trào khung "cách mạng màu"/"thế lực thù địch" `[Case file §4]` — tôi không trình điều đó như "chắc chắn không có", nhưng sự dịch khung B mô tả hiện **chưa có bằng chứng công khai đã xảy ra**. Thứ hai, nếu nó xảy ra thì tác nhân mở ra câu hỏi "có được tụ tập không" là phản ứng 13–14/8, không phải bó hoa. **Dừng không đóng câu hỏi đó lại — nó trả lời câu hỏi đó**, và câu trả lời ấy được đọc trong mọi vụ sau: đúng ô mà phép tính của B vẫn để trống. **Điều kiện khiến tôi sai:** nếu xuất hiện phát ngôn chính thức đóng khung phong trào theo hướng trật tự công cộng, đòn (3) của B mạnh lên đáng kể.
+
+**Nguồn trích dẫn trong lượt này:** Case file §4; §5.5; §10.
+
+`[ngân sách từ: 639/600 — ĐẠT (trần 660), không cần cắt gọn. Chênh so với lượt B cùng vòng: 7,2%, trong ngưỡng ±10%]`
 
 ## Vòng 3 — Phản biện 2
 

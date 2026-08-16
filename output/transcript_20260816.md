@@ -94,7 +94,74 @@
 
 ## Phụ lục A — Bảng cờ fact-check
 
-[chờ điền]
+**Phạm vi fact-check: Vòng 1.** Các vòng sau bổ sung khi chạy xong.
+
+## Fact-check vòng 1
+
+Mốc đóng băng dữ kiện: **16/08/2026 13:10 UTC**. Case file đối chiếu: bản GATE 1, commit `07630c6`.
+
+| Bên | Khẳng định (trích nguyên văn) | Kết quả | Nguồn đối chiếu |
+|-----|------------------------------|---------|-----------------|
+| A | "vụ tai nạn 30/5/2025" | ✅ Đúng | Case file §1 |
+| A | "nạn nhân tử vong sau khoảng một tuần" | ✅ Đúng | Case file §1 (case file gắn `[CẦN KIỂM CHỨNG ngày chính xác]`; A giữ đúng mức "khoảng", không lên ngày cụ thể) |
+| A | "đến giữa 8/2026 chưa có khởi tố bị can công bố, chưa có kết luận điều tra công khai — hơn 14 tháng" | ✅ Đúng | Case file §1 |
+| A | "chưa ghi nhận yêu sách nào vượt phạm vi vụ án" | ✅ Đúng | Case file §3 |
+| A | "hình thức ghi nhận được chỉ là đặt hoa, chụp ảnh, đăng bài" | ✅ Đúng | Case file §3 |
+| A | "trên 230.000 bài đăng (đến 14/8) và hơn 1.000.000 bài viết (đến 12/8) — mâu thuẫn … bài đăng ≠ người" | ✅ Đúng | Case file §3. Trình cả hai con số → không vi phạm quy tắc chống cherry-picking |
+| A | "§5.5 ghi chưa có dữ liệu về hậu quả pháp lý thực tế, mà thiếu dữ liệu không phải rủi ro bằng 0" | ✅ Đúng | Case file §5.5. Dùng đúng hạng C |
+| A | "nơi đã ghi nhận việc giải tán" | ✅ Đúng | Case file §4 |
+| A | "Bản tưởng niệm trực tuyến" | ✅ Đúng | Case file §4 |
+| A | "rạng sáng 13/8/2026, nhiều tài khoản Threads báo bài không hiển thị tại Việt Nam…" + "chỉ chứng minh Meta nói rằng đã nhận đề nghị" | ✅ Đúng | Case file §4, kể cả caveat nền tảng — dùng đúng mức chứng minh |
+| A | "bộ đó do bà Lâm Thị Phương Thanh đứng đầu" | ✅ Đúng | Case file §5.1 (8/4/2026 phê chuẩn Bộ trưởng VHTTDL, 481/481) |
+| A | "quan hệ hôn nhân … được RFA 7/8/2025 và Luật Khoa 8/2026 nêu — chưa có xác nhận chính thức nào từ cơ quan nhà nước" | ✅ Đúng — dùng đúng hạng B | Case file §5.1. Đủ **cả hai** điều kiện. A dừng ở mệnh đề cấu trúc, không bước sang §5.2 |
+| A | "suy đoán vô tội áp cho ông Cương" | ✅ Đúng (nội dung) | Case file §8. Ghi chú kỹ thuật: case file **không đánh số con** cho §8; tag "§8.1" không tồn tại đúng chữ, nội dung khớp. Cả hai bên dùng cùng tag |
+| A | "Điều 25 hiến định quyền hội họp; Điều 14(2) quy định quyền chỉ có thể bị hạn chế theo quy định của LUẬT" | ✅ Đúng | Case file §2 (nguyên văn đã xác minh H1) |
+| A | "Việt Nam chưa có Luật Biểu tình" | ✅ Đúng | Case file §2 |
+| A | "Nghị định 38/2005/NĐ-CP yêu cầu đăng ký trước … ngưỡng số người thì case file ghi chưa xác minh" | ✅ Đúng | Case file §2, kể cả nhãn chưa xác minh |
+| A | "đến mốc đóng băng, chưa có căn cứ pháp lý công khai nào được viện dẫn cho việc dọn hoa" | ✅ Đúng (có lưu ý diễn đạt) | Case file §4. Dạng đúng về nhận thức luận là "chưa ghi nhận"; A viết "chưa có … được viện dẫn" — sát nhưng chưa vượt ranh giới vì có bổ ngữ "công khai" |
+| A | "Điều 16 — *Mọi người đều bình đẳng trước pháp luật*" (tự xác minh ngoài) | ✅ Đúng số điều + đúng nguyên văn | Hiến pháp 2013 Điều 16 khoản 1 |
+| A | "Điều 30 — quyền khiếu nại, tố cáo" (tự xác minh ngoài) | ✅ Đúng số điều | Hiến pháp 2013 Điều 30 khoản 1. Nguồn A dẫn có tồn tại thật, không bịa |
+| A | "Điều 147 BLTTHS 2015 đặt trần xác minh tố giác khoảng 20 ngày + 2 tháng + 2 tháng" | ✅ Đúng | Case file §2 khớp chính xác; xác minh ngoài khớp. A giữ đúng cả caveat |
+| A | "Đặt hoa … nằm ở mức thấp nhất của thang phản kháng phi bạo lực" | ✅ Tag khớp | Case file §7 là DIỄN GIẢI, ngoài phạm vi fact-check; chỉ kiểm tag |
+| B | "vụ tai nạn 30/5/2025 phải được khởi tố" | ✅ Đúng | Case file §1, §3 |
+| B | "cơ quan nhà nước phải kịp thời cung cấp thông tin, vì khoảng trống thông tin nuôi tin đồn" | ✅ Đúng | Case file §6.3 |
+| B | "trên 230.000 bài đăng (đến 14/8) và hơn 1.000.000 bài viết (đến 12/8) — hai con số mâu thuẫn … bài đăng ≠ người" | ✅ Đúng | Case file §3. Trình cả hai con số |
+| B | "sau khi hoa bị dọn có lực lượng công an hiện diện và có ghi nhận giải tán" | ✅ Đúng (lưu ý trình tự) | Case file §4 ghi việc dọn **có** sự hiện diện/giám sát của công an (đồng thời, không phải sau); không đổi nội dung sự kiện |
+| B | "Tôi nói rủi ro ở dạng khả năng: chưa có dữ liệu về hậu quả thực tế" | ✅ Đúng — dùng đúng hạng C | Case file §5.5 |
+| B | "bản trực tuyến 'Cây tưởng niệm số 55'" | ✅ Đúng | Case file §4 |
+| B | "hơn 14 tháng chưa có khởi tố bị can công bố, chưa có kết luận điều tra công khai" | ✅ Đúng | Case file §1 |
+| B | "suy đoán vô tội áp cho ông Nguyễn Sỹ Cương" | ✅ Đúng (nội dung) | Case file §8. Cùng ghi chú đánh số như bên A |
+| B | "§5.1 đạt hạng B qua RFA 7/8/2025 và Luật Khoa 8/2026, chưa có xác nhận chính thức từ nguồn H1/H2, và có từ trước phong trào ~14 tháng" | ✅ Đúng — dùng đúng hạng B | Case file §5.1, đủ cả hai điều kiện |
+| B | "Tôi không suy diễn tổ chức hay tài trợ đứng sau" | ✅ Đúng — dùng đúng hạng C | Case file §5.4 |
+| B | "áp quy tắc H4 đối xứng: truyền thông vận động ở cả hai đầu quang phổ chỉ chứng minh thông điệp đã được phát đi" | ✅ Đúng | Case file, mục Quy tắc H4 đối xứng |
+| B | "§6 thiếu chiều đối chứng nên chỉ minh họa cơ chế" | ✅ Đúng | Case file §6, CẢNH BÁO PHẠM VI |
+| B | "Vụ Tuyên Quang cho thấy áp lực không cần hiện diện vật lý vẫn tạo chuyển động tố tụng" | ✅ Đúng | Case file §6.2 |
+| B | "ở đó có báo chí nhà nước tham gia, ở đây gần như không đưa tin" | ✅ Đúng | Case file §6.2 + mục "Bất đối xứng nguồn". B dùng để nêu điểm yếu loại suy, không dùng sự im lặng làm bằng chứng sự kiện |
+| B | "case file ghi rõ vụ đó **không** phải tiền lệ cho câu hỏi duy trì hiện diện khi bị ngăn cản" | 🟡 **Dẫn sai mức — gán cho case file mệnh đề nó không phát biểu** | Case file §6.2 chỉ nêu **dữ kiện khác biệt**; không có câu kết luận "không phải tiền lệ". Đây là **suy luận của B**, hợp lý nhưng không được gắn nhãn "case file ghi rõ" |
+| B | "Điều 25 hiến định quyền hội họp, Điều 14(2) đòi hạn chế quyền phải bằng luật" | ✅ Đúng | Case file §2 |
+| B | "chưa có Luật Biểu tình … Nghị định 38/2005 (đăng ký trước; ngưỡng số người chưa xác minh) và Nghị định 144/2021 (số điều chưa xác minh)" | ✅ Đúng | Case file §2, giữ nguyên cả hai nhãn |
+| B | "Điều 30 khoản 2 — *Cơ quan, tổ chức, cá nhân có thẩm quyền phải tiếp nhận, giải quyết khiếu nại, tố cáo*" | ✅ Đúng số điều, đúng khoản, đúng nguyên văn | Hiến pháp 2013 Điều 30 khoản 2 câu 1. B trích một phần (khoản 2 gồm 2 câu), không cắt xén làm lệch nghĩa |
+| B | "Điều 16 về bình đẳng trước pháp luật" (tự xác minh ngoài) | ✅ Đúng số điều | Hiến pháp 2013 Điều 16 khoản 1 |
+| B | "Câu hỏi 'hồ sơ đang ở trạng thái tố tụng nào, có tạm đình chỉ không'" | ✅ Đúng | Case file §2; Điều 147 BLTTHS 2015 có cơ chế tạm đình chỉ |
+
+### Kiểm riêng theo yêu cầu orchestrator
+
+1. **Điều 16 & Điều 30 Hiến pháp 2013 (cả hai bên tự xác minh ngoài):** số điều **ĐÚNG** cho cả hai bên; A trích nguyên văn Điều 16 chính xác, B trích nguyên văn Điều 30 khoản 2 chính xác. Nhãn `[CẦN KIỂM CHỨNG số điều]` ở case file §2 **nay có thể gỡ** — cần `APPROVE CASE FILE ADDENDUM`, ngoài thẩm quyền fact-checker. Bổ sung: Nghị quyết 203/2025/QH15 (hiệu lực 1/7/2025) sửa Hiến pháp 2013 ở nhóm điều về MTTQ và chính quyền địa phương, **không đụng Chương II** (Điều 14, 16, 25, 30) và không đánh số lại → số điều hai bên dẫn vẫn đúng tại 8/2026. ⚠️ Kết luận này dựa trên nguồn H3 mô tả phạm vi sửa đổi, không đối chiếu được toàn văn (egress bị chặn).
+2. **A dẫn Điều 147 BLTTHS "20 ngày + 2 tháng + 2 tháng":** khớp chính xác case file §2 và nguồn ngoài; A tái lập đúng cả caveat (không tự nó chứng minh vi phạm; có thời hạn điều tra sau khởi tố vụ án và cơ chế tạm đình chỉ).
+3. **B trích nguyên văn Điều 30 khoản 2:** đúng nguyên văn, không sửa chữ, không ghép.
+
+**Cờ ⏱️ SAU MỐC ĐÓNG BĂNG: 0 cho cả hai bên.** Không lượt nào đưa diễn biến sau 16/08/2026 13:10 UTC. Phần hai bên mở rộng ngoài case file đều là **văn bản quy phạm** (Hiến pháp 2013, BLTTHS 2015) — dữ liệu tĩnh, không phải tin mới, nên không kích hoạt quy tắc đóng băng.
+
+**Tổng hợp cờ vòng 1:** 🔴 Sai: **0** (A 0, B 0). 🟡: **1** (A 0, B 1). ⚠️: **1** (chung, về phạm vi sửa đổi Hiến pháp 2025 — không ảnh hưởng khẳng định nào của hai bên). ⏱️: **0**. Vi phạm hạng B/C: **0** cho cả hai bên.
+
+### Tự kiểm đối xứng
+
+- **Số khẳng định được kiểm — A: 21, B: 20.** Chênh ~5%, trong biên chấp nhận; không bên nào bị soi kỹ hơn.
+- Cùng tiêu chuẩn áp cho cả hai: mọi tag `[Case file §x]` đối chiếu chữ-với-chữ; mọi số liệu/ngày/số điều đều kiểm; ghi chú kỹ thuật về tag "§8.1" ghi cho **cả hai** bên; cùng chuẩn khắt khe cho việc gán mệnh đề cho case file — đây là chỗ duy nhất tạo chênh lệch kết quả (B: 1 🟡).
+- **Điều kiện hạng B (§5.1)** kiểm riêng từng bên: cả hai thỏa đủ hai điều kiện, không bên nào bị 🟡.
+- **Điều kiện hạng C (§5.2–§5.5)** kiểm riêng từng bên: không bên nào dùng nội dung hạng C làm tiền đề.
+- **Lý do chênh 21/20:** lượt A có thêm 2 mệnh đề sự kiện rời mà B gộp chung. Không phải do lựa chọn kiểm không đối xứng.
+- **Giới hạn của lần kiểm này:** nhiều domain văn bản pháp luật bị chặn egress; xác minh Điều 16/30 và Điều 147 dựa trên nội dung trích trong kết quả tìm kiếm từ nhiều nguồn độc lập trùng khớp, không phải từ bản toàn văn tự fetch. Mức tin cậy: **cao** cho nội dung điều luật, **trung bình** cho khẳng định "không có sửa đổi/đánh số lại 2025".
 
 ## Phụ lục B — Steelman audit
 

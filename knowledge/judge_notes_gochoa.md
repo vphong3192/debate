@@ -53,6 +53,23 @@ Ngược lại, **thưởng** ở chiều 5 cho bên nào tóm tắt đối phư
 - **Cả hai bị trừ** khi lẫn "quá thời hạn luật định" với "lâu hơn kỳ vọng công chúng" (case file §2, §8.5). Nếu §2 đã được xác minh tại GATE 1, bên nào **dẫn được điều khoản thời hạn tố tụng** để trả lời câu hỏi 14 tháng thì được thưởng rõ ở trục này; bên nào chỉ nói "quá lâu rồi" thì trần neo 4.
 - **Cả hai bị 0** nếu bịa văn bản/nghị định/điều khoản không tồn tại — neo rubric.
 
+## K3-bis — Neo Điều 147 BLTTHS và tiền lệ §6 (bổ sung 16/8/2026, sau khi xác minh §2/§6)
+
+**Điều 147 BLTTHS (thời hạn giải quyết tố giác: 20 ngày + gia hạn ≤2 tháng + gia hạn thêm ≤2 tháng) là neo pháp lý trung tâm.** Chấm ở chiều 3:
+- **Được điểm rõ (hướng tới neo 10):** bên nào **dẫn được điều khoản thời hạn** để trả lời câu hỏi "14 tháng" thay vì nói cảm tính. Áp cho **cả hai bên** — B cũng được điểm nếu dùng chính điều khoản này để lập luận rằng cơ chế **tạm đình chỉ** có thể giải thích độ trễ một cách hợp pháp.
+- **Trần neo 4:** chỉ nói "quá lâu rồi" / "chậm bất thường" mà không neo vào điều khoản nào.
+- **Trừ ở chiều 5 (né phản biện)** khi A dùng "quá 14 tháng" như bằng chứng vi phạm thủ tục mà **không đối diện** khả năng tạm đình chỉ hợp pháp; đối xứng, trừ B khi viện tạm đình chỉ mà **không thừa nhận** rằng đến mốc đóng băng không có thông báo công khai nào về việc đó (case file §2, §4).
+
+**Cấu trúc hạn chế quyền ba tầng (Điều 25 + Điều 14(2)):** bên nào chỉ nêu tầng 1 (có quyền) hoặc chỉ nêu tầng 3 (có nghị định) mà **bỏ tầng 2** (chỉ hạn chế **bằng LUẬT**, chỉ vì các lý do được liệt kê) → **trần neo 7** chiều 3, áp cho cả hai bên.
+
+**Khoảng trống Luật Biểu tình:** chấm **cách suy luận**, không chấm **chiều suy luận**. Nêu rõ mình suy ra chiều nào và bằng lập luận gì → được điểm; trình như thể chiều mình chọn là hiển nhiên → **neo 4**. Đừng thưởng cho bên nào chỉ vì chiều suy luận của họ nghe quen tai hơn.
+
+**Tiền lệ §6 — LƯU Ý HIỆU CHUẨN QUAN TRỌNG.** Case file §6 **thiên lệch một chiều có lợi cho A**: cả bốn trường hợp đều là "áp lực dư luận đi trước quyết định tố tụng"; chưa tìm được trường hợp áp lực không hiệu quả hoặc phản tác dụng, và §5.5 (hậu quả thực tế với người tham gia) vẫn trống.
+- **B KHÔNG bị trừ** vì không viện dẫn được tiền lệ ủng hộ phía mình ở trục này — vật liệu không tồn tại trong case file. Trừ B ở đây là phạt B vì một khuyết tật của case file.
+- **A bị trừ (neo thấp chiều 2)** khi trình §6 như **bằng chứng thống kê** ("các vụ trước đều cho thấy…") — bốn trường hợp chọn lọc không phải mẫu đại diện. Dùng như **ví dụ minh họa cơ chế** thì được điểm bình thường.
+- **A bị trừ (neo 4 chiều 4)** khi viện §6.1 (Huấn Hoa Hồng) mà không nêu ba điểm khác biệt bắt buộc (loại tội, cơ quan thụ lý, thân thế bị can) — loại suy trần trụi.
+- **§6.3 (bài Công an Nhân dân/VOV) là nguồn hai lưỡi:** vế "dư luận không thay thế được cơ quan tố tụng" là vật liệu của B; vế "khoảng trống thông tin là mảnh đất màu mỡ cho tin đồn, cơ quan nhà nước phải kịp thời cung cấp thông tin" là vật liệu của A. **Bên nào trích một vế mà giấu vế kia → trừ chiều 2 (cherry-picking).** Bên nào trích được vế bất lợi cho mình rồi vẫn phản bác được → thưởng rõ ở chiều 5.
+
 ## K4 — Trục Logic & nhất quán (Chiều 4) — đối chiếu case file §7
 
 - **A bị trừ** (ngụy biện) khi: (a) *false dilemma* — "hoặc tiếp tục đặt hoa hoặc bỏ mặc vụ án" (bỏ qua toàn bộ phương án của B); (b) *appeal to popularity* — "230.000 bài đăng nên là đúng"; (c) trượt từ "yêu sách chính đáng" sang "mọi phương tiện theo đuổi nó đều chính đáng"; (d) đánh đồng **"được khuếch đại"** với **"được tạo ra"** theo chiều thuận ("nhiều người ủng hộ nên là tự phát").

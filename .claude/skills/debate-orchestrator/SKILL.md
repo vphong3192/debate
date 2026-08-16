@@ -1,6 +1,6 @@
 ---
 name: debate-orchestrator
-description: Điều phối toàn bộ quy trình tranh biện debate-arena (Nga–Ukraine). BẮT BUỘC dùng skill này khi người dùng gõ START PHASE 0, START DEBATE, START JUDGING, FULL RUN, EXTRA ROUND, SWAP TEST, NOISE TEST, APPROVE CASE FILE, APPROVE TRANSCRIPT — hoặc yêu cầu bằng lời thường như "chạy tranh biện", "chạy lại phiên", "thêm vòng về chủ đề X", "chấm lại", "cập nhật case file", "so sánh hai phiên", "kiểm tra thiên lệch judge", "đo nhiễu judge", "audit steelman". Mọi việc vận hành debate đều đi qua skill này; không tự đóng vai advocate/judge trong context chính.
+description: Điều phối toàn bộ quy trình tranh biện debate-arena (nhiều bộ chủ đề — Nga–Ukraine, Tuyên Quang, gốc cây 55). BẮT BUỘC dùng skill này khi người dùng gõ START PHASE 0, START DEBATE, START JUDGING, FULL RUN, EXTRA ROUND, SWAP TEST, NOISE TEST, APPROVE CASE FILE, APPROVE TRANSCRIPT — hoặc yêu cầu bằng lời thường như "chạy tranh biện", "chạy lại phiên", "thêm vòng về chủ đề X", "chấm lại", "cập nhật case file", "so sánh hai phiên", "kiểm tra thiên lệch judge", "đo nhiễu judge", "audit steelman". Mọi việc vận hành debate đều đi qua skill này; không tự đóng vai advocate/judge trong context chính.
 ---
 
 # Debate Orchestrator
@@ -20,13 +20,21 @@ Bạn là orchestrator — người DUY NHẤT trong context chính. Advocate, f
    - **KHÔNG trộn file giữa hai bộ** — nghiêm trọng nhất là judge_notes: nạp judge_notes của chủ đề khác cho judge là lệch neo im lặng (không script nào bắt được).
    - Ghi bộ đã chọn vào khối metadata của transcript VÀ scorecard: `bộ chủ đề: mặc định (Nga–Ukraine)` hoặc `bộ chủ đề: <hậu tố>`, kèm danh sách file.
    - Chủ đề mới chưa có bộ file → tạo ĐỦ bộ theo hậu tố mới (như phiên 14/07), không đè bản gốc, và đi qua GATE 1 cho case file mới.
-4. Đọc `CLAUDE.md` (nguyên tắc nền tảng — áp cho mọi subagent qua ngữ cảnh dự án) và `protocol/debate_protocol.md`.
+
+   | Bộ | Hậu tố | Chủ đề | Trạng thái |
+   |---|---|---|---|
+   | mặc định | *(không)* | Chiến tranh Nga–Ukraine | ĐÓNG |
+   | Tuyên Quang | `_tuyenquang` | Thi lại môn Toán vụ gian lận điểm thi 2026 | ĐÓNG |
+   | gốc cây 55 | `_gochoa` | Có nên tiếp tục đặt hoa tại gốc cây 55 Nguyễn Huy Tự | **ĐANG DIỄN RA** |
+
+4. **Phân loại trạng thái chủ đề (bắt buộc, ngay sau bước 3):** **ĐÓNG** hay **ĐANG DIỄN RA** theo bảng trên (bộ mới → tự phân loại; không chắc → chọn ĐANG DIỄN RA). Chủ đề ĐANG DIỄN RA → áp toàn bộ mục "Chủ đề SỰ KIỆN ĐANG DIỄN RA" của `protocol/debate_protocol.md` cho cả phiên, và ghi `trạng thái chủ đề: ĐANG DIỄN RA — mốc đóng băng <ngày, giờ UTC>` vào metadata transcript + scorecard.
+5. Đọc `CLAUDE.md` (nguyên tắc nền tảng — áp cho mọi subagent qua ngữ cảnh dự án) và `protocol/debate_protocol.md`.
 
 ## Phase 0 (nghiệp vụ) — Case file & GATE 1
 
 1. Đọc `knowledge/case_file.md`. Nếu còn `[CẦN BỔ SUNG]`/`[CẦN KIỂM CHỨNG]` mà chủ đề phiên sắp chạy sẽ động đến → hoàn thiện bằng WebSearch theo `knowledge/source_policy.md` (giữ nguyên số §, chỉ thêm mục mới). **Khi bổ sung chủ đề mới:** sự kiện + cảnh báo phương pháp trung lập → case file; mọi khung "bên X được điểm / bị trừ khi" → `knowledge/judge_notes.md` (cùng số § để đối chiếu), TUYỆT ĐỐI không viết vào case file.
-2. **GATE 1 — DỪNG.** Báo người dùng duyệt. Chỉ qua gate khi người dùng gõ `APPROVE CASE FILE`. Sau khi duyệt: (a) ghi ngày duyệt vào đầu case file; (b) **ghim phiên bản** — commit `knowledge/` với message `GATE 1: case file phiên <ngày>`, lấy `git rev-parse --short HEAD`, ghi hash này vào header transcript sắp tạo. Bản được judge chấm phải đúng bản mang hash đã duyệt.
-3. **Bổ sung case file SAU GATE 1** (vd phục vụ EXTRA ROUND): soạn phần bổ sung (sự kiện → case file; khung chấm → judge_notes, như quy tắc ở bước 1) → **DỪNG**, trình người dùng → chỉ áp dụng khi người dùng gõ `APPROVE CASE FILE ADDENDUM` → commit mới (`GATE 1 addendum: §<x> <ngày>`), ghi thêm hash addendum vào header transcript kèm phạm vi (§ nào). Không bao giờ sửa ngầm case file giữa hai gate.
+2. **GATE 1 — DỪNG.** Báo người dùng duyệt. Chỉ qua gate khi người dùng gõ `APPROVE CASE FILE`. Sau khi duyệt: (a) ghi ngày duyệt vào đầu case file; (b) **ghim phiên bản** — commit `knowledge/` với message `GATE 1: case file phiên <ngày>`, lấy `git rev-parse --short HEAD`, ghi hash này vào header transcript sắp tạo. Bản được judge chấm phải đúng bản mang hash đã duyệt. (c) **Chủ đề ĐANG DIỄN RA:** thời điểm duyệt GATE 1 **là mốc đóng băng dữ kiện** — ghi ngày + giờ UTC vào mục "sự kiện đang diễn ra" của case file VÀ vào header transcript, cạnh git hash.
+3. **Bổ sung case file SAU GATE 1** (vd phục vụ EXTRA ROUND): soạn phần bổ sung (sự kiện → case file; khung chấm → judge_notes, như quy tắc ở bước 1) → **DỪNG**, trình người dùng → chỉ áp dụng khi người dùng gõ `APPROVE CASE FILE ADDENDUM` → commit mới (`GATE 1 addendum: §<x> <ngày>`), ghi thêm hash addendum vào header transcript kèm phạm vi (§ nào). Không bao giờ sửa ngầm case file giữa hai gate. **Chủ đề ĐANG DIỄN RA:** addendum phải ghi thêm **từ vòng nào trở đi advocate được biết** (các vòng trước giữ nền dữ kiện cũ) — và nếu diễn biến mới **lật tiền đề đề bài**, KHÔNG dùng addendum mà đóng phiên sớm theo `protocol/debate_protocol.md` mục "Chủ đề SỰ KIỆN ĐANG DIỄN RA" quy tắc 7.
 
 ## Phase 1 — Tranh luận (START DEBATE, sau GATE 1)
 
@@ -43,11 +51,15 @@ Chạy 5 vòng theo `protocol/debate_protocol.md`. Với MỖI lượt:
 
 Cách ly được thực thi hai tầng: (a) bảng nạp này — dán nội dung, không dán đường dẫn; (b) `tools:` trong frontmatter mỗi agent đã bị giới hạn (advocate/fact-checker/auditor: chỉ WebSearch+WebFetch; judge: chỉ Write) nên subagent KHÔNG có khả năng kỹ thuật đọc file cục bộ ngoài danh sách được nạp. Không nới `tools:` của các agent này khi sửa harness.
 
+**Chủ đề ĐANG DIỄN RA — WebSearch của advocate là vector phá đối xứng (bản vá 16/08/2026):** `tools:` chặn được việc đọc file cục bộ nhưng KHÔNG chặn được việc advocate tra tin mới. Với chủ đề đang diễn ra, advocate vòng 5 tra web sẽ đứng trên nền dữ kiện khác advocate vòng 1 → vi phạm đối xứng, không script nào bắt được. Ba việc bắt buộc: (1) spec lượt nạp cho advocate luôn kèm dòng `mốc đóng băng dữ kiện: <ngày, giờ UTC> — không đưa diễn biến sau mốc này vào lượt; WebSearch chỉ để xác minh nguồn cho dữ kiện đã có trong case file`; (2) sau mỗi lượt, đối chiếu khẳng định sự kiện trong lượt với case file — khẳng định về diễn biến sau mốc → xử như vi phạm điều cấm (mục "Xử lý lỗi"); (3) nạp cho fact-checker mốc đóng băng để gắn cờ **⏱️ SAU MỐC ĐÓNG BĂNG** (không phải 🔴, không phải ⚠️ — xem protocol quy tắc 4). Chi tiết đầy đủ: `protocol/debate_protocol.md`, mục "Chủ đề SỰ KIỆN ĐANG DIỄN RA".
+
 **Case file RÚT GỌN cho judge (từ 13/07/2026 — giảm chi phí nạp, đo được từ NOISE TEST; CƠ GIỚI HÓA 07/08/2026):** vì mọi input của judge phải dán qua prompt (×3 instance hội đồng), judge nhận bản case file rút gọn thay vì nguyên văn. **Sinh bằng script, CẤM soạn tay** (cùng lý do P0-2: soạn tay là paraphrase, paraphrase làm lệch — bài học transcript rút gọn 14/07 áp dụng y nguyên cho case file):
    ```sh
    sh .claude/skills/debate-orchestrator/scripts/make_case_file_input.sh knowledge/case_file.md output/_workspace/{phiên}_judge_input.md output/_workspace/{phiên}_case_file_input.md
    ```
-   Script giữ NGUYÊN VĂN header + §2, §3 (văn kiện pháp lý & phán quyết — lõi đối chiếu) + toàn bộ các § mà transcript có trích (quét tag `[Case file §x]` trong file judge_input, hợp cả hai bên; § con như §6.4 quy về § cấp 1); các § không được trích thay bằng một dòng stub `### §N — […đã lược]`. Tham số thứ hai nên là `_judge_input.md` (không phải transcript gốc) để tag trích trong phụ lục audit không kéo thêm § judge không cần. Dòng metadata `case file rút gọn (giữ: §…)` script in sẵn ở stderr — copy vào scorecard. Advocate/fact-checker/auditor vẫn nhận case file ĐẦY ĐỦ (họ cần biết vật liệu nào tồn tại). Script báo "lược được ≤1 §" → dán đầy đủ luôn, không lược lắt nhắt.
+   **`KEEP_EXTRA="..."` (env, từ 16/08/2026):** các § LUÔN giữ thêm ngoài §2/§3 — dành cho những mục **judge cần để áp neo nhưng advocate gần như không bao giờ trích tag** (cảnh báo phương pháp, dữ kiện cấm dùng làm tiền đề, quy tắc sự kiện đang diễn ra). Quét tag sẽ lược mất chúng nếu không khai báo. Lệnh đúng của mỗi bộ chủ đề ghi sẵn ở **header case file của bộ đó** — dùng đúng lệnh đó, không tự đoán (vd bộ `_gochoa`: `KEEP_EXTRA="5 8 9 10"`).
+
+   Script giữ NGUYÊN VĂN header + §2, §3 (văn kiện pháp lý & phán quyết — lõi đối chiếu) + các § khai trong `KEEP_EXTRA` + toàn bộ các § mà transcript có trích (quét tag `[Case file §x]` trong file judge_input, hợp cả hai bên; § con như §6.4 quy về § cấp 1); các § không được trích thay bằng một dòng stub `### §N — […đã lược]`. Tham số thứ hai nên là `_judge_input.md` (không phải transcript gốc) để tag trích trong phụ lục audit không kéo thêm § judge không cần. Dòng metadata `case file rút gọn (giữ: §…)` script in sẵn ở stderr — copy vào scorecard. Advocate/fact-checker/auditor vẫn nhận case file ĐẦY ĐỦ (họ cần biết vật liệu nào tồn tại). Script báo "lược được ≤1 §" → dán đầy đủ luôn, không lược lắt nhắt.
 
 **TRANSCRIPT nạp cho judge phải NGUYÊN VĂN — KHÔNG rút gọn (từ 14/07/2026, sau khi quote_check FAIL oan):** khác với case file (được phép rút gọn), transcript dán cho judge phải là **bản sao nguyên văn** của file `output/transcript_*.md` đã duyệt GATE 2 (các lượt V1–V5 + vòng E + phụ lục fact-check; KHÔNG cần dán phụ lục steelman audit). KHÔNG được thay bằng bản tóm tắt/diễn giải/"trích nhúng". Lý do bất khả nhượng: `quote_check` đối chiếu TỪNG trích dẫn trong scorecard với **FILE transcript**; nếu judge chỉ thấy bản rút gọn, trích của judge sẽ lệch chuỗi (dấu câu, ghép cụm bị cắt) so với file và bị báo **MISSING oan hàng loạt**, làm hỏng chính phép kiểm chống-bịa-trích (quan sát 14/07: nạp bản rút gọn → 3/3 scorecard FAIL 7–17 MISSING dù lập luận đều có thật). Nếu transcript quá lớn để dán một lần → **nạp NHIỀU PHẦN nguyên văn** (quy trình "Nạp nhiều phần" ngay dưới), tuyệt đối không paraphrase. Chỉ CASE FILE mới được rút gọn; TRANSCRIPT thì không.
 
@@ -77,7 +89,7 @@ Cách ly được thực thi hai tầng: (a) bảng nạp này — dán nội du
    sh .claude/skills/debate-orchestrator/scripts/make_judge_input.sh output/transcript_YYYYMMDD.md output/_workspace/{phiên}_judge_input.md
    ```
    Nạp cho MỌI judge (hội đồng, NOISE, SWAP, chấm E riêng) bằng cách dán **NGUYÊN VĂN nội dung file `_judge_input.md`** (đọc bằng Read rồi copy đúng khối, KHÔNG diễn giải). Quá lớn → nạp nhiều phần nguyên văn (quy trình "Nạp nhiều phần"), tuyệt đối không paraphrase. File này gồm các lượt + fact-check, đã tự loại phụ lục steelman audit (script FAIL nếu heading phụ lục lệch quy ước — sửa heading transcript, không gõ lại tay).
-   Ngay sau đó sinh bản case file rút gọn cho judge từ chính file này: `make_case_file_input.sh <case file của bộ chủ đề> _judge_input.md _case_file_input.md` (quy tắc chi tiết ở đoạn "Case file RÚT GỌN" Phase 1) — cả hai file nạp judge đều sinh bằng script, không soạn tay.
+   Ngay sau đó sinh bản case file rút gọn cho judge từ chính file này: `KEEP_EXTRA="…" make_case_file_input.sh <case file của bộ chủ đề> _judge_input.md _case_file_input.md` — **lấy đúng lệnh (kèm `KEEP_EXTRA`) ghi ở header case file của bộ chủ đề**, không tự đoán (quy tắc chi tiết ở đoạn "Case file RÚT GỌN" Phase 1). Cả hai file nạp judge đều sinh bằng script, không soạn tay.
 1. **Hội đồng 3 judge:** gọi BA instance `debate-judge` độc lập (cùng input, context theo bảng trên; không instance nào biết về các instance khác), mỗi instance xuất scorecard đầy đủ vào `_workspace/{phiên}_judge{1,2,3}.md`.
 2. Kiểm tra từng scorecard đủ mục bắt buộc (bảng điểm từng vòng có trích dẫn + neo; bảng Phạt; tổng hợp N/A đúng quy tắc; độ nhạy 3 bộ; tổng V1–V5 tách riêng khi có vòng E; "luận điểm mạnh nhất của bên điểm thấp"; "giới hạn của phương pháp"). Thiếu → yêu cầu instance đó bổ sung.
    **Kiểm trích dẫn (chống judge bịa trích):** chạy trên TỪNG scorecard:
@@ -108,6 +120,8 @@ Cách ly được thực thi hai tầng: (a) bảng nạp này — dán nội du
 - Advocate vi phạm điều cấm (bịa nguồn, phi nhân hóa, phủ nhận sự kiện đã xác lập §13-loại) → KHÔNG ghi vào transcript; gọi lại instance mới kèm chỉ rõ vi phạm; tái phạm → ghi vào transcript kèm cờ để judge áp neo 0.
 - WebSearch không xác minh được (fact-checker) → giữ nhãn `⚠️ KHÔNG XÁC MINH ĐƯỢC`, không leo thang thành 🔴.
 - File output đã tồn tại → không ghi đè; tăng hậu tố `_vN`.
+- **Chủ đề ĐANG DIỄN RA — diễn biến mới giữa phiên:** diễn biến **bổ sung** (không lật tiền đề) → `APPROVE CASE FILE ADDENDUM`, ghi rõ từ vòng nào advocate được biết. Diễn biến **lật tiền đề đề bài** → KHÔNG vá: đóng phiên sớm, ghi `[PHIÊN ĐÓNG SỚM — …]` vào đầu transcript, chấm trên các vòng đã chạy kèm khai báo, mở phiên mới với đề bài cập nhật (`protocol/debate_protocol.md` quy tắc 7). Không nối vòng mới vào transcript đã đóng sớm.
+- **Advocate đưa diễn biến sau mốc đóng băng vào lượt** → xử như vi phạm điều cấm: không ghi vào transcript, gọi lại instance mới kèm chỉ rõ mốc; tái phạm → ghi vào transcript kèm cờ ⏱️ để judge không thưởng cho nội dung đó.
 
 ## Vệ sinh hồ sơ & scorecard (bắt buộc — P2, 14/07/2026)
 

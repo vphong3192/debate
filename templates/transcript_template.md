@@ -3,11 +3,17 @@
 **Chủ đề:** Tính chính đáng, lịch sử, luật quốc tế và logic của chiến tranh Nga–Ukraine
 **Advocate A:** Khung lập luận biện hộ cho hành động của Nga (steelman)
 **Advocate B:** Khung lập luận biện hộ cho Ukraine / quan điểm chủ lưu luật quốc tế (steelman)
-**Case file phiên bản:** ngày duyệt GATE 1 [ngày] — commit `[git hash]`; addendum (nếu có): `[hash]` (§[x])
+**Bộ chủ đề:** [`mặc định (Nga–Ukraine)` | `_tuyenquang` | `_gochoa` | …] — file dùng: [case_file / judge_notes / rubric / advocate_template / positions]
+**Trạng thái chủ đề:** [`ĐÓNG` | `ĐANG DIỄN RA — mốc đóng băng <ngày, giờ UTC>`]
+**Case file phiên bản:** ngày duyệt GATE 1 [ngày] — commit `[git hash]`; addendum (nếu có): `[hash]` (§[x], advocate được biết từ vòng [n])
 **Ngày duyệt GATE 2:** [ngày]
 **Model:** subagent = [alias frontmatter / model ID nếu biết]; orchestrator = [model ID]; ngày chạy = [ngày]
 
 > *Lưu ý cho người đọc: hai advocate được giao nhiệm vụ trình bày phiên bản mạnh nhất của mỗi khung lập luận. Nội dung không đại diện quan điểm của hệ thống hay người vận hành.*
+
+> *[Chỉ chủ đề ĐANG DIỄN RA — bắt buộc] Dữ kiện tính đến `<mốc đóng băng>`; kết luận không tự động áp cho thời điểm đọc. Nếu chủ đề nói về hành động của người thật đang chịu rủi ro thật: đây là phân tích chất lượng lập luận theo rubric, **không phải khuyến nghị hành động cho bất kỳ cá nhân nào**.*
+
+> *[Chỉ khi phiên bị đóng sớm] `[PHIÊN ĐÓNG SỚM — tiền đề đề bài không còn đúng từ <ngày>: <mô tả diễn biến>]` — phiên dừng ở vòng [n]; tổng điểm chỉ tính trên các vòng đã chạy.*
 
 ---
 

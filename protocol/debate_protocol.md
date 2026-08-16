@@ -23,6 +23,28 @@
 - Judge không được thấy gì cho đến Phase 2 (chấm trên transcript hoàn chỉnh). Ở Phase 2, judge được nạp thêm `knowledge/judge_notes.md`. Mỗi thành viên hội đồng không thấy điểm của các thành viên khác.
 - **Cơ chế thực thi (hai tầng):** cách ly KHÔNG dựa vào lời hứa "không nhìn". (1) Mỗi lượt advocate, mỗi lần fact-check, mỗi lần audit, mỗi phiên chấm chạy trong một **subagent context mới**; orchestrator (skill `debate-orchestrator`) nạp cho mỗi subagent đúng danh sách file/nội dung được phép và không gì khác. (2) `tools:` trong frontmatter các agent bị giới hạn để subagent **không có khả năng kỹ thuật** đọc file cục bộ ngoài danh sách được nạp (advocate/fact-checker/auditor: WebSearch+WebFetch; judge: Write). Chạy các vai trong một context chung, hoặc nới `tools:` của các agent này, là vi phạm protocol.
 
+## Chủ đề SỰ KIỆN ĐANG DIỄN RA (bản vá 16/08/2026)
+
+Harness ban đầu chỉ chạy trên **hồ sơ đóng** (chiến tranh Nga–Ukraine, vụ Tuyên Quang đã có kết luận tố tụng bước đầu). Với chủ đề mà sự việc **vẫn đang diễn tiến ngoài đời thực**, dữ kiện có thể đổi giữa phiên — một diễn biến công bố vào ngày chạy vòng 3 làm advocate vòng 4–5 đứng trên nền dữ kiện khác advocate vòng 1–2. Đó là vi phạm đối xứng (Nguyên tắc 2, `CLAUDE.md`) và không script nào bắt được. Các quy tắc dưới đây là bắt buộc cho mọi chủ đề được phân loại ĐANG DIỄN RA.
+
+1. **Phân loại tại Phase 0.** Ngay sau bước chọn bộ file chủ đề, orchestrator phân loại: **ĐÓNG** (hồ sơ lịch sử / đã có kết luận, dữ kiện ổn định) hay **ĐANG DIỄN RA**. Ghi vào metadata transcript và scorecard: `trạng thái chủ đề: ĐANG DIỄN RA — mốc đóng băng <ngày, giờ UTC>`. Không chắc → phân loại ĐANG DIỄN RA (mặc định an toàn: các quy tắc dưới đây chỉ siết chặt, không nới).
+
+2. **Mốc đóng băng dữ kiện = thời điểm duyệt GATE 1.** Toàn phiên chấm trên nền dữ kiện tính đến mốc này. Mốc ghi vào case file (mục "quy tắc sự kiện đang diễn ra" của bộ chủ đề) và vào header transcript, cạnh git hash case file.
+
+3. **Advocate KHÔNG được cập nhật tin.** Advocate có `WebSearch`/`WebFetch` trong `tools:` — với chủ đề đang diễn ra đây là **vector phá đối xứng**, không chỉ là tiện ích. Prompt advocate (`advocate_template_<topic>.md`) phải chứa quy tắc: WebSearch chỉ dùng để **xác minh hoặc định vị nguồn cho dữ kiện đã có trong case file**, KHÔNG dùng để đưa diễn biến mới vào lượt. Orchestrator kiểm bằng cách đối chiếu khẳng định sự kiện trong lượt với case file; khẳng định về diễn biến sau mốc đóng băng → xử như vi phạm điều cấm (gọi lại instance mới kèm chỉ rõ, theo mục "Xử lý lỗi" của skill).
+
+4. **Fact-checker: cờ ⏱️ SAU MỐC.** Khẳng định **đúng sự thật nhưng dựa trên diễn biến sau mốc đóng băng** không phải cờ đỏ 🔴 (nó không sai) và cũng không phải ⚠️ (nó xác minh được). Gắn cờ riêng **⏱️ SAU MỐC ĐÓNG BĂNG**, ghi vào bảng cờ để judge biết **không thưởng** cho nội dung đó.
+
+5. **Diễn biến mới vào phiên chỉ qua `APPROVE CASE FILE ADDENDUM`**, và addendum phải ghi thêm một trường mà addendum của chủ đề đóng không cần: **từ vòng nào trở đi advocate được biết**. Header transcript ghi lại trường này. Các vòng chạy trước addendum giữ nguyên nền dữ kiện cũ.
+
+6. **Quy tắc chấm (judge).** Rubric của bộ chủ đề đang diễn ra phải chứa hộp quy tắc: (a) **không phạt vì không biết tương lai** — không trừ một lượt vì lượt đó không đề cập diễn biến xảy ra sau mốc áp cho vòng đó; (b) **không thưởng vì biết tương lai** — nội dung dựa trên diễn biến sau mốc (khi chưa có addendum tương ứng) không được tính điểm, và vào bảng Phạt dòng "dùng dữ kiện sau mốc đóng băng"; (c) mọi tổng điểm và phán định mang **nhãn phạm vi thời gian**.
+
+7. **Điều kiện DỪNG PHIÊN (không vá bằng addendum).** Khi diễn biến mới lật **tiền đề của đề bài** — đề bài giả định một trạng thái mà trạng thái đó không còn đúng — thì addendum là sai công cụ: nền dữ kiện của các vòng đã chạy không còn tương thích với các vòng sau. Quy trình: (a) dừng Phase 1 tại vòng đang chạy; (b) ghi vào đầu transcript `[PHIÊN ĐÓNG SỚM — tiền đề đề bài không còn đúng từ <ngày>: <mô tả diễn biến>]`; (c) transcript vẫn giữ và **vẫn chấm được** nhưng scorecard bắt buộc gắn nhãn phạm vi thời gian và ghi rõ phiên chưa chạy đủ 5 vòng (tổng điểm tính trên các vòng đã chạy, khai báo rõ); (d) mở **phiên mới** với đề bài cập nhật và bộ file được sửa qua GATE 1 mới. Không nối vòng mới vào transcript đã đóng sớm.
+
+8. **Nhãn thời gian bắt buộc** ở header transcript và scorecard: *"dữ kiện tính đến `<mốc>`; kết luận không tự động áp cho thời điểm đọc"*.
+
+9. **Chủ đề nói về hành động của người thật đang chịu rủi ro thật** (khác với phân tích một sự kiện đã qua): báo cáo cuối phải mang thêm khai báo — *phân tích chất lượng lập luận theo rubric, **không phải khuyến nghị hành động cho bất kỳ cá nhân nào***. Đây là phần mở rộng của Nguyên tắc 1 (`CLAUDE.md`), không thay thế nó.
+
 ## Kiểm soát ngân sách từ
 - Sau mỗi lượt, orchestrator đếm từ bằng `scripts/word_count.{ps1,sh}` (trong skill debate-orchestrator). Quá giới hạn +10% → yêu cầu advocate cắt gọn MỘT lần; nếu vẫn quá, ghi vào transcript kèm chú thích vượt ngân sách để Judge biết (Judge trừ ở chiều 5 nếu phần vượt tạo lợi thế).
 - **Thước đo (từ 12/07/2026):** KHÔNG tính vào ngân sách: dòng tiêu đề lượt, danh sách "Nguồn trích dẫn trong lượt này" cuối lượt, và các tag inline `[Nguồn: …]` / `[Case file §x]` / `[CẦN …]`. Lý do: trích nguồn là hành vi rubric khuyến khích — để nó ăn vào ngân sách từ là tạo động cơ cắt nguồn để tiết kiệm chữ, ngược chiều thiết kế.

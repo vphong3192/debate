@@ -18,13 +18,18 @@
 #
 # Usage: make_case_file_input.sh <case_file.md> <judge_input.md|transcript.md> [output.md]
 #   Khong co output → in ra stdout.
+#
+# Env KEEP_EXTRA="5 8 9 10" — cac § LUON giu them, ngoai §2/§3 mac dinh (vd cac muc canh bao
+#   phuong phap / du kien chua kiem chung / quy tac su kien dang dien ra: judge can chung de
+#   ap neo, nhung advocate co the KHONG BAO GIO trich tag chung nen quet tag se bo sot).
+#   Bo chu de nao can gi thi ghi san lenh o header case file cua bo do.
 CF="$1"; TR="$2"; OUT="$3"
 [ -f "$CF" ] || { echo "ERROR: file not found: $CF" >&2; exit 1; }
 [ -f "$TR" ] || { echo "ERROR: file not found: $TR" >&2; exit 1; }
 
-# Cac § duoc transcript trich (chi lay so cap 1) + §2/§3 bat buoc.
+# Cac § duoc transcript trich (chi lay so cap 1) + §2/§3 bat buoc + KEEP_EXTRA.
 cited=$(grep -o '\[Case file[^]]*\]' "$TR" | grep -o '§[0-9][0-9]*' | tr -d '§')
-keep=$(printf '2\n3\n%s\n' "$cited" | grep -v '^$' | sort -nu)
+keep=$(printf '2\n3\n%s\n%s\n' "$(printf '%s\n' ${KEEP_EXTRA:-} | tr -d '§')" "$cited" | grep '^[0-9][0-9]*$' | sort -nu)
 keep_sp=$(printf '%s' "$keep" | tr '\n' ' ')
 
 # Toan bo § cap 1 co trong case file.

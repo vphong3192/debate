@@ -1,6 +1,18 @@
-# Debate Arena — Nga–Ukraine
+# Debate Arena
 
-Hệ thống tranh luận có cấu trúc chạy trên Claude Code: 2 advocate đối xứng + 1 judge chấm theo rubric neo điểm, có fact-checker và 2 gate duyệt của con người.
+Hệ thống tranh luận có cấu trúc chạy trên Claude Code: 2 advocate đối xứng + hội đồng judge chấm theo rubric neo điểm, có fact-checker và 2 gate duyệt của con người. Chủ đề gốc là chiến tranh Nga–Ukraine; harness đã mở rộng cho nhiều bộ chủ đề (xem dưới).
+
+## Bộ chủ đề
+
+Mỗi chủ đề là một bộ file cùng hậu tố; **không trộn file giữa hai bộ** (nghiêm trọng nhất là `judge_notes` — nạp nhầm là lệch neo im lặng, không script nào bắt được).
+
+| Bộ | Hậu tố | Chủ đề | Trạng thái |
+|---|---|---|---|
+| mặc định | *(không)* | Chiến tranh Nga–Ukraine | ĐÓNG |
+| Tuyên Quang | `_tuyenquang` | Có nên cho thi lại môn Toán ở khu vực nghi gian lận điểm thi 2026 | ĐÓNG |
+| gốc cây 55 | `_gochoa` | Trong bối cảnh chính quyền đang ngăn cản, có nên tiếp tục đặt hoa tại gốc cây 55 Nguyễn Huy Tự | **ĐANG DIỄN RA** |
+
+Bộ file gồm: `knowledge/case_file_<topic>.md`, `knowledge/judge_notes_<topic>.md` (chỉ nạp cho judge), `rubrics/scoring_rubric_<topic>.md`, `agents/advocate_template_<topic>.md`, `agents/position_{A,B}_<topic>.md`.
 
 ## Chạy nhanh
 ```bash
@@ -25,6 +37,7 @@ Lệnh bổ sung: `EXTRA ROUND [chủ đề]`, `SWAP TEST` (kiểm tra thiên l�
 - Có vòng phụ (EXTRA ROUND) → tổng báo cáo kép V1–V5 và V1–V5+E, nhưng **điểm chính thức = V1–V5** (vòng E chỉ vào phán quyết khi chủ đề đối xứng + qua gate riêng — chống thiên lệch chọn đề); đảo thứ hạng giữa hai cách tính → "không phân định"
 - Phân tích độ nhạy 3 bộ trọng số + SWAP TEST + NOISE TEST
 - Ngưỡng "không phân định": chênh trung vị ≤5% hoặc khoảng điểm hai bên chồng lấn — không ép ra người thắng
+- **Chủ đề ĐANG DIỄN RA:** dữ kiện đóng băng tại GATE 1; advocate không được tra web để cập nhật tin (advocate vòng sau đứng trên nền dữ kiện khác advocate vòng đầu = phá đối xứng); diễn biến mới vào phiên chỉ qua `APPROVE CASE FILE ADDENDUM` kèm ghi rõ từ vòng nào advocate được biết; judge không phạt vì không biết tương lai và không thưởng vì biết tương lai; diễn biến lật **tiền đề đề bài** → đóng phiên sớm, mở phiên mới, không vá
 
 ## Điều hệ thống này KHÔNG làm
 Không phán quyết "bên nào đúng" về chân lý lịch sử/đạo đức. Nó đo bên nào *lập luận chặt chẽ hơn theo rubric* trong một phiên cụ thể.

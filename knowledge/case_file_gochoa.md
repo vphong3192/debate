@@ -4,8 +4,8 @@
 > - **Position A = NÊN tiếp tục đặt hoa.**
 > - **Position B = KHÔNG NÊN tiếp tục** — chuyển sang hình thức khác để theo đuổi **cùng một mục tiêu** (khởi tố / công bố kết luận điều tra).
 >
-> Trạng thái: **DRAFT — CHƯA DUYỆT GATE 1.** Xem §0 để biết những gì Phase 0 BẮT BUỘC phải hoàn thiện trước khi trình `APPROVE CASE FILE`.
-> Loại chủ đề: **SỰ KIỆN ĐANG DIỄN RA** — áp quy tắc đóng băng dữ kiện trong `protocol/debate_protocol.md`, mục "Chủ đề SỰ KIỆN ĐANG DIỄN RA". Mốc đóng băng dữ kiện ghi tại GATE 1.
+> Trạng thái: **ĐÃ DUYỆT GATE 1 — 16/08/2026 13:10 UTC.** Các mục còn nhãn `[CẦN KIỂM CHỨNG]` được duyệt có ý thức: dùng được nếu dẫn kèm nhãn, không được trình như đã xác lập. Xem §0 để biết phần nào đã gỡ nhãn và phần nào chưa.
+> Loại chủ đề: **SỰ KIỆN ĐANG DIỄN RA** — áp quy tắc đóng băng dữ kiện trong `protocol/debate_protocol.md`, mục "Chủ đề SỰ KIỆN ĐANG DIỄN RA". **MỐC ĐÓNG BĂNG DỮ KIỆN: 16/08/2026 13:10 UTC.**
 > Nguyên tắc: file này chỉ chứa SỰ KIỆN có thể kiểm chứng và CẢNH BÁO PHƯƠNG PHÁP trung lập (áp đối xứng cho cả hai bên), KHÔNG chứa diễn giải và KHÔNG chứa khung được/mất điểm (khung chấm nằm ở `knowledge/judge_notes_gochoa.md`, chỉ nạp cho judge).
 
 ## Quy ước hạng nguồn cho chủ đề này (thay bảng của `source_policy.md`, giữ nguyên triết lý)
@@ -196,7 +196,7 @@ Case file này được soạn trong điều kiện truy cập web hạn chế (
 
 ## §9. Quy tắc SỰ KIỆN ĐANG DIỄN RA (áp riêng cho chủ đề này)
 
-- **Mốc đóng băng dữ kiện:** `[ĐIỀN TẠI GATE 1 — ngày + giờ UTC]`. Toàn bộ phiên tranh biện chấm trên nền dữ kiện tính đến mốc này.
+- **Mốc đóng băng dữ kiện: 16/08/2026 13:10 UTC** (thời điểm duyệt GATE 1). Toàn bộ phiên tranh biện chấm trên nền dữ kiện tính đến mốc này.
 - **Advocate KHÔNG được đưa diễn biến sau mốc đóng băng vào lượt của mình**, kể cả khi tìm thấy bằng WebSearch. Lý do: advocate vòng 5 sẽ có nền dữ kiện khác advocate vòng 1 → phá đối xứng (Nguyên tắc 2 của `CLAUDE.md`). WebSearch của advocate chỉ dùng để **xác minh/định vị nguồn** cho dữ kiện đã có trong case file, không dùng để **cập nhật tin**.
 - **Diễn biến mới chỉ vào phiên qua `APPROVE CASE FILE ADDENDUM`**, kèm ghi rõ **từ vòng nào trở đi** advocate được biết. Các vòng chạy TRƯỚC addendum không bị chấm bằng dữ kiện của addendum.
 - **Điều kiện DỪNG PHIÊN (không vá bằng addendum):** khi diễn biến mới lật **tiền đề của đề bài** — cụ thể với chủ đề này là (a) cơ quan điều tra **khởi tố** hoặc **công bố kết luận**, hoặc (b) chính quyền **ngừng ngăn cản** việc đặt hoa. Khi đó tiền đề "trong bối cảnh chính quyền đang ngăn cản" và/hoặc yêu sách gốc không còn đúng → đóng phiên theo quy trình trong `protocol/debate_protocol.md`, mở phiên mới với đề bài cập nhật.

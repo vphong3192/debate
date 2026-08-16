@@ -125,7 +125,7 @@
 
 ## Phụ lục A — Bảng cờ fact-check
 
-**Phạm vi fact-check: Vòng 1.** Các vòng sau bổ sung khi chạy xong.
+**Phạm vi fact-check: Vòng 1, Vòng 2.** Các vòng sau bổ sung khi chạy xong.
 
 ## Fact-check vòng 1
 
@@ -197,3 +197,44 @@ Mốc đóng băng dữ kiện: **16/08/2026 13:10 UTC**. Case file đối chi�
 ## Phụ lục B — Steelman audit
 
 [chờ điền — KHÔNG nạp cho judge]
+
+---
+
+## Fact-check vòng 2
+
+| Bên | Khẳng định (trích nguyên văn) | Kết quả | Nguồn đối chiếu |
+|-----|------------------------------|---------|-----------------|
+| B | "Case file chỉ nêu các điểm khác biệt và cảnh báo §6 thiếu chiều đối chứng" (đính chính lỗi vòng 1) | ✅ **Đúng và đủ** | §6.2 liệt kê đúng các điểm khác biệt; §6 CẢNH BÁO PHẠM VI. Đính chính nêu đúng mệnh đề đã gán sai, nêu đúng case file thực sự nói gì, và quy suy luận về mình — không thiếu phần nào |
+| B | "kênh trực tuyến cũng đã bị hạn chế" | ✅ | §4: rạng sáng 13/8/2026 nhiều tài khoản Threads báo bài "không hiển thị tại Việt Nam". Ghi chú: §4 gắn nhãn cần kiểm chứng; B không nêu nhãn nhưng phát biểu không vượt mức case file |
+| B | "nơi đã ghi nhận giải tán" | ✅ | §4. Cụm "đã ghi nhận" giữ nguyên mức hedge của case file |
+| B | "'vì sao 14 tháng chưa có kết luận'" | ✅ | §1 |
+| B | "chính (a) bị bên kia xóa với chi phí thấp: dọn xong thì tọa độ trở lại trống" | 🟡 | Sự kiện dọn hoa 13–14/8 khớp §4. Nhưng §4 chỉ ghi thể bị động "hoa bị dọn dẹp" + "có sự hiện diện/giám sát của lực lượng công an"; case file **không xác lập chủ thể thực hiện việc dọn**. Gán tác nhân ("bên kia xóa") là suy luận |
+| B | "Hạn chế nội dung trên Threads đi kèm một thông báo nêu tên cơ quan đề nghị" | ✅ | §4. B dừng đúng ở "có thông báo nêu tên", không suy ra nội dung/căn cứ/ai quyết định |
+| B | "việc dọn hoa và giải tán, đến mốc đóng băng, **không có căn cứ pháp lý công khai nào được viện dẫn**" | 🟡 | §4 để vấn đề ở dạng câu hỏi mở (`[CẦN KIỂM CHỨNG có văn bản/phát ngôn chính thức giải thích căn cứ pháp lý không]`) + "Chưa ghi nhận thông cáo chính thức nào". Phát biểu phủ định tuyệt đối vượt mức "chưa ghi nhận", trái ghi chú §3 |
+| B | "Điều 30 đặt nghĩa vụ tiếp nhận, giải quyết khiếu nại, tố cáo" | ✅ | HP 2013 Điều 30 khoản 2 nguyên văn. Đúng số điều, đúng nội dung → gỡ được nhãn của §2 cho Điều 30. Ghi chú hạng: văn bản quy phạm nên dẫn H1; cand.com.vn chỉ tái hiện điều luật |
+| B | "nhượng bộ một quyết định tố tụng hẹp, hay nhượng bộ trên câu hỏi trật tự công cộng `[Case file §7]`" | 🟡 | §7 là danh mục 8 câu hỏi diễn giải, **không chứa lưỡng phân này**. Tag §7 gán cho case file một khung nó không phát biểu — cùng dạng lỗi bị cờ ở vòng 1, mức nhẹ hơn vì §7 vốn "KHÔNG kiểm chứng" |
+| A | "đặt đúng người ấy vào chỗ đã ghi nhận giải tán" (steelman) | ✅ | §4 |
+| A | "tôi tiếp tục không kêu gọi ai làm gì" | ✅ | §10 |
+| A | "Phương án B đề xuất — đơn kiến nghị, luật sư gia đình, chất vấn qua đại biểu" | ⚠️ Ngoài phạm vi | Thuộc lượt vòng 1 của B, không được nạp cho fact-checker vòng này. Trong vòng 2 B chỉ nói "kênh có danh tính" — không mâu thuẫn |
+| A | "§5.5 ghi **chưa có dữ liệu** về hậu quả pháp lý thực tế với người đặt hoa" | ✅ | §5.5 nguyên văn. A dùng đúng chế độ hạng C: không suy ra hậu quả, chỉ kết luận "chưa phân định được", giữ rủi ro ở dạng khả năng |
+| A | "cũng không có dữ liệu nào về hậu quả với người đứng tên" | 🟡 | Case file không có mục nào về hậu quả với người đứng tên; khẳng định vắng mặt dữ liệu **không có neo trong case file** (đúng hơn phải là "case file không ghi nhận"). Cùng dạng lỗi với 🟡 của B |
+| A | "Dấu vết ấy đã được tạo ra rạng sáng 13/8" | ✅ | §4 |
+| A | "đến mốc đóng băng vẫn chưa có thông cáo chính thức nào về vụ tai nạn hay việc dọn hoa" | ✅ | §4 nguyên văn |
+| A | "§4 ghi có sự hiện diện/giám sát của lực lượng công an và có ghi nhận giải tán — case file để nhãn cần nguồn H3 độc lập thứ hai" | ✅ | Khớp cả nội dung lẫn nhãn `[CẦN KIỂM CHỨNG]` |
+| A | "Cơ chế ghi nhận được ở §4 không phải xóa bài mà là 'không hiển thị tại Việt Nam'" | ✅ | Trích đúng chuỗi trong §4; §4 không ghi nhận việc xóa bài |
+| A | "chưa xác minh được phát ngôn chính thức nào gán cho phong trào khung 'cách mạng màu'/'thế lực thù địch'" + "tôi không trình điều đó như 'chắc chắn không có'" | ✅ | §4 nguyên văn. A tái hiện đúng **cả hai chiều** của ghi chú |
+
+**Ngoài phạm vi (không kiểm):** mọi mệnh đề về cơ chế sinh áp lực, khung tự sự, xếp hạng phương án, "điều kiện khiến tôi sai", phản thực tế "nếu dừng/nếu tiếp tục", và đánh giá "chi phí thấp/đắt hơn" của cả hai bên — đây là lập luận, thuộc Judge.
+
+**Cờ ⏱️ SAU MỐC ĐÓNG BĂNG: không có.** Mọi dữ kiện hai bên viện dẫn đều nằm ở/trước 14/8/2026 và đều tự neo vào mốc đóng băng.
+
+**Kiểm hạng §5:** không bên nào dùng §5.1 (hạng B) làm tiền đề ở vòng này; không bên nào dùng §5.2–§5.4 (hạng C). §5.5 chỉ A dùng, và dùng đúng cách. **Không có 🔴 ở vòng 2.**
+
+### Tự kiểm đối xứng
+
+- **Số khẳng định kiểm:** B = 9; A = 10. Chênh 1 do lượt A chứa nhiều tag hơn (10 so với 8); mọi tag của cả hai lượt đều được đối chiếu, không lượt nào bị lấy mẫu chọn lọc.
+- **Kết quả:** B — 6 ✅ / 3 🟡 / 0 🔴; A — 8 ✅ / 1 🟡 / 1 ⚠️ (ngoài phạm vi, không quy lỗi).
+- **Cùng chuẩn áp cho hai bên:** khẳng định phủ định tuyệt đối ("không có X nào") bị gắn 🟡 ở **cả hai** bên — B ("không có căn cứ pháp lý công khai nào được viện dẫn") và A ("không có dữ liệu nào về hậu quả với người đứng tên") — theo cùng ghi chú §3 "vắng bằng chứng ≠ chứng minh vắng".
+- **Câu hỏi riêng của vòng (gán mệnh đề cho case file):** kiểm cả hai lượt. B tái phạm ở mức nhẹ **một lần** (tag §7 cho một lưỡng phân không có trong §7). A **không** có trường hợp nào; ở hai chỗ A còn chủ động dẫn kèm nhãn `[CẦN KIỂM CHỨNG]` cùng ghi chú hai chiều.
+- **Đính chính của B:** đúng nội dung và đủ về hình thức. Không phần nào của lỗi vòng 1 còn sót lại.
+- **Giới hạn:** chỉ nhận hai lượt vòng 2; các khẳng định trỏ ngược về nội dung vòng 1 không kiểm được trong phạm vi này.

@@ -157,7 +157,81 @@
 
 ## Vòng 4 — Chất vấn chéo
 
-[chờ điền]
+### Vòng 4 — B hỏi A
+
+**Câu hỏi 1:** A nêu điều kiện tự bác: *"nếu sau 13/8 nội dung trực tuyến vẫn tiếp cận được trong nước ở quy mô tương đương."* Hồ sơ ghi §4 nhiều tài khoản báo "không hiển thị tại Việt Nam" nhưng số tài khoản là `[CẦN KIỂM CHỨNG]`, còn §3 chỉ có hai con số bài đăng mâu thuẫn (230.000 đến 14/8; hơn 1.000.000 đến 12/8). Tiền đề tôi nêu ra để A xác nhận hoặc bác: hồ sơ không cho đo được "quy mô tương đương". A có chấp nhận rằng điều kiện tự bác này hiện chưa kiểm chứng được theo cả hai chiều không? `[Case file §3, §4]`
+
+**Câu hỏi 2:** A viết: *"Hai ô trống thì tiêu chí này chưa phân định được, không phải phân định về phía B."* Tôi chấp nhận vế sau: nó không phân định về phía tôi. Câu hỏi: một tiêu chí đã bất phân định như vậy có đóng góp được gì cho kết luận "nên tiếp tục" của A không — hay nó trung lập, tức kết luận đó phải đứng hoàn toàn bằng các trụ khác?
+
+**Câu hỏi 3:** A nói dừng *"xác lập một quan hệ nhân quả được cả hai phía học ngay — ngăn cản có tác dụng"*. Nhưng A cũng đòi tôi: *"Dấu vết là điều kiện cần, không phải cơ chế đủ — B phải nói nó chuyển thành áp lực bằng đường nào."* Theo đúng chuẩn A đặt ra đó, đường nào biến nhiều lựa chọn cá nhân phân tán — mỗi người tự đổi hình thức, không ai tuyên bố gì — thành một tín hiệu mà "cả hai phía" đọc được?
+
+`[ngân sách: 265/300 — ĐẠT]`
+
+### Vòng 4 — A trả lời B
+
+**Trả lời 1:** Chấp nhận, không kèm điều kiện. Điều kiện tự bác tôi nêu ở V3 hiện **không kiểm chứng được theo cả hai chiều** bằng hồ sơ này. Lý do đúng như B chỉ ra: §4 ghi "nhiều tài khoản" nhưng số tài khoản là `[CẦN KIỂM CHỨNG]` `[Case file §4]`; §3 chỉ có hai con số bài đăng mâu thuẫn, và chúng không tạo thành một chuỗi thời gian đọc được — hơn 1.000.000 tính đến 12/8 nhưng 230.000 tính đến 14/8, tức mốc muộn hơn lại nhỏ hơn `[Case file §3]`. Thêm nữa "bài đăng ≠ người" `[Case file §3]`, nên kể cả hai con số có cùng hệ quy chiếu thì vẫn chưa đo được quy mô tiếp cận.
+
+Hệ quả tôi nhận: điều kiện đó ở dạng V3 không thao tác hóa được, và tôi phải phát biểu lại nó. Dạng thao tác hóa được: **nếu có nguồn hạng H2 trở lên ghi nhận nội dung về vụ này tiếp cận được trong nước sau 13/8 mà không qua hạn chế nền tảng**, thì trụ "kênh trực tuyến đã được chứng minh là hạn chế được" của tôi mất.
+
+Bối cảnh, sau khi đã trả lời: tính bất khả đo này **đối xứng**, và tôi xin ghi điều đó vào hồ sơ chứ không dùng nó để gỡ. Nếu không đo được quy mô còn lại của kênh trực tuyến sau 13/8, thì mệnh đề "trực tuyến là vật thay thế đủ" của B cũng không được hồ sơ chống đỡ — nó cần chính con số mà chúng ta vừa thống nhất là không có. Cái hồ sơ có được là **định tính, không định lượng**: §4 ghi một cơ chế hạn chế đã được áp lên kênh trực tuyến, kèm thông báo nền tảng nêu tên Bộ VHTTDL `[Case file §4]` — giữ nguyên caveat tôi đã đặt từ V2: thông báo đó chỉ chứng minh Meta *nói rằng* đã nhận đề nghị. Hướng thì biết; độ lớn thì không.
+
+**Trả lời 2:** Đúng — trên tiêu chí đó, và chỉ trên tiêu chí đó, nó **trung lập**: nó không đóng góp gì cho kết luận "nên tiếp tục". Kết luận của tôi phải đứng bằng các trụ khác. Nhượng bộ thẳng.
+
+Ba trụ còn lại, không trụ nào cần "ngân sách rủi ro cá nhân" để chạy: (i) yêu sách hẹp — khởi tố, công bố kết luận điều tra — nằm trong khuôn khổ hiện hành và hệ thống đáp ứng được mà không mất gì về thể chế `[Case file §3]`; (ii) cấu trúc hạn chế quyền ba tầng ở Điều 14(2) — muốn hạn chế phải **bằng luật**, phải thuộc **một trong các lý do liệt kê**, và phải **cần thiết** — trong khi §4 ghi chưa có văn bản hay phát ngôn chính thức giải thích căn cứ pháp lý cho việc dọn hoa và giải tán `[Case file §2, §4]`; (iii) nguyên nhân nằm ở khoảng trống thông tin — hơn 14 tháng chưa khởi tố bị can công bố, chưa có kết luận điều tra công khai `[Case file §1]` — và chính bài CAND/VOV đặt nghĩa vụ kịp thời cung cấp thông tin ở phía cơ quan nhà nước `[Case file §6.3]`.
+
+Một bổ sung về gánh nặng, không phải để rút lại nhượng bộ: ô trống **không trung lập như nhau** với hai bên trong cấu trúc lập luận. Giảm rủi ro cá nhân là lý do **khẳng định** mà B viện để đề xuất đổi hình thức; bên viện một tiêu chí làm lý do cho thay đổi thì mang gánh chứng minh trên tiêu chí đó. Tiêu chí bất phân định thì B mất một lý do dương, còn tôi mất một lý do tôi vốn không dựa vào. Ở V1 tôi chỉ dùng §5.5 theo chiều phòng thủ — "thiếu dữ liệu không phải rủi ro bằng 0" — và tôi khẳng định lại vế đối xứng của nó: cũng không phải rủi ro cao `[Case file §5.5]`. Đó là một tình trạng bất tri, không phải một luận điểm của tôi.
+
+**Trả lời 3:** B áp đúng chuẩn tôi đặt ra, và tôi phải chịu một phần. Câu "cả hai phía học ngay" ở V1 là phát biểu quá mạnh; tôi hạ nó.
+
+Phần tôi rút: tôi **không** chứng minh được bằng hồ sơ rằng bất kỳ chủ thể nào cập nhật hành vi từ tín hiệu đó. Đó là mệnh đề về nguyên nhân và động cơ của bên thứ ba, tức địa hạt §5.2–§5.3 hạng C, cấm làm tiền đề `[Case file §5]`. Rút.
+
+Phần tôi giữ, kèm cơ chế cụ thể như chuẩn đòi hỏi. Khác với "dấu vết trên hồ sơ" — thứ cần một chuỗi văn bản hoặc quyết định để chuyển thành áp lực — cơ chế ở đây không cần ai tuyên bố hay điều phối gì, vì **việc tổng hợp do địa điểm làm, không do người tham gia làm**. Hình thức tại chỗ có một thuộc tính mà lựa chọn phân tán trực tuyến không có: trạng thái của gốc cây 55 là một trạng thái đơn nhất, quan sát trực tiếp được bởi bất kỳ ai đi qua, gồm cả lực lượng đã hiện diện và giám sát ngày 13–14/8 `[Case file §4]`. Nhiều quyết định cá nhân không cần cộng lại bằng lời; chúng cộng lại bằng việc có hoa hay không có hoa. Chuỗi là: can thiệp tại t → thay đổi trạng thái quan sát được tại cùng một điểm sau t → cặp đôi đó đọc được mà không qua khâu điều phối nào.
+
+Điều cặp đôi đó xác lập, ở mức tôi bảo vệ được: một **tương quan công khai** giữa can thiệp và chấm dứt — rẻ để tạo ra, và không thể tạo lại sau khi đã có. Nó không xác lập rằng ai đó rút ra bài học. Trụ "chi phí của việc dừng" của tôi vì thế đứng ở mức tương quan quan sát được, không ở mức nhân quả về nhận thức của chủ thể; tôi phát biểu lại nó đúng như vậy.
+
+`[ngân sách: 951/900 — ĐẠT (trần 990)]`
+
+### Vòng 4 — A hỏi B
+
+**Câu hỏi 1:** Anh viết: *"Dưới bất định đối xứng, thứ phá thế cân bằng là loại rủi ro chỉ một phương án có trong hồ sơ."* Tôi nêu một tiền đề để anh xác nhận hoặc bác bỏ: hồ sơ cũng ghi một can thiệp nhắm vào kênh trực tuyến — rạng sáng 13/8/2026 nhiều tài khoản Threads báo bài "không hiển thị tại Việt Nam" kèm thông báo nền tảng nêu tên Bộ VHTTDL `[Case file §4]`. Nếu nguyên tắc quyết định của anh được áp đối xứng cho mọi loại rủi ro có neo trong hồ sơ, nó còn chọn ra một phương án duy nhất không?
+
+**Câu hỏi 2:** Anh nói nghĩa vụ ở (b) *"là nghĩa vụ CÓ ĐIỀU KIỆN"* và *"Cả hai đều cần một bên khởi động có danh tính."* Hồ sơ ghi §5.5 — hậu quả pháp lý thực tế với người tham gia — là CHƯA CÓ DỮ LIỆU `[Case file §5.5]`, và khoảng trống đó trống cho cả người đặt hoa lẫn người đứng tên nộp đơn. Đo bằng chính thước của anh, *"ngân sách rủi ro của một cá nhân cụ thể"*, anh có chấp nhận rằng phương án của anh chuyển rủi ro sang người đứng tên chứ không loại bỏ rủi ro?
+
+**Câu hỏi 3:** Anh viết bản trực tuyến *"giữ ba thứ hình thức tại chỗ có — biểu tượng, số đếm, tính công khai"*. Nhưng hồ sơ ghi hai con số lan truyền mâu thuẫn — trên 230.000 bài đăng và hơn 1.000.000 bài viết — kèm cảnh báo "Bài đăng ≠ người" `[Case file §3]`. Anh đo cái "số đếm" mà anh coi là ưu thế của kênh trực tuyến bằng chỉ số nào có trong hồ sơ?
+
+`[ngân sách: 277/300 — ĐẠT; chênh với lượt hỏi của B: 4,5%]`
+
+### Vòng 4 — B trả lời A
+
+**Trả lời 1:** Tôi **xác nhận tiền đề** và **rút** cách diễn đạt ở V3. Hồ sơ đúng là ghi một can thiệp nhắm vào kênh trực tuyến: rạng sáng 13/8/2026 nhiều tài khoản Threads báo bài "không hiển thị tại Việt Nam", kèm thông báo nền tảng nêu tên Bộ VHTTDL `[Case file §4]` — với caveat của chính hồ sơ rằng thông báo đó chỉ chứng minh Meta **nói rằng** đã nhận đề nghị. Vậy mệnh đề "chỉ một phương án có rủi ro trong hồ sơ" là **sai**, và tôi bỏ nó.
+
+Dạng còn đứng được hẹp hơn: hai rủi ro **khác loại**, không khác về sự tồn tại. Cái mất ở kênh trực tuyến trong hồ sơ là **hiển thị** — bài bị ẩn, có thể đăng lại, và người mất là người mất tiếng nói chứ chưa có ghi nhận nào về thân thể. Cái hồ sơ ghi tại chỗ là **hiện diện và giám sát của lực lượng công an**, có ghi nhận giải tán `[Case file §4]`. Hai loại tổn thất này không quy đổi cho nhau bằng một thước chung nào có trong hồ sơ.
+
+Nên nguyên tắc quyết định của tôi, khi áp đối xứng, **không** chọn ra một phương án duy nhất bằng phép "bên nào có rủi ro". Nó chỉ còn xếp theo hai đặc tính: (a) tổn thất khả hồi hay bất khả hồi; (b) hành vi đối kháng có để lại dấu vết quy được cho một chủ thể hay không — và ở đây mẩu §4 về Threads thực ra **củng cố** ý V2 của tôi: can thiệp vào kênh trực tuyến đã để lại một dấu vết có tên trong hồ sơ, còn việc dọn hoa thì `[Case file §4]` ghi **chưa có văn bản/phát ngôn chính thức giải thích căn cứ pháp lý** `[CẦN KIỂM CHỨNG]`.
+
+Đây là một nhượng bộ thật: sau khi rút, kết luận của tôi không còn tựa vào "rủi ro một phía".
+
+**Trả lời 2:** **Có. Tôi chấp nhận thẳng:** phương án của tôi **chuyển** rủi ro sang người đứng tên, **không loại bỏ** rủi ro. Và tôi chấp nhận luôn điểm A nêu ở lượt trước: giảm rủi ro cá nhân là **lý do khẳng định** của tôi, nên gánh chứng minh trên tiêu chí đó thuộc về tôi — mà `[Case file §5.5]` là **CHƯA CÓ DỮ LIỆU**, trống cho cả hai phía. Tôi **không thể** giải gánh đó bằng dữ liệu. Tôi chỉ có thể nêu cấu trúc, và người chấm có quyền coi đó là yếu hơn.
+
+Cấu trúc đó gồm ba điểm, xin nêu đúng mức:
+
+(1) **Số người mang rủi ro thay đổi.** Hình thức tại chỗ đặt rủi ro lên mọi người có mặt; phương án của tôi tập trung nó vào một số ít người đứng tên. Đây là mệnh đề về **phân bổ**, không phải về **tổng lượng** — tôi không biết tổng lượng.
+
+(2) **Thành phần rủi ro khác.** Người đứng tên không mang cấu phần "hiện diện thân thể tại một điểm có giám sát" mà `[Case file §4]` ghi nhận. Phần pháp lý thì tôi không có neo cho bên nào.
+
+(3) **Có vật đối ứng.** Rủi ro được chuyển đi kèm một thứ mà hình thức ẩn danh không kích hoạt: nghĩa vụ tiếp nhận, giải quyết khiếu nại, tố cáo `[Case file §2, HP 2013 Điều 30(2)]`. Tôi đã nói ở V3 rằng nghĩa vụ này **có điều kiện** — và điều kiện là có một chủ thể khởi động có danh tính.
+
+Giới hạn trung thực: nếu đơn có danh tính bị trả lời hình thức mà bên nhận **không chịu chi phí nào**, thì việc chuyển rủi ro mua về con số không. Đó vẫn là điều kiện tự bác của tôi, và hồ sơ hiện chưa cho tôi chạy nó.
+
+**Trả lời 3:** **Không có chỉ số nào trong hồ sơ đo được cái tôi gọi là "số đếm".** Tôi **rút** "số đếm" khỏi danh sách ba thứ mà bản trực tuyến giữ được. `[Case file §3]` ghi hai con số mâu thuẫn — trên 230.000 bài đăng đến 14/8/2026, và hơn 1.000.000 bài viết đến 14h 12/8/2026, mốc muộn hơn lại nhỏ hơn, gần như chắc chắn khác phương pháp đếm `[CẦN KIỂM CHỨNG]` — kèm cảnh báo **"bài đăng ≠ người"**. Một đại lượng mà hai phép đo lệch nhau bốn lần theo chiều nghịch thời gian thì không dùng làm ưu thế được, và quy tắc chống cherry-picking ở §3 cấm tôi chọn con số hợp ý.
+
+Điều này còn kéo theo một hệ quả bất lợi cho chính tôi mà tôi nên nói ra: **điều kiện tự bác** tôi đặt ở V1 — "nếu sau khi hình thức tại chỗ ngừng, số đếm trực tuyến sụt nhanh thì tôi sai" — **không chạy được** trên hồ sơ này, vì không có chuỗi đo nhất quán để so trước/sau. A đã ghi nhận ở lượt trước rằng tính bất khả đo là **đối xứng**; tôi ghi nhận rằng ở điểm này nó cắt vào tôi.
+
+Cái tôi giữ lại, hẹp hơn hẳn: **tính công khai** và **biểu tượng** — cả hai đều là đặc tính, không phải độ lớn. Cụ thể, "Cây tưởng niệm số 55" bản trực tuyến `[Case file §4]` tạo ra vật chứng có mốc thời gian, thuộc về từng tài khoản; còn vật chứng tại chỗ thì hồ sơ ghi đã **bị dọn dẹp** trong hai ngày 13–14/8/2026 `[Case file §4]`. Đó là khác biệt về **độ bền dấu vết**, không phải về quy mô đã kiểm chứng.
+
+Và tôi giữ chuẩn của chính mình: hồ sơ không có số người tại chỗ **không** chứng minh số đó nhỏ.
+
+`[ngân sách: 895/900 — ĐẠT; chênh với lượt trả lời của A (951): 5,9%]`
 
 ## Vòng 5 — Kết luận
 

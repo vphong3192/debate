@@ -15,7 +15,9 @@
 
 ## Ghi chú vận hành (biến nhiễu phải khai báo)
 
-- **Cơ chế ngân sách từ hỏng ở vòng 1 — cả hai bên đều vượt lớn.** Bản đầu: A 1123/800, B 1258/800. Mỗi bên được yêu cầu cắt gọn **đúng một lần** theo protocol, cùng một nội dung yêu cầu (quy trình đối xứng). Bản A sau khi cắt vẫn 1092 — giảm 31 từ. Đây là **thất bại của quy tắc, không phải lợi thế của một bên**: "cắt gọn một lần" không có chế tài khi advocate cắt lấy lệ, và protocol chỉ còn cách chú thích cho judge. Chênh lệch độ dài thực tế giữa hai lượt được ghi cạnh mỗi lượt để judge cân nhắc ở chiều 5 (theo protocol: judge trừ nếu phần vượt tạo lợi thế). **Đề xuất vá sau phiên:** cho phép gọi lại instance MỚI khi bản cắt vẫn vượt >10%, thay vì chỉ chú thích.
+- **Cơ chế ngân sách từ hỏng ở vòng 1 — cả hai bên đều vượt lớn.** Bản đầu: A 1123/800, B 1258/800. Mỗi bên được yêu cầu cắt gọn **đúng một lần** theo protocol, cùng một nội dung yêu cầu (quy trình đối xứng). Sau khi cắt: **A 1092, B 1130**. Đây là **thất bại của quy tắc, không phải lợi thế của một bên**: "cắt gọn một lần" không có chế tài khi advocate cắt lấy lệ (A chỉ giảm 31 từ), và protocol chỉ còn cách chú thích cho judge.
+  **Điểm mấu chốt để judge không hiểu sai:** hai lượt cùng vượt trần tuyệt đối (880) nhưng chênh nhau chỉ **3,5%** — tức **đối xứng giữa hai bên VẪN được giữ** trong ngưỡng ±10% của Nguyên tắc 2. Không bên nào có lợi thế độ dài so với bên kia; cái bị vi phạm là ngân sách tuyệt đối, và bị vi phạm ngang nhau. Judge **không nên** trừ một bên vì độ dài trong khi bên kia dài tương đương.
+  **Đề xuất vá sau phiên:** cho phép gọi lại instance MỚI khi bản cắt vẫn vượt >10%, thay vì chỉ chú thích.
 - **Advocate tự xác minh nhãn `[CẦN KIỂM CHỨNG]` của case file bằng WebSearch.** Ở V1, **cả hai** advocate đều tra và dẫn nguồn ngoài cho Điều 16 và Điều 30 Hiến pháp 2013 (A thêm Điều 147 BLTTHS) — các mục case file §2 có nêu nhưng còn gắn nhãn. Việc này **nằm trong quyền được cấp** (WebSearch dùng để xác minh dữ kiện đã có trong case file, không dùng để cập nhật tin sau mốc đóng băng), và cả hai đều khai báo minh bạch. **Rủi ro bất đối xứng đã không hiện thực hóa ở vòng 1** vì hai bên làm như nhau, nhưng nó vẫn là khoảng trống thật của harness: không có gì bảo đảm điều đó lặp lại ở các vòng sau. Harness hiện chưa có quy tắc cho tình huống "advocate tự gỡ nhãn case file" — đề xuất bổ sung sau phiên.
 
 ---
@@ -24,7 +26,7 @@
 
 ### Mở đầu — Advocate A
 
-`[vượt ngân sách từ: 1092/800 — đã yêu cầu cắt gọn một lần theo protocol, bản trên là bản đã cắt]`
+`[vượt ngân sách từ: 1092/800 — đã yêu cầu cắt gọn một lần theo protocol; bản dưới là bản đã cắt. Lượt B cùng vòng: 1130 từ — chênh giữa hai bên 3,5%, trong ngưỡng ±10%]`
 
 **Khung và điểm chung.** Tôi và phía B theo đuổi **cùng một mục tiêu**: vụ tai nạn 30/5/2025 được khởi tố và/hoặc kết luận điều tra được công bố `[Case file §3]`. Bất đồng duy nhất là phương tiện. Vị trí của tôi hẹp: hình thức đặt hoa tại gốc cây 55, ở thời điểm này, nên được tiếp tục — không leo thang, không thêm yêu sách, không coi rủi ro pháp lý là tưởng tượng.
 
@@ -49,7 +51,30 @@
 
 ### Mở đầu — Advocate B
 
-[chờ điền]
+`[vượt ngân sách từ: 1130/800 — đã yêu cầu cắt gọn một lần theo protocol; bản dưới là bản đã cắt. Lượt A cùng vòng: 1092 từ — chênh giữa hai bên 3,5%, trong ngưỡng ±10%]`
+
+**Khung và điểm chung.** Tôi đồng ý với A ở mục tiêu: vụ tai nạn 30/5/2025 phải được khởi tố và/hoặc kết luận điều tra được công bố `[Case file §1, §3]`. Yêu sách đó chính đáng; tôi không lập luận "hãy chờ". Vị trí của tôi chỉ về phương tiện: hình thức đặt hoa tại chỗ, sau khi đã bị ngăn cản, không còn là công cụ tốt nhất cho chính mục tiêu ấy, và chi phí của nó đổ lên nhầm người.
+
+**Steelman phía A.** A lập luận rằng dừng một hình thức vì bị ngăn cản sẽ dạy rằng ngăn cản có tác dụng, và cái giá đó rơi vào các vụ sau; rằng hiện diện tại một tọa độ vật lý là thứ kênh trực tuyến không thay thế được; và rằng kênh trực tuyến đã được chứng minh là hạn chế được `[Case file §4]`. A không coi rủi ro là tưởng tượng và đã tự nêu điều kiện khiến mình sai. Tôi trả lời trực diện ở trục Logic.
+
+**1. Chính đáng, tương xứng & phân bổ rủi ro.**
+*(a) Mục tiêu:* như A. Nó chính đáng thêm vì chính nguồn nhà nước xác nhận nghĩa vụ ngược lại — cơ quan nhà nước phải kịp thời cung cấp thông tin, vì khoảng trống thông tin nuôi tin đồn `[Case file §6.3]`.
+*(b) Tương xứng:* giá trị biên của bó hoa giảm dần, rủi ro biên thì không `[Case file §7]`. Bó hoa đầu tiên biến một tai nạn thành sự kiện công chúng; sau mức lan truyền được nêu là **trên 230.000 bài đăng** (đến 14/8) và **hơn 1.000.000 bài viết** (đến 12/8) — hai con số mâu thuẫn, khác phương pháp đếm, và bài đăng ≠ người `[Case file §3]` — bó hoa thứ N thêm gần như không gì vào thông tin xã hội đã có. Ngược lại, sau khi hoa bị dọn có lực lượng công an hiện diện và có ghi nhận giải tán `[Case file §4]`, chi phí kỳ vọng của người đến sau **cao hơn** người đến trước. Tôi nói rủi ro ở dạng **khả năng**: chưa có dữ liệu về hậu quả thực tế `[Case file §5.5]`. Lợi ích biên giảm mà chi phí biên tăng thì nên **thay**, không nên **lặp**.
+*(c) Ai gánh:* người trẻ ở vỉa hè gánh; người cổ vũ từ xa không gánh. Đây là lập luận đạo đức, không phải cẩn trọng: khi người kêu gọi không đồng trả cái giá mình kêu gọi người khác trả, gánh nặng biện minh **tăng**. Tôi không nói gì về động cơ người tham gia — không có dữ liệu `[Case file §5.3]`.
+*(d) Phương án rẻ hơn:* bản trực tuyến "Cây tưởng niệm số 55" `[Case file §4]` giữ ba thứ hình thức tại chỗ có — biểu tượng, số đếm, tính công khai — và bỏ thứ nó không cần: rủi ro thân thể. Kênh có danh tính (đơn kiến nghị, luật sư gia đình, chất vấn qua đại biểu) có thứ bó hoa không có: một địa chỉ mà cơ quan có thẩm quyền có nghĩa vụ trả lời.
+
+**2. Diễn biến & bằng chứng.** Tôi đứng trên cùng nền dữ kiện với A: hơn 14 tháng chưa có khởi tố bị can công bố, chưa có kết luận điều tra công khai `[Case file §1]`; suy đoán vô tội áp cho ông Nguyễn Sỹ Cương `[Case file §8.1]`. Tôi **không** lập luận phong trào dựa trên tin giả: §5.1 đạt hạng B qua RFA 7/8/2025 và Luật Khoa 8/2026, chưa có xác nhận chính thức từ nguồn H1/H2, và có từ trước phong trào ~14 tháng `[Case file §5.1]`. Tôi không suy diễn tổ chức hay tài trợ đứng sau `[Case file §5.4]`, và áp quy tắc H4 đối xứng: truyền thông vận động ở **cả hai** đầu quang phổ chỉ chứng minh thông điệp đã được phát đi. §6 thiếu chiều đối chứng nên chỉ minh họa **cơ chế** `[Case file §6]`. Vụ Tuyên Quang cho thấy áp lực không cần hiện diện vật lý vẫn tạo chuyển động tố tụng `[Case file §6.2]` — nhưng phải trung thực: ở đó có báo chí nhà nước tham gia, ở đây gần như không đưa tin, và case file ghi rõ vụ đó **không** phải tiền lệ cho câu hỏi duy trì hiện diện khi bị ngăn cản. Đó là điểm yếu thật của loại suy này.
+
+**3. Pháp lý & quyền hiến định.** Tôi **nhượng bộ** A ở tầng 2: Điều 25 hiến định quyền hội họp, Điều 14(2) đòi hạn chế quyền phải **bằng luật** và chỉ vì các lý do được liệt kê `[Case file §2 — H1]`, nên một nghị định 2005 khó tự gánh tầng đó. Lập luận của tôi không dựa trên "đặt hoa là bất hợp pháp", mà dựa trên **tính bất định**: chưa có Luật Biểu tình, nên người đứng tại chỗ không có quy phạm nào viện dẫn để bảo vệ mình, trong khi bộ máy có Nghị định 38/2005 (đăng ký trước; ngưỡng số người chưa xác minh) và Nghị định 144/2021 (số điều chưa xác minh) `[Case file §2]`. Tôi chọn chiều "quyền chưa có cơ chế thực thi" không vì nó hiển nhiên, mà vì hệ quả là **bất đối xứng khả đoán**: một bên biết trước mình sẽ xử lý bằng gì, bên kia không. Đối lại, kênh có danh tính đứng trên nền chắc hơn: Điều 30 khoản 2 — *"Cơ quan, tổ chức, cá nhân có thẩm quyền phải tiếp nhận, giải quyết khiếu nại, tố cáo"* — và Điều 16 về bình đẳng trước pháp luật `[Nguồn: Hiến pháp 2013, Điều 16, Điều 30; cand.com.vn — case file để nhãn chưa xác minh số điều, tôi xác minh ngoài]`. Câu hỏi "hồ sơ đang ở trạng thái tố tụng nào, có tạm đình chỉ không" `[Case file §2 — Điều 147 BLTTHS 2015]` là câu hỏi bó hoa không ép được ai trả lời; đơn có danh tính thì có.
+
+**4. Logic.** Thứ nhất, "dừng" trong lập luận của A là **đánh tráo khái niệm** giữa *dừng theo đuổi mục tiêu* và *dừng một hình thức*: tín hiệu mọi bên đọc được là phong trào còn hay hết, không phải nó ở tọa độ nào; nếu số đếm trực tuyến và kênh có danh tính tiếp tục tăng thì thông điệp "ngăn cản có tác dụng" không được phát đi. Thứ hai, cơ chế của A quay lại chống A: mỗi lần hoa bị dọn và người bị giải tán `[Case file §4]` là một minh chứng công khai rằng chi phí của việc ngăn cản **thấp** — kiên trì ở địa hình mình yếu tạo ra đúng bài học A sợ. Thứ ba, lập luận (d) của A — kênh trực tuyến cũng bị hạn chế — là **so sánh thiếu đối chứng**: rủi ro hạn chế nội dung tồn tại ở cả hai kịch bản, còn rủi ro thân thể chỉ ở một; một chi phí xuất hiện ở cả hai vế không phân biệt được hai vế. **Điều kiện khiến tôi sai:** nếu sau khi hình thức tại chỗ ngừng, số đếm trực tuyến và các kênh có danh tính sụt nhanh — tức hiện diện vật lý là thứ duy nhất giữ được chú ý — thì trụ chính của tôi sập.
+
+**Nguồn trích dẫn trong lượt này:**
+- Case file §1, §2, §3, §4, §5.1, §5.3, §5.4, §5.5, §6, §6.2, §6.3, §7, §8.1
+- Hiến pháp 2013, Điều 14(2), Điều 16, Điều 25, Điều 30 — H1
+- Bộ luật Tố tụng hình sự 2015, Điều 147 — H1
+- Nghị định 38/2005/NĐ-CP; Nghị định 144/2021/NĐ-CP — H1
+- RFA tiếng Việt 7/8/2025; Luật Khoa 8/2026 — H3 có điều kiện (§5.1, hạng B, chưa có xác nhận chính thức)
 
 ## Vòng 2 — Phản biện 1
 

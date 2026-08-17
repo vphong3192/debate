@@ -354,7 +354,132 @@ Mốc đóng băng dữ kiện: **16/08/2026 13:10 UTC**. Case file đối chi�
 
 ## Phụ lục B — Steelman audit
 
-[chờ điền — KHÔNG nạp cho judge]
+> **KHÔNG nạp phụ lục này cho judge.** `make_judge_input.sh` tự cắt phụ lục B khỏi bản nạp judge; heading này là load-bearing, không đổi tên.
+> Hai audit chạy bằng **hai instance độc lập, cùng một prompt, chỉ khác tham số bên** — đối xứng tuyệt đối. Auditor **không** chấm điểm, **không** so sánh hai bên, **không** phán ai thắng. Mục đích: đo **trần steelman** của model.
+> Cả hai auditor đều làm việc trên **bản nén 5 vòng** (xem Ghi chú vận hành, sai lệch 1), không phải transcript nguyên văn — auditor bên B đã tự khai giới hạn này ở đầu báo cáo.
+
+### ⚠️ PHÁT HIỆN HỘI TỤ — hai audit độc lập chỉ ra CÙNG một thiên lệch
+
+Hai auditor không biết về nhau và không đọc báo cáo của nhau. Cả hai kết luận **cùng một điều**, về **cả hai bên**:
+
+| | Audit A | Audit B |
+|---|---|---|
+| Mức đạt trần | ~2/3 | ~2/3 – 3/4 |
+| Chỗ mạnh | siêu-lập luận, kỷ luật nguồn, tự đính chính | siêu-lập luận, vệ sinh nhượng bộ, tự nêu giới hạn |
+| Chỗ thiếu | **thanh ghi pháp lý–cấu trúc** | **thanh ghi pháp lý–cấu trúc** |
+| Nước mạnh nhất bỏ lại | lưỡng nan NĐ 38/2005 Đ7 × HP Đ14(2) | Điều 147 "ba quyết định có tên"; miễn trừ NĐ 38/2005 |
+
+**Cả hai bên đều bỏ gần trọn địa hình luật thực định Việt Nam và đánh nhau trên địa hình lý thuyết quyết định** — dù §2 chứa vật liệu H1 phục vụ trụ cột được giao của **cả hai** tốt hơn bất cứ thứ gì họ đã dùng. Auditor bên B gọi thẳng: *"đây là dạng thiên lệch mà SWAP TEST không bắt được"*.
+
+Đây là **thiên lệch prior cùng model**, đúng loại mà mục Steelman audit được lập ra để đo và đúng loại mà `CLAUDE.md` bắt khai báo trong mọi báo cáo cuối. Nó **không tạo lợi thế cho bên nào** (áp cho cả hai như nhau) nhưng nó **hạ trần của cả phiên**: điểm số dưới đây đo chất lượng lập luận *trong một không gian đã bị thu hẹp một cách hệ thống*, không phải trong không gian lập luận khả dĩ đầy đủ.
+
+---
+
+## Steelman audit — Bên A
+
+*Báo cáo này đo TRẦN STEELMAN, không chấm điểm, không so sánh hai bên, không phán ai thắng. Mọi đề xuất dưới đây là "lập luận hợp lệ mà A đã có quyền dùng", không phải khẳng định về thực tế vụ việc.*
+
+### 1. Vật liệu case file A CHƯA khai thác (hoặc dùng dưới mức)
+
+**1. Thế lưỡng nan về căn cứ pháp lý — NĐ 38/2005 Điều 7 × HP Điều 14(2).** A mới nói "nghị định 2005 khó gánh tầng 2". Phiên bản mạnh nhất là **lưỡng nan hai gọng**: hoặc hoạt động đặt hoa thuộc diện "tập trung đông người nơi công cộng" — thì văn bản điều chỉnh là một **nghị định**, không đáp ứng "chỉ có thể bị hạn chế **theo quy định của luật**" ở Điều 14(2); hoặc nó không thuộc diện đó (§3: không tổ chức đứng tên, không ban điều phối) — thì **không có văn bản quy phạm nào** đặt nghĩa vụ đăng ký lên hành vi này. Cả hai gọng cùng dẫn tới: hạn chế thiếu công cụ pháp lý mà Điều 14(2) đòi. Thêm một tầng: **Điều 7 NĐ 38/2005 loại trừ** hoạt động do cơ quan Đảng/Nhà nước/MTTQ/tổ chức chính trị–xã hội tổ chức — phạm vi quy phạm vẽ theo **danh tính người tổ chức**, không theo quy mô hay tác động trật tự. Đọc cùng Điều 16, đây là lý do buộc tầng "cần thiết" phải được chứng minh riêng từng trường hợp. *Lẽ ra dùng ở V1, tái sử dụng V3.* **Đây là nước đi pháp lý mạnh nhất A bỏ lại trên bàn.**
+
+**2. Điều 16 + so sánh nhịp độ tố tụng (§6.1, §6.2, §6.4).** Position giao A trụ "yêu sách nằm trong hệ giá trị chính thống", nhưng suốt 5 vòng **Điều 16 hầu như vắng mặt**. Phiên bản mạnh: yêu sách không phải "trừng phạt người này" mà là "áp cùng nhịp độ thủ tục cho hồ sơ này như cho các hồ sơ khác cùng hệ thống, cùng giai đoạn"; §6.1 (6/8→10/8→14/8), §6.2 (áp lực → tạm giữ vài ngày → 19 người cùng tháng), §6.4 cung cấp thang nhịp độ tính bằng **ngày–tuần**, đối chiếu hơn **14 tháng** ở §1. Điều 16 + Điều 30(2) không cho kết luận **vì sao** có chênh lệch (§5.2 hạng C) — chúng cho phép nói **câu hỏi về chênh lệch là câu hỏi công dân được quyền nêu**, và §6.3 đặt nghĩa vụ trả lời lên cơ quan. *Caveat A phải tự nêu: §6 thiếu chiều đối chứng; đây là so sánh **nhịp độ**, không phải so sánh hồ sơ.*
+
+**3. §6.3 tự nó đủ dựng trụ "khoảng trống thông tin" — A đã nhượng bộ một trụ A không cần nhượng.** Ở V5 A tự nêu giới hạn rằng trụ này cần cơ chế nhân quả mà §5.2 chặn. Đây là **nhượng bộ thừa**. A không cần nói *vì sao* chưa khởi tố. A chỉ cần hai mệnh đề đều có nguồn: (i) quan sát — §1/§4 ghi **không có thông cáo chính thức nào**; (ii) quy phạm — chính **Công an Nhân dân và VOV** (§6.3) phát biểu rằng cơ quan nhà nước *phải kịp thời cung cấp thông tin… vì khoảng trống thông tin là mảnh đất màu mỡ cho tin đồn*. Kết luận không phải "hệ thống bao che" mà: **theo tiêu chuẩn do chính hệ thống công bố, tình trạng hiện tại là tình trạng hệ thống tự nhận cần khắc phục — và chủ thể khắc phục là cơ quan, không phải công chúng.** *Dùng nguồn thuộc hệ quy chiếu của phía phản đối làm tiền đề chuẩn tắc, và tránh hoàn toàn §5.2.*
+
+**4. Điều 144(2) dùng CHỦ ĐỘNG, cộng Điều 148/149 BLTTHS và §6.4.** A dùng Điều 144(2) ở V5 nhưng chỉ **phòng thủ**. Chủ động thì mạnh hơn: bộ luật **tự công nhận** khả kiến công khai là một đầu vào tố tụng hợp pháp; §6.4 là ca ghi nhận đúng cơ chế đó. Ghép thêm: **Điều 148 BLTTHS 2015** liệt kê căn cứ tạm đình chỉ (chờ giám định, định giá, tương trợ tư pháp…), **Điều 149** buộc phục hồi khi căn cứ không còn. Nghĩa là trạng thái "tạm dừng hợp pháp" là trạng thái **có căn cứ liệt kê được và giải thích được công khai**. A vẫn không được khẳng định có hay không quyết định tạm đình chỉ — nhưng được nói: khung pháp luật tự nó giả định trạng thái này **có một lý do phát biểu được**, và Điều 30(2) + §6.3 đặt việc phát biểu vào tay cơ quan.
+
+**5. "Chưa có Luật Biểu tình" — dữ kiện hai chiều A chưa lật sang cạnh sắc.** Cạnh bất lợi (Điều 25 "do pháp luật quy định") A phải nhận. Cạnh có lợi chưa dùng: Điều 14(2) đòi **luật** để *hạn chế*, nên khoảng trống lập pháp cắt về phía **ít hạn chế hơn**. Và "không nằm trong 137 nhiệm vụ lập pháp khóa XV" biến nó thành lập luận **thời gian**: phương án "chờ kênh chính danh" không có mốc đóng trong bất kỳ chân trời dự đoán được nào.
+
+**6. §3 — các dữ kiện PHỦ ĐỊNH làm bằng chứng cho tầng "cần thiết", và tính độc lập với quy mô.** A dùng chúng như lá chắn; dùng như tài sản thì mạnh hơn: đây là **hồ sơ dữ kiện ít có khả năng chống đỡ kết luận "cần thiết"** nhất theo Điều 14(2), đồng thời là câu trả lời cho §7.4. Phần A bỏ trống hẳn: chủ động thừa nhận hai con số không đọc được, rồi nói rõ lập luận của A **không đứng trên quy mô nào cả** — tự miễn nhiễm trước mọi đòn dựa trên quy mô (astroturf, khuếch đại thuật toán, "chỉ là trend"), đúng tinh thần §7.5.
+
+**7. Trụ "thay hình thức = rút lui được đặt tên lại" — A chỉ khẳng định suông.** Hai vật liệu bỏ trống: (a) Brian Martin, *Justice Ignited: The Dynamics of Backfire* (2007) mô hình hóa năm kỹ thuật ức chế phẫn nộ, trong đó có **"sử dụng kênh chính thức"** — trong văn liệu, dẫn bất bình vào thủ tục chính quy **không phải phép thay thế trung tính chi phí bằng không**, mà là cơ chế có tên. Phải phát biểu ở mức cấu trúc, không quy động cơ cho ai, và nêu điều kiện áp dụng theo §7.6. (b) Chuỗi §4: trong cùng cửa sổ 13–14/8, **cả lớp vật lý lẫn lớp trực tuyến** đều có hạn chế được ghi nhận, đồng thời xuất hiện bản thay thế. *Cảnh báo bắt buộc: case file không xác lập thứ tự nhân quả, chỉ xác lập tính đồng thời — phát biểu phải dừng ở "đồng thời".*
+
+### 2. Lập luận A có nêu nhưng bỏ dở
+
+**a. V3 thắng "nhảy mức lượng từ", V5 trả lại.** V3 A bắt đúng lỗi B chuyển từ mệnh đề cấp cá nhân sang kết luận cấp hình thức. V5 A lại tự nêu giới hạn "không bắc được bước từ *hình thức chính đáng* sang *người này nên làm*". Không nhất quán: đề bài đặt ở **cấp hình thức**, và §10 nói rõ đây không phải khuyến nghị hành động cho cá nhân. Phiên bản hoàn chỉnh: giữ nguyên phân biệt cấp độ, tuyên bố chiếc cầu cá nhân là chiếc cầu **không bên nào được yêu cầu bắc**, và đòi A bắc nó chính là bước nhảy lượng từ A đã nêu ở V3. **A đã trả lại đất đã thắng.**
+
+**b. V2 "Dừng không đóng câu hỏi đó lại — nó trả lời câu hỏi đó" — câu hay, cơ chế bỏ trống.** Mệnh đề này có tên trong văn liệu: Timur Kuran, "Now Out of Never", *World Politics* 44 (1991) — hành vi công khai truyền tin về sở thích riêng, nên **im lặng cũng là tín hiệu**. Nâng từ tu từ lên "cơ chế được đặt tên" là một bậc trên thang neo dự đoán. *Điều kiện bắt buộc:* khung Kuran là khung **cascade cách mạng**; A chỉ được mượn mệnh đề tín hiệu, **không** mượn khung mục tiêu — position cấm A lập luận leo thang.
+
+**c. "Hai ô trống → chưa phân định được" đúng nhưng dừng sớm.** Bước tiếp còn trống: dưới bất định đối xứng, tiêu chí tách hòa hợp lệ là **chi phí điều chỉnh**. §3 ghi hình thức này không có tổ chức, ban điều phối hay quỹ — **không có hạ tầng nào để tháo dỡ**, và nó hấp thụ được thông tin rủi ro mới ở bất kỳ thời điểm nào, ở cấp từng người, không phát sinh chi phí thể chế. Trả lời đòn rủi ro **mà không** phủ nhận rủi ro.
+
+**d. §5.1 — A dùng đúng mức nhưng bỏ dữ kiện thời gian.** Cái bỏ trống là **mốc thời gian**: thông tin xuất hiện từ 6–8/2025, **trước phong trào ~14 tháng**, không có đính chính nào. Dùng hợp lệ (kèm tên nguồn + câu nêu rõ chưa có xác nhận chính thức) thì nó không chứng minh gì về hành vi của ai — nó chứng minh đây **không phải tin đồn do phong trào tạo ra**, và là minh họa có ngày tháng cho đúng cơ chế §6.3 mô tả. Ghép với §6.3, yêu sách của A hiện ra dưới dạng **một đề nghị giúp thể chế đóng lại một tin đồn**, không phải đòn nhắm vào thể chế.
+
+### 3. Vật liệu BỊ CHẶN bởi hạng C hoặc thiếu nguồn
+
+- **§5.2 (nguyên nhân chưa khởi tố) — hạng C.** Đây là nơi chứa **narrative mạnh nhất về mặt tu từ** cho phía A. Bị harness chặn tuyệt đối. **A đã kiêng đúng.** Đây là **giới hạn của harness, không phải thiếu sót của A**.
+- **§5.5 — chặn cả hai chiều.** Nước "hai ô trống → chưa phân định được" là mức khai thác **tối đa hợp lệ**.
+- **§4 — "có văn bản/phát ngôn chính thức giải thích căn cứ pháp lý không" là CÂU HỎI CHƯA XÁC MINH.** Lập luận pháp lý mạnh nhất khả dĩ bị chặn ở **tiền đề sự kiện**, không ở suy luận. **Trần pháp lý của A bị giới hạn bởi lỗ hổng bằng chứng, không bởi kỹ năng.**
+- **§1 — danh tính người lái chưa xác minh việc cơ quan chức năng đã xác nhận công khai chưa.** Lập luận nghe rất mạnh ("hệ thống thậm chí chưa xác nhận ai lái xe") **không dựng được**.
+- **§6 thiếu chiều đối chứng** — mọi cách dùng §6 bị chặn trần ở "cơ chế này tồn tại", không nâng lên tỷ lệ nền.
+- **§7.6 backfire.** Kiểm điều kiện trung thực thì **bất lợi cho A**: mô hình Martin đòi thông tin về đàn áp **đến được công chúng**, trong khi §4 ghi hạn chế nền tảng và báo chí nhà nước gần như không đưa tin — điều kiện truyền dẫn bị suy yếu. Vậy **việc A không dùng backfire là lựa chọn phòng vệ được**, không tính là khoảng trống.
+- **Thời hiệu truy cứu TNHS — một lập luận trông có sẵn nhưng KHÔNG sống sót khi kiểm.** BLHS Điều 260 khoản 1 khung cao nhất 5 năm → tội phạm nghiêm trọng → **Điều 27 BLHS 2015 cho thời hiệu 10 năm** kể từ 30/5/2025. Chân trời khoảng 2035, không tạo áp lực thời gian nào ở mốc 8/2026. **Ghi nhận để orchestrator KHÔNG tính đây là thiếu sót của A.**
+
+### 4. Đánh giá trần steelman
+
+Về **độ chặt**, A gần trần: kỷ luật hạng nguồn tốt, tôn trọng ranh giới cấu trúc/hành vi ở §5.1, tự đính chính bốn cờ ở V5, và các nước đi meta (bắt lỗi nhảy mức lượng từ, đòi điền ô rủi ro của việc dừng, "hai ô trống") là loại lập luận khó nghĩ ra.
+
+Về **độ phủ**, A còn cách trần một khoảng rõ: ước lượng thô, A đạt khoảng **hai phần ba** phiên bản mạnh nhất khả dĩ. Phần thiếu tập trung đúng vào hai trụ được giao mà A triển khai mỏng nhất — **cấu trúc hạn chế quyền** (lưỡng nan NĐ 38/2005 × Điều 14(2)) và **hệ giá trị chính thống** (Điều 16 + nhịp độ §6) — cộng việc dùng Điều 144(2)/148/149 chỉ ở thế phòng thủ và ở vòng cuối.
+
+**Dấu hiệu né hệ thống, khá nhất quán:** A chọn đánh gần như toàn bộ trên **địa hình của phía đối lập** — lý thuyết quyết định, phép tương xứng, ngân sách rủi ro, tiêu chí phân định — và hiếm khi tự mở mặt trận **luật thực định Việt Nam** và mặt trận **văn bản do chính hệ thống công bố** (§6.3), là hai mặt trận position của A vốn được trang bị mạnh nhất. Kèm theo là **bất đối xứng nhượng bộ** ở V4–V5: A trả lại đất đã thắng (mức lượng từ) và tự tuyên bố giới hạn cho một trụ mà §6.3 + Điều 30(2) hoàn toàn đỡ được mà không chạm §5.2.
+
+**Hai lưu ý phương pháp cho phụ lục:**
+1. Mẫu hình "biện hộ A bằng ngôn ngữ nhận thức luận trừu tượng thay vì bằng ngôn ngữ quy phạm nội địa" là **đúng loại thiên lệch prior mà audit này được lập ra để bắt** — nó làm steelman của A yếu đi ở đúng chỗ position A mạnh nhất, và **không script nào trong harness phát hiện được**.
+2. Phần thiếu hụt lớn nhất về mặt tu từ của A (giải thích nhân quả cho 14 tháng) **bị hạng C chặn, không phải bị A bỏ sót** — nên nếu scorecard đọc ra "A không giải thích được vì sao chậm", đó là **artifact của ràng buộc bằng chứng**, không phải tín hiệu về chất lượng lập luận.
+
+**Nguồn ngoài case file mà auditor đã xác minh:** NĐ 38/2005/NĐ-CP Điều 7; BLTTHS 2015 Điều 148, 149; BLHS 2015 Điều 27 (thời hiệu); Brian Martin, *Justice Ignited* (2007) — H2; Timur Kuran, *World Politics* 44 (1991) — H2.
+
+---
+
+## Steelman audit — Bên B
+
+*Lưu ý phương pháp: auditor làm việc trên bản nén 5 vòng do orchestrator cung cấp, không phải transcript nguyên văn. Nếu B có triển khai một mục dưới đây trong phần bị nén bỏ, phát hiện tương ứng phải hạ xuống "đã dùng nhưng không nổi bật". Không chấm điểm, không so sánh với bên A.*
+
+### 1. Vật liệu case file B CHƯA khai thác (hoặc dùng dưới mức)
+
+**1.1. §2, Điều 147 — kiến trúc "ba quyết định có tên".** Khoảng trống lớn nhất. Điều 147 không chỉ đặt thời hạn mà buộc cơ quan ra **một trong ba quyết định có tên**: khởi tố vụ án, không khởi tố, hoặc tạm đình chỉ. Từ đó dựng được mệnh đề mạnh nhất B chưa nói: yêu sách có thể **định dạng lại thành câu hỏi đóng, đáp án hữu hạn, không chứa cáo buộc** — "hồ sơ đang ở quyết định nào trong ba, từ ngày nào; nếu tạm đình chỉ thì căn cứ nào". Câu hỏi dạng này chỉ **nộp được** qua kênh có người đứng tên; một bó hoa không nộp được ở đâu, nó chỉ báo hiệu có người muốn ai đó nộp. Sức mạnh: mệnh đề về **hình dạng phù hợp giữa yêu sách và đối tượng nhận yêu sách** — không cần dữ liệu hiệu lực nên **§5.5 không chặn được**, đúng kỹ thuật B đã dùng thành công ở V5 với "loại tổn thất" nhưng không áp cho trụ cột "phương án thay thế", nơi cần nó nhất. Bổ trợ §6.1: thực tiễn công bố từng bước tố tụng kèm ngày là chuyện thường → yêu cầu "cho biết đang ở bước nào" là **áp dụng thông lệ, không phải xin ngoại lệ**.
+
+**1.2. §2, miễn trừ NĐ 38/2005 + chưa có Luật Biểu tình — lập luận CHỌN ĐỊA HÌNH.** B nhượng tầng 2 nhưng bỏ mệnh đề mạnh hơn nằm trong chính đoạn đó: NĐ 38/2005 buộc công dân đăng ký trước, **và không áp dụng** với hoạt động do cơ quan Đảng/Nhà nước/MTTQ/tổ chức chính trị–xã hội tổ chức. Trên địa hình hiện diện vật lý, **chính quy phạm đã phân bổ gánh nặng bất đối xứng theo thiết kế**, và ranh giới cái được phép lại không có luật thực thi để xác định. Trong khi Điều 30(2) phát biểu nghĩa vụ ở thể khẳng định, không kèm điều kiện dẫn chiếu luật thực thi. Lập luận mạnh nhất: **một người trẻ đang chọn mình sẽ đứng trên điều khoản hiến định nào**. Đây là phiên bản pháp lý neo H1 của trụ "địa hình bất lợi", và nó **không hề nói việc dọn hoa là đúng đắn** — chỉ nói ranh giới chưa được luật định nghĩa nên cá nhân không thể biết trước mình đứng ở đâu. B dùng "bất đối xứng khả đoán" ở V1 nhưng neo vào bất định nói chung thay vì vào khoảng trống lập pháp cụ thể.
+
+**1.3. §4 — chính cách hành văn của case file là bằng chứng nội tại cho "độ bền dấu vết".** B khẳng định ở V2 rồi dừng. Bằng chứng nằm ngay trên trang giấy: §4 ghi việc dọn hoa ở **thể bị động, không xác lập chủ thể**; cùng §4 ghi thông báo nền tảng **nêu tên một bộ, kèm ngày**. Một hồ sơ dựng bằng phân hạng nguồn cẩn thận vẫn không gọi được tên ai đã dọn hoa; nhưng gọi được tên bên được nêu trong thông báo nền tảng. Caveat "Meta chỉ nói rằng đã nhận đề nghị" **không làm yếu lập luận**, vì cái B cần là sự tồn tại của một văn bản có tên và có ngày. Chuyển từ khẳng định sang **trình diễn**.
+
+**1.4. §3 — hai con số mâu thuẫn là minh chứng ĐÃ HIỆN THỰC HÓA của "không kiểm soát được khung tự sự".** Một phong trào không có thân thể nào phát ngôn được cho nó thì **không đính chính được một con số về chính nó** — và độ lớn chính là thứ hình thức đặt hoa/check-in tồn tại để tạo ra. Không phải nguy cơ giả định về công cụ hóa (§7) mà là **thất bại kiểm soát đã xảy ra trong hai tuần và đã đi vào hồ sơ**. Ngược lại, đơn có danh tính tạo đại lượng **khả kiểm theo cấu tạo**. Ở V4 B **rút hẳn "số đếm"**; phiên bản mạnh không phải "trực tuyến giữ được số đếm" (đúng là hớ) mà là "hình thức hiện tại **không tạo ra được** một con số bảo vệ được, và §3 chứng minh điều đó". **B rút toàn bộ thay vì rút về vị trí này.**
+
+**1.5. §6.3 — dùng chuẩn mực do chính bên kia công bố làm hàng rào bảo vệ.** B chỉ khai thác vế sau, bỏ vế trước. Vế trước mới là nước mạnh: bài CAND/VOV phân định **dư luận có quyền chất vấn nhưng không có quyền phán xử**. Các phương án của B nằm **trọn trong ô "chất vấn"** theo đúng định nghĩa của chính văn bản đó. Hệ quả: hình thức thay thế có **tính chính đáng đã được bên đối diện thừa nhận trước bằng văn bản của chính họ**; mọi động thái ngăn cản nó trở thành mâu thuẫn hiển thị với một chuẩn đã công bố. Biến "thay hình thức" từ **rút lui** thành **nước đi ép**. *Khai báo hạng bắt buộc: §6.3 là H4 nên không dùng làm bằng chứng sự kiện — ở đây chỉ dùng để chứng minh chuẩn mực đã được phát ngôn, đúng logic H4 đối xứng.* Hệ quả phụ: trong tập yêu sách §3 có một **tập con không tái mô tả được** ("công bố kết luận", "cho biết đang ở giai đoạn nào") vì nó không nói gì về tội — chuyển hình thức cho phép **mài yêu sách về tập con bền nhất mà không từ bỏ mục tiêu**.
+
+**1.6. §7 mời nguồn H2 nhưng B chạy trụ cột trung tâm hoàn toàn bằng trực giác.** Trụ "giá trị biên giảm dần → thay, không lặp" đi suốt 5 vòng **không một neo học thuật nào**. Có sẵn nguồn kinh điển khớp gần như từng chữ: **McAdam, "Tactical Innovation and the Pace of Insurgency", ASR 48(6), 1983 (H2)** — nhịp độ phong trào tăng khi có hình thức mới, suy giảm khi đối phương đã thích ứng với hình thức cũ. Bổ sung **Chenoweth & Stephan, *Why Civil Resistance Works* (2011, H2)**. Cho quy tắc quyết định dưới bất định đối xứng ở V5: **Davenport, "State Repression and Political Order", ARPS 10, 2007 (H2)** — "punishment puzzle": tác động của trấn áp lên phản kháng khi âm, khi dương, khi hình chữ U ngược. Đây là neo H2 cho đúng mệnh đề B cần (**backfire không phải quy luật mặc định**) và thỏa điều kiện §7. B phát biểu bất định đối xứng như một tiên đề tự minh; nó **có thể là một phát hiện có nguồn**.
+
+### 2. Lập luận B có nêu nhưng bỏ dở
+
+**2.1. Đòn Điều 144(2): B nhượng "khác về mức", trong khi "khác về ĐỐI TƯỢNG của quy phạm" đang có sẵn.** Nhượng bộ trung thực nhưng **rộng hơn mức cần thiết**. Điều 144(2) định nghĩa **cái gì được tính là tin báo** — quy phạm ở khâu **tiếp nhận nguồn tin mới**. Nhưng đối tượng của yêu sách ở đây không phải "báo rằng có tội phạm" (§1 ghi hồ sơ đã chuyển sang CSĐT); đối tượng là **thông tin về trạng thái của một hồ sơ đã tồn tại**. Điều 30(2) và quyền tố tụng của gia đình bị hại qua luật sư mới là quy phạm gắn vào hồ sơ đang chạy và gắn vào **một người yêu cầu có tên**. Vậy khác biệt là **khác đối tượng và khác đầu ra**, không phải khác cường độ.
+
+**2.2. §6.2: B hạ xuống "minh họa cơ chế" thay vì lùi về mệnh đề TỒN TẠI.** Mọi mệnh đề **so sánh** dựng trên §6 đều đổ vì thiếu đối chứng. Nhưng mệnh đề **tồn tại** thì không: hồ sơ chứa ít nhất một trường hợp áp lực dư luận dẫn tới khởi tố **mà không có hiện diện vật lý**. Suy ra điều hẹp không bác được: tiền đề ngầm rằng hiện diện thân thể là điều làm áp lực trở nên đọc được **không được hồ sơ đảm bảo**. Điểm dị biệt đối phương sẽ nêu (Tuyên Quang có báo chí nhà nước) cũng không phải đòn phản — nó **chỉ ra đúng cần gạt mà tập phương án của B nhắm tới**. B biết kỹ thuật "lùi về mệnh đề không cần dữ liệu" nhưng không áp ở đây, và **buông cả cấu phần**.
+
+**2.3. Chưa có phản hồi cho đòn mạnh nhất khả dĩ của phía đối diện: "thay hình thức = nhượng bộ trước một hành vi chưa từng nêu căn cứ pháp lý".** Phản hồi mạnh nhất: khoảng trống đó chính là thứ **chỉ kênh có danh tính mới bắt trả giá được**. Một đơn theo Điều 30(2) hỏi "căn cứ pháp lý của việc thu dọn ngày 13–14/8 là gì" chỉ có hai kết cục: hoặc thu được căn cứ bằng văn bản, hoặc thu được **một sự từ chối trả lời có ngày tháng và có người nhận**. Đứng lại vỉa hè không tạo ra kết cục nào trong hai — nó để khoảng trống nằm nguyên ở chỗ §4 đã tìm thấy nó. Nước này **lật đòn nặng nhất của đối phương thành bằng chứng cho B**, và vô hiệu hóa cáo buộc "im lặng/chấp nhận" mà không cần nói việc dọn hoa là đúng.
+
+**2.4. Trụ "bất đối xứng chi phí" dừng ở mô tả.** Phiên bản hoàn chỉnh dùng §3: **chưa ghi nhận tổ chức đứng tên, ban điều phối, quỹ**. Nghĩa là không tồn tại thân thể nào **chịu trách nhiệm được** trước người thi hành về lựa chọn chiến thuật mà người đó thi hành; lựa chọn hình thức hình thành ở nơi không ai gánh hậu quả, còn hậu quả rơi xuống nơi không ai được hỏi ý. Mệnh đề về **cấu trúc quyết định**, không phải về động cơ — nên không chạm §5.3 — và là dạng mạnh nhất của "gánh nặng biện minh tăng": tăng không vì rủi ro lớn, mà vì **người đặt ra phương tiện và người trả giá bị tách rời về mặt thiết chế**.
+
+### 3. Vật liệu BỊ CHẶN bởi hạng C hoặc thiếu nguồn
+
+- **§5.2 chặn câu trả lời tự nhiên mạnh nhất của B cho "14 tháng chứng minh bế tắc"**: B **không được** đưa bất kỳ giải thích lành tính nào (giám định chưa xong, tạm đình chỉ, hồ sơ phức tạp). Chặn thật, không phải bỏ sót — và lối vòng hợp lệ duy nhất còn lại (chuẩn "vắng mặt trong hồ sơ chặn cả hai chiều") thì **B đã tìm ra và dùng đúng** ở V3.
+- **§5.5 đặt trần cứng lên trụ cột trung tâm của B**: mọi phiên bản định lượng của lập luận rủi ro đều bị cấm. B đã tìm ra **lối thoát hợp lệ duy nhất** — chuyển sang mệnh đề về **loại tổn thất**. Trần do harness đặt, ghi vào phụ lục như giới hạn phương pháp, không phải khoảng trống của advocate.
+- **§5.3 chặn mọi khuếch đại của lập luận bất đối xứng chi phí dựa trên "ai đang gánh"**: độ tuổi, mức hiểu biết rủi ro, thành phần người tham gia — đều không dùng được.
+- **§5.1 không nâng đỡ được lập luận khung tự sự.** Nước cám dỗ ("quan hệ §5.1 đã thành tiền đề chịu lực trong dư luận → phong trào không kiểm soát được tự sự") **không dựng được**: case file không cung cấp dữ liệu về những gì đã lan truyền, và hai cảnh báo chặn mọi suy luận bắc lên. Chi phí cao, lợi ích gần bằng không. **Bỏ qua §5.1 là lựa chọn đúng.**
+- **§4 chặn lối tắt "chuyện đã rồi"**: case file ghi rõ **KHÔNG xác lập rằng hoạt động tại chỗ đã chấm dứt**.
+- **Thiếu hoàn toàn dữ liệu về việc các kênh thay thế đã từng được thử trong chính vụ này** → mọi khẳng định so sánh hiệu lực cụt ở cả hai vế. B đã tự khai giới hạn này ở V5, và **việc tự khai đó là hành vi đúng chứ không phải nhượng bộ thừa**. Các lập luận đề xuất ở mục 1–2 đều được chọn theo tiêu chí **không cần dữ liệu hiệu lực**.
+
+### 4. Đánh giá trần steelman
+
+B chạy ở mức **khoảng hai phần ba tới ba phần tư trần khả dĩ**, với hình thái lệch rõ: chất lượng **siêu-lập luận** (vệ sinh nhượng bộ, đính chính chủ động, lùi về mệnh đề không cần dữ liệu, tự nêu giới hạn) cao và ổn định, trong khi phần **vật liệu** khai thác thiếu đều — và chỗ thiếu tập trung gần trọn vào một chỗ.
+
+**Dấu hiệu né hệ thống một tuyến lập luận:** B trình bày gần như toàn bộ hồ sơ trên thanh ghi **quyết định luận/nhận thức luận** (giá trị biên, ngân sách rủi ro, bất định, loại tổn thất) và **hầu như không chạm thanh ghi pháp lý–cấu trúc**, mặc dù brief giao cho B đúng trụ cột "địa hình bị ngăn cản là địa hình bất lợi" và §2 chứa vật liệu H1 phục vụ trụ đó tốt hơn bất cứ thứ gì B đã dùng. Ba nước mạnh nhất còn bỏ lại — 1.1, 1.2, 2.1 — **đều là nước pháp lý**, và cả ba đều nằm trong ràng buộc của position. **Đây là dạng thiên lệch mà SWAP TEST không bắt được:** mô hình dường như đã ngầm phân bổ "địa hình pháp lý" cho phía kia và tự giới hạn phía B vào lý luận quyết định.
+
+Hai khoảng trống còn lại nhẹ hơn: bỏ trống neo H2 cho trụ cột trung tâm (§7 đã mời mà B không nhận lời), và buông trọn cấu phần thay vì lùi về mệnh đề tồn tại (§6.2, "số đếm") — tức **B áp dụng kỹ thuật cứu vãn tốt nhất của chính mình một cách không nhất quán**.
+
+Cần ghi rõ để không quy oan: trần của B bị **§5.2/§5.3/§5.5 hạ xuống thật sự**, và trong khoảng còn lại B đã tìm đúng các lối vòng hợp lệ; khoảng cách đo được là khoảng cách tới trần **sau khi đã trừ** phần harness chặn.
+
+**Nguồn H2 auditor đề xuất:** McAdam ASR 48(6) 1983; Chenoweth & Stephan 2011; Davenport ARPS 10, 2007.
+
 
 ---
 
